@@ -4,15 +4,15 @@ body {
 		margin: 0px 0px 0px 0px;
 }
 
-.header 
-{
-    width:100%;
+.header {
+	width: 100%;
 	height: 70px;
 	margin: 0px 0px 0px 0px;
-	background-image:url('../images/background_header.png');
-	background-repeat:repeat;
-	background-position:left top;
-	background-color: #1A6E33;
+	background-image: url('../images/background_header.png');
+	position: fixed;
+	background-repeat: repeat;
+	background-position: left top;
+	background-color: grey;
 }
 
 .logoEmp {
@@ -50,15 +50,15 @@ body {
 .menu-frame {
 	position:absolute;
     top: 72px;
-	width:150px;
+	width:200px;
 	height:100%;
-	background-color: #1A6E33;
+	background-color: #FDFDFE;
     font-family: Verdana, Georgia;
     font-size: 12px;
 }
 
 .menu-back {
-	background-color: #1A6E33;
+	background-color: #21306F;
 }
 
 .content-frame {
@@ -643,7 +643,7 @@ li {
   -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
-  width: 150px;
+  width: 200px;
 }
 #cssmenu span,
 #cssmenu a {
@@ -716,31 +716,33 @@ li {
   background-image: linear-gradient(#e5e5e5, #1A6E33);
 }
 #cssmenu li {
-  background: #1A6E33; 
+  background: #FDFDFE; 
   border-left: 1px solid #fff;
+  border-bottom: 1px solid #dbdbdb;
 }
 #cssmenu li:hover {
-  background: #339933;
-  border-left: 1px solid #fff;
+  background: #e0e0e0;
 }
 #cssmenu a {
-  color: #fff;
+  color: #151515;
+  text-transform: uppercase; /* colocar el texto en mayusculas*/
   line-height: 160%;
   padding: 8px 10px 8px 10px;
   width: 150px;
 }
 #cssmenu ul ul {
-  width: 150px;
-  border: 0px solid #1A6E33;
+  width: 200px;
+  height 50px;
+  border: 0px solid #FDFDFE;
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 #cssmenu ul ul li {
-  background: #1A6E33;
+  background: #FDFDFE;
 }
 #cssmenu ul ul li:hover {
-  background: #339933;
+  background:  #e0e0e0;
 }
 #cssmenu ul ul li:hover a {
   color: #fff;
@@ -753,6 +755,7 @@ li {
 }
 #cssmenu .has-sub {
   position: relative;
+  height: 50px;
 }
 #cssmenu .has-sub:after,
 #cssmenu .has-sub > ul > .has-sub:hover:after {
