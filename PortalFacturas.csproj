@@ -19,8 +19,6 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <Use64BitIISExpress />
-    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -71,10 +69,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WinForms.DLL</HintPath>
       <Private>True</Private>
-    </Reference>
-    <Reference Include="NegocioPF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\NegocioPF.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
@@ -303,6 +297,7 @@
     </Compile>
     <Compile Include="Reports\DsFactReg.cs">
       <DependentUpon>DsFactReg.xsd</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\DsFactReg.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -549,6 +544,12 @@
   <ItemGroup>
     <Folder Include="Images\" />
     <Folder Include="Manuales\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NegocioPF\NegocioPF.csproj">
+      <Project>{6e13c2bd-e89c-4890-a8b6-fa91c80440e0}</Project>
+      <Name>NegocioPF</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_GlobalResources\Strings.en-US.resx">
