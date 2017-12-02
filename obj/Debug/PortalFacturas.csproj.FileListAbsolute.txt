@@ -74,3 +74,22 @@ C:\Users\willn\Documents\portal facturas\PortalFacturas\obj\Debug\PortalFacturas
 C:\Users\willn\Documents\portal facturas\PortalFacturas\obj\Debug\PortalFacturas.csproj.CoreCompileInputs.cache
 C:\Users\willn\Documents\portal facturas\PortalFacturas\obj\Debug\PortalFacturas.dll
 C:\Users\willn\Documents\portal facturas\PortalFacturas\obj\Debug\PortalFacturas.pdb
+C:\PortalFacturas\PortalFacturas\bin\PortalFacturas.dll.config
+C:\PortalFacturas\PortalFacturas\bin\PortalFacturas.dll
+C:\PortalFacturas\PortalFacturas\bin\PortalFacturas.pdb
+C:\PortalFacturas\PortalFacturas\bin\WinSCPnet.dll
+C:\PortalFacturas\PortalFacturas\bin\NegocioPF.pdb
+C:\PortalFacturas\PortalFacturas\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\PortalFacturas\PortalFacturas\obj\Debug\PortalFacturas.csprojResolveAssemblyReference.cache
+C:\PortalFacturas\PortalFacturas\obj\Debug\PortalFacturas.csproj.CoreCompileInputs.cache
+C:\PortalFacturas\PortalFacturas\obj\Debug\PortalFacturas.dll
+C:\PortalFacturas\PortalFacturas\obj\Debug\PortalFacturas.pdb
