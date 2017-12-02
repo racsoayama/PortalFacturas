@@ -1,0 +1,87 @@
+﻿body {
+	background-color: #fff;
+	color: #000;
+	font-family: "Varela Round", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.log-frame{
+    margin: 0 auto;
+    margin-top: 150px;
+	width:371px;
+	height:267px;
+	background-image:url('../images/log_back.jpg');
+	background-repeat:no-repeat;
+	background-position:right;
+	font-family:Verdana, Geneva, sans-serif;
+    vertical-align:middle;
+	/*border-radius: 20px 20px 20px 20px;*/
+}
+
+#header {
+  /*background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0)); */
+  background-color: #E43D50;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  height: 2em;
+}
+
+#header p {
+  padding: 10px;
+  float: left;
+} 
+
+#header img { 
+  max-height: 200%;
+  margin-top: -50px;
+  margin-left: 30px;
+} 
+
+.label2
+{
+    BORDER-RIGHT:  #1A6E33 1px solid;
+    BACKGROUND-POSITION: center center;
+    BORDER-TOP:  #1A6E33 1px solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT:  #1A6E33 1px solid;
+    COLOR: #fff;
+    BORDER-BOTTOM: #1A6E33 1px solid;
+    BACKGROUND-REPEAT: no-repeat;
+    FONT-FAMILY: Verdana, Geneva;
+    BACKGROUND-COLOR:  #1A6E33;
+    TEXT-DECORATION: none;
+    height: 17px;
+}
+
+.h1
+{
+    FONT-SIZE: 18px;
+    font-weight:normal;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva;
+}
+
+.h2
+{
+    FONT-SIZE: 18px;
+    COLOR: #1A6E33;
+    FONT-FAMILY: Verdana, Geneva;
+}
+
+.dropdownlist
+{
+    border: 1px solid  #1A6E33;
+	background-position: center;
+	FONT-SIZE: 10px;
+    	COLOR: #64250b;
+    	BACKGROUND-REPEAT: no-repeat;
+    	FONT-FAMILY: Verdana, Geneva;
+    	BACKGROUND-COLOR: white;
+    	TEXT-DECORATION: none;
+    	height: 20px;
+	margin-left: 0px;
+}

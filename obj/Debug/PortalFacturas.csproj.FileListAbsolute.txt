@@ -1,0 +1,38 @@
+C:\Users\willn\Desktop\PortalFacturas\obj\Debug\PortalFacturas.csprojResolveAssemblyReference.cache
+C:\Users\willn\Desktop\PortalFacturas\obj\Debug\PortalFacturas.csproj.CoreCompileInputs.cache
+C:\Users\willn\Desktop\PortalFacturas\bin\PortalFacturas.dll.config
+C:\Users\willn\Desktop\PortalFacturas\bin\PortalFacturas.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\PortalFacturas.pdb
+C:\Users\willn\Desktop\PortalFacturas\bin\WinSCPnet.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\NegocioPF.pdb
+C:\Users\willn\Desktop\PortalFacturas\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\willn\Desktop\PortalFacturas\obj\Debug\PortalFacturas.dll
+C:\Users\willn\Desktop\PortalFacturas\obj\Debug\PortalFacturas.pdb
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\PortalFacturas.dll.config
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\PortalFacturas.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\PortalFacturas.pdb
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\WinSCPnet.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\NegocioPF.pdb
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\obj\Debug\PortalFacturas.csprojResolveAssemblyReference.cache
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\obj\Debug\PortalFacturas.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\obj\Debug\PortalFacturas.dll
+C:\Users\Oscar Amaya\Desktop\PortalFacturas\obj\Debug\PortalFacturas.pdb

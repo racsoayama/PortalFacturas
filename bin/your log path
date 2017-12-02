@@ -1,0 +1,414 @@
+. 2017-09-06 01:34:19.521 --------------------------------------------------------------------------
+. 2017-09-06 01:34:19.521 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-06 01:34:19.521 Configuration: nul
+. 2017-09-06 01:34:19.527 Log level: Normal
+. 2017-09-06 01:34:19.527 Local account: Beratend-PC\Beratend
+. 2017-09-06 01:34:19.528 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-06 01:34:19.528 Process ID: 8708
+. 2017-09-06 01:34:19.530 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp24F8.03ECFDA3.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="your log path"  /console /consoleinstance=_9464_21014691_425
+. 2017-09-06 01:34:19.530 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-06 01:34:19.530 Login time: miércoles, 06 de septiembre de 2017 01:34:19 a.m.
+. 2017-09-06 01:34:19.530 --------------------------------------------------------------------------
+. 2017-09-06 01:34:19.530 Script: Retrospectively logging previous script records:
+> 2017-09-06 01:34:19.531 Script: option batch on
+< 2017-09-06 01:34:19.531 Script: batch           on        
+< 2017-09-06 01:34:19.531 Script: reconnecttime   120       
+> 2017-09-06 01:34:19.531 Script: option confirm off
+< 2017-09-06 01:34:19.531 Script: confirm         off       
+> 2017-09-06 01:34:19.531 Script: option reconnecttime 120
+< 2017-09-06 01:34:19.531 Script: reconnecttime   120       
+> 2017-09-06 01:34:19.531 Script: open ftp://Guadalupe:***@192.168.1.68:21 -passive=1 -timeout=15
+. 2017-09-06 01:34:19.531 --------------------------------------------------------------------------
+. 2017-09-06 01:34:19.531 Session name: Guadalupe@192.168.1.68 (Ad-Hoc site)
+. 2017-09-06 01:34:19.531 Host name: 192.168.1.68 (Port: 21)
+. 2017-09-06 01:34:19.531 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-06 01:34:19.531 Transfer Protocol: FTP
+. 2017-09-06 01:34:19.531 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-06 01:34:19.531 Disable Nagle: No
+. 2017-09-06 01:34:19.531 Proxy: None
+. 2017-09-06 01:34:19.531 Send buffer: 262144
+. 2017-09-06 01:34:19.532 UTF: Auto
+. 2017-09-06 01:34:19.532 FTPS: None [Client certificate: No]
+. 2017-09-06 01:34:19.532 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-06 01:34:19.532 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-06 01:34:19.532 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-06 01:34:19.532 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-06 01:34:19.532 Timezone offset: 0h 0m
+. 2017-09-06 01:34:19.532 --------------------------------------------------------------------------
+. 2017-09-06 01:34:19.539 Connecting to 192.168.1.68 ...
+. 2017-09-06 01:34:19.546 Connected with 192.168.1.68. Waiting for welcome message...
+< 2017-09-06 01:34:19.547 220-FileZilla Server 0.9.60 beta
+< 2017-09-06 01:34:19.547 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-06 01:34:19.547 220 Please visit https://filezilla-project.org/
+> 2017-09-06 01:34:19.548 USER Guadalupe
+< 2017-09-06 01:34:19.551 331 Password required for guadalupe
+> 2017-09-06 01:34:19.553 PASS ********
+< 2017-09-06 01:34:19.555 230 Logged on
+> 2017-09-06 01:34:19.558 SYST
+< 2017-09-06 01:34:19.560 215 UNIX emulated by FileZilla
+> 2017-09-06 01:34:19.560 FEAT
+< 2017-09-06 01:34:19.563 211-Features:
+< 2017-09-06 01:34:19.564  MDTM
+< 2017-09-06 01:34:19.564  REST STREAM
+< 2017-09-06 01:34:19.564  SIZE
+< 2017-09-06 01:34:19.564  MLST type*;size*;modify*;
+< 2017-09-06 01:34:19.564  MLSD
+< 2017-09-06 01:34:19.564  UTF8
+< 2017-09-06 01:34:19.564  CLNT
+< 2017-09-06 01:34:19.564  MFMT
+< 2017-09-06 01:34:19.564  EPSV
+< 2017-09-06 01:34:19.564  EPRT
+< 2017-09-06 01:34:19.565 211 End
+> 2017-09-06 01:34:19.565 CLNT WinSCP-release-5.11
+< 2017-09-06 01:34:19.565 200 Don't care
+> 2017-09-06 01:34:19.565 OPTS UTF8 ON
+< 2017-09-06 01:34:19.568 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-06 01:34:19.571 Connected
+. 2017-09-06 01:34:19.571 --------------------------------------------------------------------------
+. 2017-09-06 01:34:19.571 Using FTP protocol.
+. 2017-09-06 01:34:19.572 Doing startup conversation with host.
+> 2017-09-06 01:34:19.575 PWD
+< 2017-09-06 01:34:19.576 257 "/" is current directory.
+. 2017-09-06 01:34:19.577 Getting current directory name.
+. 2017-09-06 01:34:19.577 Startup conversation with host finished.
+< 2017-09-06 01:34:19.580 Script: Active session: [1] Guadalupe@192.168.1.68
+> 2017-09-06 01:34:19.710 Script: pwd
+< 2017-09-06 01:34:19.710 Script: /
+> 2017-09-06 01:34:26.269 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "\Facturas\"
+. 2017-09-06 01:34:26.272 Copying 1 files/directories to remote directory "/" - total size: 38,695
+. 2017-09-06 01:34:26.272   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: \Facturas\
+. 2017-09-06 01:34:26.272   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-06 01:34:26.272   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-06 01:34:26.273 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-06T06:31:36.498Z] [38695]
+. 2017-09-06 01:34:26.273 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-06 01:34:26.274 Binary transfer mode selected.
+. 2017-09-06 01:34:26.274 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf
+> 2017-09-06 01:34:26.274 TYPE I
+< 2017-09-06 01:34:26.275 200 Type set to I
+> 2017-09-06 01:34:26.276 PASV
+< 2017-09-06 01:34:26.278 227 Entering Passive Mode (192,168,1,68,211,155)
+> 2017-09-06 01:34:26.278 STOR Facturas
+. 2017-09-06 01:34:26.279 Connecting to 192.168.1.68:54171 ...
+< 2017-09-06 01:34:26.280 550 Filename invalid
+. 2017-09-06 01:34:26.280 Copying files to remote side failed.
+* 2017-09-06 01:34:26.280 (ExtException) **Copying files to remote side failed.**
+* 2017-09-06 01:34:26.280 Filename invalid
+. 2017-09-06 01:34:26.281 Asking user:
+. 2017-09-06 01:34:26.281 Error transferring file 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf'. ("Copying files to remote side failed.","Filename invalid")
+< 2017-09-06 01:34:26.281 Script: Error transferring file 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf'.
+< 2017-09-06 01:34:26.282 Script: Copying files to remote side failed.
+< 2017-09-06 01:34:26.282 Filename invalid
+* 2017-09-06 01:34:26.283 (EScpSkipFile) Error transferring file 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf'.
+* 2017-09-06 01:34:26.283 Copying files to remote side failed.
+* 2017-09-06 01:34:26.283 Filename invalid
+. 2017-09-06 01:34:26.283 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+. 2017-09-06 01:34:26.283 Script: Failed
+> 2017-09-06 01:34:28.361 Script: exit
+. 2017-09-06 01:34:28.361 Script: Exit code: 1
+. 2017-09-06 01:34:28.376 Disconnected from server
+. 2017-09-06 01:39:09.002 --------------------------------------------------------------------------
+. 2017-09-06 01:39:09.003 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-06 01:39:09.003 Configuration: nul
+. 2017-09-06 01:39:09.003 Log level: Normal
+. 2017-09-06 01:39:09.004 Local account: Beratend-PC\Beratend
+. 2017-09-06 01:39:09.004 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-06 01:39:09.004 Process ID: 8900
+. 2017-09-06 01:39:09.005 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp1A8C.0002AE63.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="your log path"  /console /consoleinstance=_6796_8610066_405
+. 2017-09-06 01:39:09.005 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-06 01:39:09.007 Login time: miércoles, 06 de septiembre de 2017 01:39:09 a.m.
+. 2017-09-06 01:39:09.007 --------------------------------------------------------------------------
+. 2017-09-06 01:39:09.007 Script: Retrospectively logging previous script records:
+> 2017-09-06 01:39:09.007 Script: option batch on
+< 2017-09-06 01:39:09.007 Script: batch           on        
+< 2017-09-06 01:39:09.007 Script: reconnecttime   120       
+> 2017-09-06 01:39:09.007 Script: option confirm off
+< 2017-09-06 01:39:09.007 Script: confirm         off       
+> 2017-09-06 01:39:09.007 Script: option reconnecttime 120
+< 2017-09-06 01:39:09.007 Script: reconnecttime   120       
+> 2017-09-06 01:39:09.010 Script: open ftp://Guadalupe:***@192.168.1.68:21 -passive=1 -timeout=15
+. 2017-09-06 01:39:09.010 --------------------------------------------------------------------------
+. 2017-09-06 01:39:09.010 Session name: Guadalupe@192.168.1.68 (Ad-Hoc site)
+. 2017-09-06 01:39:09.010 Host name: 192.168.1.68 (Port: 21)
+. 2017-09-06 01:39:09.011 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-06 01:39:09.011 Transfer Protocol: FTP
+. 2017-09-06 01:39:09.011 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-06 01:39:09.011 Disable Nagle: No
+. 2017-09-06 01:39:09.011 Proxy: None
+. 2017-09-06 01:39:09.011 Send buffer: 262144
+. 2017-09-06 01:39:09.012 UTF: Auto
+. 2017-09-06 01:39:09.012 FTPS: None [Client certificate: No]
+. 2017-09-06 01:39:09.012 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-06 01:39:09.012 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-06 01:39:09.012 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-06 01:39:09.012 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-06 01:39:09.012 Timezone offset: 0h 0m
+. 2017-09-06 01:39:09.012 --------------------------------------------------------------------------
+. 2017-09-06 01:39:09.077 Connecting to 192.168.1.68 ...
+. 2017-09-06 01:39:09.087 Connected with 192.168.1.68. Waiting for welcome message...
+< 2017-09-06 01:39:09.088 220-FileZilla Server 0.9.60 beta
+< 2017-09-06 01:39:09.089 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-06 01:39:09.089 220 Please visit https://filezilla-project.org/
+> 2017-09-06 01:39:09.099 USER Guadalupe
+< 2017-09-06 01:39:09.102 331 Password required for guadalupe
+> 2017-09-06 01:39:09.102 PASS ********
+< 2017-09-06 01:39:09.109 230 Logged on
+> 2017-09-06 01:39:09.110 SYST
+< 2017-09-06 01:39:09.111 215 UNIX emulated by FileZilla
+> 2017-09-06 01:39:09.111 FEAT
+< 2017-09-06 01:39:09.113 211-Features:
+< 2017-09-06 01:39:09.113  MDTM
+< 2017-09-06 01:39:09.113  REST STREAM
+< 2017-09-06 01:39:09.113  SIZE
+< 2017-09-06 01:39:09.113  MLST type*;size*;modify*;
+< 2017-09-06 01:39:09.113  MLSD
+< 2017-09-06 01:39:09.113  UTF8
+< 2017-09-06 01:39:09.113  CLNT
+< 2017-09-06 01:39:09.113  MFMT
+< 2017-09-06 01:39:09.113  EPSV
+< 2017-09-06 01:39:09.113  EPRT
+< 2017-09-06 01:39:09.113 211 End
+> 2017-09-06 01:39:09.114 CLNT WinSCP-release-5.11
+< 2017-09-06 01:39:09.115 200 Don't care
+> 2017-09-06 01:39:09.115 OPTS UTF8 ON
+< 2017-09-06 01:39:09.117 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-06 01:39:09.133 Connected
+. 2017-09-06 01:39:09.133 --------------------------------------------------------------------------
+. 2017-09-06 01:39:09.133 Using FTP protocol.
+. 2017-09-06 01:39:09.133 Doing startup conversation with host.
+> 2017-09-06 01:39:09.135 PWD
+< 2017-09-06 01:39:09.139 257 "/" is current directory.
+. 2017-09-06 01:39:09.139 Getting current directory name.
+. 2017-09-06 01:39:09.140 Startup conversation with host finished.
+< 2017-09-06 01:39:09.140 Script: Active session: [1] Guadalupe@192.168.1.68
+> 2017-09-06 01:39:09.194 Script: pwd
+< 2017-09-06 01:39:09.195 Script: /
+> 2017-09-06 01:39:13.120 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "\Facturas"
+. 2017-09-06 01:39:13.122 Copying 1 files/directories to remote directory "/" - total size: 38,695
+. 2017-09-06 01:39:13.122   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: \Facturas
+. 2017-09-06 01:39:13.122   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-06 01:39:13.122   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-06 01:39:13.122 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-06T06:39:01.064Z] [38695]
+. 2017-09-06 01:39:13.123 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-06 01:39:13.124 Binary transfer mode selected.
+. 2017-09-06 01:39:13.126 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf
+> 2017-09-06 01:39:13.128 TYPE I
+< 2017-09-06 01:39:13.130 200 Type set to I
+> 2017-09-06 01:39:13.132 PASV
+< 2017-09-06 01:39:13.132 227 Entering Passive Mode (192,168,1,68,194,240)
+> 2017-09-06 01:39:13.133 STOR Facturas
+. 2017-09-06 01:39:13.134 Connecting to 192.168.1.68:49904 ...
+< 2017-09-06 01:39:13.135 550 Filename invalid
+. 2017-09-06 01:39:13.135 Copying files to remote side failed.
+* 2017-09-06 01:39:13.135 (ExtException) **Copying files to remote side failed.**
+* 2017-09-06 01:39:13.135 Filename invalid
+. 2017-09-06 01:39:13.136 Asking user:
+. 2017-09-06 01:39:13.136 Error transferring file 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf'. ("Copying files to remote side failed.","Filename invalid")
+< 2017-09-06 01:39:13.136 Script: Error transferring file 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf'.
+< 2017-09-06 01:39:13.136 Script: Copying files to remote side failed.
+< 2017-09-06 01:39:13.136 Filename invalid
+* 2017-09-06 01:39:13.139 (EScpSkipFile) Error transferring file 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf'.
+* 2017-09-06 01:39:13.139 Copying files to remote side failed.
+* 2017-09-06 01:39:13.139 Filename invalid
+. 2017-09-06 01:39:13.139 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+. 2017-09-06 01:39:13.139 Script: Failed
+> 2017-09-06 01:39:15.244 Script: exit
+. 2017-09-06 01:39:15.244 Script: Exit code: 1
+. 2017-09-06 01:39:15.245 Disconnected from server
+. 2017-09-06 01:43:14.159 --------------------------------------------------------------------------
+. 2017-09-06 01:43:14.160 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-06 01:43:14.160 Configuration: nul
+. 2017-09-06 01:43:14.161 Log level: Normal
+. 2017-09-06 01:43:14.161 Local account: Beratend-PC\Beratend
+. 2017-09-06 01:43:14.161 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-06 01:43:14.161 Process ID: 12112
+. 2017-09-06 01:43:14.162 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp1728.03E6DAAA.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="your log path"  /console /consoleinstance=_5928_6134445_137
+. 2017-09-06 01:43:14.162 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-06 01:43:14.162 Login time: miércoles, 06 de septiembre de 2017 01:43:14 a.m.
+. 2017-09-06 01:43:14.162 --------------------------------------------------------------------------
+. 2017-09-06 01:43:14.162 Script: Retrospectively logging previous script records:
+> 2017-09-06 01:43:14.163 Script: option batch on
+< 2017-09-06 01:43:14.163 Script: batch           on        
+< 2017-09-06 01:43:14.163 Script: reconnecttime   120       
+> 2017-09-06 01:43:14.163 Script: option confirm off
+< 2017-09-06 01:43:14.163 Script: confirm         off       
+> 2017-09-06 01:43:14.163 Script: option reconnecttime 120
+< 2017-09-06 01:43:14.163 Script: reconnecttime   120       
+> 2017-09-06 01:43:14.163 Script: open ftp://Guadalupe:***@192.168.1.68:21 -passive=1 -timeout=15
+. 2017-09-06 01:43:14.163 --------------------------------------------------------------------------
+. 2017-09-06 01:43:14.163 Session name: Guadalupe@192.168.1.68 (Ad-Hoc site)
+. 2017-09-06 01:43:14.163 Host name: 192.168.1.68 (Port: 21)
+. 2017-09-06 01:43:14.163 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-06 01:43:14.163 Transfer Protocol: FTP
+. 2017-09-06 01:43:14.163 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-06 01:43:14.163 Disable Nagle: No
+. 2017-09-06 01:43:14.163 Proxy: None
+. 2017-09-06 01:43:14.163 Send buffer: 262144
+. 2017-09-06 01:43:14.163 UTF: Auto
+. 2017-09-06 01:43:14.163 FTPS: None [Client certificate: No]
+. 2017-09-06 01:43:14.163 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-06 01:43:14.163 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-06 01:43:14.163 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-06 01:43:14.163 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-06 01:43:14.163 Timezone offset: 0h 0m
+. 2017-09-06 01:43:14.164 --------------------------------------------------------------------------
+. 2017-09-06 01:43:14.169 Connecting to 192.168.1.68 ...
+. 2017-09-06 01:43:14.176 Connected with 192.168.1.68. Waiting for welcome message...
+< 2017-09-06 01:43:14.177 220-FileZilla Server 0.9.60 beta
+< 2017-09-06 01:43:14.177 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-06 01:43:14.177 220 Please visit https://filezilla-project.org/
+> 2017-09-06 01:43:14.177 USER Guadalupe
+< 2017-09-06 01:43:14.178 331 Password required for guadalupe
+> 2017-09-06 01:43:14.179 PASS ********
+< 2017-09-06 01:43:14.179 230 Logged on
+> 2017-09-06 01:43:14.180 SYST
+< 2017-09-06 01:43:14.181 215 UNIX emulated by FileZilla
+> 2017-09-06 01:43:14.181 FEAT
+< 2017-09-06 01:43:14.183 211-Features:
+< 2017-09-06 01:43:14.183  MDTM
+< 2017-09-06 01:43:14.183  REST STREAM
+< 2017-09-06 01:43:14.183  SIZE
+< 2017-09-06 01:43:14.183  MLST type*;size*;modify*;
+< 2017-09-06 01:43:14.183  MLSD
+< 2017-09-06 01:43:14.183  UTF8
+< 2017-09-06 01:43:14.184  CLNT
+< 2017-09-06 01:43:14.185  MFMT
+< 2017-09-06 01:43:14.186  EPSV
+< 2017-09-06 01:43:14.186  EPRT
+< 2017-09-06 01:43:14.186 211 End
+> 2017-09-06 01:43:14.186 CLNT WinSCP-release-5.11
+< 2017-09-06 01:43:14.186 200 Don't care
+> 2017-09-06 01:43:14.186 OPTS UTF8 ON
+< 2017-09-06 01:43:14.187 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-06 01:43:14.188 Connected
+. 2017-09-06 01:43:14.188 --------------------------------------------------------------------------
+. 2017-09-06 01:43:14.188 Using FTP protocol.
+. 2017-09-06 01:43:14.188 Doing startup conversation with host.
+> 2017-09-06 01:43:14.188 PWD
+< 2017-09-06 01:43:14.189 257 "/" is current directory.
+. 2017-09-06 01:43:14.189 Getting current directory name.
+. 2017-09-06 01:43:14.189 Startup conversation with host finished.
+< 2017-09-06 01:43:14.190 Script: Active session: [1] Guadalupe@192.168.1.68
+> 2017-09-06 01:43:14.245 Script: pwd
+< 2017-09-06 01:43:14.245 Script: /
+> 2017-09-06 01:43:17.235 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "\Facturas\410000001.pdf"
+. 2017-09-06 01:43:17.237 Copying 1 files/directories to remote directory "/" - total size: 38,695
+. 2017-09-06 01:43:17.237   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: \Facturas\410000001.pdf
+. 2017-09-06 01:43:17.237   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-06 01:43:17.237   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-06 01:43:17.237 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-06T06:42:57.049Z] [38695]
+. 2017-09-06 01:43:17.238 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-06 01:43:17.238 Binary transfer mode selected.
+. 2017-09-06 01:43:17.242 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf
+> 2017-09-06 01:43:17.242 TYPE I
+< 2017-09-06 01:43:17.243 200 Type set to I
+> 2017-09-06 01:43:17.243 PASV
+< 2017-09-06 01:43:17.243 227 Entering Passive Mode (192,168,1,68,224,84)
+> 2017-09-06 01:43:17.243 STOR Facturas410000001.pdf
+. 2017-09-06 01:43:17.247 Connecting to 192.168.1.68:57428 ...
+< 2017-09-06 01:43:17.247 150 Opening data channel for file upload to server of "/Facturas410000001.pdf"
+< 2017-09-06 01:43:17.344 226 Successfully transferred "/Facturas410000001.pdf"
+. 2017-09-06 01:43:17.344 Upload successful
+. 2017-09-06 01:43:17.344 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/Facturas410000001.pdf' [38695]
+. 2017-09-06 01:43:17.345 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 237,351/s
+> 2017-09-06 01:43:21.647 Script: exit
+. 2017-09-06 01:43:21.647 Script: Exit code: 0
+. 2017-09-06 01:43:21.653 Disconnected from server
+. 2017-09-06 01:49:07.587 --------------------------------------------------------------------------
+. 2017-09-06 01:49:07.587 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-06 01:49:07.588 Configuration: nul
+. 2017-09-06 01:49:07.588 Log level: Normal
+. 2017-09-06 01:49:07.588 Local account: Beratend-PC\Beratend
+. 2017-09-06 01:49:07.588 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-06 01:49:07.588 Process ID: 11376
+. 2017-09-06 01:49:07.589 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp0E44.024C35F8.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="your log path"  /console /consoleinstance=_3652_9852071_604
+. 2017-09-06 01:49:07.589 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-06 01:49:07.590 Login time: miércoles, 06 de septiembre de 2017 01:49:07 a.m.
+. 2017-09-06 01:49:07.590 --------------------------------------------------------------------------
+. 2017-09-06 01:49:07.590 Script: Retrospectively logging previous script records:
+> 2017-09-06 01:49:07.590 Script: option batch on
+< 2017-09-06 01:49:07.590 Script: batch           on        
+< 2017-09-06 01:49:07.590 Script: reconnecttime   120       
+> 2017-09-06 01:49:07.590 Script: option confirm off
+< 2017-09-06 01:49:07.590 Script: confirm         off       
+> 2017-09-06 01:49:07.590 Script: option reconnecttime 120
+< 2017-09-06 01:49:07.590 Script: reconnecttime   120       
+> 2017-09-06 01:49:07.590 Script: open ftp://Guadalupe:***@192.168.1.68:21 -passive=1 -timeout=15
+. 2017-09-06 01:49:07.590 --------------------------------------------------------------------------
+. 2017-09-06 01:49:07.590 Session name: Guadalupe@192.168.1.68 (Ad-Hoc site)
+. 2017-09-06 01:49:07.590 Host name: 192.168.1.68 (Port: 21)
+. 2017-09-06 01:49:07.590 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-06 01:49:07.590 Transfer Protocol: FTP
+. 2017-09-06 01:49:07.591 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-06 01:49:07.591 Disable Nagle: No
+. 2017-09-06 01:49:07.591 Proxy: None
+. 2017-09-06 01:49:07.591 Send buffer: 262144
+. 2017-09-06 01:49:07.591 UTF: Auto
+. 2017-09-06 01:49:07.591 FTPS: None [Client certificate: No]
+. 2017-09-06 01:49:07.591 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-06 01:49:07.591 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-06 01:49:07.591 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-06 01:49:07.591 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-06 01:49:07.591 Timezone offset: 0h 0m
+. 2017-09-06 01:49:07.591 --------------------------------------------------------------------------
+. 2017-09-06 01:49:07.623 Connecting to 192.168.1.68 ...
+. 2017-09-06 01:49:07.623 Connected with 192.168.1.68. Waiting for welcome message...
+< 2017-09-06 01:49:07.623 220-FileZilla Server 0.9.60 beta
+< 2017-09-06 01:49:07.623 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-06 01:49:07.623 220 Please visit https://filezilla-project.org/
+> 2017-09-06 01:49:07.623 USER Guadalupe
+< 2017-09-06 01:49:07.623 331 Password required for guadalupe
+> 2017-09-06 01:49:07.623 PASS ********
+< 2017-09-06 01:49:07.623 230 Logged on
+> 2017-09-06 01:49:07.623 SYST
+< 2017-09-06 01:49:07.624 215 UNIX emulated by FileZilla
+> 2017-09-06 01:49:07.624 FEAT
+< 2017-09-06 01:49:07.624 211-Features:
+< 2017-09-06 01:49:07.624  MDTM
+< 2017-09-06 01:49:07.624  REST STREAM
+< 2017-09-06 01:49:07.624  SIZE
+< 2017-09-06 01:49:07.624  MLST type*;size*;modify*;
+< 2017-09-06 01:49:07.624  MLSD
+< 2017-09-06 01:49:07.624  UTF8
+< 2017-09-06 01:49:07.624  CLNT
+< 2017-09-06 01:49:07.624  MFMT
+< 2017-09-06 01:49:07.624  EPSV
+< 2017-09-06 01:49:07.624  EPRT
+< 2017-09-06 01:49:07.624 211 End
+> 2017-09-06 01:49:07.624 CLNT WinSCP-release-5.11
+< 2017-09-06 01:49:07.624 200 Don't care
+> 2017-09-06 01:49:07.625 OPTS UTF8 ON
+< 2017-09-06 01:49:07.625 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-06 01:49:07.625 Connected
+. 2017-09-06 01:49:07.625 --------------------------------------------------------------------------
+. 2017-09-06 01:49:07.625 Using FTP protocol.
+. 2017-09-06 01:49:07.625 Doing startup conversation with host.
+> 2017-09-06 01:49:07.626 PWD
+< 2017-09-06 01:49:07.627 257 "/" is current directory.
+. 2017-09-06 01:49:07.627 Getting current directory name.
+. 2017-09-06 01:49:07.627 Startup conversation with host finished.
+< 2017-09-06 01:49:07.636 Script: Active session: [1] Guadalupe@192.168.1.68
+> 2017-09-06 01:49:07.644 Script: pwd
+< 2017-09-06 01:49:07.644 Script: /
+> 2017-09-06 01:49:12.083 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "Facturas\410000001.pdf"
+. 2017-09-06 01:49:12.087 Copying 1 files/directories to remote directory "/" - total size: 38,695
+. 2017-09-06 01:49:12.087   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: Facturas\410000001.pdf
+. 2017-09-06 01:49:12.087   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-06 01:49:12.087   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-06 01:49:12.088 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-06T06:48:59.106Z] [38695]
+. 2017-09-06 01:49:12.091 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-06 01:49:12.092 Binary transfer mode selected.
+. 2017-09-06 01:49:12.100 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf
+> 2017-09-06 01:49:12.101 TYPE I
+< 2017-09-06 01:49:12.108 200 Type set to I
+> 2017-09-06 01:49:12.108 PASV
+< 2017-09-06 01:49:12.118 227 Entering Passive Mode (192,168,1,68,204,202)
+> 2017-09-06 01:49:12.125 STOR Facturas410000001.pdf
+. 2017-09-06 01:49:12.125 Connecting to 192.168.1.68:52426 ...
+< 2017-09-06 01:49:12.133 150 Opening data channel for file upload to server of "/Facturas410000001.pdf"
+< 2017-09-06 01:49:12.258 226 Successfully transferred "/Facturas410000001.pdf"
+. 2017-09-06 01:49:12.258 Upload successful
+. 2017-09-06 01:49:12.259 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/Facturas410000001.pdf' [38695]
+. 2017-09-06 01:49:12.259 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 178,488/s
+> 2017-09-06 01:49:15.416 Script: exit
+. 2017-09-06 01:49:15.417 Script: Exit code: 0
+. 2017-09-06 01:49:15.428 Disconnected from server

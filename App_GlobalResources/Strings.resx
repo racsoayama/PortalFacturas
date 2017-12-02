@@ -1,0 +1,2730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Agregar" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="Bienvenido" xml:space="preserve">
+    <value>Bienvenido</value>
+  </data>
+  <data name="ConfirmaBaja" xml:space="preserve">
+    <value>¿Esta seguro de eliminar el registro?</value>
+  </data>
+  <data name="Contraseña" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="ContraseñaActual" xml:space="preserve">
+    <value>Contraseña Actual</value>
+  </data>
+  <data name="ContraseñaIgualAnterior" xml:space="preserve">
+    <value>La contraseña no puede ser igual a la anterior.</value>
+  </data>
+  <data name="ContraseñaNueva" xml:space="preserve">
+    <value>Contraseña Nueva</value>
+  </data>
+  <data name="Departamentos" xml:space="preserve">
+    <value>Departamentos</value>
+  </data>
+  <data name="Editar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="Eliminar" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="EmpleadoID" xml:space="preserve">
+    <value>ID Empleado</value>
+  </data>
+  <data name="Empleados" xml:space="preserve">
+    <value>Empleados</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="MsgAltaUsuario" xml:space="preserve">
+    <value>Se ha creado el usuario para el acceso al Portal de Facturas.</value>
+  </data>
+  <data name="MsgCaptureContraseña" xml:space="preserve">
+    <value>Capture la contraseña.</value>
+  </data>
+  <data name="MsgCaptureNombreUsuario" xml:space="preserve">
+    <value>Capture el nombre del usuario.</value>
+  </data>
+  <data name="MsgCaptureNuevoPassword" xml:space="preserve">
+    <value>Captura la nueva contraseña</value>
+  </data>
+  <data name="MsgCaptureNumeroEmpleado" xml:space="preserve">
+    <value>Alimente el número de empleado.</value>
+  </data>
+  <data name="MsgCapturePassActual" xml:space="preserve">
+    <value>Introduce la contraseña actual</value>
+  </data>
+  <data name="MsgCapturePassword" xml:space="preserve">
+    <value>Captura la contraseña</value>
+  </data>
+  <data name="MsgCaptureUserID" xml:space="preserve">
+    <value>Capture el User ID.</value>
+  </data>
+  <data name="MsgCaptureUsuario" xml:space="preserve">
+    <value>Captura el usuario</value>
+  </data>
+  <data name="MsgContraseñaLongMenor" xml:space="preserve">
+    <value>Captura una contraseña que tenga al menos 8 caracteres.</value>
+  </data>
+  <data name="MsgContraseñaSinLetras" xml:space="preserve">
+    <value>La nueva contraseña debe tener por lo menos una letra.</value>
+  </data>
+  <data name="MsgContraseñaSinNumeros" xml:space="preserve">
+    <value>La contraseña debe tener al menos  1 caracter numérico.</value>
+  </data>
+  <data name="MsgErrActIdiomaUsuario" xml:space="preserve">
+    <value>Ocurrió un error al actualizar el idioma del usuario.</value>
+  </data>
+  <data name="MsgErrBuscaUsuario" xml:space="preserve">
+    <value>Se presentó un error al buscar al usuario.</value>
+  </data>
+  <data name="MsgErrCargarIdiomas" xml:space="preserve">
+    <value>Ocurrió un error al leer la relación de idiomas.</value>
+  </data>
+  <data name="MsgErrCargarPerfil" xml:space="preserve">
+    <value>Se presentó un error al obtener los datos del perfil.</value>
+  </data>
+  <data name="MsgErrCargarPerfiles" xml:space="preserve">
+    <value>Ocurrió un error al leer la relación de perfiles.</value>
+  </data>
+  <data name="MsgErrCargarPermisos" xml:space="preserve">
+    <value>Ocurrió un error al obtener los permisos del perfil del usuario.</value>
+  </data>
+  <data name="MsgErrCargarSociedad" xml:space="preserve">
+    <value>Ocurrió un error al cargar los datos de la Sociedad.</value>
+  </data>
+  <data name="MsgErrCargarSociedades" xml:space="preserve">
+    <value>Ocurrió un error al leer la relación de las Sociedades.</value>
+  </data>
+  <data name="MsgErrCargarUsuario" xml:space="preserve">
+    <value>Ocurrió un error al obtener los datos del usuario.</value>
+  </data>
+  <data name="MsgErrCargarUsuarios" xml:space="preserve">
+    <value>Ocurrió un error al leer la lista de usuarios.</value>
+  </data>
+  <data name="MsgErrEliminaPerfil" xml:space="preserve">
+    <value>Se presentó un error al eliminar el perfil.</value>
+  </data>
+  <data name="MsgErrEliminarSociedad" xml:space="preserve">
+    <value>Ocurrió un error al eliminar la Sociedad.</value>
+  </data>
+  <data name="MsgErrEliminarUsuario" xml:space="preserve">
+    <value>Se presentó un error al eliminar el usuario.</value>
+  </data>
+  <data name="MsgErrFuncionesCargar" xml:space="preserve">
+    <value>Ocurrió un error al cargar las funciones.</value>
+  </data>
+  <data name="MsgErrFuncionesCargarMenu" xml:space="preserve">
+    <value>Se presentó un error al cargar el menu.</value>
+  </data>
+  <data name="MsgErrGuardarPerfil" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos del perfil.</value>
+  </data>
+  <data name="MsgErrGuardarSociedad" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos de la Sociedad.</value>
+  </data>
+  <data name="MsgErrGuardarUsuario" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos del usuario.</value>
+  </data>
+  <data name="MsgErrorEnvioCorreo" xml:space="preserve">
+    <value>Ocurrió un error al enviar el correo.</value>
+  </data>
+  <data name="MsgErrValidarBajaSociedad" xml:space="preserve">
+    <value>Se presentó un error al validar la baja de la Sociedad.</value>
+  </data>
+  <data name="MsgErrValidarDatosSociedad" xml:space="preserve">
+    <value>Se presentó un error al validar los datos de la Sociedad.</value>
+  </data>
+  <data name="MsgErrValidarDatosUsuario" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del usuario.</value>
+  </data>
+  <data name="MsgErrValidarExisteUsuario" xml:space="preserve">
+    <value>Ocurrió un error al validar si existe el usuario.</value>
+  </data>
+  <data name="MsgIdEmpExistente" xml:space="preserve">
+    <value>No existe un empleado con ese número, favor de validar.</value>
+  </data>
+  <data name="MsgLeyendaLigaPF" xml:space="preserve">
+    <value>En la siguiente liga puede acceder al sistema</value>
+  </data>
+  <data name="MsgPasswordIncorrecto" xml:space="preserve">
+    <value>Password incorrecto, favor de verificar.</value>
+  </data>
+  <data name="MsgPasswordInicialPF" xml:space="preserve">
+    <value>El password inicial es Temporal1, la primera vez que entres al sistema te pedirá cambiarlo.</value>
+  </data>
+  <data name="MsgPerfilNombreDuplicado" xml:space="preserve">
+    <value>Ya existe un perfil con ese nombre.</value>
+  </data>
+  <data name="MsgEmpresaAsociada" xml:space="preserve">
+    <value>La empresa no puede ser eliminada, porque hay datos asociados a esta.</value>
+  </data>
+  <data name="MsgEmpresaIdDuplicado" xml:space="preserve">
+    <value>Ya existe una empresa con el mismo número.</value>
+  </data>
+  <data name="MsgSociedadNombreDuplicado" xml:space="preserve">
+    <value>Ya existe una Sociedad con ese nombre.</value>
+  </data>
+  <data name="MsgSeleccionePerfil" xml:space="preserve">
+    <value>Seleccione el perfil.</value>
+  </data>
+  <data name="MsgUsuarioEliminado" xml:space="preserve">
+    <value>El registro del usuario ha sido eliminado.</value>
+  </data>
+  <data name="MsgUsuarioExistente" xml:space="preserve">
+    <value>Ya existe un usuario con user id.</value>
+  </data>
+  <data name="MsgUsuarioGuardado" xml:space="preserve">
+    <value>Los datos del usuario han sido agregados o actualizados.</value>
+  </data>
+  <data name="MsgUsuarioIdEmpExistente" xml:space="preserve">
+    <value>Ya existe otro usuario con el mismo número de empleado, favor de verificar.</value>
+  </data>
+  <data name="MsgUsuarioInexistente" xml:space="preserve">
+    <value>El usuario no ha sido dado de alta, favor de solicitar el alta al administrador.</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Organigrama" xml:space="preserve">
+    <value>Organigrama</value>
+  </data>
+  <data name="Perfil" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="Perfiles" xml:space="preserve">
+    <value>Perfiles</value>
+  </data>
+  <data name="Pilares" xml:space="preserve">
+    <value>Pilares</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="Plantas" xml:space="preserve">
+    <value>Plantas</value>
+  </data>
+  <data name="PreguntaSecreta" xml:space="preserve">
+    <value>Pregunta secreta</value>
+  </data>
+  <data name="Seguridad" xml:space="preserve">
+    <value>Seguridad</value>
+  </data>
+  <data name="Seleccionar" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="UsuarioID" xml:space="preserve">
+    <value>ID Usuario</value>
+  </data>
+  <data name="PlantaID" xml:space="preserve">
+    <value>ID Empresa</value>
+  </data>
+  <data name="Departamento" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="Empleado" xml:space="preserve">
+    <value>Empleado</value>
+  </data>
+  <data name="Habilidad" xml:space="preserve">
+    <value>Habilidad</value>
+  </data>
+  <data name="Habilidades" xml:space="preserve">
+    <value>Habilidades</value>
+  </data>
+  <data name="JefeInmediato" xml:space="preserve">
+    <value>Jefe inmediato</value>
+  </data>
+  <data name="PortalFacturas" xml:space="preserve">
+    <value>Matriz de habilidades</value>
+  </data>
+  <data name="MsgSelArchivo" xml:space="preserve">
+    <value>Selecciona el archivo con los datos a cargar.</value>
+  </data>
+  <data name="MatrizBase" xml:space="preserve">
+    <value>Matriz base</value>
+  </data>
+  <data name="NivelesRequeridos" xml:space="preserve">
+    <value>Niveles requeridos</value>
+  </data>
+  <data name="Perdidas" xml:space="preserve">
+    <value>Pérdidas</value>
+  </data>
+  <data name="Reportes" xml:space="preserve">
+    <value>Reportes</value>
+  </data>
+  <data name="PlanDesarrollo" xml:space="preserve">
+    <value>Plan de desarrollo</value>
+  </data>
+  <data name="Curso" xml:space="preserve">
+    <value>Curso</value>
+  </data>
+  <data name="Cursos" xml:space="preserve">
+    <value>Cursos</value>
+  </data>
+  <data name="MasteryLevel" xml:space="preserve">
+    <value>Mastery level</value>
+  </data>
+  <data name="Correo" xml:space="preserve">
+    <value>Correo</value>
+  </data>
+  <data name="Foto" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="Linea" xml:space="preserve">
+    <value>Línea</value>
+  </data>
+  <data name="Lineas" xml:space="preserve">
+    <value>Líneas</value>
+  </data>
+  <data name="MsgCaptureIDEmpresa" xml:space="preserve">
+    <value>Capture el número de la empresa.</value>
+  </data>
+  <data name="MsgCaptureNombreEmpresa" xml:space="preserve">
+    <value>Introduce the name of the Company.</value>
+  </data>
+  <data name="MsgEmpleadoAsociado" xml:space="preserve">
+    <value>El registro del empleado no puede ser eliminado porque existen información asociada a este número de empleado.</value>
+  </data>
+  <data name="MsgProveedorEliminado" xml:space="preserve">
+    <value>El registro del proveedor ha sido eliminado.</value>
+  </data>
+  <data name="MsgProveedorGuardado" xml:space="preserve">
+    <value>Los datos del proveedor ha sido guardados.</value>
+  </data>
+  <data name="MsgErrCargarLinea" xml:space="preserve">
+    <value>Se presentó un error a leer los datos de la línea.</value>
+  </data>
+  <data name="MsgErrCargarLineas" xml:space="preserve">
+    <value>Ocurrió un error al cargar la lista de líneas.</value>
+  </data>
+  <data name="MsgErrCargarPilar" xml:space="preserve">
+    <value>Ocurrió un error al leer los datos del Pilar.</value>
+  </data>
+  <data name="MsgErrCargarPilares" xml:space="preserve">
+    <value>Se presentó un error al leer la relación de Pilares.</value>
+  </data>
+  <data name="MsgErrCargarPuesto" xml:space="preserve">
+    <value>Ocurrió un error al leer los datos del puesto.</value>
+  </data>
+  <data name="MsgErrCargarPuestos" xml:space="preserve">
+    <value>Se presentó un error al cargar la lista de puestos.</value>
+  </data>
+  <data name="MsgErrEliminarEmpleado" xml:space="preserve">
+    <value>Ocurrió un error al eliminar los datos del empleado.</value>
+  </data>
+  <data name="MsgErrEliminarLinea" xml:space="preserve">
+    <value>There were an error when deleting line.</value>
+  </data>
+  <data name="MsgErrEliminarPilar" xml:space="preserve">
+    <value>Se presentó un error al eliminar el Pilar.</value>
+  </data>
+  <data name="MsgErrEliminarPuesto" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el puesto.</value>
+  </data>
+  <data name="MsgErrGuardarEmpleado" xml:space="preserve">
+    <value>Se presentó un error al guardar los datos del empleado.</value>
+  </data>
+  <data name="MsgErrGuardarLinea" xml:space="preserve">
+    <value>An error occured when saving the line data.</value>
+  </data>
+  <data name="MsgErrGuardarPilar" xml:space="preserve">
+    <value>Ocurrió un error al salvar los datos del Pilar.</value>
+  </data>
+  <data name="MsgErrGuardarPuesto" xml:space="preserve">
+    <value>Se presentó un error al guardar los datos del puesto.</value>
+  </data>
+  <data name="MsgErrValidaBajaPilar" xml:space="preserve">
+    <value>Ocurrió un error al validar la baja del Pilar.</value>
+  </data>
+  <data name="MsgErrValidaDatosPilar" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del Pilar.</value>
+  </data>
+  <data name="MsgErrValidarBajaEmp" xml:space="preserve">
+    <value>Se presentó un error al validar la baja del empleado.</value>
+  </data>
+  <data name="MsgErrValidarBajaLinea" xml:space="preserve">
+    <value>Ocurrió un error al validar la baja de la línea.</value>
+  </data>
+  <data name="MsgErrValidarBajaPuesto" xml:space="preserve">
+    <value>Ocurrió un error al validar la baja del puesto.</value>
+  </data>
+  <data name="MsgErrValidarDatosLinea" xml:space="preserve">
+    <value>Se presentó un error al validar los datos de la línea.</value>
+  </data>
+  <data name="MsgErrValidarDatosPuesto" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del puesto.</value>
+  </data>
+  <data name="MsgLineaAsociada" xml:space="preserve">
+    <value>La línea no puede ser eliminada por hay información asociada.</value>
+  </data>
+  <data name="MsgLineaEliminada" xml:space="preserve">
+    <value>Línea eliminada.</value>
+  </data>
+  <data name="MsgLineaGuardada" xml:space="preserve">
+    <value>La línea ha sido guardada.</value>
+  </data>
+  <data name="MsgLineaNombreDuplicado" xml:space="preserve">
+    <value>Esta línea ya fue registrada, favor de verificar.</value>
+  </data>
+  <data name="MsgEmpresaEliminada" xml:space="preserve">
+    <value>El registro de la empresa ha sido eliminado.</value>
+  </data>
+  <data name="MsgEmpresaGuardada" xml:space="preserve">
+    <value>Los datos de la empresa han sido guardados.</value>
+  </data>
+  <data name="MsgSelIdiomaCaptura" xml:space="preserve">
+    <value>Seleccione el idioma en el que se capturará la información de la planta.</value>
+  </data>
+  <data name="MsgSelTipoLinea" xml:space="preserve">
+    <value>Selecciona el tipo de línea.</value>
+  </data>
+  <data name="NombreAlterno" xml:space="preserve">
+    <value>Nombre alterno</value>
+  </data>
+  <data name="Operativo" xml:space="preserve">
+    <value>Operativo</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Configuracion" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="MsgErrCargarTipoHabilidad" xml:space="preserve">
+    <value>Se presentó un error al obtener los datos del tipo de habilidad.</value>
+  </data>
+  <data name="MsgErrCargarTiposHabilidad" xml:space="preserve">
+    <value>Ocurrió un error al obtener la lista de tipos de habilidad.</value>
+  </data>
+  <data name="MsgErrEliminarTipoHabilidad" xml:space="preserve">
+    <value>Se presentó un error al eliminar el tipo de habilidad.</value>
+  </data>
+  <data name="MsgErrGuardarTipoHabilidad" xml:space="preserve">
+    <value>Ocurró un error al guardar los datos del tipo de habilidad.</value>
+  </data>
+  <data name="MsgErrValidaBajaTipoHabilidad" xml:space="preserve">
+    <value>Se presentó un error al validar la baja de un tipo de habilidad.</value>
+  </data>
+  <data name="MsgErrValidaDatosTipoHabilidad" xml:space="preserve">
+    <value>Ocurrió un error al validar el tipo de habilidad.</value>
+  </data>
+  <data name="MsgTipoHabAsociado" xml:space="preserve">
+    <value>El tipo de habilidad no puede ser eliminado porque hay habilidades de este tipo.</value>
+  </data>
+  <data name="MsgTipoHabEliminado" xml:space="preserve">
+    <value>El tipo de habilidad ha sido elimando.</value>
+  </data>
+  <data name="MsgTipoHabGuardada" xml:space="preserve">
+    <value>El tipo de habildad ha sido guardado.</value>
+  </data>
+  <data name="MsgTipoHabNombreDuplicado" xml:space="preserve">
+    <value>Este tipo de habilidad ya ha sido registrado, validar el nombre.</value>
+  </data>
+  <data name="ML1" xml:space="preserve">
+    <value>Mastery Level 1</value>
+  </data>
+  <data name="ML2" xml:space="preserve">
+    <value>Mastery Level 2</value>
+  </data>
+  <data name="ML3" xml:space="preserve">
+    <value>Mastery Level 3</value>
+  </data>
+  <data name="ML4" xml:space="preserve">
+    <value>Mastery Level 4</value>
+  </data>
+  <data name="MsgErrCargarHabilidad" xml:space="preserve">
+    <value>Se presentó un error al obtener los datos de la habilidad.</value>
+  </data>
+  <data name="MsgErrEliminarHabilidad" xml:space="preserve">
+    <value>Ocurrió un error al eliminar una habilidad.</value>
+  </data>
+  <data name="MsgErrGuardarHabilidad" xml:space="preserve">
+    <value>Se presentó un error al guardar la habilidad.</value>
+  </data>
+  <data name="MsgErrValidarBajaHabilidad" xml:space="preserve">
+    <value>Se presentó un error al validar la baja de la habilidad.</value>
+  </data>
+  <data name="MsgHabilidadEliminada" xml:space="preserve">
+    <value>La habilidad ha sido eliminada.</value>
+  </data>
+  <data name="MsgHabilidadGuardada" xml:space="preserve">
+    <value>La habilidad ha sido guardada.</value>
+  </data>
+  <data name="MsgSelPilar" xml:space="preserve">
+    <value>Selecciona el pilar.</value>
+  </data>
+  <data name="MsgSelTipoHabilidad" xml:space="preserve">
+    <value>Selecciona el tipo de habilidad.</value>
+  </data>
+  <data name="Pilar" xml:space="preserve">
+    <value>Pilar</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Como" xml:space="preserve">
+    <value>How?</value>
+  </data>
+  <data name="Cuando" xml:space="preserve">
+    <value>Cuando</value>
+  </data>
+  <data name="EnvioCorreos" xml:space="preserve">
+    <value>Envio de correos</value>
+  </data>
+  <data name="EnvioCorreosEmp" xml:space="preserve">
+    <value>Enviar correos a empleados</value>
+  </data>
+  <data name="FecFinal" xml:space="preserve">
+    <value>Fecha final</value>
+  </data>
+  <data name="FechaFinal" xml:space="preserve">
+    <value>Fecha final</value>
+  </data>
+  <data name="FechaInicial" xml:space="preserve">
+    <value>Fecha inicial</value>
+  </data>
+  <data name="FechaVencimiento" xml:space="preserve">
+    <value>Vencimiento</value>
+  </data>
+  <data name="FecInicial" xml:space="preserve">
+    <value>Fecha inicial</value>
+  </data>
+  <data name="Historial" xml:space="preserve">
+    <value>Historial</value>
+  </data>
+  <data name="IndividualKPIs" xml:space="preserve">
+    <value>Individual KPIs</value>
+  </data>
+  <data name="MsgConfigGuardada" xml:space="preserve">
+    <value>Configuración guardada.</value>
+  </data>
+  <data name="MsgCorreo" xml:space="preserve">
+    <value>Mensaje del correo</value>
+  </data>
+  <data name="MsgErrorCargarConfig" xml:space="preserve">
+    <value>Ocurrió un error al cargar la configuración.</value>
+  </data>
+  <data name="MsgErrorGuardarConfig" xml:space="preserve">
+    <value>Se presentó un error al guardar la configuración.</value>
+  </data>
+  <data name="MsgSelEnviaMsg" xml:space="preserve">
+    <value>Indicar si habilita el envio de mensajes al correo del empleado.</value>
+  </data>
+  <data name="NivelObjetivo" xml:space="preserve">
+    <value>Nivel objetivo</value>
+  </data>
+  <data name="Objetivo" xml:space="preserve">
+    <value>Objetivo</value>
+  </data>
+  <data name="ObjetivoGrupo" xml:space="preserve">
+    <value>Objetivo del grupo</value>
+  </data>
+  <data name="Tema" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="L0" xml:space="preserve">
+    <value>L0</value>
+  </data>
+  <data name="L1" xml:space="preserve">
+    <value>L1</value>
+  </data>
+  <data name="L2" xml:space="preserve">
+    <value>L2</value>
+  </data>
+  <data name="L3" xml:space="preserve">
+    <value>L3</value>
+  </data>
+  <data name="L4" xml:space="preserve">
+    <value>L4</value>
+  </data>
+  <data name="Impacto" xml:space="preserve">
+    <value>Impacto</value>
+  </data>
+  <data name="Importe" xml:space="preserve">
+    <value>Importe</value>
+  </data>
+  <data name="MsgErrCargarPerdida" xml:space="preserve">
+    <value>Ocurrió un error al leer los datos de la pérdida.</value>
+  </data>
+  <data name="MsgErrCargarPerdidaPrior" xml:space="preserve">
+    <value>Se presentó un error al obtener las prioridades del departamento.</value>
+  </data>
+  <data name="MsgErrCargarPerdidas" xml:space="preserve">
+    <value>Se presentó un error al obtener la lista de pérdidas.</value>
+  </data>
+  <data name="MsgErrCargarRequerimientos" xml:space="preserve">
+    <value>Ocurrió un error al cargar los niveles requeridos.</value>
+  </data>
+  <data name="MsgErrDeptoCargar" xml:space="preserve">
+    <value>Se presentó un error al leer los datos del departamento.</value>
+  </data>
+  <data name="MsgErrDeptoEliminar" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el registro del departamento.</value>
+  </data>
+  <data name="MsgErrDeptoGuardar" xml:space="preserve">
+    <value>Se presentó un error al guardar los datos del departamento.</value>
+  </data>
+  <data name="MsgErrDeptoValidaBaja" xml:space="preserve">
+    <value>Se presentó un error al validar si el departamento puede ser eliminado.</value>
+  </data>
+  <data name="MsgErrDeptoValidaDatos" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del departamento.</value>
+  </data>
+  <data name="MsgErrEliminarPerdida" xml:space="preserve">
+    <value>Se presentó un error al eliminar la pérdida.</value>
+  </data>
+  <data name="MsgErrGuardarPerdida" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos de la pérdida.</value>
+  </data>
+  <data name="MsgErrGuardarPerdidaPrior" xml:space="preserve">
+    <value>Ocurrió un error al guardar las prioridades de la pérdida.</value>
+  </data>
+  <data name="MsgErrValidarBajaPerdida" xml:space="preserve">
+    <value>Ocurrió un error al validar la baja de la pérdida.</value>
+  </data>
+  <data name="MsgErrValidarDatosPerdida" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos de la pérdida.</value>
+  </data>
+  <data name="MsgGuardarConfigPerdida" xml:space="preserve">
+    <value>Las prioridades de la pérdida para el departamento han sido guardadas.</value>
+  </data>
+  <data name="MsgPerdidaAsociada" xml:space="preserve">
+    <value>Esta pérdida no puede ser eliminada porque existe información asociada.</value>
+  </data>
+  <data name="MsgPerdidaEliminada" xml:space="preserve">
+    <value>El registro de la pérdida ha sido eliminado.</value>
+  </data>
+  <data name="MsgPerdidaGuardada" xml:space="preserve">
+    <value>La pérdida ha sido guardada.</value>
+  </data>
+  <data name="MsgPerdidaNombreDuplicado" xml:space="preserve">
+    <value>Ya existe otra pérdida con el mismo nombre.</value>
+  </data>
+  <data name="MsgReqGuardados" xml:space="preserve">
+    <value>Los requerimientos han sido guardados.</value>
+  </data>
+  <data name="Perdida" xml:space="preserve">
+    <value>Pérdida</value>
+  </data>
+  <data name="MsgLineaAsignada" xml:space="preserve">
+    <value>Selecciona la línea a la que estás asignado</value>
+  </data>
+  <data name="MsgGuardarCalificaciones" xml:space="preserve">
+    <value>Los resultados han sido guardados.</value>
+  </data>
+  <data name="Metas" xml:space="preserve">
+    <value>Metas</value>
+  </data>
+  <data name="MsgErrCargarPrioridad" xml:space="preserve">
+    <value>Se presentó un error al cargar los datos de la prioridad.</value>
+  </data>
+  <data name="MsgErrEliminarPrioridad" xml:space="preserve">
+    <value>Ocurrió un error al eliminar la prioridad.</value>
+  </data>
+  <data name="MsgErrGuardarPrioridad" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos de la prioridad.</value>
+  </data>
+  <data name="MsgErrValidarBajaPrioridad" xml:space="preserve">
+    <value>Ocurrió un error al validar si la prioridad puede ser eliminada.</value>
+  </data>
+  <data name="MsgErrValidarDatosPrioridad" xml:space="preserve">
+    <value>Se presentó un error al validar los datos de la prioridad.</value>
+  </data>
+  <data name="Objetivos" xml:space="preserve">
+    <value>Objetivos</value>
+  </data>
+  <data name="Prioridad" xml:space="preserve">
+    <value>Prioridad</value>
+  </data>
+  <data name="Brecha" xml:space="preserve">
+    <value>Brecha</value>
+  </data>
+  <data name="Certificar" xml:space="preserve">
+    <value>Certificar</value>
+  </data>
+  <data name="HorarioEnvio" xml:space="preserve">
+    <value>Horario de envió</value>
+  </data>
+  <data name="Inicial" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="Mensaje" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="MsgErrCargarSkillBlocks" xml:space="preserve">
+    <value>Se presentó un error al cargar la lista de Skill Blocks.</value>
+  </data>
+  <data name="MsgErrorGuardarMensaje" xml:space="preserve">
+    <value>Se presentó un error al guardar el mensaje.</value>
+  </data>
+  <data name="MsgSelHorario" xml:space="preserve">
+    <value>Selecciona la hora en el que se debe enviar el mensaje.</value>
+  </data>
+  <data name="MsgSelLineaSkill" xml:space="preserve">
+    <value>Seleccciona la línea a la que pertenece el SkillBlock.</value>
+  </data>
+  <data name="MsgSkillBlockAsociado" xml:space="preserve">
+    <value>El skill block no puede ser eliminado porque tiene información asociada.</value>
+  </data>
+  <data name="MsgSkillBlockEliminado" xml:space="preserve">
+    <value>El skill block ha sido eliminado.</value>
+  </data>
+  <data name="MsgSkillBlockGuardado" xml:space="preserve">
+    <value>Los datos del skill block han sido guardados.</value>
+  </data>
+  <data name="Nivel" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="ProgMail" xml:space="preserve">
+    <value>Programación del correo</value>
+  </data>
+  <data name="Actividad" xml:space="preserve">
+    <value>Actividad</value>
+  </data>
+  <data name="Actividades" xml:space="preserve">
+    <value>Actividades</value>
+  </data>
+  <data name="Baseline" xml:space="preserve">
+    <value>Baseline</value>
+  </data>
+  <data name="Catalogos" xml:space="preserve">
+    <value>Catalogos</value>
+  </data>
+  <data name="ComentariosEmpleado" xml:space="preserve">
+    <value>Comentarios del empleado</value>
+  </data>
+  <data name="ComentariosJefe" xml:space="preserve">
+    <value>Comentarios del jefe o supervisor</value>
+  </data>
+  <data name="Entrenador" xml:space="preserve">
+    <value>Entrenador</value>
+  </data>
+  <data name="HabConReqEva" xml:space="preserve">
+    <value>Habilidades/Conocimientos requeridos &amp; evaluación</value>
+  </data>
+  <data name="HabilidadesAplica" xml:space="preserve">
+    <value>Habilidades en las que aplica</value>
+  </data>
+  <data name="KPI" xml:space="preserve">
+    <value>KPI</value>
+  </data>
+  <data name="KPIs" xml:space="preserve">
+    <value>KPIs</value>
+  </data>
+  <data name="Meta" xml:space="preserve">
+    <value>Meta</value>
+  </data>
+  <data name="Metodo" xml:space="preserve">
+    <value>Método</value>
+  </data>
+  <data name="MsgCapFecFinal" xml:space="preserve">
+    <value>Captura la fecha final.</value>
+  </data>
+  <data name="MsgCapFecInicial" xml:space="preserve">
+    <value>Captura la fecha inicial.</value>
+  </data>
+  <data name="MsgCapObjetivo" xml:space="preserve">
+    <value>Capture el objetivo.</value>
+  </data>
+  <data name="MsgCaptureResObj" xml:space="preserve">
+    <value>Captura los comentarios sobre el resultado de las actividades definidas para cumplir con el objetivo.</value>
+  </data>
+  <data name="MsgErrBajarFoto" xml:space="preserve">
+    <value>Ocurrió un error al bajar la foto del empleado.</value>
+  </data>
+  <data name="MsgErrCargarMetodo" xml:space="preserve">
+    <value>Se presentó un error al leer la lista de los métodos de los cursos.</value>
+  </data>
+  <data name="MsgErrCargarMetodos" xml:space="preserve">
+    <value>Ocurrió un error al obtener la lista de los métodos.</value>
+  </data>
+  <data name="MsgErrCargarObjEmp" xml:space="preserve">
+    <value>Se presentó un error al leer la lista de los objetivos del empleado.</value>
+  </data>
+  <data name="MsgErrCargarObjEmpleado" xml:space="preserve">
+    <value>Se presentó un error al leer los datos del objetivo del empleado.</value>
+  </data>
+  <data name="MsgErrCargarObjetivo" xml:space="preserve">
+    <value>Se presentó un error al obtener los datos del objetivo.</value>
+  </data>
+  <data name="MsgErrCargarObjetivos" xml:space="preserve">
+    <value>Ocurrió un error al cargar los objetivos de la línea.</value>
+  </data>
+  <data name="MsgErrCargarTipoObjetivo" xml:space="preserve">
+    <value>Ocurrió un error al cargar los datos del tipo de objetivo.</value>
+  </data>
+  <data name="MsgErrCargarTiposObj" xml:space="preserve">
+    <value>Ocurrió un error al cargar los tipos de objetivo.</value>
+  </data>
+  <data name="MsgErrEliminarActividad" xml:space="preserve">
+    <value>Se presentó un error al eliminar la actividad.</value>
+  </data>
+  <data name="MsgErrEliminarCurso" xml:space="preserve">
+    <value>Se presentó un error al eliminar el curso.</value>
+  </data>
+  <data name="MsgErrEliminarKPI" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el KPI.</value>
+  </data>
+  <data name="MsgErrEliminarMetodo" xml:space="preserve">
+    <value>Se presentó un error al eliminar el método.</value>
+  </data>
+  <data name="MsgErrEliminarObjetivo" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el objetivo.</value>
+  </data>
+  <data name="MsgErrEliminarTipoObjetivo" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el tipo de objetivo.</value>
+  </data>
+  <data name="MsgErrGuardarActividad" xml:space="preserve">
+    <value>Se presentó un error al guardar la actividad</value>
+  </data>
+  <data name="MsgErrGuardarCalif" xml:space="preserve">
+    <value>Se presentó un error al guardar los resultados del empleado.</value>
+  </data>
+  <data name="MsgErrGuardarCurso" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos del curso.</value>
+  </data>
+  <data name="MsgErrGuardarKPI" xml:space="preserve">
+    <value>Ocurrió un error al guardar el KPI.</value>
+  </data>
+  <data name="MsgErrGuardarMetodo" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos del método.</value>
+  </data>
+  <data name="MsgErrGuardarObjEmpleado" xml:space="preserve">
+    <value>Ocurrió un error al guardar los resultados del objetivo.</value>
+  </data>
+  <data name="MsgErrGuardarObjetivo" xml:space="preserve">
+    <value>Se presentó un error al guardar el objetivo.</value>
+  </data>
+  <data name="MsgErrGuardarTipoObjetivo" xml:space="preserve">
+    <value>Se presentó un error al guardar el tipo de objetivo.</value>
+  </data>
+  <data name="MsgErrValidaBajaTipoObjetivo" xml:space="preserve">
+    <value>Se presentó un error al validar si puede ser eliminado el tipo de objetivo.</value>
+  </data>
+  <data name="MsgErrValidaDatosTipoObj" xml:space="preserve">
+    <value>Se presentó un error al validar los datos del tipo de objetivo.</value>
+  </data>
+  <data name="MsgErrValidarBajaCurso" xml:space="preserve">
+    <value>Ocurrió un error al validar la baja del curso.</value>
+  </data>
+  <data name="MsgErrValidarBajaMetodo" xml:space="preserve">
+    <value>Ocurrió un error al validar si el método puede eliminarse.</value>
+  </data>
+  <data name="MsgErrValidarBajaObjetivo" xml:space="preserve">
+    <value>Se presentó un error al validar la baja del objetivo.</value>
+  </data>
+  <data name="MsgErrValidarDatosCurso" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del curso.</value>
+  </data>
+  <data name="MsgErrValidarDatosMetodo" xml:space="preserve">
+    <value>Se presentó un error al validar los datos del método.</value>
+  </data>
+  <data name="MsgFormatoFecInc" xml:space="preserve">
+    <value>El formato de la fecha es incorrecto.</value>
+  </data>
+  <data name="MsgMetodoAsociado" xml:space="preserve">
+    <value>El método no puede ser eliminado porque hay cursos asociados a este método.</value>
+  </data>
+  <data name="MsgMetodoNombreDuplicado" xml:space="preserve">
+    <value>Ya existe otro método con el mismo nombre.</value>
+  </data>
+  <data name="MsgObjetivoEliminado" xml:space="preserve">
+    <value>El objetivo ha sido eliminado.</value>
+  </data>
+  <data name="MsgObjetivoGuardado" xml:space="preserve">
+    <value>El objetivo ha sido guardado.</value>
+  </data>
+  <data name="MsgSelAgrEntrenador" xml:space="preserve">
+    <value>Selecciona o agrega el nombre del entrenador experto.</value>
+  </data>
+  <data name="MsgSelMetodo" xml:space="preserve">
+    <value>Selecciona el método.</value>
+  </data>
+  <data name="MsgSelPeriodo" xml:space="preserve">
+    <value>Selecciona el periodo.</value>
+  </data>
+  <data name="MsgSelStatusObj" xml:space="preserve">
+    <value>Selecciona el status del cumplimiento del objetivo.</value>
+  </data>
+  <data name="MsgSelTipoObjetivo" xml:space="preserve">
+    <value>Selecciona el tipo de objetivo.</value>
+  </data>
+  <data name="Cursado" xml:space="preserve">
+    <value>Cursado</value>
+  </data>
+  <data name="ErrEmpCargaHistorial" xml:space="preserve">
+    <value>Se presentó un error al leer el historial de movimientos del empleado.</value>
+  </data>
+  <data name="HistorialMovEmp" xml:space="preserve">
+    <value>Historial de movimientos del empleado</value>
+  </data>
+  <data name="MsgErrCargarNiveles" xml:space="preserve">
+    <value>Se presentó un error al leer la lista de niveles.</value>
+  </data>
+  <data name="CursosTomados" xml:space="preserve">
+    <value>Cursos tomados</value>
+  </data>
+  <data name="MsgArchivoFotoMuyGrande" xml:space="preserve">
+    <value>El peso del archivo de la foto es muy grande, favor de reducirlo.</value>
+  </data>
+  <data name="Periodo" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+  <data name="PosicionActual" xml:space="preserve">
+    <value>Posición actual</value>
+  </data>
+  <data name="MsgErrCargaMatrizReq" xml:space="preserve">
+    <value>Ocurrió un error al obtener los requerimientos por nivel.</value>
+  </data>
+  <data name="PorcNivelRequerido" xml:space="preserve">
+    <value>% requerido</value>
+  </data>
+  <data name="MsgAgregarRequerimiento" xml:space="preserve">
+    <value>Ocurrió un error al guardar el requerimiento.</value>
+  </data>
+  <data name="MsgErrEliminarReq" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el requerimiento.</value>
+  </data>
+  <data name="Alta" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="Baja" xml:space="preserve">
+    <value>Baja</value>
+  </data>
+  <data name="Cerrar" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="Consulta" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="ContraseñaActualizada" xml:space="preserve">
+    <value>Contraseña actualizada.</value>
+  </data>
+  <data name="ContraseñaIncorrecta" xml:space="preserve">
+    <value>Contraseña incorrecta.</value>
+  </data>
+  <data name="CriterioSupNivel" xml:space="preserve">
+    <value>Criterios para superar el nivel</value>
+  </data>
+  <data name="Importar" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="Imprimir" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="MsgCapRequerimiento" xml:space="preserve">
+    <value>Captura el requerimiento o pregunta a evaluar.</value>
+  </data>
+  <data name="MsgResEsperada" xml:space="preserve">
+    <value>Captura la respuesta esperada.</value>
+  </data>
+  <data name="MsgSelNivel" xml:space="preserve">
+    <value>Selecciona el nivel.</value>
+  </data>
+  <data name="Opcion" xml:space="preserve">
+    <value>Opción</value>
+  </data>
+  <data name="Entrenadores" xml:space="preserve">
+    <value>Entrenadores</value>
+  </data>
+  <data name="MsgErrEntrenadorCargar" xml:space="preserve">
+    <value>Se presentó un error al cargar los datos del entrenador.</value>
+  </data>
+  <data name="MsgErrEntrenadorEliminar" xml:space="preserve">
+    <value>Se presentó un error al eliminar el entrenador.</value>
+  </data>
+  <data name="MsgErrEntrenadorGuardar" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos del entrenador.</value>
+  </data>
+  <data name="MsgErrEntrValidaBaja" xml:space="preserve">
+    <value>Ocurrió un error al validar la baja del entrenador.</value>
+  </data>
+  <data name="MsgErrEntrValidaDatos" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del entrenador.</value>
+  </data>
+  <data name="MsgErrCargarMatrizPrior" xml:space="preserve">
+    <value>Ocurrio un error a cargar la matriz de prioridades de perdidas.</value>
+  </data>
+  <data name="CambioPassword" xml:space="preserve">
+    <value>Cambio de password</value>
+  </data>
+  <data name="DatosPersonales" xml:space="preserve">
+    <value>Datos personales</value>
+  </data>
+  <data name="DirCorreoElectronico" xml:space="preserve">
+    <value>Dirección de correo electrónico</value>
+  </data>
+  <data name="MsgCaptureCorreo" xml:space="preserve">
+    <value>Captura la dirección de correo electrónica.</value>
+  </data>
+  <data name="MsgErrCertificarEmp" xml:space="preserve">
+    <value>Ocurrió un error al certificar al empleado.</value>
+  </data>
+  <data name="MsgErrGuardarDatosPer" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos personales.</value>
+  </data>
+  <data name="NumTelCelular" xml:space="preserve">
+    <value>Número de teléfono celular</value>
+  </data>
+  <data name="UsuarioInexistente" xml:space="preserve">
+    <value>El usuario no ha sido dado de alta.</value>
+  </data>
+  <data name="Usuarios" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="MsgEmpEnviaEval" xml:space="preserve">
+    <value>El empleado ha firmado su evaluación y está lista para su revisión y aprobación.</value>
+  </data>
+  <data name="MsgErrGuardarEvalEmp" xml:space="preserve">
+    <value>Se presentó un error al guardar la evaluación del empleado.</value>
+  </data>
+  <data name="MsgJefeEnviaRetro" xml:space="preserve">
+    <value>Tu jefe inmediato ya ha revisado tu evaluación y proporcionado la retroalimentación y calificación sobre tu desempeño.</value>
+  </data>
+  <data name="AceptarEvaluacion" xml:space="preserve">
+    <value>Aceptar calificación de la evaluación</value>
+  </data>
+  <data name="Calificacion" xml:space="preserve">
+    <value>Calificación</value>
+  </data>
+  <data name="Cancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Cierre" xml:space="preserve">
+    <value>Cierre</value>
+  </data>
+  <data name="ConfEvalAbierta" xml:space="preserve">
+    <value>Al guardar esta evaluación abierta se cerrará la que actualmente está abierta, estás de acuerdo?</value>
+  </data>
+  <data name="ConfirmaAceptaEval" xml:space="preserve">
+    <value>¿Confirmas la aceptación de la calificación de la evaluación y comentarios de tu jefe inmediato?</value>
+  </data>
+  <data name="ConfirmaFirma" xml:space="preserve">
+    <value>¿Confirmas enviar la evaluación a tu jefe inmediato para su revisión?</value>
+  </data>
+  <data name="ConfirmaRetro" xml:space="preserve">
+    <value>¿Confirmas enviar al empleado la retroalimentación y calificacion?</value>
+  </data>
+  <data name="EnviarRetro" xml:space="preserve">
+    <value>Enviar retroalimentación</value>
+  </data>
+  <data name="ErrCargarComentarios" xml:space="preserve">
+    <value>Se presentó un error al cargar la lista de comentarios de la evaluación.</value>
+  </data>
+  <data name="ErrCargarCursos" xml:space="preserve">
+    <value>Ocurrió un error al cargar la lista de cursos del empleado.</value>
+  </data>
+  <data name="Evaluacion" xml:space="preserve">
+    <value>Evaluación</value>
+  </data>
+  <data name="Evaluaciones" xml:space="preserve">
+    <value>Evaluaciones</value>
+  </data>
+  <data name="FirmarEvaluacion" xml:space="preserve">
+    <value>Firmar evaluación</value>
+  </data>
+  <data name="Guardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="MsgArcFormatoIncorrecto" xml:space="preserve">
+    <value>La foto debe de estar en formato png.</value>
+  </data>
+  <data name="MsgCaptureNombrePerfil" xml:space="preserve">
+    <value>Captura el nombre del perfil.</value>
+  </data>
+  <data name="MsgErrEliminarEvaluacion" xml:space="preserve">
+    <value>Ocurrió un error al eliminar la evaluación.</value>
+  </data>
+  <data name="MsgErrEnvCorreo" xml:space="preserve">
+    <value>Se presentó un error al enviar el correo.</value>
+  </data>
+  <data name="MsgErrGuardarEvaluacion" xml:space="preserve">
+    <value>Ocurrió un error al guardar lo datos de la evaluación.</value>
+  </data>
+  <data name="MsgErrValidarBajaEvaluacion" xml:space="preserve">
+    <value>Se presentó un error al validar la baja de la evaluación.</value>
+  </data>
+  <data name="MsgErrValidarDatosEvaluacion" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos de la evaluación.</value>
+  </data>
+  <data name="MsgEvaluacionAsociada" xml:space="preserve">
+    <value>El registro de la evaluación no puede ser eliminada porque ya existen objetivos o evaluaciones capturadas.</value>
+  </data>
+  <data name="MsgEvaluacionEliminada" xml:space="preserve">
+    <value>La evaluación ha sido eliminada.</value>
+  </data>
+  <data name="MsgEvaluacionGuardada" xml:space="preserve">
+    <value>La evaluación ha sido guardada.</value>
+  </data>
+  <data name="MsgEvaluacionNombreDuplicado" xml:space="preserve">
+    <value>Ya existe otra evaluación con el mismo nombre.</value>
+  </data>
+  <data name="MsgFechaFinalMenor" xml:space="preserve">
+    <value>La fecha final no puede ser anterior a la fecha inicial.</value>
+  </data>
+  <data name="MsgPerfilActualizado" xml:space="preserve">
+    <value>El perfil ha sido actualizado.</value>
+  </data>
+  <data name="MsgPerfilEliminado" xml:space="preserve">
+    <value>El perfil ha sido eliminado.</value>
+  </data>
+  <data name="MsgSelFechaFinal" xml:space="preserve">
+    <value>Selecciona la fecha final.</value>
+  </data>
+  <data name="MsgSelFechaInicial" xml:space="preserve">
+    <value>Selecciona la fecha inicial.</value>
+  </data>
+  <data name="MsgSelStatus" xml:space="preserve">
+    <value>Selecciona el status.</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="GAPs" xml:space="preserve">
+    <value>GAPs</value>
+  </data>
+  <data name="PorcCertificacion" xml:space="preserve">
+    <value>% Certifications</value>
+  </data>
+  <data name="MsgSelSkillBlock" xml:space="preserve">
+    <value>Selecciona el skillblock.</value>
+  </data>
+  <data name="HistEvalDes" xml:space="preserve">
+    <value>Histórico de evaluaciones de desempeño</value>
+  </data>
+  <data name="MsgErrCarMatrizBase" xml:space="preserve">
+    <value>Ocurrió un error al obtener la información de la matriz base.</value>
+  </data>
+  <data name="Todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="MsgCapNomTipoObj" xml:space="preserve">
+    <value>Captura el nombre del tipo de objetivo.</value>
+  </data>
+  <data name="MsgMetodoGuardado" xml:space="preserve">
+    <value>El método ha sido guardado.</value>
+  </data>
+  <data name="MsgMetodoNomDuplicado" xml:space="preserve">
+    <value>Ya existe otro método con el mismo nombre.</value>
+  </data>
+  <data name="MsgTipoObjGuardado" xml:space="preserve">
+    <value>El tipo de objetivo ha sido guardado.</value>
+  </data>
+  <data name="MsgTipoObjNomDuplicado" xml:space="preserve">
+    <value>Ya existe otro tipo de objetivo con el mismo nombre.</value>
+  </data>
+  <data name="MsgErrCargarResultados" xml:space="preserve">
+    <value>Se presentó un error al obtener los resultados del empleado.</value>
+  </data>
+  <data name="Abreviacion" xml:space="preserve">
+    <value>Abreviación</value>
+  </data>
+  <data name="MsgErrCargarLugar" xml:space="preserve">
+    <value>Ocurrió un error al obtener los datos del lugar.</value>
+  </data>
+  <data name="MsgErrCargarLugares" xml:space="preserve">
+    <value>Ocurrió un error al leer la lista de los lugares donde se realizan las evaluaciones.</value>
+  </data>
+  <data name="MsgErrCargarNivel" xml:space="preserve">
+    <value>Ocurrió un error al obtener los datos del nivel.</value>
+  </data>
+  <data name="MsgErrEliminarLugar" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el lugar.</value>
+  </data>
+  <data name="MsgErrEliminarNivel" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el nivel.</value>
+  </data>
+  <data name="MsgErrGuardarLugar" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos del lugar.</value>
+  </data>
+  <data name="MsgErrGuardarNivel" xml:space="preserve">
+    <value>Ocurrió un error al guardar el nivel.</value>
+  </data>
+  <data name="MsgErrValidarBajaLugar" xml:space="preserve">
+    <value>Ocurrió un error al validar si el lugar puede ser eliminado.</value>
+  </data>
+  <data name="MsgErrValidarDatosLugar" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del lugar.</value>
+  </data>
+  <data name="MsgErrValidarDatosNivel" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del nivel.</value>
+  </data>
+  <data name="MsgGuardarExamen" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos de la evaluación.</value>
+  </data>
+  <data name="MsgLugarNombreDuplicado" xml:space="preserve">
+    <value>Ya existe otro lugar con el mismo nombre.</value>
+  </data>
+  <data name="MsgNivelAsociado" xml:space="preserve">
+    <value>El nivel no puede ser eliminado, porque hay información asociada.</value>
+  </data>
+  <data name="MsgNivelEliminado" xml:space="preserve">
+    <value>El nivel ha sido eliminado.</value>
+  </data>
+  <data name="MsgNivelGuardado" xml:space="preserve">
+    <value>El nivel ha sido guardado.</value>
+  </data>
+  <data name="MsgNivelNomDuplicado" xml:space="preserve">
+    <value>Ya existe otro nivel con el mismo nombre.</value>
+  </data>
+  <data name="MsgSelPerfilEmpleados" xml:space="preserve">
+    <value>Selecciona el perfil que tendrán los empleados.</value>
+  </data>
+  <data name="Niveles" xml:space="preserve">
+    <value>Niveles</value>
+  </data>
+  <data name="PerfilEmpleado" xml:space="preserve">
+    <value>Perfil de empleados</value>
+  </data>
+  <data name="PortalReportes" xml:space="preserve">
+    <value>Portal de reportes</value>
+  </data>
+  <data name="MsgErrValidarBajaHab" xml:space="preserve">
+    <value>Se presentó un error al validar la baja de la habilidad.</value>
+  </data>
+  <data name="MsgHabCursoAsociado" xml:space="preserve">
+    <value>La habilidad no puede ser eliminada porque hay información de cursos asociada a esta habilidad.</value>
+  </data>
+  <data name="MsgHabilidadAsociado" xml:space="preserve">
+    <value>La habilidad no puede ser eliminado porque hay información asociada.</value>
+  </data>
+  <data name="MsgHabMastLevelAsociada" xml:space="preserve">
+    <value>La habilidad no puede ser eliminada porque tiene información de Mastery Level asociada.</value>
+  </data>
+  <data name="MsgHabResAsociado" xml:space="preserve">
+    <value>La habilidad no puede ser eliminada porque ya se han capturado resultados para algunos empleados.</value>
+  </data>
+  <data name="LugarEvaluacion" xml:space="preserve">
+    <value>Lugar de evaluación</value>
+  </data>
+  <data name="MsgLugarGuardado" xml:space="preserve">
+    <value>El lugar ha sido guardado.</value>
+  </data>
+  <data name="MsgLugarNomDuplicado" xml:space="preserve">
+    <value>El lugar de evaluación  ya fue previamente registrado.</value>
+  </data>
+  <data name="MsgEmpActualizados" xml:space="preserve">
+    <value>El archivo ha sido cargado, se actualizaron o insertaron</value>
+  </data>
+  <data name="MsgErroresCargaEmp" xml:space="preserve">
+    <value>The following are some of the records who were unable to be loaded by an error:</value>
+  </data>
+  <data name="MsgInterfaceCorriendo" xml:space="preserve">
+    <value>La interface está corriendo en este momento, espera un minuto y vuelve a intentarlo.</value>
+  </data>
+  <data name="CapResultadosEmp" xml:space="preserve">
+    <value>Captura de resultados por empleado</value>
+  </data>
+  <data name="Msg1erCampoEmpleados" xml:space="preserve">
+    <value>El primer campo debe ser la Empresa.</value>
+  </data>
+  <data name="Msg1erCampoResultados" xml:space="preserve">
+    <value>El primer campo del archivo debe ser la planta.</value>
+  </data>
+  <data name="Msg2doCampoEmpleados" xml:space="preserve">
+    <value>El segundo campo debe ser el NoEmpleado.</value>
+  </data>
+  <data name="Msg2doCampoResultados" xml:space="preserve">
+    <value>El segundo campo del archivo debe ser el empleado.</value>
+  </data>
+  <data name="Msg3erCampoEmpleados" xml:space="preserve">
+    <value>El tercer campo debe ser Nombre.</value>
+  </data>
+  <data name="Msg3erCampoResultados" xml:space="preserve">
+    <value>El tercer campo del archivo debe ser el nivel.</value>
+  </data>
+  <data name="Msg4toCampoEmpleados" xml:space="preserve">
+    <value>El cuarto campo debe ser el Puesto.</value>
+  </data>
+  <data name="Msg4toCampoResultados" xml:space="preserve">
+    <value>El cuarto campo del archivo es la descripción de la habilidad.</value>
+  </data>
+  <data name="Msg5toCampoEmpleados" xml:space="preserve">
+    <value>El quinto campo debe ser el Departamento.</value>
+  </data>
+  <data name="Msg5toCampoResultados" xml:space="preserve">
+    <value>El quinto campo del archivo es el nivel del empleado en la habilidad.</value>
+  </data>
+  <data name="Msg6toCampoEmpleados" xml:space="preserve">
+    <value>El sexto campo debe ser el número de empleado del Jefe.</value>
+  </data>
+  <data name="MsgArchNoColRequeridas" xml:space="preserve">
+    <value>El archivo no tiene el número de columnas requerido.</value>
+  </data>
+  <data name="MsgEmpConEvaluacion" xml:space="preserve">
+    <value>El empleado no puede eliminarse, porque ya tiene evaluaciones registradas.</value>
+  </data>
+  <data name="MsgEmpConResultados" xml:space="preserve">
+    <value>El empleado no puede eliminarse, porque tiene resultados asociados.</value>
+  </data>
+  <data name="MsgErrEmpPlantaIncorrecta" xml:space="preserve">
+    <value>El archivo tiene información de plantas diferentes a la planta del usuario.</value>
+  </data>
+  <data name="MsgErrorLecturaArchivo" xml:space="preserve">
+    <value>Ocurrió un error al leer el archivo.</value>
+  </data>
+  <data name="MsgRegActInsertados" xml:space="preserve">
+    <value>Registros insertados o actualizados: </value>
+  </data>
+  <data name="MsgSeleccioneArchivo" xml:space="preserve">
+    <value>Selecciona el archivo con la información a subir al sistema.</value>
+  </data>
+  <data name="MsgTypeFieldDepartamento" xml:space="preserve">
+    <value>El tipo del campo del departamento debe ser texto.</value>
+  </data>
+  <data name="MsgTypeFieldHabilidad" xml:space="preserve">
+    <value>El tipo del campo de habilidad debe ser texto.</value>
+  </data>
+  <data name="MsgTypeFieldJefe" xml:space="preserve">
+    <value>El tipo del campo Jefe debe der de tipo numérico.</value>
+  </data>
+  <data name="MsgTypeFieldMasteryLevel" xml:space="preserve">
+    <value>El tipo del campo de MasteryLevel debe ser numérico.</value>
+  </data>
+  <data name="MsgTypeFieldNivel" xml:space="preserve">
+    <value>El tipo de campo del nivel debe ser numérico.</value>
+  </data>
+  <data name="MsgTypeFieldNoEmpleado" xml:space="preserve">
+    <value>El tipo del campo de número de empleado debe ser tipo número.</value>
+  </data>
+  <data name="MsgTypeFieldNombre" xml:space="preserve">
+    <value>El tipo del campo del nombre debe ser texto.</value>
+  </data>
+  <data name="MsgTypeFieldPlanta" xml:space="preserve">
+    <value>El tipo del campo de planta debe ser tipo número.</value>
+  </data>
+  <data name="MsgTypeFieldPuesto" xml:space="preserve">
+    <value>El tipo del campo del puesto debe ser texto.</value>
+  </data>
+  <data name="MsgObjConEvaluaciones" xml:space="preserve">
+    <value>El objetivo no puede eliminarse porque hay captura de resultados de los empleados en este objetivo.</value>
+  </data>
+  <data name="MsgErrCargarTipoIncidencia" xml:space="preserve">
+    <value>Ocurrió un error al obtener los datos del tipo de incidencia.</value>
+  </data>
+  <data name="MsgErrCargarTiposIncidencia" xml:space="preserve">
+    <value>Ocurrió un error al obtener la relación de los tipos de incidencia.</value>
+  </data>
+  <data name="MsgErrEliminarTipoIncidencia" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el tipo de incidencia.</value>
+  </data>
+  <data name="MsgErrGuardarTipoIncidencia" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos del tipo de incidencia.</value>
+  </data>
+  <data name="MsgErrValidaBajaTipoIncidencia" xml:space="preserve">
+    <value>Ocurrió un error al validar si el tipo puede ser eliminado.</value>
+  </data>
+  <data name="MsgErrValidaDatosTipoIncidencia" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del tipo de incidencia.</value>
+  </data>
+  <data name="MsgTipoIncAsociada" xml:space="preserve">
+    <value>El tipo de incidencia no puede ser eliminado porque hay incidencias de este tipo.</value>
+  </data>
+  <data name="MsgTipoIncEliminada" xml:space="preserve">
+    <value>El tipo de incidencia ha sido eliminado.</value>
+  </data>
+  <data name="MsgTipoIncGuardada" xml:space="preserve">
+    <value>El tipo de incidencia ha sido guardada.</value>
+  </data>
+  <data name="MsgTipoIncNombreDuplicado" xml:space="preserve">
+    <value>Ya existe otro tipo de incidente con el mismo nombre.</value>
+  </data>
+  <data name="Incidencias" xml:space="preserve">
+    <value>Incidencias</value>
+  </data>
+  <data name="Fecha" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="IDEmpleado" xml:space="preserve">
+    <value>Empleado ID</value>
+  </data>
+  <data name="Incidencia" xml:space="preserve">
+    <value>Incidencia</value>
+  </data>
+  <data name="MsgErrCargarIncidencia" xml:space="preserve">
+    <value>Ocurrió un error al leer los datos de la incidencia.</value>
+  </data>
+  <data name="MsgErrEliminarIncidencia" xml:space="preserve">
+    <value>Ocurrió un error al eliminar la incidencia.</value>
+  </data>
+  <data name="MsgErrGuardarIncidencia" xml:space="preserve">
+    <value>Ocurrió un error al guardar la incidencia.</value>
+  </data>
+  <data name="MsgIncidenciaEliminada" xml:space="preserve">
+    <value>La incidencia ha sido eliminada.</value>
+  </data>
+  <data name="MsgIncidenciaGuardada" xml:space="preserve">
+    <value>La incidencia ha sido guardada.</value>
+  </data>
+  <data name="MsgLenDescripcion" xml:space="preserve">
+    <value>La longitud de la descripción no puede ser mayor a 200 caracteres.</value>
+  </data>
+  <data name="MsgSelFecha" xml:space="preserve">
+    <value>Selecciona la fecha.</value>
+  </data>
+  <data name="MsgSelTipoIncidencia" xml:space="preserve">
+    <value>Selecciona el tipo de incidencia.</value>
+  </data>
+  <data name="MsgTxtMayor200Chr" xml:space="preserve">
+    <value>La longitud no puede ser mayor a 200 caracteres.</value>
+  </data>
+  <data name="Calificaciones" xml:space="preserve">
+    <value>Calificaciones</value>
+  </data>
+  <data name="MsgErrCargarCalif" xml:space="preserve">
+    <value>Ocurrió un error al leer lista de calificaciones.</value>
+  </data>
+  <data name="MsgErrCargarTipoCalif" xml:space="preserve">
+    <value>Ocurrió un error al obtener los datos de la calificación.</value>
+  </data>
+  <data name="MsgErrEliminarTipoCalif" xml:space="preserve">
+    <value>Ocurrió un error al eliminar la calificación.</value>
+  </data>
+  <data name="MsgErrGuardarTipoCalif" xml:space="preserve">
+    <value>Ocurrió un error al guardar la calificación.</value>
+  </data>
+  <data name="MsgErrValBajaTipoCalif" xml:space="preserve">
+    <value>Ocurrió un error al validar la baja de la calificación.</value>
+  </data>
+  <data name="MsgErrValDatosTipoCalif" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos de la calificación.</value>
+  </data>
+  <data name="MsgTipoCalifNomDuplicado" xml:space="preserve">
+    <value>Ya existe otra calificación con el mismo nombre.</value>
+  </data>
+  <data name="Autorizar" xml:space="preserve">
+    <value>Autorizar</value>
+  </data>
+  <data name="Moneda" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="Consultar" xml:space="preserve">
+    <value>Consultar</value>
+  </data>
+  <data name="Facturas" xml:space="preserve">
+    <value>Facturas</value>
+  </data>
+  <data name="FacturasAut" xml:space="preserve">
+    <value>Facturas autorizadas</value>
+  </data>
+  <data name="FacturasPend" xml:space="preserve">
+    <value>Facturas pendientes</value>
+  </data>
+  <data name="MsgCapRFCProv" xml:space="preserve">
+    <value>Captura el RFC del proveedor.</value>
+  </data>
+  <data name="MsgSelMoneda" xml:space="preserve">
+    <value>Selecciona la moneda.</value>
+  </data>
+  <data name="Proveedores" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="RFC" xml:space="preserve">
+    <value>RFC</value>
+  </data>
+  <data name="Subir" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="CondsPago" xml:space="preserve">
+    <value>Condiciones de pago</value>
+  </data>
+  <data name="Dias" xml:space="preserve">
+    <value>Días</value>
+  </data>
+  <data name="MsgCapDiasPago" xml:space="preserve">
+    <value>Capture el número de días para el pago.</value>
+  </data>
+  <data name="NomRazSoc" xml:space="preserve">
+    <value>Nombre o razón social</value>
+  </data>
+  <data name="Autorizantes" xml:space="preserve">
+    <value>Autorizantes</value>
+  </data>
+  <data name="CausasRechazo" xml:space="preserve">
+    <value>Causas de rechazo</value>
+  </data>
+  <data name="ConsFacturas" xml:space="preserve">
+    <value>Consulta de facturas</value>
+  </data>
+  <data name="VerFactura" xml:space="preserve">
+    <value>Ver factura</value>
+  </data>
+  <data name="AutRech" xml:space="preserve">
+    <value>Autorizar o rechazar</value>
+  </data>
+  <data name="MsgFactGuardada" xml:space="preserve">
+    <value>La factura ha sido registrada con el folio:</value>
+  </data>
+  <data name="CausaRechazo" xml:space="preserve">
+    <value>Causa de rechazo</value>
+  </data>
+  <data name="Causas" xml:space="preserve">
+    <value>Causas</value>
+  </data>
+  <data name="MsgErrCargarCausaRechazo" xml:space="preserve">
+    <value>Ocurrió un error al leer los datos de la causa de rechazo.</value>
+  </data>
+  <data name="MsgErrCargarCausasRechazo" xml:space="preserve">
+    <value>Ocurrió un error al obtener la relación de causas de rechazo.</value>
+  </data>
+  <data name="MsgErrEliminarCausaRechazo" xml:space="preserve">
+    <value>Ocurrió un error al eliminar la causa de rechazo.</value>
+  </data>
+  <data name="MsgErrGuardarCausaRechazo" xml:space="preserve">
+    <value>Ocurrió un error al guardar la causa de rechazo.</value>
+  </data>
+  <data name="MsgErrValBajaCausaRechazo" xml:space="preserve">
+    <value>Ocurrió un error al validar la baja de la causa de rechazo.</value>
+  </data>
+  <data name="MsgErrValDatosCausaRechazo" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos de la causa de rechazo.</value>
+  </data>
+  <data name="MsgCapNomProv" xml:space="preserve">
+    <value>Captura el nombre o razón social del proveedor.</value>
+  </data>
+  <data name="MsgCapNumProv" xml:space="preserve">
+    <value>Captura el número de proveedor.</value>
+  </data>
+  <data name="MsgErrCargarProveedor" xml:space="preserve">
+    <value>Ocurrió un error al obtener los datos del proveedor.</value>
+  </data>
+  <data name="MsgErrCargarProveedores" xml:space="preserve">
+    <value>Ocurrió un error al obtener la relación de proveedores.</value>
+  </data>
+  <data name="MsgErrEliminarProveedor" xml:space="preserve">
+    <value>Ocurrió un error al eliminar los datos del proveedor.</value>
+  </data>
+  <data name="MsgErrGuardarProveedor" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos del proveedor.</value>
+  </data>
+  <data name="MsgErrValidarBajaProv" xml:space="preserve">
+    <value>Ocurrió un error al validar si el proveedor puede darse de baja.</value>
+  </data>
+  <data name="NumProveedor" xml:space="preserve">
+    <value># Proveedor</value>
+  </data>
+  <data name="Proveedor" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="Empresas" xml:space="preserve">
+    <value>Empresas</value>
+  </data>
+  <data name="MsgCapNomMoneda" xml:space="preserve">
+    <value>Captura el nombre de la condición de pago.</value>
+  </data>
+  <data name="MsgMonedaAsociado" xml:space="preserve">
+    <value>La condición de pago no puede ser eliminada porque hay información asociada.</value>
+  </data>
+  <data name="MsgMonedaEliminado" xml:space="preserve">
+    <value>Se ha eliminado la condicion de pago.</value>
+  </data>
+  <data name="MsgMonedaExistente" xml:space="preserve">
+    <value>Esta condición ya ha sido guardada.</value>
+  </data>
+  <data name="MsgMonedaGuardado" xml:space="preserve">
+    <value>La condición de pago ha sido guardada.</value>
+  </data>
+  <data name="MsgFormatoPDFIncorrecto" xml:space="preserve">
+    <value>El primer archivo  debe ser PDF.</value>
+  </data>
+  <data name="MsgFormatoXMLIncorrecto" xml:space="preserve">
+    <value>El formato del segundo archivo debe ser XML.</value>
+  </data>
+  <data name="MsgCapNumProveedor" xml:space="preserve">
+    <value>Captura el número de proveedor.</value>
+  </data>
+  <data name="MsgCorrPassEnviado" xml:space="preserve">
+    <value>Se ha enviado un correo con el password a la cuenta registrada del proveedor.</value>
+  </data>
+  <data name="MsgPasswordUsuario" xml:space="preserve">
+    <value>El password registrado en el sistema para su usuario es:</value>
+  </data>
+  <data name="MsgUsuarioInactivo" xml:space="preserve">
+    <value>El usuario está inactivo, favor de consultar al administrador del sistema.</value>
+  </data>
+  <data name="RecuperaPassword" xml:space="preserve">
+    <value>Recuperación de password</value>
+  </data>
+  <data name="MsgCapturaNIP" xml:space="preserve">
+    <value>Introduce el NIP</value>
+  </data>
+  <data name="MsgSelPerfilProv" xml:space="preserve">
+    <value>Seleccione el perfil que tendrán los proveedores.</value>
+  </data>
+  <data name="NIP" xml:space="preserve">
+    <value>NIP</value>
+  </data>
+  <data name="PerfilProveedor" xml:space="preserve">
+    <value>Perfil del proveedor</value>
+  </data>
+  <data name="Sociedad" xml:space="preserve">
+    <value>Sociedad</value>
+  </data>
+  <data name="Sociedades" xml:space="preserve">
+    <value>Sociedades</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>eMail</value>
+  </data>
+  <data name="Monedas" xml:space="preserve">
+    <value>Monedas</value>
+  </data>
+  <data name="MsgCapEmailProv" xml:space="preserve">
+    <value>Captura la dirección de correo del proveedor.</value>
+  </data>
+  <data name="MsgSociedadAsociada" xml:space="preserve">
+    <value>La sociedad no puede ser eliminada porque hay información asociada.</value>
+  </data>
+  <data name="MsgSociedadEliminada" xml:space="preserve">
+    <value>La sociedad ha sido eliminada.</value>
+  </data>
+  <data name="MsgSociedadGuardada" xml:space="preserve">
+    <value>Sociedad registrada.</value>
+  </data>
+  <data name="MsgSociedadIdDuplicado" xml:space="preserve">
+    <value>Ya existe una sociedad con la misma clave.</value>
+  </data>
+  <data name="RegistrarFactura" xml:space="preserve">
+    <value>Registrar facturas</value>
+  </data>
+  <data name="SociedadID" xml:space="preserve">
+    <value>Sociedad ID</value>
+  </data>
+  <data name="AltaCuenta" xml:space="preserve">
+    <value>Crear cuenta</value>
+  </data>
+  <data name="Modulo" xml:space="preserve">
+    <value>Módulo</value>
+  </data>
+  <data name="MsgUsuarioPwdInicial" xml:space="preserve">
+    <value>Se ha dado de alta el usuario, el User es el número del proveedor y el password inicial es Temporal1.</value>
+  </data>
+  <data name="NIPIncorrecto" xml:space="preserve">
+    <value>El NIP capturado es incorrecto, por favor contacte al Administrador del sistema.</value>
+  </data>
+  <data name="NuevaCuenta" xml:space="preserve">
+    <value>Creación de cuenta de usuario.</value>
+  </data>
+  <data name="NumProvInexistente" xml:space="preserve">
+    <value>El número de proveedor no existe.</value>
+  </data>
+  <data name="RFCIncorrecto" xml:space="preserve">
+    <value>El RFC es incorrecto.</value>
+  </data>
+  <data name="UsuarioProvExistente" xml:space="preserve">
+    <value>Ya existe un usuario para este proveedor.</value>
+  </data>
+  <data name="MonedaID" xml:space="preserve">
+    <value>ID Moneda</value>
+  </data>
+  <data name="MsgCapIDMoneda" xml:space="preserve">
+    <value>Capture el ID de la moneda</value>
+  </data>
+  <data name="MsgErrCargarMoneda" xml:space="preserve">
+    <value>Ocurrió un error al cargar los datos de la moneda.</value>
+  </data>
+  <data name="MsgErrCargarMonedas" xml:space="preserve">
+    <value>Ocurrió un error al leer la lista de monedas.</value>
+  </data>
+  <data name="MsgErrEliminarMoneda" xml:space="preserve">
+    <value>Ocurrió un error al eliminar la moneda.</value>
+  </data>
+  <data name="MsgErrGuardarMoneda" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos de la moneda.</value>
+  </data>
+  <data name="MsgErrValidarDatosMoneda" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos de la moneda.</value>
+  </data>
+  <data name="MsgMonedaAsociada" xml:space="preserve">
+    <value>La moneda no puede ser eliminada porque hay información relacionada.</value>
+  </data>
+  <data name="MsgMonedaEliminada" xml:space="preserve">
+    <value>La moneda ha sido eliminada.</value>
+  </data>
+  <data name="MsgMonedaGuardada" xml:space="preserve">
+    <value>Los datos de la moneda han sido guardados.</value>
+  </data>
+  <data name="MsgMonedaNombreDuplicado" xml:space="preserve">
+    <value>Una moneda con el mismo nombre ya ha sido registrada.</value>
+  </data>
+  <data name="ConfirmeContraseña" xml:space="preserve">
+    <value>Confirme contraseña</value>
+  </data>
+  <data name="MsgCapConfPassword" xml:space="preserve">
+    <value>Capture la confirmación del password.</value>
+  </data>
+  <data name="MsgConfPassIncorrecta" xml:space="preserve">
+    <value>El nuevo password y la confirmación son incorrectos.</value>
+  </data>
+  <data name="MsgFormatoIncorrecto" xml:space="preserve">
+    <value>El formato del archivo debe ser txt.</value>
+  </data>
+  <data name="Mensajes" xml:space="preserve">
+    <value>Mensajes</value>
+  </data>
+  <data name="Emisor" xml:space="preserve">
+    <value>Emisor</value>
+  </data>
+  <data name="Factura" xml:space="preserve">
+    <value>Factura</value>
+  </data>
+  <data name="LongOrden" xml:space="preserve">
+    <value>Longitud de la orden de compra</value>
+  </data>
+  <data name="MesesAdelante" xml:space="preserve">
+    <value>Meses permitidos de fecha de factura adelantada</value>
+  </data>
+  <data name="MesesAtras" xml:space="preserve">
+    <value>Meses de tolerancia para registrar la factura</value>
+  </data>
+  <data name="MsgCapLongOrden" xml:space="preserve">
+    <value>Captura la longitud máximo de la orden de compra.</value>
+  </data>
+  <data name="MsgCapMesesAdelante" xml:space="preserve">
+    <value>Captura el número de meses que se permite registrar una factura con fecha adelante.</value>
+  </data>
+  <data name="MsgCapMesTolerancia" xml:space="preserve">
+    <value>Captura los meses de tolerancia para registrar una factura.</value>
+  </data>
+  <data name="MsgErrGuardarFactura" xml:space="preserve">
+    <value>Ocurrió un error al guardar las facturas.</value>
+  </data>
+  <data name="MsgSelArchPDF" xml:space="preserve">
+    <value>Seleccione el archivo PDF de la factura a subir</value>
+  </data>
+  <data name="MsgSelArchXML" xml:space="preserve">
+    <value>Seleccione el archivo XML de la factura a subir</value>
+  </data>
+  <data name="Orden" xml:space="preserve">
+    <value>Orden de compra</value>
+  </data>
+  <data name="OrdenCompra" xml:space="preserve">
+    <value>Orden de compra</value>
+  </data>
+  <data name="PDFObligatorio" xml:space="preserve">
+    <value>PDF requerido</value>
+  </data>
+  <data name="Receptor" xml:space="preserve">
+    <value>Receptor</value>
+  </data>
+  <data name="RegistrarFacturas" xml:space="preserve">
+    <value>Registrar facturas</value>
+  </data>
+  <data name="Validacion" xml:space="preserve">
+    <value>Validación</value>
+  </data>
+  <data name="VerPDF" xml:space="preserve">
+    <value>Ver PDF</value>
+  </data>
+  <data name="VerXML" xml:space="preserve">
+    <value>Ver XML</value>
+  </data>
+  <data name="MsgArchNomDiferente" xml:space="preserve">
+    <value>Los nombres de los archivos deben ser iguales.</value>
+  </data>
+  <data name="MsgErrValExisteUsuario" xml:space="preserve">
+    <value>Se presentó un error al validar si existe el usuario.</value>
+  </data>
+  <data name="MsgProvInexistente" xml:space="preserve">
+    <value>Proveedor inexistente.</value>
+  </data>
+  <data name="ArchivosFactura" xml:space="preserve">
+    <value>Archivos de la factura</value>
+  </data>
+  <data name="CertificadoSAT" xml:space="preserve">
+    <value>Certificado SAT</value>
+  </data>
+  <data name="FecFactura" xml:space="preserve">
+    <value>Fecha factura</value>
+  </data>
+  <data name="Folio" xml:space="preserve">
+    <value>Folio</value>
+  </data>
+  <data name="MsgCapOrdenCompra" xml:space="preserve">
+    <value>Captura la orden de compra.</value>
+  </data>
+  <data name="MsgErrBajarPDF" xml:space="preserve">
+    <value>Ocurrió un error al generar el archivo desde la base de datos.</value>
+  </data>
+  <data name="MsgErrCargarFacturas" xml:space="preserve">
+    <value>Ocurrió un error al leer las facturas.</value>
+  </data>
+  <data name="MsgErrExisteFactura" xml:space="preserve">
+    <value>Ocurrió un error al verificar si existe la factura.</value>
+  </data>
+  <data name="MsgErrFactFecMuyAdelantada" xml:space="preserve">
+    <value>La fecha de la factura es posterior al limite permitido.</value>
+  </data>
+  <data name="MsgErrFactMuyAtrasada" xml:space="preserve">
+    <value>La factura tiene una fecha anterior a la permitida.</value>
+  </data>
+  <data name="MsgErrFactNoCorrSociedad" xml:space="preserve">
+    <value>El receptor de la factura no corresponde a la sociedad seleccionada.</value>
+  </data>
+  <data name="MsgFactCertExist" xml:space="preserve">
+    <value>La factura con el número de certificado: </value>
+  </data>
+  <data name="MsgFactsGuardadas" xml:space="preserve">
+    <value>Las facturas han sido registradas con el folio:</value>
+  </data>
+  <data name="MsgFactYaRegistrada" xml:space="preserve">
+    <value>Esta factura ya fue registrada anteriormente.</value>
+  </data>
+  <data name="MsgFecFormIncorrecto" xml:space="preserve">
+    <value>El formato de la fecha es incorrecto.</value>
+  </data>
+  <data name="MsgOrdenCompIncor" xml:space="preserve">
+    <value>La longitud de la orden de compra es incorrecta.</value>
+  </data>
+  <data name="MsgSelSociedad" xml:space="preserve">
+    <value>Selecciona la sociedad.</value>
+  </data>
+  <data name="MsgYaRegistrada" xml:space="preserve">
+    <value>ya fue registrada anteriormente.</value>
+  </data>
+  <data name="Al" xml:space="preserve">
+    <value>al</value>
+  </data>
+  <data name="ApartirDel" xml:space="preserve">
+    <value>A partir del</value>
+  </data>
+  <data name="ApartirDelFolio" xml:space="preserve">
+    <value>A partir del folio</value>
+  </data>
+  <data name="FacturasDel" xml:space="preserve">
+    <value>Facturas del</value>
+  </data>
+  <data name="FactXFecFac" xml:space="preserve">
+    <value>Facturas por fecha de factura</value>
+  </data>
+  <data name="FactXFecReg" xml:space="preserve">
+    <value>Facturas por fecha de registro</value>
+  </data>
+  <data name="FactXFolio" xml:space="preserve">
+    <value>Facturas por folio</value>
+  </data>
+  <data name="FactXODC" xml:space="preserve">
+    <value>Facturas por orden de compra</value>
+  </data>
+  <data name="FactXProv" xml:space="preserve">
+    <value>Facturas por proveedor</value>
+  </data>
+  <data name="FactXSociedad" xml:space="preserve">
+    <value>Facturas por sociedad</value>
+  </data>
+  <data name="FacXFechaFactura" xml:space="preserve">
+    <value>Reporte de facturas registradas por fecha de factura</value>
+  </data>
+  <data name="FacXRangoFolios" xml:space="preserve">
+    <value>Facturas por rango de folios</value>
+  </data>
+  <data name="FolioFinal" xml:space="preserve">
+    <value>Folio final</value>
+  </data>
+  <data name="FolioInicial" xml:space="preserve">
+    <value>Folio inicial</value>
+  </data>
+  <data name="FoliosDel" xml:space="preserve">
+    <value>Folios del</value>
+  </data>
+  <data name="HastaEl" xml:space="preserve">
+    <value>Hasta el</value>
+  </data>
+  <data name="HastaElFolio" xml:space="preserve">
+    <value>Hasta el folio</value>
+  </data>
+  <data name="MsgErrBuscarMoneda" xml:space="preserve">
+    <value>Ocurrió un error al verificar si existe la moneda.</value>
+  </data>
+  <data name="RepFacXProveedor" xml:space="preserve">
+    <value>Reporte de facturas registradas por proveedor</value>
+  </data>
+  <data name="RepFacXSociedad" xml:space="preserve">
+    <value>Reporte de facturas registradas por Sociedad</value>
+  </data>
+  <data name="FacXFechaRegistro" xml:space="preserve">
+    <value>Reporte de facturas por fecha de registro</value>
+  </data>
+  <data name="FacXODC" xml:space="preserve">
+    <value>Reporte de facturas por orden de compra</value>
+  </data>
+  <data name="MensajeProv" xml:space="preserve">
+    <value>Mensaje a proveedores</value>
+  </data>
+  <data name="OrdenDeCompra" xml:space="preserve">
+    <value>Orden de compra</value>
+  </data>
+  <data name="MsgCtaCreada" xml:space="preserve">
+    <value>La cuenta ha sido creada correctamente, el password se ha enviado a la cuenta de correo registrada en sus datos como proveedor.</value>
+  </data>
+  <data name="MsgCtaCreErrEnvCorreo" xml:space="preserve">
+    <value>La cuenta fue creada correctamente pero ocurrió un error al enviar el correo, por favor consulte al administrador.</value>
+  </data>
+  <data name="FecFactFin" xml:space="preserve">
+    <value>Fecha factura final</value>
+  </data>
+  <data name="FecFactIni" xml:space="preserve">
+    <value>Fecha factura inicial</value>
+  </data>
+  <data name="FecRegFin" xml:space="preserve">
+    <value>Fecha registro final</value>
+  </data>
+  <data name="FecRegIni" xml:space="preserve">
+    <value>Fecha registro inicial</value>
+  </data>
+  <data name="MsgPerfProvIncorrecto" xml:space="preserve">
+    <value>El usuario es de un proveedor y no se le puede asignar un perfil diferente al del proveedor.</value>
+  </data>
+  <data name="TipoUsuario" xml:space="preserve">
+    <value>Tipo de usuario</value>
+  </data>
+  <data name="ValidaFacSAT" xml:space="preserve">
+    <value>Validar facturas en el SAT</value>
+  </data>
+  <data name="FacturasRegistradas" xml:space="preserve">
+    <value>Facturas registradas</value>
+  </data>
+  <data name="MsgEmisorInexistente" xml:space="preserve">
+    <value>El emisor de la factura no está dado de alta como proveedor.</value>
+  </data>
+  <data name="MsgFacRegEnvCorreo" xml:space="preserve">
+    <value>Las facturas fueron registradas, pero se presentó un problema al enviar el correo.</value>
+  </data>
+  <data name="MsgFactDuplicada" xml:space="preserve">
+    <value>Esta factura ya fue agregada.</value>
+  </data>
+  <data name="MsgLongMsgGrande" xml:space="preserve">
+    <value>La longitud del mensaje supera los 256 caracteres.</value>
+  </data>
+  <data name="MsgPasswordIs" xml:space="preserve">
+    <value>El password es</value>
+  </data>
+  <data name="MsgPDFInexistente" xml:space="preserve">
+    <value>El PDF de esta factura no fue registrado.</value>
+  </data>
+  <data name="MsgRelFacReg" xml:space="preserve">
+    <value>Se han registrado exitosamente las siguientes facturas con el folio</value>
+  </data>
+  <data name="MsgSaludo" xml:space="preserve">
+    <value>Hola</value>
+  </data>
+  <data name="RegFacSinOC" xml:space="preserve">
+    <value>Registrar sin Pedido</value>
+  </data>
+  <data name="RegFactSOC" xml:space="preserve">
+    <value>Registro de facturas sin orden de compra</value>
+  </data>
+  <data name="Saludos" xml:space="preserve">
+    <value>Saludos</value>
+  </data>
+  <data name="UUID" xml:space="preserve">
+    <value>UUID</value>
+  </data>
+  <data name="ConElFolio" xml:space="preserve">
+    <value>Con el folio</value>
+  </data>
+  <data name="MsgErrLeerXML" xml:space="preserve">
+    <value>Ocurrió un error al leer el archivo XML.</value>
+  </data>
+  <data name="MsgErrorCopiarArchivo" xml:space="preserve">
+    <value>Ocurrió un error al guardar el archivo en el servidor. Verifique que exista la carpeta Data en el directorio de la aplicación.</value>
+  </data>
+  <data name="MsgPerfilAdminNoBorrar" xml:space="preserve">
+    <value>El perfil de administrador no puede ser eliminado.</value>
+  </data>
+  <data name="MsgPerfilAsociado" xml:space="preserve">
+    <value>Este perfil no puede ser eliminado porque hay usuarios que tienen ese perfil asignado.</value>
+  </data>
+  <data name="MsgPerfilSelFunciones" xml:space="preserve">
+    <value>Debe seleccionar por lo menos una función.</value>
+  </data>
+  <data name="MsgRegNoColReq" xml:space="preserve">
+    <value>Algún registro no tiene el número de columnas requeridas.</value>
+  </data>
+  <data name="Contactanos" xml:space="preserve">
+    <value>Contactanos</value>
+  </data>
+  <data name="Contacto" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="FecRegistro" xml:space="preserve">
+    <value>Fecha de registro</value>
+  </data>
+  <data name="MailContacto" xml:space="preserve">
+    <value>eMail para que los proveedores nos contacten</value>
+  </data>
+  <data name="ManualUsuario" xml:space="preserve">
+    <value>Manual de usuario</value>
+  </data>
+  <data name="MensajeProveedor" xml:space="preserve">
+    <value>Mensaje del proveedor</value>
+  </data>
+  <data name="MsgCapDirCorreo" xml:space="preserve">
+    <value>Capture su dirección de correo electrónico.</value>
+  </data>
+  <data name="MsgCapMensaje" xml:space="preserve">
+    <value>Capture el mensaje.</value>
+  </data>
+  <data name="MsgCapSuNombre" xml:space="preserve">
+    <value>Capture su nombre por favor.</value>
+  </data>
+  <data name="MsgErrBajarXML" xml:space="preserve">
+    <value>Ocurró un error al bajar el XML.</value>
+  </data>
+  <data name="MsgErrBuscarOC" xml:space="preserve">
+    <value>Ocurrió un error al verificar si existe la orden de compra.</value>
+  </data>
+  <data name="MsgErrorGuardarContacto" xml:space="preserve">
+    <value>Se presentó un error al guardar el contacto, por favor vuelve a intentarlo más tarde.</value>
+  </data>
+  <data name="MsgFactDifProveedor" xml:space="preserve">
+    <value>Las facturas no son del mismo proveedor.</value>
+  </data>
+  <data name="MsgMsgContRecibido" xml:space="preserve">
+    <value>Ha recibido el siguiente mensaje de algún proveedor:</value>
+  </data>
+  <data name="MsgMsgRecibido" xml:space="preserve">
+    <value>El mensaje ha sido recibido correctamente.</value>
+  </data>
+  <data name="MsgOCRegXOtrProv" xml:space="preserve">
+    <value>La orden de compra ya fue registrada por otro proveedor. Por favor, contacte al administrador de la empresa receptora.</value>
+  </data>
+  <data name="MsgSociedadInactiva" xml:space="preserve">
+    <value>No se pueden subir facturas de esa sociedad, porque está inactiva la sociedad. Por favor revíselo con el administrador.</value>
+  </data>
+  <data name="MsgTxtMenor300Chr" xml:space="preserve">
+    <value>El mensaje sobrepasa los 300 caracteres, favor de validar.</value>
+  </data>
+  <data name="Varios" xml:space="preserve">
+    <value>Varios</value>
+  </data>
+  <data name="MsgErrorImpPedidos" xml:space="preserve">
+    <value>Se presentó un error al importar la relación de pedidos.</value>
+  </data>
+  <data name="Pedidos" xml:space="preserve">
+    <value>Pedidos</value>
+  </data>
+  <data name="Ejercicio" xml:space="preserve">
+    <value>Ejercicio</value>
+  </data>
+  <data name="MsgErrCargarPedido" xml:space="preserve">
+    <value>Ocurrió un error al obtener los datos del pedido.</value>
+  </data>
+  <data name="MsgErrCargarPedidos" xml:space="preserve">
+    <value>Ocurrió un error al obtener la relación de pedidos.</value>
+  </data>
+  <data name="Pedido" xml:space="preserve">
+    <value>Pedido</value>
+  </data>
+  <data name="MsgErrPedDifProv" xml:space="preserve">
+    <value>El pedido esta asignado a otro proveedor.</value>
+  </data>
+  <data name="MsgErrPedInexistente" xml:space="preserve">
+    <value>Pedido inexistente.</value>
+  </data>
+  <data name="MsgErrSocDiferente" xml:space="preserve">
+    <value>La sociedad del pedido y factura no coincide.</value>
+  </data>
+  <data name="MsgDetRegNoColReq" xml:space="preserve">
+    <value>El archivo con los detalles no tiene el número de columnas requerido.</value>
+  </data>
+  <data name="MsgEncRegNoColReq" xml:space="preserve">
+    <value>El archivo con los encabezados no tiene el número de columnas requerido.</value>
+  </data>
+  <data name="MsgSelArchHdr" xml:space="preserve">
+    <value>Seleccione el archivo con las cabeceras de los pedidos.</value>
+  </data>
+  <data name="MsgSelArchivos" xml:space="preserve">
+    <value>Selecciona los archivos con la información</value>
+  </data>
+  <data name="ClaseDoc" xml:space="preserve">
+    <value>Clase de documento</value>
+  </data>
+  <data name="GpoCompras" xml:space="preserve">
+    <value>Grupo de compras</value>
+  </data>
+  <data name="OrgCompras" xml:space="preserve">
+    <value>Organización de compras</value>
+  </data>
+  <data name="MsgErrCargarEntregas" xml:space="preserve">
+    <value>Ocurrió un error al obtener la relación de entregas del pedido.</value>
+  </data>
+  <data name="MsgErrItemsSinEntrega" xml:space="preserve">
+    <value>No todos los items de la factura tienen entrega, las entregas son incompletas o no coinciden en cantidad e importe.</value>
+  </data>
+  <data name="MsgErrNoPosteo" xml:space="preserve">
+    <value>La factura fue guardada, pero no fue posible postearla.</value>
+  </data>
+  <data name="MsgSocNoActProv" xml:space="preserve">
+    <value>La sociedad no está activa para el proveedor.</value>
+  </data>
+  <data name="BusinessArea" xml:space="preserve">
+    <value>Business Area</value>
+  </data>
+  <data name="ControllingArea" xml:space="preserve">
+    <value>Controlling Area</value>
+  </data>
+  <data name="CostCenter" xml:space="preserve">
+    <value>Cost Center</value>
+  </data>
+  <data name="GeneralLeyerAccount" xml:space="preserve">
+    <value>General Leyer Account</value>
+  </data>
+  <data name="Cuenta" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="ConexERP" xml:space="preserve">
+    <value>Conexión con ERP</value>
+  </data>
+  <data name="Desconectado" xml:space="preserve">
+    <value>Desconectado</value>
+  </data>
+  <data name="EnLinea" xml:space="preserve">
+    <value>En línea</value>
+  </data>
+  <data name="Interfaces" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="Cantidad" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="EntMerc" xml:space="preserve">
+    <value>Entrada de mercancía</value>
+  </data>
+  <data name="Entrega" xml:space="preserve">
+    <value>Entrega</value>
+  </data>
+  <data name="FechaPago" xml:space="preserve">
+    <value>Fecha pago</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="MsgErrorImpEntregas" xml:space="preserve">
+    <value>Ocurrió un error al importar las entregas de mercancía.</value>
+  </data>
+  <data name="MsgErrorImportarStatus" xml:space="preserve">
+    <value>Ocurrió un error al importar el status de las facturas.</value>
+  </data>
+  <data name="Posicion" xml:space="preserve">
+    <value>Posición</value>
+  </data>
+  <data name="SelArchImportar" xml:space="preserve">
+    <value>Seleccione el archivo con los datos a cargar</value>
+  </data>
+  <data name="IndicadorID" xml:space="preserve">
+    <value>Indicador ID</value>
+  </data>
+  <data name="IndicadorImp" xml:space="preserve">
+    <value>Indicadores de Impto.</value>
+  </data>
+  <data name="IndImpuesto" xml:space="preserve">
+    <value>Indicador de impuesto</value>
+  </data>
+  <data name="IndImpuestos" xml:space="preserve">
+    <value>Indicadores de impuesto</value>
+  </data>
+  <data name="MsgCapDescIndicador" xml:space="preserve">
+    <value>Captura la descripción del indicador de impuesto SAP.</value>
+  </data>
+  <data name="MsgCapIDIndicador" xml:space="preserve">
+    <value>Captura la clave del indicador de impuesto de SAP.</value>
+  </data>
+  <data name="MsgCapTasaImp" xml:space="preserve">
+    <value>Captura la tasa de impuesto.</value>
+  </data>
+  <data name="MsgErrCargarIndicador" xml:space="preserve">
+    <value>Ocurrió un error al obtener los datos del indicador de impuesto.</value>
+  </data>
+  <data name="MsgErrCargarIndicadores" xml:space="preserve">
+    <value>Ocurrió un error al cargar la lista de indicadores de impuesto.</value>
+  </data>
+  <data name="MsgErrEliminarIndicador" xml:space="preserve">
+    <value>Ocurrió un error al eliminar el indicador de impuestos.</value>
+  </data>
+  <data name="MsgErrGuardarIndicador" xml:space="preserve">
+    <value>Ocurrió un error al guardar los datos del indicador de impuesto.</value>
+  </data>
+  <data name="MsgErrValDatosIndicador" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos del indicador.</value>
+  </data>
+  <data name="MsgIndicadorEliminado" xml:space="preserve">
+    <value>El indicador ha sido eliminado.</value>
+  </data>
+  <data name="MsgIndicadorExistente" xml:space="preserve">
+    <value>Ya existe un indicador con esta clave.</value>
+  </data>
+  <data name="MsgIndicadorGuardado" xml:space="preserve">
+    <value>Los datos del indicador han sido guardados.</value>
+  </data>
+  <data name="MsgIndicadorNomDuplicado" xml:space="preserve">
+    <value>Ya existe un indicador con este nombre.</value>
+  </data>
+  <data name="TasaImp" xml:space="preserve">
+    <value>Tasa de impuesto</value>
+  </data>
+  <data name="CostosInd" xml:space="preserve">
+    <value>Costos indirectos</value>
+  </data>
+  <data name="CostosIndirectos" xml:space="preserve">
+    <value>Costos indirectos</value>
+  </data>
+  <data name="DocCosto" xml:space="preserve">
+    <value>Documento de costos</value>
+  </data>
+  <data name="MsgErrCargarCostos" xml:space="preserve">
+    <value>Ocurrió un error al obtener la relación de costos indirectos.</value>
+  </data>
+  <data name="MsgErrorImpCostosInd" xml:space="preserve">
+    <value>Ocurrió un error al importar los costos indirectos.</value>
+  </data>
+  <data name="TipoCond" xml:space="preserve">
+    <value>Tipo Condición</value>
+  </data>
+  <data name="DirDestino" xml:space="preserve">
+    <value>Directorio donde se generará el archivo</value>
+  </data>
+  <data name="FactExt" xml:space="preserve">
+    <value>Facturas de proveedores extranjeros</value>
+  </data>
+  <data name="FactFin" xml:space="preserve">
+    <value>Facturas financieras</value>
+  </data>
+  <data name="FactLogCI" xml:space="preserve">
+    <value>Facturas logísticas de Costos Indirectos</value>
+  </data>
+  <data name="FactLogEM" xml:space="preserve">
+    <value>Facturas logísticas de Mercancía</value>
+  </data>
+  <data name="GenArchFacPark" xml:space="preserve">
+    <value>Generación de archivo de facturas para postearlas</value>
+  </data>
+  <data name="MonedaSAP" xml:space="preserve">
+    <value>Moneda SAP</value>
+  </data>
+  <data name="MsgErrBuscarIndicador" xml:space="preserve">
+    <value>Ocurrió un error al buscar el indicador de impuestos.</value>
+  </data>
+  <data name="MsgErrCantEntGTFact" xml:space="preserve">
+    <value>La cantidad entregada del producto &amp; es mayor a la cantidad facturada.</value>
+  </data>
+  <data name="MsgErrGenArchFact" xml:space="preserve">
+    <value>Ocurrió un error al generar el archivo de facturas para su posteo.</value>
+  </data>
+  <data name="MsgNoHayFactPend" xml:space="preserve">
+    <value>No hay facturas pendientes.</value>
+  </data>
+  <data name="MsgSelDirectorio" xml:space="preserve">
+    <value>Selecciona el directorio destino.</value>
+  </data>
+  <data name="MsgSelTipoFact" xml:space="preserve">
+    <value>Selecciona el tipo de facturas.</value>
+  </data>
+  <data name="PosteoFacturas" xml:space="preserve">
+    <value>Posteo de facturas</value>
+  </data>
+  <data name="RegFacCostInd" xml:space="preserve">
+    <value>Registrar facturas de costos indirectos</value>
+  </data>
+  <data name="RegFacMat" xml:space="preserve">
+    <value>Registrar facturas de materiales</value>
+  </data>
+  <data name="RegFacProvExt" xml:space="preserve">
+    <value>Registrar facturas de proveedores extranjeros</value>
+  </data>
+  <data name="SelTipoFact" xml:space="preserve">
+    <value>Selecciona el tipo de facturas</value>
+  </data>
+  <data name="FacFinPrvExt" xml:space="preserve">
+    <value>Facturas financieras de proveedores extranjeros</value>
+  </data>
+  <data name="FacFinPrvNal" xml:space="preserve">
+    <value>Facturas financieras de proveedores nacionales</value>
+  </data>
+  <data name="FacLogPrvExt" xml:space="preserve">
+    <value>Facturas logísticas de proveedores extranjeros</value>
+  </data>
+  <data name="FacLogPrvNal" xml:space="preserve">
+    <value>Facturas logísticas de proveedores nacionales</value>
+  </data>
+  <data name="FactProvExt" xml:space="preserve">
+    <value>Facturas proveedores extranjeros</value>
+  </data>
+  <data name="FactProvNal" xml:space="preserve">
+    <value>Facturas proveedores nacionales</value>
+  </data>
+  <data name="RegFacConOC" xml:space="preserve">
+    <value>Registrar con Pedido</value>
+  </data>
+  <data name="ClaseDocto" xml:space="preserve">
+    <value>Clase de documento</value>
+  </data>
+  <data name="ConfSelNotas" xml:space="preserve">
+    <value>Por favor corroborar que selecciono la Nota de Entrega correcta.</value>
+  </data>
+  <data name="ConsStatusPed" xml:space="preserve">
+    <value>Consultar status de pedidos</value>
+  </data>
+  <data name="DocRefer" xml:space="preserve">
+    <value>Documento de referencia</value>
+  </data>
+  <data name="Entregas" xml:space="preserve">
+    <value>Entregas</value>
+  </data>
+  <data name="Estatus" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="FactFinancieras" xml:space="preserve">
+    <value>Facturas financieras</value>
+  </data>
+  <data name="FactLogisticas" xml:space="preserve">
+    <value>Facturas Logísticas</value>
+  </data>
+  <data name="GenArchPed" xml:space="preserve">
+    <value>Generar archivos facturas</value>
+  </data>
+  <data name="ImporteSinIva" xml:space="preserve">
+    <value>Importe sin IVA</value>
+  </data>
+  <data name="ImpResPark" xml:space="preserve">
+    <value>Importar resultados del parqueo de facturas</value>
+  </data>
+  <data name="Impuestos" xml:space="preserve">
+    <value>Impuestos</value>
+  </data>
+  <data name="Iva" xml:space="preserve">
+    <value>IVA</value>
+  </data>
+  <data name="MsgCapCantidad" xml:space="preserve">
+    <value>Captura la cantidad.</value>
+  </data>
+  <data name="MsgCapDescMat" xml:space="preserve">
+    <value>Captura la descripción del material.</value>
+  </data>
+  <data name="MsgCapFactura" xml:space="preserve">
+    <value>Captura el número de factura.</value>
+  </data>
+  <data name="MsgCapFecFact" xml:space="preserve">
+    <value>Captura la fecha de la factura.</value>
+  </data>
+  <data name="MsgCapFecFin" xml:space="preserve">
+    <value>Captura la fecha final del rango.</value>
+  </data>
+  <data name="MsgCapFecIni" xml:space="preserve">
+    <value>Captura la fecha inicial del rango.</value>
+  </data>
+  <data name="MsgCapImpMaterial" xml:space="preserve">
+    <value>Captura el importe del material.</value>
+  </data>
+  <data name="MsgCapImpSinIva" xml:space="preserve">
+    <value>Captura el importe sin iva.</value>
+  </data>
+  <data name="MsgCapImpuestos" xml:space="preserve">
+    <value>Captura el importe de los impuestos.</value>
+  </data>
+  <data name="MsgCapNotaEnt" xml:space="preserve">
+    <value>Captura la nota de entrada.</value>
+  </data>
+  <data name="MsgCapTotal" xml:space="preserve">
+    <value>Captura el importe total de la factura.</value>
+  </data>
+  <data name="MsgCapUnidad" xml:space="preserve">
+    <value>Captura la unidad de medida.</value>
+  </data>
+  <data name="MsgConfAgregFactNE" xml:space="preserve">
+    <value>Deseas agregar otra factura con la misma nota de entrega?</value>
+  </data>
+  <data name="MsgConfAgregFactOC" xml:space="preserve">
+    <value>Deseas agregar otra factura con la misma orden de compra?</value>
+  </data>
+  <data name="MsgErrBuscarFact" xml:space="preserve">
+    <value>Ocurrió un error al validar si la factura ya fue registrada.</value>
+  </data>
+  <data name="MsgErrCargarUnidad" xml:space="preserve">
+    <value>Ocurrió un error al obtener los datos de la Unidad de medida.</value>
+  </data>
+  <data name="MsgErrEliminarUnidad" xml:space="preserve">
+    <value>Ocurrió un error al eliminar la unidad de medida.</value>
+  </data>
+  <data name="MsgErrGuardarUnidad" xml:space="preserve">
+    <value>Ocurrió un error al guardar la unidad de medida.</value>
+  </data>
+  <data name="MsgErrMixItems" xml:space="preserve">
+    <value>Los items de la entrega no pueden ser de Entrada de Materiales y de Costos Indirectos.</value>
+  </data>
+  <data name="MsgErrorImpResParkFin" xml:space="preserve">
+    <value>Ocurrió un error al importar los resultados del parqueo de facturas.</value>
+  </data>
+  <data name="MsgErrSelDifNE" xml:space="preserve">
+    <value>Todas las entregas deben de ser de la misma nota de entrada o referencia.</value>
+  </data>
+  <data name="MsgFactReg" xml:space="preserve">
+    <value>Esta factura ya fue registrada.</value>
+  </data>
+  <data name="MsgImpNoCoincide" xml:space="preserve">
+    <value>El importe de los materiales no coincide con el importe de la factura.</value>
+  </data>
+  <data name="MsgSelCostosInd" xml:space="preserve">
+    <value>Seleccione los costos indirectos</value>
+  </data>
+  <data name="MsgSelEntMerc" xml:space="preserve">
+    <value>Seleccione las Entradas de Mercancía</value>
+  </data>
+  <data name="NomProveedor" xml:space="preserve">
+    <value>Nombre del proveedor</value>
+  </data>
+  <data name="NoPedido" xml:space="preserve">
+    <value>No. pedido</value>
+  </data>
+  <data name="NotaEntrega" xml:space="preserve">
+    <value>Nota de entrega</value>
+  </data>
+  <data name="PosEntrega" xml:space="preserve">
+    <value>Posición Entrega</value>
+  </data>
+  <data name="PosPedido" xml:space="preserve">
+    <value>Posición Pedido</value>
+  </data>
+  <data name="Referencia" xml:space="preserve">
+    <value>Referencia</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Importe total</value>
+  </data>
+  <data name="Unidad" xml:space="preserve">
+    <value>Unidad</value>
+  </data>
+  <data name="Archivo" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="Bitacora" xml:space="preserve">
+    <value>Bitácora</value>
+  </data>
+  <data name="BitEstFact" xml:space="preserve">
+    <value>Bitácora de Status de las facturas</value>
+  </data>
+  <data name="BitFactFin" xml:space="preserve">
+    <value>Bitácora de Facturas financieras</value>
+  </data>
+  <data name="BitFactLog" xml:space="preserve">
+    <value>Bitácora de facturas logísticas</value>
+  </data>
+  <data name="BitPeEnCi" xml:space="preserve">
+    <value>Bitácora de Pedidos-Entregas y Costos Ind.</value>
+  </data>
+  <data name="BitProv" xml:space="preserve">
+    <value>Bitácora de proveedores</value>
+  </data>
+  <data name="ConsPedidos" xml:space="preserve">
+    <value>Consultar pedidos</value>
+  </data>
+  <data name="Consultas" xml:space="preserve">
+    <value>Consultas</value>
+  </data>
+  <data name="EstatusFact" xml:space="preserve">
+    <value>Estatus de facturas</value>
+  </data>
+  <data name="MsgCapFecha" xml:space="preserve">
+    <value>Captura la fecha.</value>
+  </data>
+  <data name="MsgNoHayInfBit" xml:space="preserve">
+    <value>No hay información registrada.</value>
+  </data>
+  <data name="PedEntCosInd" xml:space="preserve">
+    <value>Pedidos - entradas y costos indirectos</value>
+  </data>
+  <data name="Pendiente" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="MsgConfOtraOrden" xml:space="preserve">
+    <value>Deseas agregar otra factura con la misma orden de compra?</value>
+  </data>
+  <data name="Compensado" xml:space="preserve">
+    <value>Compensado</value>
+  </data>
+  <data name="MsgMatServExistente" xml:space="preserve">
+    <value>El material o servicio ya fue agregado.</value>
+  </data>
+  <data name="UnidadMedida" xml:space="preserve">
+    <value>Unidad de medida</value>
+  </data>
+  <data name="FechaPropPago" xml:space="preserve">
+    <value>Fecha propuesta de pago</value>
+  </data>
+  <data name="MsgErrFacDifProv" xml:space="preserve">
+    <value>La factura es de un proveedor diferente al que intenta registrarla.</value>
+  </data>
+  <data name="ResParqueo" xml:space="preserve">
+    <value>Resultado del parqueo de facturas</value>
+  </data>
+  <data name="MsgErrorImpResParkLog" xml:space="preserve">
+    <value>Ocurrió un error al registrar los resultados del posteo de facturas logísticas.</value>
+  </data>
+  <data name="ResParqFin" xml:space="preserve">
+    <value>Parqueo Financieras</value>
+  </data>
+  <data name="ResParqLog" xml:space="preserve">
+    <value>Parqueo Logísticas</value>
+  </data>
+  <data name="DetPosicion" xml:space="preserve">
+    <value>Detalle de posición</value>
+  </data>
+  <data name="DetalleFactura" xml:space="preserve">
+    <value>Detalle de la factura</value>
+  </data>
+  <data name="MsgCapDetalle" xml:space="preserve">
+    <value>Captura el detalle de la factura.</value>
+  </data>
+  <data name="MsgCapIDUnidad" xml:space="preserve">
+    <value>Captura el Id de la unidad.</value>
+  </data>
+  <data name="MsgCapNomUnidad" xml:space="preserve">
+    <value>Captura el nombre de la unidad.</value>
+  </data>
+  <data name="MsgErrBuscarUnidad" xml:space="preserve">
+    <value>Ocurrió un error al buscar si la unidad de medida.</value>
+  </data>
+  <data name="MsgErrCargarUnidades" xml:space="preserve">
+    <value>Ocurrió un error al obtener la lista de unidades de medida.</value>
+  </data>
+  <data name="MsgErrValDatosUnidad" xml:space="preserve">
+    <value>Ocurrió un error al validar los datos de la unidad de medida.</value>
+  </data>
+  <data name="MsgErrValidarBajaUnidad" xml:space="preserve">
+    <value>Ocurrió un error al validar la baja de unidad.</value>
+  </data>
+  <data name="MsgUnidadAsociada" xml:space="preserve">
+    <value>La unidad de medida no puede eliminarse porque hay información relacionada.</value>
+  </data>
+  <data name="MsgUnidadEliminada" xml:space="preserve">
+    <value>Unidad de medida eliminada.</value>
+  </data>
+  <data name="MsgUnidadGuardada" xml:space="preserve">
+    <value>Unidad de medida guardada.</value>
+  </data>
+  <data name="MsgUnidadNomDuplicado" xml:space="preserve">
+    <value>Ya existe una unidad con esa clave.</value>
+  </data>
+  <data name="Unidades" xml:space="preserve">
+    <value>Unidades de medida</value>
+  </data>
+  <data name="UnidadID" xml:space="preserve">
+    <value>Unidad ID</value>
+  </data>
+  <data name="UnidadSAP" xml:space="preserve">
+    <value>Unidad en SAP</value>
+  </data>
+  <data name="FactXEntrega" xml:space="preserve">
+    <value>Reporte de facturas por entrega de mercancía</value>
+  </data>
+  <data name="FacXEntrega" xml:space="preserve">
+    <value>Facturas por entrega de mercancía</value>
+  </data>
+  <data name="MsgSelArch" xml:space="preserve">
+    <value>Seleccione el archivo</value>
+  </data>
+  <data name="OtrosArchivos" xml:space="preserve">
+    <value>Otros archivos</value>
+  </data>
+  <data name="EsIntermediario" xml:space="preserve">
+    <value>Es intermediario</value>
+  </data>
+  <data name="Intermediario" xml:space="preserve">
+    <value>Intermediario</value>
+  </data>
+  <data name="Documento" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="GuardarArchivosBD" xml:space="preserve">
+    <value>¿Guardar los archivos en la base de datos?</value>
+  </data>
+  <data name="ImporteML" xml:space="preserve">
+    <value>Importe moneda local</value>
+  </data>
+  <data name="MsgErrCargarServicios" xml:space="preserve">
+    <value>Ocurrió un error al obtener la relación de servicios</value>
+  </data>
+  <data name="MsgErrorImpServicios" xml:space="preserve">
+    <value>Ocurrió un error al importar los servicios.</value>
+  </data>
+  <data name="Servicios" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="MsgErrMonFacDifPed" xml:space="preserve">
+    <value>La moneda de la factura difiere de la moneda del pedido.</value>
+  </data>
+  <data name="MsgSelServicios" xml:space="preserve">
+    <value>Seleccione los servicios</value>
+  </data>
+  <data name="MsgCaptureCaptcha" xml:space="preserve">
+    <value>Captura el Captcha.</value>
+  </data>
+  <data name="MsgErrCaptchaIncorrecto" xml:space="preserve">
+    <value>La clave Captcha es incorrecta.</value>
+  </data>
+  <data name="MsgErrImpEntCISel" xml:space="preserve">
+    <value>El importe de las entradas o costos seleccionados no corresponde con el importe de la factura.</value>
+  </data>
+  <data name="ImpNeto" xml:space="preserve">
+    <value>Importe neto</value>
+  </data>
+  <data name="MsgSocRFCDuplicado" xml:space="preserve">
+    <value>Existe otra sociedad con el mismo RFC, favor de verificar.</value>
+  </data>
+  <data name="MsgProvConFact" xml:space="preserve">
+    <value>Este proveedor no puede ser eliminado porque hay pedidos o facturas del mismo, solo se ha inhabilitado.</value>
+  </data>
+  <data name="RefDocto" xml:space="preserve">
+    <value>Ref. Docto.</value>
+  </data>
+  <data name="Archivo1" xml:space="preserve">
+    <value>Archivo 1</value>
+  </data>
+  <data name="Archivo2" xml:space="preserve">
+    <value>Archivo 2</value>
+  </data>
+  <data name="Archivo3" xml:space="preserve">
+    <value>Archivo3</value>
+  </data>
+  <data name="CtaProv" xml:space="preserve">
+    <value>Cuenta de proveedores</value>
+  </data>
+  <data name="MsgErrImpuestos" xml:space="preserve">
+    <value>El importe de los impuestos no coincide con las tasas de los indicadores de impuestos.</value>
+  </data>
+</root>

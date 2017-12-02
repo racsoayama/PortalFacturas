@@ -1,0 +1,1620 @@
+. 2017-09-06 01:53:12.553 --------------------------------------------------------------------------
+. 2017-09-06 01:53:12.556 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-06 01:53:12.556 Configuration: nul
+. 2017-09-06 01:53:12.557 Log level: Normal
+. 2017-09-06 01:53:12.557 Local account: Beratend-PC\Beratend
+. 2017-09-06 01:53:12.557 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-06 01:53:12.557 Process ID: 9604
+. 2017-09-06 01:53:12.561 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp2C68.032F45B9.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_11368_60673826_698
+. 2017-09-06 01:53:12.562 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-06 01:53:12.562 Login time: miércoles, 06 de septiembre de 2017 01:53:12 a.m.
+. 2017-09-06 01:53:12.562 --------------------------------------------------------------------------
+. 2017-09-06 01:53:12.562 Script: Retrospectively logging previous script records:
+> 2017-09-06 01:53:12.562 Script: option batch on
+< 2017-09-06 01:53:12.562 Script: batch           on        
+< 2017-09-06 01:53:12.562 Script: reconnecttime   120       
+> 2017-09-06 01:53:12.562 Script: option confirm off
+< 2017-09-06 01:53:12.562 Script: confirm         off       
+> 2017-09-06 01:53:12.562 Script: option reconnecttime 120
+< 2017-09-06 01:53:12.562 Script: reconnecttime   120       
+> 2017-09-06 01:53:12.562 Script: open ftp://Guadalupe:***@192.168.1.68:21 -passive=1 -timeout=15
+. 2017-09-06 01:53:12.562 --------------------------------------------------------------------------
+. 2017-09-06 01:53:12.562 Session name: Guadalupe@192.168.1.68 (Ad-Hoc site)
+. 2017-09-06 01:53:12.563 Host name: 192.168.1.68 (Port: 21)
+. 2017-09-06 01:53:12.563 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-06 01:53:12.563 Transfer Protocol: FTP
+. 2017-09-06 01:53:12.563 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-06 01:53:12.563 Disable Nagle: No
+. 2017-09-06 01:53:12.563 Proxy: None
+. 2017-09-06 01:53:12.563 Send buffer: 262144
+. 2017-09-06 01:53:12.563 UTF: Auto
+. 2017-09-06 01:53:12.563 FTPS: None [Client certificate: No]
+. 2017-09-06 01:53:12.563 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-06 01:53:12.563 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-06 01:53:12.563 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-06 01:53:12.563 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-06 01:53:12.563 Timezone offset: 0h 0m
+. 2017-09-06 01:53:12.563 --------------------------------------------------------------------------
+. 2017-09-06 01:53:12.574 Connecting to 192.168.1.68 ...
+. 2017-09-06 01:53:12.574 Connected with 192.168.1.68. Waiting for welcome message...
+< 2017-09-06 01:53:12.574 220-FileZilla Server 0.9.60 beta
+< 2017-09-06 01:53:12.574 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-06 01:53:12.574 220 Please visit https://filezilla-project.org/
+> 2017-09-06 01:53:12.575 USER Guadalupe
+< 2017-09-06 01:53:12.579 331 Password required for guadalupe
+> 2017-09-06 01:53:12.580 PASS ********
+< 2017-09-06 01:53:12.581 230 Logged on
+> 2017-09-06 01:53:12.581 SYST
+< 2017-09-06 01:53:12.582 215 UNIX emulated by FileZilla
+> 2017-09-06 01:53:12.582 FEAT
+< 2017-09-06 01:53:12.583 211-Features:
+< 2017-09-06 01:53:12.583  MDTM
+< 2017-09-06 01:53:12.583  REST STREAM
+< 2017-09-06 01:53:12.583  SIZE
+< 2017-09-06 01:53:12.583  MLST type*;size*;modify*;
+< 2017-09-06 01:53:12.583  MLSD
+< 2017-09-06 01:53:12.583  UTF8
+< 2017-09-06 01:53:12.583  CLNT
+< 2017-09-06 01:53:12.583  MFMT
+< 2017-09-06 01:53:12.583  EPSV
+< 2017-09-06 01:53:12.583  EPRT
+< 2017-09-06 01:53:12.583 211 End
+> 2017-09-06 01:53:12.583 CLNT WinSCP-release-5.11
+< 2017-09-06 01:53:12.586 200 Don't care
+> 2017-09-06 01:53:12.587 OPTS UTF8 ON
+< 2017-09-06 01:53:12.587 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-06 01:53:12.588 Connected
+. 2017-09-06 01:53:12.588 --------------------------------------------------------------------------
+. 2017-09-06 01:53:12.589 Using FTP protocol.
+. 2017-09-06 01:53:12.589 Doing startup conversation with host.
+> 2017-09-06 01:53:12.618 PWD
+< 2017-09-06 01:53:12.618 257 "/" is current directory.
+. 2017-09-06 01:53:12.618 Getting current directory name.
+. 2017-09-06 01:53:12.618 Startup conversation with host finished.
+< 2017-09-06 01:53:12.623 Script: Active session: [1] Guadalupe@192.168.1.68
+> 2017-09-06 01:53:12.679 Script: pwd
+< 2017-09-06 01:53:12.679 Script: /
+> 2017-09-06 01:53:15.946 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "410000001.pdf"
+. 2017-09-06 01:53:15.948 Copying 1 files/directories to remote directory "/" - total size: 38,695
+. 2017-09-06 01:53:15.948   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-06 01:53:15.948   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-06 01:53:15.948   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-06 01:53:15.948 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-06T06:53:04.653Z] [38695]
+. 2017-09-06 01:53:15.950 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-06 01:53:15.950 Binary transfer mode selected.
+. 2017-09-06 01:53:15.950 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf
+> 2017-09-06 01:53:15.950 TYPE I
+< 2017-09-06 01:53:15.952 200 Type set to I
+> 2017-09-06 01:53:15.952 PASV
+< 2017-09-06 01:53:15.953 227 Entering Passive Mode (192,168,1,68,244,101)
+> 2017-09-06 01:53:15.954 STOR 410000001.pdf
+. 2017-09-06 01:53:15.955 Connecting to 192.168.1.68:62565 ...
+< 2017-09-06 01:53:15.958 150 Opening data channel for file upload to server of "/410000001.pdf"
+< 2017-09-06 01:53:16.053 226 Successfully transferred "/410000001.pdf"
+. 2017-09-06 01:53:16.053 Upload successful
+. 2017-09-06 01:53:16.072 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/410000001.pdf' [38695]
+. 2017-09-06 01:53:16.072 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 178,488/s
+> 2017-09-06 01:53:17.591 Script: exit
+. 2017-09-06 01:53:17.591 Script: Exit code: 0
+. 2017-09-06 01:53:17.607 Disconnected from server
+. 2017-09-06 02:02:08.222 --------------------------------------------------------------------------
+. 2017-09-06 02:02:08.222 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-06 02:02:08.223 Configuration: nul
+. 2017-09-06 02:02:08.223 Log level: Normal
+. 2017-09-06 02:02:08.223 Local account: Beratend-PC\Beratend
+. 2017-09-06 02:02:08.223 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-06 02:02:08.223 Process ID: 9336
+. 2017-09-06 02:02:08.227 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp0FC4.030051B0.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_4036_51272726_512
+. 2017-09-06 02:02:08.227 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-06 02:02:08.227 Login time: miércoles, 06 de septiembre de 2017 02:02:08 a.m.
+. 2017-09-06 02:02:08.227 --------------------------------------------------------------------------
+. 2017-09-06 02:02:08.228 Script: Retrospectively logging previous script records:
+> 2017-09-06 02:02:08.228 Script: option batch on
+< 2017-09-06 02:02:08.228 Script: batch           on        
+< 2017-09-06 02:02:08.228 Script: reconnecttime   120       
+> 2017-09-06 02:02:08.228 Script: option confirm off
+< 2017-09-06 02:02:08.228 Script: confirm         off       
+> 2017-09-06 02:02:08.228 Script: option reconnecttime 120
+< 2017-09-06 02:02:08.228 Script: reconnecttime   120       
+> 2017-09-06 02:02:08.228 Script: open ftp://Guadalupe:***@192.168.1.68:21 -passive=1 -timeout=15
+. 2017-09-06 02:02:08.228 --------------------------------------------------------------------------
+. 2017-09-06 02:02:08.228 Session name: Guadalupe@192.168.1.68 (Ad-Hoc site)
+. 2017-09-06 02:02:08.228 Host name: 192.168.1.68 (Port: 21)
+. 2017-09-06 02:02:08.228 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-06 02:02:08.228 Transfer Protocol: FTP
+. 2017-09-06 02:02:08.228 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-06 02:02:08.228 Disable Nagle: No
+. 2017-09-06 02:02:08.228 Proxy: None
+. 2017-09-06 02:02:08.229 Send buffer: 262144
+. 2017-09-06 02:02:08.229 UTF: Auto
+. 2017-09-06 02:02:08.229 FTPS: None [Client certificate: No]
+. 2017-09-06 02:02:08.229 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-06 02:02:08.229 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-06 02:02:08.229 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-06 02:02:08.229 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-06 02:02:08.229 Timezone offset: 0h 0m
+. 2017-09-06 02:02:08.229 --------------------------------------------------------------------------
+. 2017-09-06 02:02:08.239 Connecting to 192.168.1.68 ...
+. 2017-09-06 02:02:08.242 Connected with 192.168.1.68. Waiting for welcome message...
+< 2017-09-06 02:02:08.243 220-FileZilla Server 0.9.60 beta
+< 2017-09-06 02:02:08.243 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-06 02:02:08.243 220 Please visit https://filezilla-project.org/
+> 2017-09-06 02:02:08.244 USER Guadalupe
+< 2017-09-06 02:02:08.246 331 Password required for guadalupe
+> 2017-09-06 02:02:08.246 PASS ********
+< 2017-09-06 02:02:08.246 230 Logged on
+> 2017-09-06 02:02:08.246 SYST
+< 2017-09-06 02:02:08.246 215 UNIX emulated by FileZilla
+> 2017-09-06 02:02:08.246 FEAT
+< 2017-09-06 02:02:08.248 211-Features:
+< 2017-09-06 02:02:08.249  MDTM
+< 2017-09-06 02:02:08.249  REST STREAM
+< 2017-09-06 02:02:08.249  SIZE
+< 2017-09-06 02:02:08.249  MLST type*;size*;modify*;
+< 2017-09-06 02:02:08.249  MLSD
+< 2017-09-06 02:02:08.249  UTF8
+< 2017-09-06 02:02:08.249  CLNT
+< 2017-09-06 02:02:08.249  MFMT
+< 2017-09-06 02:02:08.249  EPSV
+< 2017-09-06 02:02:08.249  EPRT
+< 2017-09-06 02:02:08.250 211 End
+> 2017-09-06 02:02:08.250 CLNT WinSCP-release-5.11
+< 2017-09-06 02:02:08.250 200 Don't care
+> 2017-09-06 02:02:08.250 OPTS UTF8 ON
+< 2017-09-06 02:02:08.250 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-06 02:02:08.277 Connected
+. 2017-09-06 02:02:08.277 --------------------------------------------------------------------------
+. 2017-09-06 02:02:08.277 Using FTP protocol.
+. 2017-09-06 02:02:08.277 Doing startup conversation with host.
+> 2017-09-06 02:02:08.278 PWD
+< 2017-09-06 02:02:08.279 257 "/" is current directory.
+. 2017-09-06 02:02:08.279 Getting current directory name.
+. 2017-09-06 02:02:08.279 Startup conversation with host finished.
+< 2017-09-06 02:02:08.280 Script: Active session: [1] Guadalupe@192.168.1.68
+> 2017-09-06 02:02:08.318 Script: pwd
+< 2017-09-06 02:02:08.318 Script: /
+> 2017-09-06 02:02:11.651 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "/Facturas/410000001.pdf"
+. 2017-09-06 02:02:11.656 Copying 1 files/directories to remote directory "/Facturas/" - total size: 38,695
+. 2017-09-06 02:02:11.656   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-06 02:02:11.658   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-06 02:02:11.658   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-06 02:02:11.658 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-06T07:02:00.903Z] [38695]
+. 2017-09-06 02:02:11.660 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-06 02:02:11.660 Binary transfer mode selected.
+. 2017-09-06 02:02:11.660 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf
+> 2017-09-06 02:02:11.665 CWD /Facturas
+< 2017-09-06 02:02:11.666 250 CWD successful. "/Facturas" is current directory.
+> 2017-09-06 02:02:11.666 PWD
+< 2017-09-06 02:02:11.666 257 "/Facturas" is current directory.
+> 2017-09-06 02:02:11.666 TYPE I
+< 2017-09-06 02:02:11.669 200 Type set to I
+> 2017-09-06 02:02:11.669 PASV
+< 2017-09-06 02:02:11.673 227 Entering Passive Mode (192,168,1,68,223,24)
+> 2017-09-06 02:02:11.673 STOR 410000001.pdf
+. 2017-09-06 02:02:11.674 Connecting to 192.168.1.68:57112 ...
+< 2017-09-06 02:02:11.676 150 Opening data channel for file upload to server of "/Facturas/410000001.pdf"
+< 2017-09-06 02:02:11.713 226 Successfully transferred "/Facturas/410000001.pdf"
+. 2017-09-06 02:02:11.713 Upload successful
+. 2017-09-06 02:02:11.713 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/Facturas/410000001.pdf' [38695]
+. 2017-09-06 02:02:11.713 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 719,709/s
+> 2017-09-06 02:02:13.351 Script: exit
+. 2017-09-06 02:02:13.352 Script: Exit code: 0
+. 2017-09-06 02:02:13.353 Disconnected from server
+. 2017-09-07 11:06:55.358 --------------------------------------------------------------------------
+. 2017-09-07 11:06:55.372 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-07 11:06:55.373 Configuration: nul
+. 2017-09-07 11:06:55.375 Log level: Normal
+. 2017-09-07 11:06:55.375 Local account: Beratend-PC\Beratend
+. 2017-09-07 11:06:55.375 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-07 11:06:55.375 Process ID: 4000
+. 2017-09-07 11:06:55.376 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp222C.0066B993.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_8748_21261196_415
+. 2017-09-07 11:06:55.376 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-07 11:06:55.376 Login time: jueves, 07 de septiembre de 2017 11:06:55 a.m.
+. 2017-09-07 11:06:55.376 --------------------------------------------------------------------------
+. 2017-09-07 11:06:55.376 Script: Retrospectively logging previous script records:
+> 2017-09-07 11:06:55.376 Script: option batch on
+< 2017-09-07 11:06:55.376 Script: batch           on        
+< 2017-09-07 11:06:55.376 Script: reconnecttime   120       
+> 2017-09-07 11:06:55.376 Script: option confirm off
+< 2017-09-07 11:06:55.376 Script: confirm         off       
+> 2017-09-07 11:06:55.376 Script: option reconnecttime 120
+< 2017-09-07 11:06:55.376 Script: reconnecttime   120       
+> 2017-09-07 11:06:55.376 Script: open sftp://SVSAP-Beratend:***@206.123.120.217:22 -hostkey="30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65" -timeout=15
+. 2017-09-07 11:06:55.376 --------------------------------------------------------------------------
+. 2017-09-07 11:06:55.376 Session name: SVSAP-Beratend@206.123.120.217 (Ad-Hoc site)
+. 2017-09-07 11:06:55.376 Host name: 206.123.120.217 (Port: 22)
+. 2017-09-07 11:06:55.376 User name: SVSAP-Beratend (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-07 11:06:55.376 Tunnel: No
+. 2017-09-07 11:06:55.376 Transfer Protocol: SFTP
+. 2017-09-07 11:06:55.376 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-07 11:06:55.377 Disable Nagle: No
+. 2017-09-07 11:06:55.377 Proxy: None
+. 2017-09-07 11:06:55.377 Send buffer: 262144
+. 2017-09-07 11:06:55.377 SSH protocol version: 2; Compression: No
+. 2017-09-07 11:06:55.377 Bypass authentication: No
+. 2017-09-07 11:06:55.377 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2017-09-07 11:06:55.377 GSSAPI: Forwarding: No
+. 2017-09-07 11:06:55.377 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-09-07 11:06:55.377 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2017-09-07 11:06:55.377 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2017-09-07 11:06:55.377 Simple channel: Yes
+. 2017-09-07 11:06:55.377 Return code variable: Autodetect; Lookup user groups: Auto
+. 2017-09-07 11:06:55.377 Shell: default
+. 2017-09-07 11:06:55.377 EOL: LF, UTF: Auto
+. 2017-09-07 11:06:55.377 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2017-09-07 11:06:55.377 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-09-07 11:06:55.377 SFTP Bugs: Auto,Auto
+. 2017-09-07 11:06:55.377 SFTP Server: default
+. 2017-09-07 11:06:55.377 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-07 11:06:55.377 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-07 11:06:55.377 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-07 11:06:55.377 DST mode: Unix
+. 2017-09-07 11:06:55.377 --------------------------------------------------------------------------
+. 2017-09-07 11:06:55.406 Looking up host "206.123.120.217" for SSH connection
+. 2017-09-07 11:06:55.406 Connecting to 206.123.120.217 port 22
+. 2017-09-07 11:06:55.484 We claim version: SSH-2.0-WinSCP_release_5.11
+. 2017-09-07 11:06:55.543 Server version: SSH-2.0-1.09 FlowSsh: WinSSHD 5.23
+. 2017-09-07 11:06:55.543 Using SSH protocol version 2
+. 2017-09-07 11:06:55.544 Doing Diffie-Hellman group exchange
+. 2017-09-07 11:06:55.853 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-09-07 11:06:56.535 Host key fingerprint is:
+. 2017-09-07 11:06:56.536 ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 11:06:56.539 Verifying host key dss 0xd513eef003b9f43e 726cfb971a6b08f1 416e57d7d1bc4e20 16632bcaabb2d2ce b858402116219973 0d25852ac45a2828 43dd2cac707efa26 933536c9faa951bb e75db4d81e9abd69 f7ed070865ee8263 20a177623bc3e3ed 8a57d1f04995125a f0df997a71589b4e 188bc614f8c386e8 6dd1a0a930c4cedc 77f24c1614d57765 ,0xcab18134a5197ea8 10010a706a6fe605 186a7d07,0x106dccd060158971 8a97f97de8596975 339ac6c1018080ef 7f088ca4c409968e b0d63b66219f564f 1dffc8a00ef9a2f3 df3063baa851773b 8367c3599df414fb 6e1a1b8b8731e2ef 694a5876473f77d3 1eddf49c32265231 fbc3e2acedc5536d e09478aed478a3a1 5a529a374749b683 34a739a3a0c461d6 dc67584e758e268a ,0x355fac93c6fa9639 bee61ee0fb54fdb2 e802df774357ce19 737e9e9eac4ce2d5 b5f333c3481ea58a 7243153682741ff3 c3cd17459d34fc18 28a12f2f7799feab 191e552e680fb751 43bd4216bd460a7a e75380bdefd5f1b9 8784b4592f091d31 8878328f81604e51 c33956f000b24e30 e96b7e03613c9a83 11296a90e4e7d689  with fingerprint ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 11:06:56.543 Host key does not match configured key 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 11:06:56.543 Attempt to close connection due to fatal exception:
+* 2017-09-07 11:06:56.543 Host key fingerprint is ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65.
+* 2017-09-07 11:06:56.543 (Exception) **Host key does not match configured key "30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65"!**
+. 2017-09-07 11:06:56.544 Closing connection.
+. 2017-09-07 11:06:56.544 Sending special code: 12
+. 2017-09-07 11:10:16.558 --------------------------------------------------------------------------
+. 2017-09-07 11:10:16.558 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-07 11:10:16.559 Configuration: nul
+. 2017-09-07 11:10:16.559 Log level: Normal
+. 2017-09-07 11:10:16.559 Local account: Beratend-PC\Beratend
+. 2017-09-07 11:10:16.559 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-07 11:10:16.559 Process ID: 9260
+. 2017-09-07 11:10:16.560 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp24B0.0186B705.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_9392_36167553_558
+. 2017-09-07 11:10:16.560 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-07 11:10:16.560 Login time: jueves, 07 de septiembre de 2017 11:10:16 a.m.
+. 2017-09-07 11:10:16.560 --------------------------------------------------------------------------
+. 2017-09-07 11:10:16.560 Script: Retrospectively logging previous script records:
+> 2017-09-07 11:10:16.560 Script: option batch on
+< 2017-09-07 11:10:16.560 Script: batch           on        
+< 2017-09-07 11:10:16.560 Script: reconnecttime   120       
+> 2017-09-07 11:10:16.560 Script: option confirm off
+< 2017-09-07 11:10:16.560 Script: confirm         off       
+> 2017-09-07 11:10:16.560 Script: option reconnecttime 120
+< 2017-09-07 11:10:16.560 Script: reconnecttime   120       
+> 2017-09-07 11:10:16.560 Script: open sftp://SVSAP-Beratend:***@206.123.120.217:22 -hostkey="ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65" -timeout=15
+. 2017-09-07 11:10:16.560 --------------------------------------------------------------------------
+. 2017-09-07 11:10:16.560 Session name: SVSAP-Beratend@206.123.120.217 (Ad-Hoc site)
+. 2017-09-07 11:10:16.560 Host name: 206.123.120.217 (Port: 22)
+. 2017-09-07 11:10:16.560 User name: SVSAP-Beratend (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-07 11:10:16.561 Tunnel: No
+. 2017-09-07 11:10:16.561 Transfer Protocol: SFTP
+. 2017-09-07 11:10:16.561 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-07 11:10:16.561 Disable Nagle: No
+. 2017-09-07 11:10:16.561 Proxy: None
+. 2017-09-07 11:10:16.561 Send buffer: 262144
+. 2017-09-07 11:10:16.561 SSH protocol version: 2; Compression: No
+. 2017-09-07 11:10:16.561 Bypass authentication: No
+. 2017-09-07 11:10:16.561 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2017-09-07 11:10:16.561 GSSAPI: Forwarding: No
+. 2017-09-07 11:10:16.561 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-09-07 11:10:16.561 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2017-09-07 11:10:16.561 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2017-09-07 11:10:16.561 Simple channel: Yes
+. 2017-09-07 11:10:16.561 Return code variable: Autodetect; Lookup user groups: Auto
+. 2017-09-07 11:10:16.561 Shell: default
+. 2017-09-07 11:10:16.561 EOL: LF, UTF: Auto
+. 2017-09-07 11:10:16.561 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2017-09-07 11:10:16.561 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-09-07 11:10:16.561 SFTP Bugs: Auto,Auto
+. 2017-09-07 11:10:16.561 SFTP Server: default
+. 2017-09-07 11:10:16.561 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-07 11:10:16.561 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-07 11:10:16.561 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-07 11:10:16.561 DST mode: Unix
+. 2017-09-07 11:10:16.561 --------------------------------------------------------------------------
+. 2017-09-07 11:10:16.562 Looking up host "206.123.120.217" for SSH connection
+. 2017-09-07 11:10:16.562 Connecting to 206.123.120.217 port 22
+. 2017-09-07 11:10:16.618 We claim version: SSH-2.0-WinSCP_release_5.11
+. 2017-09-07 11:10:16.682 Server version: SSH-2.0-1.09 FlowSsh: WinSSHD 5.23
+. 2017-09-07 11:10:16.682 Using SSH protocol version 2
+. 2017-09-07 11:10:16.682 Have a known host key of type dss
+. 2017-09-07 11:10:16.682 Doing Diffie-Hellman group exchange
+. 2017-09-07 11:10:17.004 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-09-07 11:10:18.149 Host key fingerprint is:
+. 2017-09-07 11:10:18.149 ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 11:10:18.149 Verifying host key dss 0xd513eef003b9f43e 726cfb971a6b08f1 416e57d7d1bc4e20 16632bcaabb2d2ce b858402116219973 0d25852ac45a2828 43dd2cac707efa26 933536c9faa951bb e75db4d81e9abd69 f7ed070865ee8263 20a177623bc3e3ed 8a57d1f04995125a f0df997a71589b4e 188bc614f8c386e8 6dd1a0a930c4cedc 77f24c1614d57765 ,0xcab18134a5197ea8 10010a706a6fe605 186a7d07,0x106dccd060158971 8a97f97de8596975 339ac6c1018080ef 7f088ca4c409968e b0d63b66219f564f 1dffc8a00ef9a2f3 df3063baa851773b 8367c3599df414fb 6e1a1b8b8731e2ef 694a5876473f77d3 1eddf49c32265231 fbc3e2acedc5536d e09478aed478a3a1 5a529a374749b683 34a739a3a0c461d6 dc67584e758e268a ,0x355fac93c6fa9639 bee61ee0fb54fdb2 e802df774357ce19 737e9e9eac4ce2d5 b5f333c3481ea58a 7243153682741ff3 c3cd17459d34fc18 28a12f2f7799feab 191e552e680fb751 43bd4216bd460a7a e75380bdefd5f1b9 8784b4592f091d31 8878328f81604e51 c33956f000b24e30 e96b7e03613c9a83 11296a90e4e7d689  with fingerprint ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 11:10:18.152 Host key matches configured key
+. 2017-09-07 11:10:18.152 Initialised AES-256 SDCTR client->server encryption
+. 2017-09-07 11:10:18.152 Initialised HMAC-SHA1 client->server MAC algorithm
+. 2017-09-07 11:10:18.152 Initialised AES-256 SDCTR server->client encryption
+. 2017-09-07 11:10:18.152 Initialised HMAC-SHA1 server->client MAC algorithm
+! 2017-09-07 11:10:18.475 Using username "SVSAP-Beratend".
+. 2017-09-07 11:10:18.534 Server offered these authentication methods: publickey,gssapi-with-mic,password
+. 2017-09-07 11:10:18.534 Using SSPI from SECUR32.DLL
+. 2017-09-07 11:10:18.534 Attempting GSSAPI authentication
+. 2017-09-07 11:10:18.624 GSSAPI authentication initialisation failed
+. 2017-09-07 11:10:18.624 The target was not recognized.
+. 2017-09-07 11:10:18.625 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-09-07 11:10:18.625 Using stored password.
+. 2017-09-07 11:10:18.627 Sent password
+. 2017-09-07 11:10:18.748 Access granted
+. 2017-09-07 11:10:18.748 Opening session as main channel
+. 2017-09-07 11:10:18.804 Opened main channel
+. 2017-09-07 11:10:19.330 Started a shell/command
+. 2017-09-07 11:10:19.332 --------------------------------------------------------------------------
+. 2017-09-07 11:10:19.332 Using SFTP protocol.
+. 2017-09-07 11:10:19.332 Doing startup conversation with host.
+> 2017-09-07 11:10:19.334 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-09-07 11:10:19.468 Type: SSH_FXP_VERSION, Size: 22, Number: -1
+. 2017-09-07 11:10:19.468 SFTP version 6 negotiated.
+. 2017-09-07 11:10:19.468 Server requests EOL sequence "\r\n".
+. 2017-09-07 11:10:19.468 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+. 2017-09-07 11:10:19.468 Getting current directory name.
+. 2017-09-07 11:10:19.468 Getting real path for '.'
+> 2017-09-07 11:10:19.468 Type: SSH_FXP_REALPATH, Size: 11, Number: 16
+< 2017-09-07 11:10:19.537 Type: SSH_FXP_NAME, Size: 97, Number: 16
+. 2017-09-07 11:10:19.537 Real path is '/C/Users/svsap-beratend'
+. 2017-09-07 11:10:19.537 Startup conversation with host finished.
+< 2017-09-07 11:10:19.538 Script: Active session: [1] SVSAP-Beratend@206.123.120.217
+> 2017-09-07 11:10:19.873 Script: pwd
+< 2017-09-07 11:10:19.873 Script: /C/Users/svsap-beratend
+> 2017-09-07 11:10:23.166 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "/D/Beratend/Pruebas/Facturas/410000001.pdf"
+. 2017-09-07 11:10:23.166 Copying 1 files/directories to remote directory "/D/Beratend/Pruebas/Facturas/" - total size: 38,695
+. 2017-09-07 11:10:23.167   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-07 11:10:23.167   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-07 11:10:23.167   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-07 11:10:23.167 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-07T16:10:05.733Z] [38695]
+. 2017-09-07 11:10:23.170 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-07 11:10:23.170 Binary transfer mode selected.
+. 2017-09-07 11:10:23.170 Opening remote file.
+> 2017-09-07 11:10:23.170 Type: SSH_FXP_OPEN, Size: 72, Number: 259
+< 2017-09-07 11:10:23.260 Type: SSH_FXP_HANDLE, Size: 11, Number: 259
+> 2017-09-07 11:10:23.260 Type: SSH_FXP_WRITE, Size: 32791, Number: 774
+. 2017-09-07 11:10:23.262 1 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2017-09-07 11:10:23.262 Type: SSH_FXP_CLOSE, Size: 11, Number: 1284
+< 2017-09-07 11:10:23.546 Type: SSH_FXP_STATUS, Size: 56, Number: 774
+< 2017-09-07 11:10:23.546 Status code: 0
+< 2017-09-07 11:10:23.550 Type: SSH_FXP_STATUS, Size: 56, Number: 1030
+< 2017-09-07 11:10:23.550 Status code: 0
+< 2017-09-07 11:10:23.550 Type: SSH_FXP_STATUS, Size: 56, Number: 1284
+< 2017-09-07 11:10:23.550 Status code: 0
+. 2017-09-07 11:10:23.550 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/D/Beratend/Pruebas/Facturas/410000001.pdf' [38695]
+. 2017-09-07 11:10:23.551 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 21,092/s
+> 2017-09-07 11:10:23.981 Script: exit
+. 2017-09-07 11:10:23.981 Script: Exit code: 0
+. 2017-09-07 11:10:23.981 Closing connection.
+. 2017-09-07 11:10:23.981 Sending special code: 12
+. 2017-09-07 11:10:23.981 Sent EOF message
+. 2017-09-07 16:19:49.253 --------------------------------------------------------------------------
+. 2017-09-07 16:19:49.254 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-07 16:19:49.254 Configuration: nul
+. 2017-09-07 16:19:49.254 Log level: Normal
+. 2017-09-07 16:19:49.254 Local account: Beratend-PC\Beratend
+. 2017-09-07 16:19:49.254 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-07 16:19:49.254 Process ID: 8408
+. 2017-09-07 16:19:49.256 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp1EDC.03413980.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_7900_7163798_919
+. 2017-09-07 16:19:49.257 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-07 16:19:49.257 Login time: jueves, 07 de septiembre de 2017 04:19:49 p.m.
+. 2017-09-07 16:19:49.257 --------------------------------------------------------------------------
+. 2017-09-07 16:19:49.257 Script: Retrospectively logging previous script records:
+> 2017-09-07 16:19:49.257 Script: option batch on
+< 2017-09-07 16:19:49.257 Script: batch           on        
+< 2017-09-07 16:19:49.257 Script: reconnecttime   120       
+> 2017-09-07 16:19:49.257 Script: option confirm off
+< 2017-09-07 16:19:49.257 Script: confirm         off       
+> 2017-09-07 16:19:49.257 Script: option reconnecttime 120
+< 2017-09-07 16:19:49.257 Script: reconnecttime   120       
+> 2017-09-07 16:19:49.258 Script: open sftp://SVSAP-Beratend:***@206.123.120.217:22 -hostkey="ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65" -timeout=15
+. 2017-09-07 16:19:49.258 --------------------------------------------------------------------------
+. 2017-09-07 16:19:49.258 Session name: SVSAP-Beratend@206.123.120.217 (Ad-Hoc site)
+. 2017-09-07 16:19:49.258 Host name: 206.123.120.217 (Port: 22)
+. 2017-09-07 16:19:49.258 User name: SVSAP-Beratend (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-07 16:19:49.258 Tunnel: No
+. 2017-09-07 16:19:49.258 Transfer Protocol: SFTP
+. 2017-09-07 16:19:49.258 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-07 16:19:49.258 Disable Nagle: No
+. 2017-09-07 16:19:49.258 Proxy: None
+. 2017-09-07 16:19:49.259 Send buffer: 262144
+. 2017-09-07 16:19:49.259 SSH protocol version: 2; Compression: No
+. 2017-09-07 16:19:49.259 Bypass authentication: No
+. 2017-09-07 16:19:49.259 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2017-09-07 16:19:49.259 GSSAPI: Forwarding: No
+. 2017-09-07 16:19:49.259 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-09-07 16:19:49.259 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2017-09-07 16:19:49.259 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2017-09-07 16:19:49.259 Simple channel: Yes
+. 2017-09-07 16:19:49.259 Return code variable: Autodetect; Lookup user groups: Auto
+. 2017-09-07 16:19:49.259 Shell: default
+. 2017-09-07 16:19:49.259 EOL: LF, UTF: Auto
+. 2017-09-07 16:19:49.259 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2017-09-07 16:19:49.260 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-09-07 16:19:49.260 SFTP Bugs: Auto,Auto
+. 2017-09-07 16:19:49.260 SFTP Server: default
+. 2017-09-07 16:19:49.260 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-07 16:19:49.260 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-07 16:19:49.260 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-07 16:19:49.260 DST mode: Unix
+. 2017-09-07 16:19:49.260 --------------------------------------------------------------------------
+. 2017-09-07 16:19:49.261 Looking up host "206.123.120.217" for SSH connection
+. 2017-09-07 16:19:49.261 Connecting to 206.123.120.217 port 22
+. 2017-09-07 16:19:49.315 We claim version: SSH-2.0-WinSCP_release_5.11
+. 2017-09-07 16:19:49.395 Server version: SSH-2.0-1.09 FlowSsh: WinSSHD 5.23
+. 2017-09-07 16:19:49.395 Using SSH protocol version 2
+. 2017-09-07 16:19:49.396 Have a known host key of type dss
+. 2017-09-07 16:19:49.396 Doing Diffie-Hellman group exchange
+. 2017-09-07 16:19:49.713 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-09-07 16:19:50.450 Host key fingerprint is:
+. 2017-09-07 16:19:50.450 ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 16:19:50.450 Verifying host key dss 0xd513eef003b9f43e 726cfb971a6b08f1 416e57d7d1bc4e20 16632bcaabb2d2ce b858402116219973 0d25852ac45a2828 43dd2cac707efa26 933536c9faa951bb e75db4d81e9abd69 f7ed070865ee8263 20a177623bc3e3ed 8a57d1f04995125a f0df997a71589b4e 188bc614f8c386e8 6dd1a0a930c4cedc 77f24c1614d57765 ,0xcab18134a5197ea8 10010a706a6fe605 186a7d07,0x106dccd060158971 8a97f97de8596975 339ac6c1018080ef 7f088ca4c409968e b0d63b66219f564f 1dffc8a00ef9a2f3 df3063baa851773b 8367c3599df414fb 6e1a1b8b8731e2ef 694a5876473f77d3 1eddf49c32265231 fbc3e2acedc5536d e09478aed478a3a1 5a529a374749b683 34a739a3a0c461d6 dc67584e758e268a ,0x355fac93c6fa9639 bee61ee0fb54fdb2 e802df774357ce19 737e9e9eac4ce2d5 b5f333c3481ea58a 7243153682741ff3 c3cd17459d34fc18 28a12f2f7799feab 191e552e680fb751 43bd4216bd460a7a e75380bdefd5f1b9 8784b4592f091d31 8878328f81604e51 c33956f000b24e30 e96b7e03613c9a83 11296a90e4e7d689  with fingerprint ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 16:19:50.451 Host key matches configured key
+. 2017-09-07 16:19:50.452 Initialised AES-256 SDCTR client->server encryption
+. 2017-09-07 16:19:50.452 Initialised HMAC-SHA1 client->server MAC algorithm
+. 2017-09-07 16:19:50.452 Initialised AES-256 SDCTR server->client encryption
+. 2017-09-07 16:19:50.452 Initialised HMAC-SHA1 server->client MAC algorithm
+! 2017-09-07 16:19:50.799 Using username "SVSAP-Beratend".
+. 2017-09-07 16:19:50.849 Server offered these authentication methods: publickey,gssapi-with-mic,password
+. 2017-09-07 16:19:50.850 Using SSPI from SECUR32.DLL
+. 2017-09-07 16:19:50.850 Attempting GSSAPI authentication
+. 2017-09-07 16:19:50.902 GSSAPI authentication initialisation failed
+. 2017-09-07 16:19:50.902 The target was not recognized.
+. 2017-09-07 16:19:50.903 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-09-07 16:19:50.903 Using stored password.
+. 2017-09-07 16:19:50.903 Sent password
+. 2017-09-07 16:19:51.028 Access granted
+. 2017-09-07 16:19:51.028 Opening session as main channel
+. 2017-09-07 16:19:51.081 Opened main channel
+. 2017-09-07 16:19:51.628 Started a shell/command
+. 2017-09-07 16:19:51.628 --------------------------------------------------------------------------
+. 2017-09-07 16:19:51.629 Using SFTP protocol.
+. 2017-09-07 16:19:51.629 Doing startup conversation with host.
+> 2017-09-07 16:19:51.629 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-09-07 16:19:51.680 Type: SSH_FXP_VERSION, Size: 22, Number: -1
+. 2017-09-07 16:19:51.680 SFTP version 6 negotiated.
+. 2017-09-07 16:19:51.680 Server requests EOL sequence "\r\n".
+. 2017-09-07 16:19:51.680 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+. 2017-09-07 16:19:51.680 Getting current directory name.
+. 2017-09-07 16:19:51.680 Getting real path for '.'
+> 2017-09-07 16:19:51.680 Type: SSH_FXP_REALPATH, Size: 11, Number: 16
+< 2017-09-07 16:19:51.730 Type: SSH_FXP_NAME, Size: 75, Number: 16
+. 2017-09-07 16:19:51.731 Real path is '/'
+. 2017-09-07 16:19:51.731 Startup conversation with host finished.
+< 2017-09-07 16:19:51.731 Script: Active session: [1] SVSAP-Beratend@206.123.120.217
+> 2017-09-07 16:19:52.499 Script: pwd
+< 2017-09-07 16:19:52.499 Script: /
+> 2017-09-07 16:19:52.558 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "/D/Beratend/Pruebas/Facturas/410000001.pdf"
+. 2017-09-07 16:19:52.559 Copying 1 files/directories to remote directory "/D/Beratend/Pruebas/Facturas/" - total size: 38,695
+. 2017-09-07 16:19:52.559   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-07 16:19:52.562   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-07 16:19:52.562   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-07 16:19:52.562 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-07T21:19:44.182Z] [38695]
+. 2017-09-07 16:19:52.563 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-07 16:19:52.563 Binary transfer mode selected.
+. 2017-09-07 16:19:52.563 Opening remote file.
+> 2017-09-07 16:19:52.563 Type: SSH_FXP_OPEN, Size: 72, Number: 259
+< 2017-09-07 16:19:52.623 Type: SSH_FXP_STATUS, Size: 62, Number: 259
+< 2017-09-07 16:19:52.623 Status code: 10, Message: 259, Server: The file path does not exist or is invalid., Language: en 
+> 2017-09-07 16:19:52.623 Type: SSH_FXP_LSTAT, Size: 55, Number: 519
+< 2017-09-07 16:19:52.700 Type: SSH_FXP_STATUS, Size: 62, Number: 519
+< 2017-09-07 16:19:52.700 Status code: 10, Message: 519, Server: The file path does not exist or is invalid., Language: en 
+* 2017-09-07 16:19:52.701 (ETerminal) The file path does not exist or is invalid.
+* 2017-09-07 16:19:52.701 Error code: 10
+* 2017-09-07 16:19:52.701 Error message from server (en): The file path does not exist or is invalid.
+. 2017-09-07 16:19:52.701 Asking user:
+. 2017-09-07 16:19:52.701 Cannot create remote file '/D/Beratend/Pruebas/Facturas/410000001.pdf'. ("The file path does not exist or is invalid.
+. 2017-09-07 16:19:52.701 Error code: 10
+. 2017-09-07 16:19:52.701 Error message from server (en): The file path does not exist or is invalid.")
+< 2017-09-07 16:19:52.701 Script: Cannot create remote file '/D/Beratend/Pruebas/Facturas/410000001.pdf'.
+< 2017-09-07 16:19:52.702 Script: The file path does not exist or is invalid.
+< 2017-09-07 16:19:52.702 Error code: 10
+< 2017-09-07 16:19:52.702 Error message from server (en): The file path does not exist or is invalid.
+* 2017-09-07 16:19:52.704 (EScpSkipFile) Cannot create remote file '/D/Beratend/Pruebas/Facturas/410000001.pdf'.
+* 2017-09-07 16:19:52.704 The file path does not exist or is invalid.
+* 2017-09-07 16:19:52.704 Error code: 10
+* 2017-09-07 16:19:52.704 Error message from server (en): The file path does not exist or is invalid.
+. 2017-09-07 16:19:52.704 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+. 2017-09-07 16:19:52.704 Script: Failed
+> 2017-09-07 16:19:52.765 Script: exit
+. 2017-09-07 16:19:52.765 Script: Exit code: 1
+. 2017-09-07 16:19:52.765 Closing connection.
+. 2017-09-07 16:19:52.765 Sending special code: 12
+. 2017-09-07 16:19:52.765 Sent EOF message
+. 2017-09-07 16:31:58.862 --------------------------------------------------------------------------
+. 2017-09-07 16:31:58.863 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-07 16:31:58.863 Configuration: nul
+. 2017-09-07 16:31:58.863 Log level: Normal
+. 2017-09-07 16:31:58.863 Local account: Beratend-PC\Beratend
+. 2017-09-07 16:31:58.863 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-07 16:31:58.863 Process ID: 2844
+. 2017-09-07 16:31:58.865 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp2104.02A9C795.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_8452_41890696_397
+. 2017-09-07 16:31:58.865 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-07 16:31:58.865 Login time: jueves, 07 de septiembre de 2017 04:31:58 p.m.
+. 2017-09-07 16:31:58.865 --------------------------------------------------------------------------
+. 2017-09-07 16:31:58.865 Script: Retrospectively logging previous script records:
+> 2017-09-07 16:31:58.865 Script: option batch on
+< 2017-09-07 16:31:58.865 Script: batch           on        
+< 2017-09-07 16:31:58.865 Script: reconnecttime   120       
+> 2017-09-07 16:31:58.865 Script: option confirm off
+< 2017-09-07 16:31:58.865 Script: confirm         off       
+> 2017-09-07 16:31:58.865 Script: option reconnecttime 120
+< 2017-09-07 16:31:58.866 Script: reconnecttime   120       
+> 2017-09-07 16:31:58.866 Script: open sftp://SVSAP-Beratend:***@206.123.120.217:22 -hostkey="ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65" -timeout=15
+. 2017-09-07 16:31:58.866 --------------------------------------------------------------------------
+. 2017-09-07 16:31:58.866 Session name: SVSAP-Beratend@206.123.120.217 (Ad-Hoc site)
+. 2017-09-07 16:31:58.866 Host name: 206.123.120.217 (Port: 22)
+. 2017-09-07 16:31:58.866 User name: SVSAP-Beratend (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-07 16:31:58.866 Tunnel: No
+. 2017-09-07 16:31:58.866 Transfer Protocol: SFTP
+. 2017-09-07 16:31:58.866 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-07 16:31:58.866 Disable Nagle: No
+. 2017-09-07 16:31:58.866 Proxy: None
+. 2017-09-07 16:31:58.866 Send buffer: 262144
+. 2017-09-07 16:31:58.866 SSH protocol version: 2; Compression: No
+. 2017-09-07 16:31:58.866 Bypass authentication: No
+. 2017-09-07 16:31:58.866 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2017-09-07 16:31:58.866 GSSAPI: Forwarding: No
+. 2017-09-07 16:31:58.866 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-09-07 16:31:58.866 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2017-09-07 16:31:58.866 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2017-09-07 16:31:58.866 Simple channel: Yes
+. 2017-09-07 16:31:58.867 Return code variable: Autodetect; Lookup user groups: Auto
+. 2017-09-07 16:31:58.867 Shell: default
+. 2017-09-07 16:31:58.867 EOL: LF, UTF: Auto
+. 2017-09-07 16:31:58.867 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2017-09-07 16:31:58.867 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-09-07 16:31:58.867 SFTP Bugs: Auto,Auto
+. 2017-09-07 16:31:58.867 SFTP Server: default
+. 2017-09-07 16:31:58.867 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-07 16:31:58.867 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-07 16:31:58.867 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-07 16:31:58.867 DST mode: Unix
+. 2017-09-07 16:31:58.867 --------------------------------------------------------------------------
+. 2017-09-07 16:31:58.868 Looking up host "206.123.120.217" for SSH connection
+. 2017-09-07 16:31:58.868 Connecting to 206.123.120.217 port 22
+. 2017-09-07 16:31:59.533 We claim version: SSH-2.0-WinSCP_release_5.11
+. 2017-09-07 16:31:59.596 Server version: SSH-2.0-1.09 FlowSsh: WinSSHD 5.23
+. 2017-09-07 16:31:59.596 Using SSH protocol version 2
+. 2017-09-07 16:31:59.597 Have a known host key of type dss
+. 2017-09-07 16:31:59.597 Doing Diffie-Hellman group exchange
+. 2017-09-07 16:31:59.926 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-09-07 16:32:00.443 Host key fingerprint is:
+. 2017-09-07 16:32:00.443 ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 16:32:00.444 Verifying host key dss 0xd513eef003b9f43e 726cfb971a6b08f1 416e57d7d1bc4e20 16632bcaabb2d2ce b858402116219973 0d25852ac45a2828 43dd2cac707efa26 933536c9faa951bb e75db4d81e9abd69 f7ed070865ee8263 20a177623bc3e3ed 8a57d1f04995125a f0df997a71589b4e 188bc614f8c386e8 6dd1a0a930c4cedc 77f24c1614d57765 ,0xcab18134a5197ea8 10010a706a6fe605 186a7d07,0x106dccd060158971 8a97f97de8596975 339ac6c1018080ef 7f088ca4c409968e b0d63b66219f564f 1dffc8a00ef9a2f3 df3063baa851773b 8367c3599df414fb 6e1a1b8b8731e2ef 694a5876473f77d3 1eddf49c32265231 fbc3e2acedc5536d e09478aed478a3a1 5a529a374749b683 34a739a3a0c461d6 dc67584e758e268a ,0x355fac93c6fa9639 bee61ee0fb54fdb2 e802df774357ce19 737e9e9eac4ce2d5 b5f333c3481ea58a 7243153682741ff3 c3cd17459d34fc18 28a12f2f7799feab 191e552e680fb751 43bd4216bd460a7a e75380bdefd5f1b9 8784b4592f091d31 8878328f81604e51 c33956f000b24e30 e96b7e03613c9a83 11296a90e4e7d689  with fingerprint ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 16:32:00.444 Host key matches configured key
+. 2017-09-07 16:32:00.446 Initialised AES-256 SDCTR client->server encryption
+. 2017-09-07 16:32:00.446 Initialised HMAC-SHA1 client->server MAC algorithm
+. 2017-09-07 16:32:00.446 Initialised AES-256 SDCTR server->client encryption
+. 2017-09-07 16:32:00.446 Initialised HMAC-SHA1 server->client MAC algorithm
+! 2017-09-07 16:32:01.186 Using username "SVSAP-Beratend".
+. 2017-09-07 16:32:01.269 Server offered these authentication methods: publickey,gssapi-with-mic,password
+. 2017-09-07 16:32:01.270 Using SSPI from SECUR32.DLL
+. 2017-09-07 16:32:01.270 Attempting GSSAPI authentication
+. 2017-09-07 16:32:01.486 GSSAPI authentication initialisation failed
+. 2017-09-07 16:32:01.486 The target was not recognized.
+. 2017-09-07 16:32:01.486 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-09-07 16:32:01.486 Using stored password.
+. 2017-09-07 16:32:01.508 Sent password
+. 2017-09-07 16:32:04.330 Access granted
+. 2017-09-07 16:32:04.330 Opening session as main channel
+. 2017-09-07 16:32:04.395 Opened main channel
+. 2017-09-07 16:32:04.927 Started a shell/command
+. 2017-09-07 16:32:04.928 --------------------------------------------------------------------------
+. 2017-09-07 16:32:04.928 Using SFTP protocol.
+. 2017-09-07 16:32:04.929 Doing startup conversation with host.
+> 2017-09-07 16:32:04.929 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-09-07 16:32:04.988 Type: SSH_FXP_VERSION, Size: 22, Number: -1
+. 2017-09-07 16:32:04.988 SFTP version 6 negotiated.
+. 2017-09-07 16:32:04.988 Server requests EOL sequence "\r\n".
+. 2017-09-07 16:32:04.988 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+. 2017-09-07 16:32:04.988 Getting current directory name.
+. 2017-09-07 16:32:04.989 Getting real path for '.'
+> 2017-09-07 16:32:04.989 Type: SSH_FXP_REALPATH, Size: 11, Number: 16
+< 2017-09-07 16:32:05.053 Type: SSH_FXP_NAME, Size: 75, Number: 16
+. 2017-09-07 16:32:05.054 Real path is '/'
+. 2017-09-07 16:32:05.054 Startup conversation with host finished.
+< 2017-09-07 16:32:05.054 Script: Active session: [1] SVSAP-Beratend@206.123.120.217
+> 2017-09-07 16:32:05.303 Script: pwd
+< 2017-09-07 16:32:05.303 Script: /
+> 2017-09-07 16:32:05.366 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "/Pruebas/Facturas/410000001.pdf"
+. 2017-09-07 16:32:05.368 Copying 1 files/directories to remote directory "/Pruebas/Facturas/" - total size: 38,695
+. 2017-09-07 16:32:05.368   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-07 16:32:05.368   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-07 16:32:05.368   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-07 16:32:05.369 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-07T21:31:54.278Z] [38695]
+. 2017-09-07 16:32:05.369 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-07 16:32:05.369 Binary transfer mode selected.
+. 2017-09-07 16:32:05.370 Opening remote file.
+> 2017-09-07 16:32:05.370 Type: SSH_FXP_OPEN, Size: 61, Number: 259
+< 2017-09-07 16:32:05.443 Type: SSH_FXP_HANDLE, Size: 11, Number: 259
+> 2017-09-07 16:32:05.443 Type: SSH_FXP_WRITE, Size: 32791, Number: 774
+. 2017-09-07 16:32:05.448 1 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2017-09-07 16:32:05.448 Type: SSH_FXP_CLOSE, Size: 11, Number: 1284
+< 2017-09-07 16:32:05.724 Type: SSH_FXP_STATUS, Size: 56, Number: 774
+< 2017-09-07 16:32:05.724 Status code: 0
+< 2017-09-07 16:32:05.725 Type: SSH_FXP_STATUS, Size: 56, Number: 1030
+< 2017-09-07 16:32:05.725 Status code: 0
+< 2017-09-07 16:32:05.725 Type: SSH_FXP_STATUS, Size: 56, Number: 1284
+< 2017-09-07 16:32:05.725 Status code: 0
+. 2017-09-07 16:32:05.725 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/Pruebas/Facturas/410000001.pdf' [38695]
+. 2017-09-07 16:32:05.725 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 21,092/s
+> 2017-09-07 16:32:06.137 Script: exit
+. 2017-09-07 16:32:06.137 Script: Exit code: 0
+. 2017-09-07 16:32:06.137 Closing connection.
+. 2017-09-07 16:32:06.139 Sending special code: 12
+. 2017-09-07 16:32:06.139 Sent EOF message
+. 2017-09-07 16:51:12.714 --------------------------------------------------------------------------
+. 2017-09-07 16:51:12.714 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-07 16:51:12.715 Configuration: nul
+. 2017-09-07 16:51:12.715 Log level: Normal
+. 2017-09-07 16:51:12.715 Local account: Beratend-PC\Beratend
+. 2017-09-07 16:51:12.715 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-07 16:51:12.715 Process ID: 6948
+. 2017-09-07 16:51:12.716 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp1E34.0390B806.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_7732_45300015_951
+. 2017-09-07 16:51:12.717 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-07 16:51:12.717 Login time: jueves, 07 de septiembre de 2017 04:51:12 p.m.
+. 2017-09-07 16:51:12.717 --------------------------------------------------------------------------
+. 2017-09-07 16:51:12.717 Script: Retrospectively logging previous script records:
+> 2017-09-07 16:51:12.717 Script: option batch on
+< 2017-09-07 16:51:12.717 Script: batch           on        
+< 2017-09-07 16:51:12.717 Script: reconnecttime   120       
+> 2017-09-07 16:51:12.717 Script: option confirm off
+< 2017-09-07 16:51:12.717 Script: confirm         off       
+> 2017-09-07 16:51:12.717 Script: option reconnecttime 120
+< 2017-09-07 16:51:12.717 Script: reconnecttime   120       
+> 2017-09-07 16:51:12.717 Script: open sftp://SVSAP-Beratend:***@206.123.120.217:22 -hostkey="ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65" -timeout=15
+. 2017-09-07 16:51:12.717 --------------------------------------------------------------------------
+. 2017-09-07 16:51:12.717 Session name: SVSAP-Beratend@206.123.120.217 (Ad-Hoc site)
+. 2017-09-07 16:51:12.717 Host name: 206.123.120.217 (Port: 22)
+. 2017-09-07 16:51:12.718 User name: SVSAP-Beratend (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-07 16:51:12.718 Tunnel: No
+. 2017-09-07 16:51:12.718 Transfer Protocol: SFTP
+. 2017-09-07 16:51:12.718 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-07 16:51:12.718 Disable Nagle: No
+. 2017-09-07 16:51:12.718 Proxy: None
+. 2017-09-07 16:51:12.718 Send buffer: 262144
+. 2017-09-07 16:51:12.718 SSH protocol version: 2; Compression: No
+. 2017-09-07 16:51:12.718 Bypass authentication: No
+. 2017-09-07 16:51:12.718 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2017-09-07 16:51:12.718 GSSAPI: Forwarding: No
+. 2017-09-07 16:51:12.718 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-09-07 16:51:12.718 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2017-09-07 16:51:12.718 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2017-09-07 16:51:12.718 Simple channel: Yes
+. 2017-09-07 16:51:12.718 Return code variable: Autodetect; Lookup user groups: Auto
+. 2017-09-07 16:51:12.718 Shell: default
+. 2017-09-07 16:51:12.718 EOL: LF, UTF: Auto
+. 2017-09-07 16:51:12.718 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2017-09-07 16:51:12.718 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-09-07 16:51:12.718 SFTP Bugs: Auto,Auto
+. 2017-09-07 16:51:12.718 SFTP Server: default
+. 2017-09-07 16:51:12.718 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-07 16:51:12.719 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-07 16:51:12.719 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-07 16:51:12.719 DST mode: Unix
+. 2017-09-07 16:51:12.719 --------------------------------------------------------------------------
+. 2017-09-07 16:51:12.719 Looking up host "206.123.120.217" for SSH connection
+. 2017-09-07 16:51:12.720 Connecting to 206.123.120.217 port 22
+. 2017-09-07 16:51:13.563 We claim version: SSH-2.0-WinSCP_release_5.11
+. 2017-09-07 16:51:13.862 Server version: SSH-2.0-1.09 FlowSsh: WinSSHD 5.23
+. 2017-09-07 16:51:13.862 Using SSH protocol version 2
+. 2017-09-07 16:51:13.863 Have a known host key of type dss
+. 2017-09-07 16:51:13.863 Doing Diffie-Hellman group exchange
+. 2017-09-07 16:51:14.316 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-09-07 16:51:15.205 Host key fingerprint is:
+. 2017-09-07 16:51:15.205 ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 16:51:15.206 Verifying host key dss 0xd513eef003b9f43e 726cfb971a6b08f1 416e57d7d1bc4e20 16632bcaabb2d2ce b858402116219973 0d25852ac45a2828 43dd2cac707efa26 933536c9faa951bb e75db4d81e9abd69 f7ed070865ee8263 20a177623bc3e3ed 8a57d1f04995125a f0df997a71589b4e 188bc614f8c386e8 6dd1a0a930c4cedc 77f24c1614d57765 ,0xcab18134a5197ea8 10010a706a6fe605 186a7d07,0x106dccd060158971 8a97f97de8596975 339ac6c1018080ef 7f088ca4c409968e b0d63b66219f564f 1dffc8a00ef9a2f3 df3063baa851773b 8367c3599df414fb 6e1a1b8b8731e2ef 694a5876473f77d3 1eddf49c32265231 fbc3e2acedc5536d e09478aed478a3a1 5a529a374749b683 34a739a3a0c461d6 dc67584e758e268a ,0x355fac93c6fa9639 bee61ee0fb54fdb2 e802df774357ce19 737e9e9eac4ce2d5 b5f333c3481ea58a 7243153682741ff3 c3cd17459d34fc18 28a12f2f7799feab 191e552e680fb751 43bd4216bd460a7a e75380bdefd5f1b9 8784b4592f091d31 8878328f81604e51 c33956f000b24e30 e96b7e03613c9a83 11296a90e4e7d689  with fingerprint ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 16:51:15.206 Host key matches configured key
+. 2017-09-07 16:51:15.208 Initialised AES-256 SDCTR client->server encryption
+. 2017-09-07 16:51:15.208 Initialised HMAC-SHA1 client->server MAC algorithm
+. 2017-09-07 16:51:15.208 Initialised AES-256 SDCTR server->client encryption
+. 2017-09-07 16:51:15.208 Initialised HMAC-SHA1 server->client MAC algorithm
+! 2017-09-07 16:51:15.654 Using username "SVSAP-Beratend".
+. 2017-09-07 16:51:15.776 Server offered these authentication methods: publickey,gssapi-with-mic,password
+. 2017-09-07 16:51:15.777 Using SSPI from SECUR32.DLL
+. 2017-09-07 16:51:15.777 Attempting GSSAPI authentication
+. 2017-09-07 16:51:16.498 GSSAPI authentication initialisation failed
+. 2017-09-07 16:51:16.498 The target was not recognized.
+. 2017-09-07 16:51:16.498 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-09-07 16:51:16.498 Using stored password.
+. 2017-09-07 16:51:16.499 Sent password
+. 2017-09-07 16:51:17.748 Access granted
+. 2017-09-07 16:51:17.748 Opening session as main channel
+. 2017-09-07 16:51:18.807 Opened main channel
+. 2017-09-07 16:51:20.360 Started a shell/command
+. 2017-09-07 16:51:20.361 --------------------------------------------------------------------------
+. 2017-09-07 16:51:20.361 Using SFTP protocol.
+. 2017-09-07 16:51:20.361 Doing startup conversation with host.
+> 2017-09-07 16:51:20.361 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-09-07 16:51:23.045 Type: SSH_FXP_VERSION, Size: 22, Number: -1
+. 2017-09-07 16:51:23.045 SFTP version 6 negotiated.
+. 2017-09-07 16:51:23.045 Server requests EOL sequence "\r\n".
+. 2017-09-07 16:51:23.045 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+. 2017-09-07 16:51:23.045 Getting current directory name.
+. 2017-09-07 16:51:23.045 Getting real path for '.'
+> 2017-09-07 16:51:23.045 Type: SSH_FXP_REALPATH, Size: 11, Number: 16
+< 2017-09-07 16:51:24.047 Type: SSH_FXP_NAME, Size: 75, Number: 16
+. 2017-09-07 16:51:24.047 Real path is '/'
+. 2017-09-07 16:51:24.047 Startup conversation with host finished.
+< 2017-09-07 16:51:24.047 Script: Active session: [1] SVSAP-Beratend@206.123.120.217
+> 2017-09-07 16:51:24.770 Script: pwd
+< 2017-09-07 16:51:24.770 Script: /
+> 2017-09-07 16:51:24.833 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-07 16:51:24.835 Copying 1 files/directories to remote directory "/PRUEBAS/FACTURAS/" - total size: 38,695
+. 2017-09-07 16:51:24.835   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-07 16:51:24.835   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-07 16:51:24.835   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-07 16:51:24.835 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-07T21:51:04.727Z] [38695]
+. 2017-09-07 16:51:24.836 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-07 16:51:24.837 Binary transfer mode selected.
+. 2017-09-07 16:51:24.837 Opening remote file.
+> 2017-09-07 16:51:24.837 Type: SSH_FXP_OPEN, Size: 61, Number: 259
+< 2017-09-07 16:51:24.949 Type: SSH_FXP_HANDLE, Size: 11, Number: 259
+> 2017-09-07 16:51:24.949 Type: SSH_FXP_WRITE, Size: 32791, Number: 774
+. 2017-09-07 16:51:24.953 1 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2017-09-07 16:51:24.953 Type: SSH_FXP_CLOSE, Size: 11, Number: 1284
+< 2017-09-07 16:51:28.185 Type: SSH_FXP_STATUS, Size: 56, Number: 774
+< 2017-09-07 16:51:28.185 Status code: 0
+< 2017-09-07 16:51:28.365 Type: SSH_FXP_STATUS, Size: 56, Number: 1030
+< 2017-09-07 16:51:28.365 Status code: 0
+< 2017-09-07 16:51:28.365 Type: SSH_FXP_STATUS, Size: 56, Number: 1284
+< 2017-09-07 16:51:28.365 Status code: 0
+. 2017-09-07 16:51:28.365 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/PRUEBAS/FACTURAS/410000001.pdf' [38695]
+. 2017-09-07 16:51:28.366 Copying finished: Transferred: 38,695, Elapsed: 0:00:03, CPS: 1,734/s
+> 2017-09-07 16:51:28.846 Script: exit
+. 2017-09-07 16:51:28.847 Script: Exit code: 0
+. 2017-09-07 16:51:28.847 Closing connection.
+. 2017-09-07 16:51:28.847 Sending special code: 12
+. 2017-09-07 16:51:28.847 Sent EOF message
+. 2017-09-07 20:57:31.243 --------------------------------------------------------------------------
+. 2017-09-07 20:57:31.243 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-07 20:57:31.244 Configuration: nul
+. 2017-09-07 20:57:31.244 Log level: Normal
+. 2017-09-07 20:57:31.244 Local account: Beratend-PC\Beratend
+. 2017-09-07 20:57:31.244 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-07 20:57:31.244 Process ID: 4824
+. 2017-09-07 20:57:31.246 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp02A8.00592C55.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_680_30784216_372
+. 2017-09-07 20:57:31.246 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-07 20:57:31.246 Login time: jueves, 07 de septiembre de 2017 08:57:31 p.m.
+. 2017-09-07 20:57:31.246 --------------------------------------------------------------------------
+. 2017-09-07 20:57:31.246 Script: Retrospectively logging previous script records:
+> 2017-09-07 20:57:31.246 Script: option batch on
+< 2017-09-07 20:57:31.246 Script: batch           on        
+< 2017-09-07 20:57:31.246 Script: reconnecttime   120       
+> 2017-09-07 20:57:31.246 Script: option confirm off
+< 2017-09-07 20:57:31.246 Script: confirm         off       
+> 2017-09-07 20:57:31.246 Script: option reconnecttime 120
+< 2017-09-07 20:57:31.246 Script: reconnecttime   120       
+> 2017-09-07 20:57:31.246 Script: open sftp://SVSAP-Beratend:***@206.123.120.217:22 -hostkey="ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65" -timeout=15
+. 2017-09-07 20:57:31.247 --------------------------------------------------------------------------
+. 2017-09-07 20:57:31.247 Session name: SVSAP-Beratend@206.123.120.217 (Ad-Hoc site)
+. 2017-09-07 20:57:31.247 Host name: 206.123.120.217 (Port: 22)
+. 2017-09-07 20:57:31.247 User name: SVSAP-Beratend (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-07 20:57:31.247 Tunnel: No
+. 2017-09-07 20:57:31.247 Transfer Protocol: SFTP
+. 2017-09-07 20:57:31.247 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-07 20:57:31.247 Disable Nagle: No
+. 2017-09-07 20:57:31.247 Proxy: None
+. 2017-09-07 20:57:31.247 Send buffer: 262144
+. 2017-09-07 20:57:31.247 SSH protocol version: 2; Compression: No
+. 2017-09-07 20:57:31.247 Bypass authentication: No
+. 2017-09-07 20:57:31.247 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2017-09-07 20:57:31.247 GSSAPI: Forwarding: No
+. 2017-09-07 20:57:31.247 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-09-07 20:57:31.247 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2017-09-07 20:57:31.247 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2017-09-07 20:57:31.247 Simple channel: Yes
+. 2017-09-07 20:57:31.247 Return code variable: Autodetect; Lookup user groups: Auto
+. 2017-09-07 20:57:31.247 Shell: default
+. 2017-09-07 20:57:31.248 EOL: LF, UTF: Auto
+. 2017-09-07 20:57:31.248 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2017-09-07 20:57:31.248 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-09-07 20:57:31.248 SFTP Bugs: Auto,Auto
+. 2017-09-07 20:57:31.248 SFTP Server: default
+. 2017-09-07 20:57:31.248 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-07 20:57:31.248 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-07 20:57:31.248 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-07 20:57:31.248 DST mode: Unix
+. 2017-09-07 20:57:31.248 --------------------------------------------------------------------------
+. 2017-09-07 20:57:31.249 Looking up host "206.123.120.217" for SSH connection
+. 2017-09-07 20:57:31.249 Connecting to 206.123.120.217 port 22
+. 2017-09-07 20:57:31.301 We claim version: SSH-2.0-WinSCP_release_5.11
+. 2017-09-07 20:57:31.354 Server version: SSH-2.0-1.09 FlowSsh: WinSSHD 5.23
+. 2017-09-07 20:57:31.354 Using SSH protocol version 2
+. 2017-09-07 20:57:31.355 Have a known host key of type dss
+. 2017-09-07 20:57:31.356 Doing Diffie-Hellman group exchange
+. 2017-09-07 20:57:31.658 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-09-07 20:57:32.143 Host key fingerprint is:
+. 2017-09-07 20:57:32.143 ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 20:57:32.143 Verifying host key dss 0xd513eef003b9f43e 726cfb971a6b08f1 416e57d7d1bc4e20 16632bcaabb2d2ce b858402116219973 0d25852ac45a2828 43dd2cac707efa26 933536c9faa951bb e75db4d81e9abd69 f7ed070865ee8263 20a177623bc3e3ed 8a57d1f04995125a f0df997a71589b4e 188bc614f8c386e8 6dd1a0a930c4cedc 77f24c1614d57765 ,0xcab18134a5197ea8 10010a706a6fe605 186a7d07,0x106dccd060158971 8a97f97de8596975 339ac6c1018080ef 7f088ca4c409968e b0d63b66219f564f 1dffc8a00ef9a2f3 df3063baa851773b 8367c3599df414fb 6e1a1b8b8731e2ef 694a5876473f77d3 1eddf49c32265231 fbc3e2acedc5536d e09478aed478a3a1 5a529a374749b683 34a739a3a0c461d6 dc67584e758e268a ,0x355fac93c6fa9639 bee61ee0fb54fdb2 e802df774357ce19 737e9e9eac4ce2d5 b5f333c3481ea58a 7243153682741ff3 c3cd17459d34fc18 28a12f2f7799feab 191e552e680fb751 43bd4216bd460a7a e75380bdefd5f1b9 8784b4592f091d31 8878328f81604e51 c33956f000b24e30 e96b7e03613c9a83 11296a90e4e7d689  with fingerprint ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-07 20:57:32.144 Host key matches configured key
+. 2017-09-07 20:57:32.145 Initialised AES-256 SDCTR client->server encryption
+. 2017-09-07 20:57:32.145 Initialised HMAC-SHA1 client->server MAC algorithm
+. 2017-09-07 20:57:32.145 Initialised AES-256 SDCTR server->client encryption
+. 2017-09-07 20:57:32.145 Initialised HMAC-SHA1 server->client MAC algorithm
+! 2017-09-07 20:57:32.455 Using username "SVSAP-Beratend".
+. 2017-09-07 20:57:32.509 Server offered these authentication methods: publickey,gssapi-with-mic,password
+. 2017-09-07 20:57:32.509 Using SSPI from SECUR32.DLL
+. 2017-09-07 20:57:32.509 Attempting GSSAPI authentication
+. 2017-09-07 20:57:32.563 GSSAPI authentication initialisation failed
+. 2017-09-07 20:57:32.563 The target was not recognized.
+. 2017-09-07 20:57:32.563 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-09-07 20:57:32.563 Using stored password.
+. 2017-09-07 20:57:32.564 Sent password
+. 2017-09-07 20:57:32.687 Access granted
+. 2017-09-07 20:57:32.687 Opening session as main channel
+. 2017-09-07 20:57:32.742 Opened main channel
+. 2017-09-07 20:57:33.273 Started a shell/command
+. 2017-09-07 20:57:33.274 --------------------------------------------------------------------------
+. 2017-09-07 20:57:33.274 Using SFTP protocol.
+. 2017-09-07 20:57:33.274 Doing startup conversation with host.
+> 2017-09-07 20:57:33.274 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-09-07 20:57:33.325 Type: SSH_FXP_VERSION, Size: 22, Number: -1
+. 2017-09-07 20:57:33.325 SFTP version 6 negotiated.
+. 2017-09-07 20:57:33.325 Server requests EOL sequence "\r\n".
+. 2017-09-07 20:57:33.325 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+. 2017-09-07 20:57:33.325 Getting current directory name.
+. 2017-09-07 20:57:33.325 Getting real path for '.'
+> 2017-09-07 20:57:33.325 Type: SSH_FXP_REALPATH, Size: 11, Number: 16
+< 2017-09-07 20:57:33.375 Type: SSH_FXP_NAME, Size: 75, Number: 16
+. 2017-09-07 20:57:33.376 Real path is '/'
+. 2017-09-07 20:57:33.376 Startup conversation with host finished.
+< 2017-09-07 20:57:33.376 Script: Active session: [1] SVSAP-Beratend@206.123.120.217
+> 2017-09-07 20:57:33.670 Script: pwd
+< 2017-09-07 20:57:33.671 Script: /
+> 2017-09-07 20:57:33.730 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf" "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-07 20:57:33.731 Copying 1 files/directories to remote directory "/PRUEBAS/FACTURAS/" - total size: 38,695
+. 2017-09-07 20:57:33.731   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-07 20:57:33.732   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-07 20:57:33.732   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-07 20:57:33.732 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf' [2017-09-08T01:56:46.567Z] [38695]
+. 2017-09-07 20:57:33.732 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf" to remote directory started.
+. 2017-09-07 20:57:33.733 Binary transfer mode selected.
+. 2017-09-07 20:57:33.733 Opening remote file.
+> 2017-09-07 20:57:33.733 Type: SSH_FXP_OPEN, Size: 61, Number: 259
+< 2017-09-07 20:57:33.786 Type: SSH_FXP_HANDLE, Size: 11, Number: 259
+> 2017-09-07 20:57:33.786 Type: SSH_FXP_WRITE, Size: 32791, Number: 774
+. 2017-09-07 20:57:33.790 1 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2017-09-07 20:57:33.790 Type: SSH_FXP_CLOSE, Size: 11, Number: 1284
+< 2017-09-07 20:57:34.031 Type: SSH_FXP_STATUS, Size: 56, Number: 774
+< 2017-09-07 20:57:34.031 Status code: 0
+< 2017-09-07 20:57:34.032 Type: SSH_FXP_STATUS, Size: 56, Number: 1030
+< 2017-09-07 20:57:34.032 Status code: 0
+< 2017-09-07 20:57:34.032 Type: SSH_FXP_STATUS, Size: 56, Number: 1284
+< 2017-09-07 20:57:34.032 Status code: 0
+. 2017-09-07 20:57:34.032 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf' => '/PRUEBAS/FACTURAS/410000001.pdf' [38695]
+. 2017-09-07 20:57:34.033 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 23,708/s
+> 2017-09-07 20:57:34.093 Script: exit
+. 2017-09-07 20:57:34.093 Script: Exit code: 0
+. 2017-09-07 20:57:34.093 Closing connection.
+. 2017-09-07 20:57:34.093 Sending special code: 12
+. 2017-09-07 20:57:34.094 Sent EOF message
+. 2017-09-08 01:53:50.612 --------------------------------------------------------------------------
+. 2017-09-08 01:53:50.623 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-08 01:53:50.624 Configuration: nul
+. 2017-09-08 01:53:50.624 Log level: Normal
+. 2017-09-08 01:53:50.624 Local account: Beratend-PC\Beratend
+. 2017-09-08 01:53:50.624 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-08 01:53:50.624 Process ID: 3840
+. 2017-09-08 01:53:50.625 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp1484.02731B48.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_5252_538839_723
+. 2017-09-08 01:53:50.625 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-08 01:53:50.626 Login time: viernes, 08 de septiembre de 2017 01:53:50 a.m.
+. 2017-09-08 01:53:50.626 --------------------------------------------------------------------------
+. 2017-09-08 01:53:50.626 Script: Retrospectively logging previous script records:
+> 2017-09-08 01:53:50.626 Script: option batch on
+< 2017-09-08 01:53:50.626 Script: batch           on        
+< 2017-09-08 01:53:50.626 Script: reconnecttime   120       
+> 2017-09-08 01:53:50.626 Script: option confirm off
+< 2017-09-08 01:53:50.626 Script: confirm         off       
+> 2017-09-08 01:53:50.626 Script: option reconnecttime 120
+< 2017-09-08 01:53:50.626 Script: reconnecttime   120       
+> 2017-09-08 01:53:50.626 Script: open ftp://Guadalupe:***@192.168.1.68:21 -passive=1 -timeout=15
+. 2017-09-08 01:53:50.626 --------------------------------------------------------------------------
+. 2017-09-08 01:53:50.626 Session name: Guadalupe@192.168.1.68 (Ad-Hoc site)
+. 2017-09-08 01:53:50.626 Host name: 192.168.1.68 (Port: 21)
+. 2017-09-08 01:53:50.626 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-08 01:53:50.626 Transfer Protocol: FTP
+. 2017-09-08 01:53:50.626 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-08 01:53:50.626 Disable Nagle: No
+. 2017-09-08 01:53:50.626 Proxy: None
+. 2017-09-08 01:53:50.626 Send buffer: 262144
+. 2017-09-08 01:53:50.626 UTF: Auto
+. 2017-09-08 01:53:50.626 FTPS: None [Client certificate: No]
+. 2017-09-08 01:53:50.626 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-08 01:53:50.626 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-08 01:53:50.626 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-08 01:53:50.626 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-08 01:53:50.626 Timezone offset: 0h 0m
+. 2017-09-08 01:53:50.626 --------------------------------------------------------------------------
+. 2017-09-08 01:53:50.697 Connecting to 192.168.1.68 ...
+. 2017-09-08 01:53:50.697 Connected with 192.168.1.68. Waiting for welcome message...
+< 2017-09-08 01:53:50.697 220-FileZilla Server 0.9.60 beta
+< 2017-09-08 01:53:50.697 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-08 01:53:50.697 220 Please visit https://filezilla-project.org/
+> 2017-09-08 01:53:50.697 USER Guadalupe
+< 2017-09-08 01:53:50.697 331 Password required for guadalupe
+> 2017-09-08 01:53:50.697 PASS *********
+< 2017-09-08 01:53:50.698 530 Login or password incorrect!
+. 2017-09-08 01:53:50.698 Connection failed.
+. 2017-09-08 01:53:50.712 Password prompt (last login attempt failed)
+. 2017-09-08 01:57:17.077 --------------------------------------------------------------------------
+. 2017-09-08 01:57:17.077 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-08 01:57:17.078 Configuration: nul
+. 2017-09-08 01:57:17.078 Log level: Normal
+. 2017-09-08 01:57:17.078 Local account: Beratend-PC\Beratend
+. 2017-09-08 01:57:17.078 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-08 01:57:17.078 Process ID: 11156
+. 2017-09-08 01:57:17.079 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp1484.02B25AB9.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_5252_2317673_659
+. 2017-09-08 01:57:17.080 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-08 01:57:17.080 Login time: viernes, 08 de septiembre de 2017 01:57:17 a.m.
+. 2017-09-08 01:57:17.080 --------------------------------------------------------------------------
+. 2017-09-08 01:57:17.080 Script: Retrospectively logging previous script records:
+> 2017-09-08 01:57:17.080 Script: option batch on
+< 2017-09-08 01:57:17.080 Script: batch           on        
+< 2017-09-08 01:57:17.080 Script: reconnecttime   120       
+> 2017-09-08 01:57:17.080 Script: option confirm off
+< 2017-09-08 01:57:17.080 Script: confirm         off       
+> 2017-09-08 01:57:17.080 Script: option reconnecttime 120
+< 2017-09-08 01:57:17.080 Script: reconnecttime   120       
+> 2017-09-08 01:57:17.080 Script: open ftp://Guadalupe:***@192.168.1.68:21 -passive=1 -timeout=15
+. 2017-09-08 01:57:17.080 --------------------------------------------------------------------------
+. 2017-09-08 01:57:17.080 Session name: Guadalupe@192.168.1.68 (Ad-Hoc site)
+. 2017-09-08 01:57:17.080 Host name: 192.168.1.68 (Port: 21)
+. 2017-09-08 01:57:17.081 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-08 01:57:17.081 Transfer Protocol: FTP
+. 2017-09-08 01:57:17.081 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-08 01:57:17.081 Disable Nagle: No
+. 2017-09-08 01:57:17.081 Proxy: None
+. 2017-09-08 01:57:17.081 Send buffer: 262144
+. 2017-09-08 01:57:17.081 UTF: Auto
+. 2017-09-08 01:57:17.081 FTPS: None [Client certificate: No]
+. 2017-09-08 01:57:17.081 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-08 01:57:17.081 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-08 01:57:17.081 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-08 01:57:17.081 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-08 01:57:17.081 Timezone offset: 0h 0m
+. 2017-09-08 01:57:17.081 --------------------------------------------------------------------------
+. 2017-09-08 01:57:17.085 Connecting to 192.168.1.68 ...
+. 2017-09-08 01:57:17.086 Connected with 192.168.1.68. Waiting for welcome message...
+< 2017-09-08 01:57:17.088 220-FileZilla Server 0.9.60 beta
+< 2017-09-08 01:57:17.088 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-08 01:57:17.088 220 Please visit https://filezilla-project.org/
+> 2017-09-08 01:57:17.088 USER Guadalupe
+< 2017-09-08 01:57:17.089 331 Password required for guadalupe
+> 2017-09-08 01:57:17.089 PASS *********
+< 2017-09-08 01:57:17.089 230 Logged on
+> 2017-09-08 01:57:17.089 SYST
+< 2017-09-08 01:57:17.090 215 UNIX emulated by FileZilla
+> 2017-09-08 01:57:17.090 FEAT
+< 2017-09-08 01:57:17.091 211-Features:
+< 2017-09-08 01:57:17.091  MDTM
+< 2017-09-08 01:57:17.091  REST STREAM
+< 2017-09-08 01:57:17.091  SIZE
+< 2017-09-08 01:57:17.092  MLST type*;size*;modify*;
+< 2017-09-08 01:57:17.093  MLSD
+< 2017-09-08 01:57:17.093  UTF8
+< 2017-09-08 01:57:17.093  CLNT
+< 2017-09-08 01:57:17.093  MFMT
+< 2017-09-08 01:57:17.093  EPSV
+< 2017-09-08 01:57:17.093  EPRT
+< 2017-09-08 01:57:17.093 211 End
+> 2017-09-08 01:57:17.093 CLNT WinSCP-release-5.11
+< 2017-09-08 01:57:17.094 200 Don't care
+> 2017-09-08 01:57:17.094 OPTS UTF8 ON
+< 2017-09-08 01:57:17.096 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-08 01:57:17.097 Connected
+. 2017-09-08 01:57:17.097 --------------------------------------------------------------------------
+. 2017-09-08 01:57:17.097 Using FTP protocol.
+. 2017-09-08 01:57:17.098 Doing startup conversation with host.
+> 2017-09-08 01:57:17.098 PWD
+< 2017-09-08 01:57:17.099 257 "/" is current directory.
+. 2017-09-08 01:57:17.099 Getting current directory name.
+. 2017-09-08 01:57:17.099 Startup conversation with host finished.
+< 2017-09-08 01:57:17.099 Script: Active session: [1] Guadalupe@192.168.1.68
+> 2017-09-08 01:57:17.149 Script: pwd
+< 2017-09-08 01:57:17.149 Script: /
+> 2017-09-08 01:57:20.500 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf" "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-08 01:57:20.501 Copying 1 files/directories to remote directory "/PRUEBAS/FACTURAS/" - total size: 38,695
+. 2017-09-08 01:57:20.501   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-08 01:57:20.501   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-08 01:57:20.501   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-08 01:57:20.502 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf' [2017-09-08T06:57:02.633Z] [38695]
+. 2017-09-08 01:57:20.502 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf" to remote directory started.
+. 2017-09-08 01:57:20.502 Binary transfer mode selected.
+. 2017-09-08 01:57:20.503 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf
+> 2017-09-08 01:57:20.503 CWD /PRUEBAS/FACTURAS
+< 2017-09-08 01:57:20.505 550 CWD failed. "/PRUEBAS/FACTURAS": directory not found.
+> 2017-09-08 01:57:20.505 CWD /PRUEBAS
+< 2017-09-08 01:57:20.506 550 CWD failed. "/PRUEBAS": directory not found.
+> 2017-09-08 01:57:20.506 CWD /
+< 2017-09-08 01:57:20.506 250 CWD successful. "/" is current directory.
+> 2017-09-08 01:57:20.507 MKD PRUEBAS
+< 2017-09-08 01:57:20.536 257 "/PRUEBAS" created successfully
+> 2017-09-08 01:57:20.536 CWD /PRUEBAS
+< 2017-09-08 01:57:20.537 250 CWD successful. "/PRUEBAS" is current directory.
+> 2017-09-08 01:57:20.537 MKD FACTURAS
+< 2017-09-08 01:57:20.538 257 "/PRUEBAS/FACTURAS" created successfully
+> 2017-09-08 01:57:20.539 CWD /PRUEBAS/FACTURAS
+< 2017-09-08 01:57:20.539 250 CWD successful. "/PRUEBAS/FACTURAS" is current directory.
+> 2017-09-08 01:57:20.539 PWD
+< 2017-09-08 01:57:20.540 257 "/PRUEBAS/FACTURAS" is current directory.
+> 2017-09-08 01:57:20.540 TYPE I
+< 2017-09-08 01:57:20.540 200 Type set to I
+> 2017-09-08 01:57:20.541 PASV
+< 2017-09-08 01:57:20.541 227 Entering Passive Mode (192,168,1,68,226,34)
+> 2017-09-08 01:57:20.542 STOR 410000001.pdf
+. 2017-09-08 01:57:20.542 Connecting to 192.168.1.68:57890 ...
+< 2017-09-08 01:57:20.546 150 Opening data channel for file upload to server of "/PRUEBAS/FACTURAS/410000001.pdf"
+< 2017-09-08 01:57:20.655 226 Successfully transferred "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-08 01:57:20.655 Upload successful
+. 2017-09-08 01:57:20.656 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf' => '/PRUEBAS/FACTURAS/410000001.pdf' [38695]
+. 2017-09-08 01:57:20.656 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 204,688/s
+> 2017-09-08 01:57:21.862 Script: exit
+. 2017-09-08 01:57:21.863 Script: Exit code: 0
+. 2017-09-08 01:57:21.871 Disconnected from server
+. 2017-09-08 01:59:53.775 --------------------------------------------------------------------------
+. 2017-09-08 01:59:53.775 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-08 01:59:53.775 Configuration: nul
+. 2017-09-08 01:59:53.775 Log level: Normal
+. 2017-09-08 01:59:53.775 Local account: Beratend-PC\Beratend
+. 2017-09-08 01:59:53.775 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-08 01:59:53.775 Process ID: 4032
+. 2017-09-08 01:59:53.776 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp23E0.02A16D79.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_9184_39861849_664
+. 2017-09-08 01:59:53.776 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-08 01:59:53.776 Login time: viernes, 08 de septiembre de 2017 01:59:53 a.m.
+. 2017-09-08 01:59:53.776 --------------------------------------------------------------------------
+. 2017-09-08 01:59:53.776 Script: Retrospectively logging previous script records:
+> 2017-09-08 01:59:53.776 Script: option batch on
+< 2017-09-08 01:59:53.776 Script: batch           on        
+< 2017-09-08 01:59:53.776 Script: reconnecttime   120       
+> 2017-09-08 01:59:53.776 Script: option confirm off
+< 2017-09-08 01:59:53.776 Script: confirm         off       
+> 2017-09-08 01:59:53.776 Script: option reconnecttime 120
+< 2017-09-08 01:59:53.776 Script: reconnecttime   120       
+> 2017-09-08 01:59:53.776 Script: open ftp://Guadalupe:***@192.168.1.68:21 -passive=1 -timeout=15
+. 2017-09-08 01:59:53.776 --------------------------------------------------------------------------
+. 2017-09-08 01:59:53.776 Session name: Guadalupe@192.168.1.68 (Ad-Hoc site)
+. 2017-09-08 01:59:53.776 Host name: 192.168.1.68 (Port: 21)
+. 2017-09-08 01:59:53.777 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-08 01:59:53.777 Transfer Protocol: FTP
+. 2017-09-08 01:59:53.777 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-08 01:59:53.777 Disable Nagle: No
+. 2017-09-08 01:59:53.777 Proxy: None
+. 2017-09-08 01:59:53.777 Send buffer: 262144
+. 2017-09-08 01:59:53.777 UTF: Auto
+. 2017-09-08 01:59:53.777 FTPS: None [Client certificate: No]
+. 2017-09-08 01:59:53.777 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-08 01:59:53.777 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-08 01:59:53.777 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-08 01:59:53.777 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-08 01:59:53.777 Timezone offset: 0h 0m
+. 2017-09-08 01:59:53.777 --------------------------------------------------------------------------
+. 2017-09-08 01:59:53.807 Connecting to 192.168.1.68 ...
+. 2017-09-08 01:59:53.807 Connected with 192.168.1.68. Waiting for welcome message...
+< 2017-09-08 01:59:53.807 220-FileZilla Server 0.9.60 beta
+< 2017-09-08 01:59:53.808 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-08 01:59:53.808 220 Please visit https://filezilla-project.org/
+> 2017-09-08 01:59:53.808 USER Guadalupe
+< 2017-09-08 01:59:53.808 331 Password required for guadalupe
+> 2017-09-08 01:59:53.808 PASS *********
+< 2017-09-08 01:59:53.808 230 Logged on
+> 2017-09-08 01:59:53.808 SYST
+< 2017-09-08 01:59:53.808 215 UNIX emulated by FileZilla
+> 2017-09-08 01:59:53.808 FEAT
+< 2017-09-08 01:59:53.808 211-Features:
+< 2017-09-08 01:59:53.808  MDTM
+< 2017-09-08 01:59:53.808  REST STREAM
+< 2017-09-08 01:59:53.808  SIZE
+< 2017-09-08 01:59:53.808  MLST type*;size*;modify*;
+< 2017-09-08 01:59:53.808  MLSD
+< 2017-09-08 01:59:53.808  UTF8
+< 2017-09-08 01:59:53.808  CLNT
+< 2017-09-08 01:59:53.808  MFMT
+< 2017-09-08 01:59:53.808  EPSV
+< 2017-09-08 01:59:53.808  EPRT
+< 2017-09-08 01:59:53.808 211 End
+> 2017-09-08 01:59:53.808 CLNT WinSCP-release-5.11
+< 2017-09-08 01:59:53.808 200 Don't care
+> 2017-09-08 01:59:53.808 OPTS UTF8 ON
+< 2017-09-08 01:59:53.809 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-08 01:59:53.818 Connected
+. 2017-09-08 01:59:53.818 --------------------------------------------------------------------------
+. 2017-09-08 01:59:53.818 Using FTP protocol.
+. 2017-09-08 01:59:53.819 Doing startup conversation with host.
+> 2017-09-08 01:59:53.819 PWD
+< 2017-09-08 01:59:53.820 257 "/" is current directory.
+. 2017-09-08 01:59:53.820 Getting current directory name.
+. 2017-09-08 01:59:53.820 Startup conversation with host finished.
+< 2017-09-08 01:59:53.820 Script: Active session: [1] Guadalupe@192.168.1.68
+> 2017-09-08 01:59:53.826 Script: pwd
+< 2017-09-08 01:59:53.826 Script: /
+> 2017-09-08 01:59:59.875 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf" "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-08 01:59:59.876 Copying 1 files/directories to remote directory "/PRUEBAS/FACTURAS/" - total size: 38,695
+. 2017-09-08 01:59:59.876   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-08 01:59:59.876   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-08 01:59:59.876   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-08 01:59:59.877 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf' [2017-09-08T06:59:39.965Z] [38695]
+. 2017-09-08 01:59:59.880 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf" to remote directory started.
+. 2017-09-08 01:59:59.880 Binary transfer mode selected.
+. 2017-09-08 01:59:59.881 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf
+> 2017-09-08 01:59:59.881 CWD /PRUEBAS/FACTURAS
+< 2017-09-08 01:59:59.883 250 CWD successful. "/PRUEBAS/FACTURAS" is current directory.
+> 2017-09-08 01:59:59.883 PWD
+< 2017-09-08 01:59:59.884 257 "/PRUEBAS/FACTURAS" is current directory.
+> 2017-09-08 01:59:59.884 TYPE I
+< 2017-09-08 01:59:59.885 200 Type set to I
+> 2017-09-08 01:59:59.885 PASV
+< 2017-09-08 01:59:59.888 227 Entering Passive Mode (192,168,1,68,243,190)
+> 2017-09-08 01:59:59.888 STOR 410000001.pdf
+. 2017-09-08 01:59:59.888 Connecting to 192.168.1.68:62398 ...
+< 2017-09-08 01:59:59.890 150 Opening data channel for file upload to server of "/PRUEBAS/FACTURAS/410000001.pdf"
+< 2017-09-08 01:59:59.973 226 Successfully transferred "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-08 01:59:59.974 Upload successful
+. 2017-09-08 01:59:59.974 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000064.pdf' => '/PRUEBAS/FACTURAS/410000001.pdf' [38695]
+. 2017-09-08 01:59:59.974 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 237,351/s
+> 2017-09-08 02:00:02.408 Script: exit
+. 2017-09-08 02:00:02.408 Script: Exit code: 0
+. 2017-09-08 02:00:02.416 Disconnected from server
+. 2017-09-08 18:29:15.372 --------------------------------------------------------------------------
+. 2017-09-08 18:29:15.372 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-08 18:29:15.373 Configuration: nul
+. 2017-09-08 18:29:15.373 Log level: Normal
+. 2017-09-08 18:29:15.373 Local account: Beratend-PC\Beratend
+. 2017-09-08 18:29:15.373 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-08 18:29:15.373 Process ID: 7296
+. 2017-09-08 18:29:15.374 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp19DC.01674105.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_6620_56208226_370
+. 2017-09-08 18:29:15.374 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-08 18:29:15.375 Login time: viernes, 08 de septiembre de 2017 06:29:15 p.m.
+. 2017-09-08 18:29:15.375 --------------------------------------------------------------------------
+. 2017-09-08 18:29:15.375 Script: Retrospectively logging previous script records:
+> 2017-09-08 18:29:15.375 Script: option batch on
+< 2017-09-08 18:29:15.375 Script: batch           on        
+< 2017-09-08 18:29:15.375 Script: reconnecttime   120       
+> 2017-09-08 18:29:15.375 Script: option confirm off
+< 2017-09-08 18:29:15.375 Script: confirm         off       
+> 2017-09-08 18:29:15.375 Script: option reconnecttime 120
+< 2017-09-08 18:29:15.375 Script: reconnecttime   120       
+> 2017-09-08 18:29:15.375 Script: open ftp://Guadalupe:***@172.20.103.141:21 -passive=1 -timeout=15
+. 2017-09-08 18:29:15.375 --------------------------------------------------------------------------
+. 2017-09-08 18:29:15.375 Session name: Guadalupe@172.20.103.141 (Ad-Hoc site)
+. 2017-09-08 18:29:15.375 Host name: 172.20.103.141 (Port: 21)
+. 2017-09-08 18:29:15.375 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-08 18:29:15.375 Transfer Protocol: FTP
+. 2017-09-08 18:29:15.375 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-08 18:29:15.375 Disable Nagle: No
+. 2017-09-08 18:29:15.375 Proxy: None
+. 2017-09-08 18:29:15.375 Send buffer: 262144
+. 2017-09-08 18:29:15.375 UTF: Auto
+. 2017-09-08 18:29:15.376 FTPS: None [Client certificate: No]
+. 2017-09-08 18:29:15.376 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-08 18:29:15.376 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-08 18:29:15.376 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-08 18:29:15.376 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-08 18:29:15.376 Timezone offset: 0h 0m
+. 2017-09-08 18:29:15.376 --------------------------------------------------------------------------
+. 2017-09-08 18:29:15.383 Connecting to 172.20.103.141 ...
+. 2017-09-08 18:29:15.385 Connected with 172.20.103.141. Waiting for welcome message...
+< 2017-09-08 18:29:15.386 220-FileZilla Server 0.9.60 beta
+< 2017-09-08 18:29:15.386 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-08 18:29:15.386 220 Please visit https://filezilla-project.org/
+> 2017-09-08 18:29:15.386 USER Guadalupe
+< 2017-09-08 18:29:15.387 331 Password required for guadalupe
+> 2017-09-08 18:29:15.387 PASS *********
+< 2017-09-08 18:29:15.391 230 Logged on
+> 2017-09-08 18:29:15.391 SYST
+< 2017-09-08 18:29:15.391 215 UNIX emulated by FileZilla
+> 2017-09-08 18:29:15.391 FEAT
+< 2017-09-08 18:29:15.391 211-Features:
+< 2017-09-08 18:29:15.391  MDTM
+< 2017-09-08 18:29:15.391  REST STREAM
+< 2017-09-08 18:29:15.391  SIZE
+< 2017-09-08 18:29:15.391  MLST type*;size*;modify*;
+< 2017-09-08 18:29:15.391  MLSD
+< 2017-09-08 18:29:15.391  UTF8
+< 2017-09-08 18:29:15.391  CLNT
+< 2017-09-08 18:29:15.391  MFMT
+< 2017-09-08 18:29:15.391  EPSV
+< 2017-09-08 18:29:15.391  EPRT
+< 2017-09-08 18:29:15.392 211 End
+> 2017-09-08 18:29:15.392 CLNT WinSCP-release-5.11
+< 2017-09-08 18:29:15.392 200 Don't care
+> 2017-09-08 18:29:15.392 OPTS UTF8 ON
+< 2017-09-08 18:29:15.392 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-08 18:29:15.392 Connected
+. 2017-09-08 18:29:15.392 --------------------------------------------------------------------------
+. 2017-09-08 18:29:15.392 Using FTP protocol.
+. 2017-09-08 18:29:15.394 Doing startup conversation with host.
+> 2017-09-08 18:29:15.394 PWD
+< 2017-09-08 18:29:15.395 257 "/" is current directory.
+. 2017-09-08 18:29:15.395 Getting current directory name.
+. 2017-09-08 18:29:15.395 Startup conversation with host finished.
+< 2017-09-08 18:29:15.395 Script: Active session: [1] Guadalupe@172.20.103.141
+> 2017-09-08 18:29:15.482 Script: pwd
+< 2017-09-08 18:29:15.483 Script: /
+> 2017-09-08 18:29:17.919 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-08 18:29:17.921 Copying 1 files/directories to remote directory "/PRUEBAS/FACTURAS/" - total size: 38,695
+. 2017-09-08 18:29:17.921   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-08 18:29:17.921   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-08 18:29:17.921   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-08 18:29:17.922 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-08T23:28:30.809Z] [38695]
+. 2017-09-08 18:29:17.922 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-08 18:29:17.922 Binary transfer mode selected.
+. 2017-09-08 18:29:17.926 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf
+> 2017-09-08 18:29:17.926 CWD /PRUEBAS/FACTURAS
+< 2017-09-08 18:29:17.926 550 CWD failed. "/PRUEBAS/FACTURAS": directory not found.
+> 2017-09-08 18:29:17.926 CWD /PRUEBAS
+< 2017-09-08 18:29:17.927 550 CWD failed. "/PRUEBAS": directory not found.
+> 2017-09-08 18:29:17.927 CWD /
+< 2017-09-08 18:29:17.927 250 CWD successful. "/" is current directory.
+> 2017-09-08 18:29:17.927 MKD PRUEBAS
+< 2017-09-08 18:29:17.929 257 "/PRUEBAS" created successfully
+> 2017-09-08 18:29:17.929 CWD /PRUEBAS
+< 2017-09-08 18:29:17.930 250 CWD successful. "/PRUEBAS" is current directory.
+> 2017-09-08 18:29:17.930 MKD FACTURAS
+< 2017-09-08 18:29:17.933 257 "/PRUEBAS/FACTURAS" created successfully
+> 2017-09-08 18:29:17.933 CWD /PRUEBAS/FACTURAS
+< 2017-09-08 18:29:17.934 250 CWD successful. "/PRUEBAS/FACTURAS" is current directory.
+> 2017-09-08 18:29:17.934 PWD
+< 2017-09-08 18:29:17.935 257 "/PRUEBAS/FACTURAS" is current directory.
+> 2017-09-08 18:29:17.935 TYPE I
+< 2017-09-08 18:29:17.935 200 Type set to I
+> 2017-09-08 18:29:17.935 PASV
+< 2017-09-08 18:29:17.936 227 Entering Passive Mode (172,20,103,141,212,118)
+> 2017-09-08 18:29:17.937 STOR 410000001.pdf
+. 2017-09-08 18:29:17.937 Connecting to 172.20.103.141:54390 ...
+< 2017-09-08 18:29:17.939 150 Opening data channel for file upload to server of "/PRUEBAS/FACTURAS/410000001.pdf"
+< 2017-09-08 18:29:18.033 226 Successfully transferred "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-08 18:29:18.033 Upload successful
+. 2017-09-08 18:29:18.034 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/PRUEBAS/FACTURAS/410000001.pdf' [38695]
+. 2017-09-08 18:29:18.034 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 239,903/s
+> 2017-09-08 18:29:19.146 Script: exit
+. 2017-09-08 18:29:19.146 Script: Exit code: 0
+. 2017-09-08 18:29:19.147 Disconnected from server
+. 2017-09-08 18:30:45.289 --------------------------------------------------------------------------
+. 2017-09-08 18:30:45.289 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-08 18:30:45.290 Configuration: nul
+. 2017-09-08 18:30:45.290 Log level: Normal
+. 2017-09-08 18:30:45.290 Local account: Beratend-PC\Beratend
+. 2017-09-08 18:30:45.290 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-08 18:30:45.290 Process ID: 860
+. 2017-09-08 18:30:45.292 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp19DC.0000FF49.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_6620_7907726_691
+. 2017-09-08 18:30:45.292 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-08 18:30:45.292 Login time: viernes, 08 de septiembre de 2017 06:30:45 p.m.
+. 2017-09-08 18:30:45.292 --------------------------------------------------------------------------
+. 2017-09-08 18:30:45.292 Script: Retrospectively logging previous script records:
+> 2017-09-08 18:30:45.292 Script: option batch on
+< 2017-09-08 18:30:45.292 Script: batch           on        
+< 2017-09-08 18:30:45.292 Script: reconnecttime   120       
+> 2017-09-08 18:30:45.292 Script: option confirm off
+< 2017-09-08 18:30:45.292 Script: confirm         off       
+> 2017-09-08 18:30:45.292 Script: option reconnecttime 120
+< 2017-09-08 18:30:45.292 Script: reconnecttime   120       
+> 2017-09-08 18:30:45.292 Script: open ftp://Guadalupe:***@172.20.103.141:21 -passive=1 -timeout=15
+. 2017-09-08 18:30:45.293 --------------------------------------------------------------------------
+. 2017-09-08 18:30:45.293 Session name: Guadalupe@172.20.103.141 (Ad-Hoc site)
+. 2017-09-08 18:30:45.293 Host name: 172.20.103.141 (Port: 21)
+. 2017-09-08 18:30:45.293 User name: Guadalupe (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-08 18:30:45.293 Transfer Protocol: FTP
+. 2017-09-08 18:30:45.293 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-08 18:30:45.293 Disable Nagle: No
+. 2017-09-08 18:30:45.293 Proxy: None
+. 2017-09-08 18:30:45.293 Send buffer: 262144
+. 2017-09-08 18:30:45.293 UTF: Auto
+. 2017-09-08 18:30:45.293 FTPS: None [Client certificate: No]
+. 2017-09-08 18:30:45.293 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2017-09-08 18:30:45.294 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-08 18:30:45.294 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-08 18:30:45.294 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-08 18:30:45.294 Timezone offset: 0h 0m
+. 2017-09-08 18:30:45.294 --------------------------------------------------------------------------
+. 2017-09-08 18:30:45.298 Connecting to 172.20.103.141 ...
+. 2017-09-08 18:30:45.300 Connected with 172.20.103.141. Waiting for welcome message...
+< 2017-09-08 18:30:45.301 220-FileZilla Server 0.9.60 beta
+< 2017-09-08 18:30:45.301 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+< 2017-09-08 18:30:45.301 220 Please visit https://filezilla-project.org/
+> 2017-09-08 18:30:45.301 USER Guadalupe
+< 2017-09-08 18:30:45.301 331 Password required for guadalupe
+> 2017-09-08 18:30:45.301 PASS *********
+< 2017-09-08 18:30:45.302 230 Logged on
+> 2017-09-08 18:30:45.302 SYST
+< 2017-09-08 18:30:45.302 215 UNIX emulated by FileZilla
+> 2017-09-08 18:30:45.302 FEAT
+< 2017-09-08 18:30:45.303 211-Features:
+< 2017-09-08 18:30:45.303  MDTM
+< 2017-09-08 18:30:45.303  REST STREAM
+< 2017-09-08 18:30:45.303  SIZE
+< 2017-09-08 18:30:45.303  MLST type*;size*;modify*;
+< 2017-09-08 18:30:45.303  MLSD
+< 2017-09-08 18:30:45.303  UTF8
+< 2017-09-08 18:30:45.303  CLNT
+< 2017-09-08 18:30:45.303  MFMT
+< 2017-09-08 18:30:45.304  EPSV
+< 2017-09-08 18:30:45.304  EPRT
+< 2017-09-08 18:30:45.304 211 End
+> 2017-09-08 18:30:45.304 CLNT WinSCP-release-5.11
+< 2017-09-08 18:30:45.304 200 Don't care
+> 2017-09-08 18:30:45.304 OPTS UTF8 ON
+< 2017-09-08 18:30:45.304 202 UTF8 mode is always enabled. No need to send this command.
+. 2017-09-08 18:30:45.304 Connected
+. 2017-09-08 18:30:45.304 --------------------------------------------------------------------------
+. 2017-09-08 18:30:45.305 Using FTP protocol.
+. 2017-09-08 18:30:45.305 Doing startup conversation with host.
+> 2017-09-08 18:30:45.305 PWD
+< 2017-09-08 18:30:45.305 257 "/" is current directory.
+. 2017-09-08 18:30:45.306 Getting current directory name.
+. 2017-09-08 18:30:45.306 Startup conversation with host finished.
+< 2017-09-08 18:30:45.306 Script: Active session: [1] Guadalupe@172.20.103.141
+> 2017-09-08 18:30:45.377 Script: pwd
+< 2017-09-08 18:30:45.377 Script: /
+> 2017-09-08 18:30:45.438 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-08 18:30:45.439 Copying 1 files/directories to remote directory "/PRUEBAS/FACTURAS/" - total size: 38,695
+. 2017-09-08 18:30:45.439   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-08 18:30:45.440   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-08 18:30:45.440   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-08 18:30:45.440 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-08T23:29:57.750Z] [38695]
+. 2017-09-08 18:30:45.441 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-08 18:30:45.441 Binary transfer mode selected.
+. 2017-09-08 18:30:45.441 Starting upload of C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf
+> 2017-09-08 18:30:45.441 CWD /PRUEBAS/FACTURAS
+< 2017-09-08 18:30:45.442 250 CWD successful. "/PRUEBAS/FACTURAS" is current directory.
+> 2017-09-08 18:30:45.442 PWD
+< 2017-09-08 18:30:45.442 257 "/PRUEBAS/FACTURAS" is current directory.
+> 2017-09-08 18:30:45.442 TYPE I
+< 2017-09-08 18:30:45.442 200 Type set to I
+> 2017-09-08 18:30:45.443 PASV
+< 2017-09-08 18:30:45.443 227 Entering Passive Mode (172,20,103,141,219,123)
+> 2017-09-08 18:30:45.444 STOR 410000001.pdf
+. 2017-09-08 18:30:45.444 Connecting to 172.20.103.141:56187 ...
+< 2017-09-08 18:30:45.445 150 Opening data channel for file upload to server of "/PRUEBAS/FACTURAS/410000001.pdf"
+< 2017-09-08 18:30:45.521 226 Successfully transferred "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-08 18:30:45.521 Upload successful
+. 2017-09-08 18:30:45.521 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/PRUEBAS/FACTURAS/410000001.pdf' [38695]
+. 2017-09-08 18:30:45.521 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 286,038/s
+> 2017-09-08 18:30:45.598 Script: exit
+. 2017-09-08 18:30:45.598 Script: Exit code: 0
+. 2017-09-08 18:30:45.602 Disconnected from server
+. 2017-09-08 19:30:51.109 --------------------------------------------------------------------------
+. 2017-09-08 19:30:51.109 WinSCP Version 5.11 (Build 7715) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-08 19:30:51.110 Configuration: nul
+. 2017-09-08 19:30:51.110 Log level: Normal
+. 2017-09-08 19:30:51.110 Local account: Beratend-PC\Beratend
+. 2017-09-08 19:30:51.110 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-08 19:30:51.110 Process ID: 4136
+. 2017-09-08 19:30:51.111 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp2304.01244C89.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.0  /ini=nul /log="Facturas"  /console /consoleinstance=_8964_56718381_382
+. 2017-09-08 19:30:51.112 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-08 19:30:51.112 Login time: viernes, 08 de septiembre de 2017 07:30:51 p.m.
+. 2017-09-08 19:30:51.112 --------------------------------------------------------------------------
+. 2017-09-08 19:30:51.112 Script: Retrospectively logging previous script records:
+> 2017-09-08 19:30:51.112 Script: option batch on
+< 2017-09-08 19:30:51.112 Script: batch           on        
+< 2017-09-08 19:30:51.112 Script: reconnecttime   120       
+> 2017-09-08 19:30:51.112 Script: option confirm off
+< 2017-09-08 19:30:51.112 Script: confirm         off       
+> 2017-09-08 19:30:51.112 Script: option reconnecttime 120
+< 2017-09-08 19:30:51.112 Script: reconnecttime   120       
+> 2017-09-08 19:30:51.112 Script: open sftp://SVSAP-Beratend:***@206.123.120.217:22 -hostkey="ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65" -timeout=15
+. 2017-09-08 19:30:51.112 --------------------------------------------------------------------------
+. 2017-09-08 19:30:51.112 Session name: SVSAP-Beratend@206.123.120.217 (Ad-Hoc site)
+. 2017-09-08 19:30:51.112 Host name: 206.123.120.217 (Port: 22)
+. 2017-09-08 19:30:51.113 User name: SVSAP-Beratend (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-08 19:30:51.113 Tunnel: No
+. 2017-09-08 19:30:51.113 Transfer Protocol: SFTP
+. 2017-09-08 19:30:51.113 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-08 19:30:51.113 Disable Nagle: No
+. 2017-09-08 19:30:51.113 Proxy: None
+. 2017-09-08 19:30:51.113 Send buffer: 262144
+. 2017-09-08 19:30:51.113 SSH protocol version: 2; Compression: No
+. 2017-09-08 19:30:51.113 Bypass authentication: No
+. 2017-09-08 19:30:51.113 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2017-09-08 19:30:51.113 GSSAPI: Forwarding: No
+. 2017-09-08 19:30:51.113 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-09-08 19:30:51.113 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2017-09-08 19:30:51.113 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2017-09-08 19:30:51.113 Simple channel: Yes
+. 2017-09-08 19:30:51.113 Return code variable: Autodetect; Lookup user groups: Auto
+. 2017-09-08 19:30:51.113 Shell: default
+. 2017-09-08 19:30:51.113 EOL: LF, UTF: Auto
+. 2017-09-08 19:30:51.113 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2017-09-08 19:30:51.113 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-09-08 19:30:51.113 SFTP Bugs: Auto,Auto
+. 2017-09-08 19:30:51.113 SFTP Server: default
+. 2017-09-08 19:30:51.114 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-08 19:30:51.114 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-08 19:30:51.114 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-08 19:30:51.114 DST mode: Unix
+. 2017-09-08 19:30:51.114 --------------------------------------------------------------------------
+. 2017-09-08 19:30:51.115 Looking up host "206.123.120.217" for SSH connection
+. 2017-09-08 19:30:51.115 Connecting to 206.123.120.217 port 22
+. 2017-09-08 19:30:51.174 We claim version: SSH-2.0-WinSCP_release_5.11
+. 2017-09-08 19:30:51.232 Server version: SSH-2.0-1.09 FlowSsh: WinSSHD 5.23
+. 2017-09-08 19:30:51.232 Using SSH protocol version 2
+. 2017-09-08 19:30:51.232 Have a known host key of type dss
+. 2017-09-08 19:30:51.233 Doing Diffie-Hellman group exchange
+. 2017-09-08 19:30:51.551 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-09-08 19:30:52.033 Host key fingerprint is:
+. 2017-09-08 19:30:52.033 ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-08 19:30:52.034 Verifying host key dss 0xd513eef003b9f43e 726cfb971a6b08f1 416e57d7d1bc4e20 16632bcaabb2d2ce b858402116219973 0d25852ac45a2828 43dd2cac707efa26 933536c9faa951bb e75db4d81e9abd69 f7ed070865ee8263 20a177623bc3e3ed 8a57d1f04995125a f0df997a71589b4e 188bc614f8c386e8 6dd1a0a930c4cedc 77f24c1614d57765 ,0xcab18134a5197ea8 10010a706a6fe605 186a7d07,0x106dccd060158971 8a97f97de8596975 339ac6c1018080ef 7f088ca4c409968e b0d63b66219f564f 1dffc8a00ef9a2f3 df3063baa851773b 8367c3599df414fb 6e1a1b8b8731e2ef 694a5876473f77d3 1eddf49c32265231 fbc3e2acedc5536d e09478aed478a3a1 5a529a374749b683 34a739a3a0c461d6 dc67584e758e268a ,0x355fac93c6fa9639 bee61ee0fb54fdb2 e802df774357ce19 737e9e9eac4ce2d5 b5f333c3481ea58a 7243153682741ff3 c3cd17459d34fc18 28a12f2f7799feab 191e552e680fb751 43bd4216bd460a7a e75380bdefd5f1b9 8784b4592f091d31 8878328f81604e51 c33956f000b24e30 e96b7e03613c9a83 11296a90e4e7d689  with fingerprint ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-08 19:30:52.034 Host key matches configured key
+. 2017-09-08 19:30:52.035 Initialised AES-256 SDCTR client->server encryption
+. 2017-09-08 19:30:52.036 Initialised HMAC-SHA1 client->server MAC algorithm
+. 2017-09-08 19:30:52.036 Initialised AES-256 SDCTR server->client encryption
+. 2017-09-08 19:30:52.036 Initialised HMAC-SHA1 server->client MAC algorithm
+! 2017-09-08 19:30:52.356 Using username "SVSAP-Beratend".
+. 2017-09-08 19:30:52.410 Server offered these authentication methods: publickey,gssapi-with-mic,password
+. 2017-09-08 19:30:52.410 Using SSPI from SECUR32.DLL
+. 2017-09-08 19:30:52.411 Attempting GSSAPI authentication
+. 2017-09-08 19:30:52.485 GSSAPI authentication initialisation failed
+. 2017-09-08 19:30:52.485 The target was not recognized.
+. 2017-09-08 19:30:52.485 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-09-08 19:30:52.486 Using stored password.
+. 2017-09-08 19:30:52.486 Sent password
+. 2017-09-08 19:30:52.606 Access granted
+. 2017-09-08 19:30:52.606 Opening session as main channel
+. 2017-09-08 19:30:52.663 Opened main channel
+. 2017-09-08 19:30:53.175 Started a shell/command
+. 2017-09-08 19:30:53.176 --------------------------------------------------------------------------
+. 2017-09-08 19:30:53.176 Using SFTP protocol.
+. 2017-09-08 19:30:53.176 Doing startup conversation with host.
+> 2017-09-08 19:30:53.176 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-09-08 19:30:53.233 Type: SSH_FXP_VERSION, Size: 22, Number: -1
+. 2017-09-08 19:30:53.233 SFTP version 6 negotiated.
+. 2017-09-08 19:30:53.233 Server requests EOL sequence "\r\n".
+. 2017-09-08 19:30:53.233 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+. 2017-09-08 19:30:53.233 Getting current directory name.
+. 2017-09-08 19:30:53.233 Getting real path for '.'
+> 2017-09-08 19:30:53.233 Type: SSH_FXP_REALPATH, Size: 11, Number: 16
+< 2017-09-08 19:30:53.288 Type: SSH_FXP_NAME, Size: 75, Number: 16
+. 2017-09-08 19:30:53.288 Real path is '/'
+. 2017-09-08 19:30:53.288 Startup conversation with host finished.
+< 2017-09-08 19:30:53.288 Script: Active session: [1] SVSAP-Beratend@206.123.120.217
+> 2017-09-08 19:30:53.512 Script: pwd
+< 2017-09-08 19:30:53.512 Script: /
+> 2017-09-08 19:30:55.210 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000183.pdf" "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-08 19:30:55.212 Copying 1 files/directories to remote directory "/PRUEBAS/FACTURAS/" - total size: 11,706
+. 2017-09-08 19:30:55.212   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-08 19:30:55.212   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-08 19:30:55.212   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-08 19:30:55.212 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000183.pdf' [2017-09-09T00:30:36.710Z] [11706]
+. 2017-09-08 19:30:55.213 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000183.pdf" to remote directory started.
+. 2017-09-08 19:30:55.213 Binary transfer mode selected.
+. 2017-09-08 19:30:55.213 Opening remote file.
+> 2017-09-08 19:30:55.214 Type: SSH_FXP_OPEN, Size: 61, Number: 259
+< 2017-09-08 19:30:55.271 Type: SSH_FXP_HANDLE, Size: 11, Number: 259
+> 2017-09-08 19:30:55.271 Type: SSH_FXP_WRITE, Size: 11729, Number: 774
+> 2017-09-08 19:30:55.272 Type: SSH_FXP_CLOSE, Size: 11, Number: 1028
+< 2017-09-08 19:30:55.452 Type: SSH_FXP_STATUS, Size: 56, Number: 774
+< 2017-09-08 19:30:55.452 Status code: 0
+< 2017-09-08 19:30:55.452 Type: SSH_FXP_STATUS, Size: 56, Number: 1028
+< 2017-09-08 19:30:55.452 Status code: 0
+. 2017-09-08 19:30:55.452 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4500000183.pdf' => '/PRUEBAS/FACTURAS/410000001.pdf' [11706]
+. 2017-09-08 19:30:55.452 Copying finished: Transferred: 11,706, Elapsed: 0:00:00, CPS: 0/s
+> 2017-09-08 19:30:56.340 Script: exit
+. 2017-09-08 19:30:56.340 Script: Exit code: 0
+. 2017-09-08 19:30:56.340 Closing connection.
+. 2017-09-08 19:30:56.340 Sending special code: 12
+. 2017-09-08 19:30:56.340 Sent EOF message
+. 2017-09-11 19:00:35.427 --------------------------------------------------------------------------
+. 2017-09-11 19:00:35.440 WinSCP Version 5.11.1 (Build 7725) (OS 6.1.7601 Service Pack 1 - Windows 7 Ultimate)
+. 2017-09-11 19:00:35.440 Configuration: nul
+. 2017-09-11 19:00:35.440 Log level: Normal
+. 2017-09-11 19:00:35.440 Local account: Beratend-PC\Beratend
+. 2017-09-11 19:00:35.441 Working directory: C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin
+. 2017-09-11 19:00:35.441 Process ID: 11248
+. 2017-09-11 19:00:35.442 Command-line: "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\bin\winscp.exe" /xmllog="C:\Users\Beratend\AppData\Local\Temp\wscp29AC.023EE513.tmp" /xmlgroups /xmllogrequired /nointeractiveinput /dotnet=5.11.1  /ini=nul /log="Facturas"  /console /consoleinstance=_10668_1224738_552
+. 2017-09-11 19:00:35.442 Time zone: Current: GMT-5, Standard: GMT-6 (Central Standard Time (Mexico)), DST: GMT-5 (Central Daylight Time (Mexico)), DST Start: 02/04/2017, DST End: 29/10/2017
+. 2017-09-11 19:00:35.443 Login time: lunes, 11 de septiembre de 2017 07:00:35 p.m.
+. 2017-09-11 19:00:35.443 --------------------------------------------------------------------------
+. 2017-09-11 19:00:35.443 Script: Retrospectively logging previous script records:
+> 2017-09-11 19:00:35.443 Script: option batch on
+< 2017-09-11 19:00:35.443 Script: batch           on        
+< 2017-09-11 19:00:35.443 Script: reconnecttime   120       
+> 2017-09-11 19:00:35.443 Script: option confirm off
+< 2017-09-11 19:00:35.443 Script: confirm         off       
+> 2017-09-11 19:00:35.443 Script: option reconnecttime 120
+< 2017-09-11 19:00:35.443 Script: reconnecttime   120       
+> 2017-09-11 19:00:35.443 Script: open sftp://SVSAP-Beratend:***@206.123.120.217:22 -hostkey="ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65" -timeout=15
+. 2017-09-11 19:00:35.443 --------------------------------------------------------------------------
+. 2017-09-11 19:00:35.443 Session name: SVSAP-Beratend@206.123.120.217 (Ad-Hoc site)
+. 2017-09-11 19:00:35.443 Host name: 206.123.120.217 (Port: 22)
+. 2017-09-11 19:00:35.443 User name: SVSAP-Beratend (Password: Yes, Key file: No, Passphrase: No)
+. 2017-09-11 19:00:35.443 Tunnel: No
+. 2017-09-11 19:00:35.443 Transfer Protocol: SFTP
+. 2017-09-11 19:00:35.443 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-09-11 19:00:35.443 Disable Nagle: No
+. 2017-09-11 19:00:35.443 Proxy: None
+. 2017-09-11 19:00:35.444 Send buffer: 262144
+. 2017-09-11 19:00:35.444 SSH protocol version: 2; Compression: No
+. 2017-09-11 19:00:35.444 Bypass authentication: No
+. 2017-09-11 19:00:35.444 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2017-09-11 19:00:35.444 GSSAPI: Forwarding: No
+. 2017-09-11 19:00:35.444 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-09-11 19:00:35.444 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2017-09-11 19:00:35.444 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2017-09-11 19:00:35.444 Simple channel: Yes
+. 2017-09-11 19:00:35.444 Return code variable: Autodetect; Lookup user groups: Auto
+. 2017-09-11 19:00:35.444 Shell: default
+. 2017-09-11 19:00:35.444 EOL: LF, UTF: Auto
+. 2017-09-11 19:00:35.444 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2017-09-11 19:00:35.444 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-09-11 19:00:35.444 SFTP Bugs: Auto,Auto
+. 2017-09-11 19:00:35.444 SFTP Server: default
+. 2017-09-11 19:00:35.444 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-09-11 19:00:35.444 Cache directory changes: Yes, Permanent: Yes
+. 2017-09-11 19:00:35.444 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2017-09-11 19:00:35.444 DST mode: Unix
+. 2017-09-11 19:00:35.444 --------------------------------------------------------------------------
+. 2017-09-11 19:00:35.446 Looking up host "206.123.120.217" for SSH connection
+. 2017-09-11 19:00:35.446 Connecting to 206.123.120.217 port 22
+. 2017-09-11 19:00:35.506 We claim version: SSH-2.0-WinSCP_release_5.11.1
+. 2017-09-11 19:00:35.566 Server version: SSH-2.0-1.09 FlowSsh: WinSSHD 5.23
+. 2017-09-11 19:00:35.567 Using SSH protocol version 2
+. 2017-09-11 19:00:35.567 Have a known host key of type dss
+. 2017-09-11 19:00:35.568 Doing Diffie-Hellman group exchange
+. 2017-09-11 19:00:35.914 Doing Diffie-Hellman key exchange with hash SHA-1
+. 2017-09-11 19:00:36.446 Host key fingerprint is:
+. 2017-09-11 19:00:36.446 ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-11 19:00:36.446 Verifying host key dss 0xd513eef003b9f43e 726cfb971a6b08f1 416e57d7d1bc4e20 16632bcaabb2d2ce b858402116219973 0d25852ac45a2828 43dd2cac707efa26 933536c9faa951bb e75db4d81e9abd69 f7ed070865ee8263 20a177623bc3e3ed 8a57d1f04995125a f0df997a71589b4e 188bc614f8c386e8 6dd1a0a930c4cedc 77f24c1614d57765 ,0xcab18134a5197ea8 10010a706a6fe605 186a7d07,0x106dccd060158971 8a97f97de8596975 339ac6c1018080ef 7f088ca4c409968e b0d63b66219f564f 1dffc8a00ef9a2f3 df3063baa851773b 8367c3599df414fb 6e1a1b8b8731e2ef 694a5876473f77d3 1eddf49c32265231 fbc3e2acedc5536d e09478aed478a3a1 5a529a374749b683 34a739a3a0c461d6 dc67584e758e268a ,0x355fac93c6fa9639 bee61ee0fb54fdb2 e802df774357ce19 737e9e9eac4ce2d5 b5f333c3481ea58a 7243153682741ff3 c3cd17459d34fc18 28a12f2f7799feab 191e552e680fb751 43bd4216bd460a7a e75380bdefd5f1b9 8784b4592f091d31 8878328f81604e51 c33956f000b24e30 e96b7e03613c9a83 11296a90e4e7d689  with fingerprint ssh-dss 1024 30:a5:ae:a7:db:59:63:06:8e:b0:06:75:39:16:0d:65
+. 2017-09-11 19:00:36.447 Host key matches configured key
+. 2017-09-11 19:00:36.448 Initialised AES-256 SDCTR client->server encryption
+. 2017-09-11 19:00:36.448 Initialised HMAC-SHA1 client->server MAC algorithm
+. 2017-09-11 19:00:36.449 Initialised AES-256 SDCTR server->client encryption
+. 2017-09-11 19:00:36.449 Initialised HMAC-SHA1 server->client MAC algorithm
+! 2017-09-11 19:00:36.790 Using username "SVSAP-Beratend".
+. 2017-09-11 19:00:36.852 Server offered these authentication methods: publickey,gssapi-with-mic,password
+. 2017-09-11 19:00:36.853 Using SSPI from SECUR32.DLL
+. 2017-09-11 19:00:36.853 Attempting GSSAPI authentication
+. 2017-09-11 19:00:36.958 GSSAPI authentication initialisation failed
+. 2017-09-11 19:00:36.959 The target was not recognized.
+. 2017-09-11 19:00:36.960 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-09-11 19:00:36.960 Using stored password.
+. 2017-09-11 19:00:36.961 Sent password
+. 2017-09-11 19:00:37.102 Access granted
+. 2017-09-11 19:00:37.103 Opening session as main channel
+. 2017-09-11 19:00:37.242 Opened main channel
+. 2017-09-11 19:00:37.762 Started a shell/command
+. 2017-09-11 19:00:37.762 --------------------------------------------------------------------------
+. 2017-09-11 19:00:37.763 Using SFTP protocol.
+. 2017-09-11 19:00:37.763 Doing startup conversation with host.
+> 2017-09-11 19:00:37.764 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-09-11 19:00:37.822 Type: SSH_FXP_VERSION, Size: 22, Number: -1
+. 2017-09-11 19:00:37.823 SFTP version 6 negotiated.
+. 2017-09-11 19:00:37.823 Server requests EOL sequence "\r\n".
+. 2017-09-11 19:00:37.823 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+. 2017-09-11 19:00:37.823 Getting current directory name.
+. 2017-09-11 19:00:37.823 Getting real path for '.'
+> 2017-09-11 19:00:37.823 Type: SSH_FXP_REALPATH, Size: 11, Number: 16
+< 2017-09-11 19:00:37.880 Type: SSH_FXP_NAME, Size: 75, Number: 16
+. 2017-09-11 19:00:37.880 Real path is '/'
+. 2017-09-11 19:00:37.880 Startup conversation with host finished.
+< 2017-09-11 19:00:37.881 Script: Active session: [1] SVSAP-Beratend@206.123.120.217
+> 2017-09-11 19:00:38.658 Script: pwd
+< 2017-09-11 19:00:38.658 Script: /
+> 2017-09-11 19:00:38.716 Script: put  -nopermissions -nopreservetime -transfer="binary" -resumesupport="off" -- "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" "/PRUEBAS/FACTURAS/410000001.pdf"
+. 2017-09-11 19:00:38.718 Copying 1 files/directories to remote directory "/PRUEBAS/FACTURAS/" - total size: 38,695
+. 2017-09-11 19:00:38.718   PrTime: No; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: N (102400); CalcS: No; Mask: 410000001.pdf
+. 2017-09-11 19:00:38.718   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-09-11 19:00:38.718   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-09-11 19:00:38.766 File: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' [2017-09-12T00:00:30.750Z] [38695]
+. 2017-09-11 19:00:38.766 Copying "C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf" to remote directory started.
+. 2017-09-11 19:00:38.766 Binary transfer mode selected.
+. 2017-09-11 19:00:38.766 Opening remote file.
+> 2017-09-11 19:00:38.766 Type: SSH_FXP_OPEN, Size: 61, Number: 259
+< 2017-09-11 19:00:38.838 Type: SSH_FXP_HANDLE, Size: 11, Number: 259
+> 2017-09-11 19:00:38.839 Type: SSH_FXP_WRITE, Size: 32791, Number: 774
+. 2017-09-11 19:00:38.843 1 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2017-09-11 19:00:38.843 Type: SSH_FXP_CLOSE, Size: 11, Number: 1284
+< 2017-09-11 19:00:39.109 Type: SSH_FXP_STATUS, Size: 56, Number: 774
+< 2017-09-11 19:00:39.110 Status code: 0
+< 2017-09-11 19:00:39.180 Type: SSH_FXP_STATUS, Size: 56, Number: 1030
+< 2017-09-11 19:00:39.180 Status code: 0
+< 2017-09-11 19:00:39.181 Type: SSH_FXP_STATUS, Size: 56, Number: 1284
+< 2017-09-11 19:00:39.181 Status code: 0
+. 2017-09-11 19:00:39.181 Transfer done: 'C:\Proyectos\PortalFacturas\Desarrollo\PortalFacturas\Facturas\4700000001.pdf' => '/PRUEBAS/FACTURAS/410000001.pdf' [38695]
+. 2017-09-11 19:00:39.181 Copying finished: Transferred: 38,695, Elapsed: 0:00:00, CPS: 18,125/s
+> 2017-09-11 19:00:39.479 Script: exit
+. 2017-09-11 19:00:39.479 Script: Exit code: 0
+. 2017-09-11 19:00:39.479 Closing connection.
+. 2017-09-11 19:00:39.480 Sending special code: 12
+. 2017-09-11 19:00:39.480 Sent EOF message

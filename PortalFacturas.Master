@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PortalFacturas.Master.cs" Inherits="PortalFacturas.PortalFacturas" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript">
+  //<![CDATA[
+  function HandleClose() 
+   {
+     alert("Killing the session on the server!!");
+      PageMethods.AbandonSession();
+   }
+   //]]>
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Portal de facturas</title>
+    <%--<meta http-equiv="X-UA-Compatible" content="IE=6" />--%>
+    <link href="App_Themes/PortalCSS.css" type="text/css" rel="stylesheet"/> 
+    <script type='text/JavaScript' src='scripts\FuncValidaciones.js'></script>
+    <script type='text/JavaScript' src='scripts\scw.js'></script>
+    <style type="text/css">
+        #marMensaje
+        {
+            height: 197px;
+        }
+    </style>
+</head>
+<body leftmargin="0" topmargin="0"  >
+    <form id="form2" runat="server"  enctype="multipart/form-data">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" enablepagemethods="true" />
+    <div class="header">
+        <div class="logoEmp"><img src="images/Logo_amsa.png" width="65" height="65"/></div>
+        <div class="logoPF"><img src="images/LogoPF.png" width="170" height="50" runat="server" id="imgLogo"/></div>
+        <div class="logoSSC"><img src="images/SSC.png" width="48" height="57"/></div>
+        <div class="logout"><asp:ImageButton ID="btnSalir" runat="server" 
+                            ImageUrl="~/Images/btnSalir.png" CommandName="Salir"  OnClientClick="window.close();" OnClient="btnlogout_Click"/>
+                        <input type="submit" id="iframe" class="submit" name="go" value="submit" style="position: absolute; left: -2000px"/>
+        </div>
+    </div>
+    <div>
+       <div class="menu-frame" >
+            <div id="cssmenu">
+	            <ul id="lista" runat="server">
+	            </ul>
+            </div>
+            <div>
+                <br />
+                <br />
+                <font color="#F07D00" face="Helvetica, Arial, sans-serif" size="2">
+                <marquee id="marMensaje" runat="server" direction="up" width="150"  scrolldelay="300"
+                    color="#64350b" >Mensaje</marquee>
+                </font>
+            </div>
+       </div> 
+        <div align="left" id="Div2" class="content-frame">
+            <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server" >
+            </asp:ContentPlaceHolder>
+        </div>
+     </div>
+     </form>
+</body>
+</html>
