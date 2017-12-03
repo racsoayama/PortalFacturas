@@ -15,10 +15,13 @@
     <div class="logoPF"><img src="images/LogoPF.png" width="170" height="50"/></div>
     <div class="logo"><img src="images/LogoTMM.png" width="102" height="68"/></div>
 </div>--%>
+
 <div>
+     <div class="logo">  <img src="images/logoLands.png" /></div>
     <div class="log-frame">
+       
         <form id="Form2" runat="server" defaultfocus="btnAceptar">
-            <table align="center" style="width: 90%">
+            <table align="center" >
                 <tr><td class="style6" align="center" valign="middle"><br />
                     <asp:Label ID="lblTitulo" runat="server" CssClass="h2" Width="242px" Height="30px">Bienvenido</asp:Label></td></tr>
                 <tr>
@@ -41,7 +44,7 @@
                                                         onselectedindexchanged="cboIdioma_SelectedIndexChanged"></asp:DropDownList></td>
                                 </tr>
                                 <tr>
-                                    <td align="right"><img height="20" alt="" src="Captcha.aspx" ></td>
+                                    <td align="right"><img  id="imgcatcha" src="Captcha.aspx" ></td>
                                     <td align="left"><asp:TextBox ID="txtCaptcha" runat="server" password="true" placeholder="Captcha"
                                             CssClass="text"  MaxLength="8"></asp:TextBox></td>
                                 </tr>
@@ -72,20 +75,20 @@
                         <div id="divCambioPasw" runat="server">
                             <table style="width: 90%">
                                 <tr>
-                                    <td style="width: 60%" align="right"><asp:Label ID="lblUsuario2" runat="server" CssClass="label2" Width="130">Usuario:</asp:Label></td>
+                                    <td  align="right"><asp:Label ID="lblUsuario2" runat="server" CssClass="label2" >Usuario:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtUsuario2" runat="server"  CssClass="text" MaxLength="8"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td style="width: 60%" align="right"><asp:Label ID="lblPassActual" runat="server" CssClass="label2" Width="130">Contraseña actual:</asp:Label></td>
+                                    <td  align="right"><asp:Label ID="lblPassActual" runat="server" CssClass="label2" >Contraseña actual:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtPassActual" runat="server" password="true" 
                                             CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td style="width: 60%" align="right"><asp:Label ID="lblPassNuevo" runat="server" CssClass="label2" Width="130">Nueva contraseña:</asp:Label></td>
+                                    <td  align="right"><asp:Label ID="lblPassNuevo" runat="server" CssClass="label2" >Nueva contraseña:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtNuevoPassword" runat="server" password="true" CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>           
                                 <tr>
-                                    <td style="width: 60%" align="right"><asp:Label ID="lblConfPass" runat="server" CssClass="label2" Width="130">Confirme contraseña:</asp:Label></td>
+                                    <td  align="right"><asp:Label ID="lblConfPass" runat="server" CssClass="label2" >Confirme contraseña:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtConfPassword" runat="server" password="true" CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>           
                                 <tr>
@@ -103,18 +106,18 @@
                 <tr>
                     <td align="center" class="style6">
                         <div id="divNuevaCta" runat="server">
-                            <table style="width: 90%">
+                            <table style="width: 100%">
                                 <tr>
                                     <td align="left" colspan="2" class="style11"></td>
                                 </tr>
                                 <tr>
-                                    <td style="width: 50%" align="right"><asp:Label ID="lblProv" runat="server" 
+                                    <td align="right"><asp:Label ID="lblProv" runat="server" 
                                               CssClass="label2" >Proveedor:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtProveedor" runat="server" 
                                             CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td style="width: 50%" align="right"><asp:Label ID="lblRFC" runat="server" 
+                                    <td align="right"><asp:Label ID="lblRFC" runat="server" 
                                               CssClass="label2" >RFC Prov:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtRFCProv" runat="server" 
                                             CssClass="text"  MaxLength="14" onKeyUp="changeToUpperCase(this.id);"></asp:TextBox></td>
