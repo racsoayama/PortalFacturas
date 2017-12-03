@@ -588,8 +588,7 @@ body {
   margin: 0;
   border: 0;
 }
-#cssmenu ul,
-li {
+#cssmenu ul, li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -605,8 +604,7 @@ li {
   line-height: 1em;
   vertical-align: middle;
 }
-#cssmenu ul li.hover,
-#cssmenu ul li:hover {
+#cssmenu ul li.hover, #cssmenu ul li:hover {
   position: relative;
   z-index: 599;
   cursor: default;
@@ -645,11 +643,10 @@ li {
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
   width: 200px;
 }
-#cssmenu span,
-#cssmenu a {
+#cssmenu span, #cssmenu a {
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 10.5px;
   text-decoration: none;
 }
 #cssmenu:after,
@@ -724,15 +721,13 @@ li {
   background: #e0e0e0;
 }
 #cssmenu a {
-  color: #151515;
-  text-transform: uppercase; /* colocar el texto en mayusculas*/
-  line-height: 160%;
-  padding: 8px 10px 8px 10px;
-  width: 150px;
+  color: #313131;
+  text-transform: uppercase; /* colocar el texto en mayusculas*/ 
+/*line-height: 100%;*/
+  margin: 10%;
 }
 #cssmenu ul ul {
   width: 200px;
-  height 50px;
   border: 0px solid #FDFDFE;
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
@@ -740,18 +735,16 @@ li {
 }
 #cssmenu ul ul li {
   background: #FDFDFE;
+  height: 50px;
 }
 #cssmenu ul ul li:hover {
   background:  #e0e0e0;
 }
-#cssmenu ul ul li:hover a {
-  color: #fff;
-}
 #cssmenu ul ul li ul li {
-  background: #1A6E33;
+  background: #FDFDFE;
 }
 #cssmenu ul ul li ul li:hover {
-  background: #339933;
+  background: #e0e0e0;
 }
 #cssmenu .has-sub {
   position: relative;
