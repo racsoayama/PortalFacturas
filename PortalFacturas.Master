@@ -55,7 +55,7 @@
                 </font>
             </div>
        </div> 
-        <div align="left" id="Div2" class="content-frame">
+        <div id="Div2" class="content-frame">
             <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server" >
             </asp:ContentPlaceHolder>
         </div>
