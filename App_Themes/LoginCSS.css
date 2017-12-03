@@ -1,5 +1,5 @@
 ﻿body {
-    background-color:rgba(169, 169, 169, 0.23) ;
+    background-color:rgba(242, 242, 242, 0.67) ;
     color: #656565;
     font-family: "Varela Round", Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -9,11 +9,11 @@
 
 .log-frame {
     margin: 0 auto;
-    margin-top: 190px;
+    margin-top: 100px;
     width: 600px;
     height: 460px;
     background-repeat: no-repeat;
-    background: #fafafa;
+    background: #fff;
     border: solid #B9B4BC 1px;
     padding-top: 40px;
 }
@@ -46,15 +46,11 @@
     outline: none;
     width: 110px;
     height: 30px;
-  
     margin-right: 7px;
 }
 td {
     vertical-align: bottom;
      width: 90%;
-
-
- 
 }
 .h1
 {
@@ -82,17 +78,17 @@ td {
     margin-top: 4px;
     margin-bottom: 8px;
     vertical-align: top;
+    background-color: #fff;
 }
 
 #imgcatcha {
-    height: 140%;
-    width: 100%;
+   
+    height: 30PX;
+    width: 100PX;
 }
 
 .logo {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-  
-
+    margin: auto;
+    text-align: center;
+    padding: 10px;
 }
