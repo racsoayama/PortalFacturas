@@ -8,35 +8,7 @@
     <script type='text/JavaScript' src='scripts\FuncValidaciones.js'></script>
     <link href="App_Themes/LoginCSS.css" type="text/css" rel="stylesheet"/>
     <title>Login</title>
-    <style type="text/css">
-        .style6
-        {
-            width: 330px;
-        }
-        .style7
-        {
-            height: 49px;
-            width: 100%;
-        }
-        .style8
-        {
-            width: 330px;
-            height: 10px;
-        }
-        .style9
-        {
-            width: 330px;
-            height: 3px;
-        }
-        .style10
-        {
-            height: 23px;
-        }
-        .style11
-        {
-            height: 18px;
-        }
-        </style>
+   
 </head>
 <body>
 <%--<div class="header">
@@ -55,23 +27,23 @@
                             <table style="width: 90%">
                                <%-- <tr><td class="style9" colspan="2">&nbsp;</td></tr>--%>
                                 <tr>
-                                    <td align="right"><asp:Label ID="lblUsuario" runat="server" CssClass="label2" Width="80">Usuario:</asp:Label></td>
-                                    <td align="left"><asp:TextBox ID="txtUsuario" runat="server" Width="110" CssClass="text" MaxLength="10"></asp:TextBox></td>
+                                    <td align="right"><asp:Label ID="lblUsuario" runat="server" CssClass="label2" >Usuario:</asp:Label></td>
+                                    <td align="left"><asp:TextBox ID="txtUsuario" runat="server"  CssClass="text" MaxLength="10"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td align="right"><asp:Label ID="lblPassword" runat="server" CssClass="label2" Width="80">Contraseña:</asp:Label></td>
+                                    <td align="right"><asp:Label ID="lblPassword" runat="server" CssClass="label2" >Contraseña:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtPassword" runat="server" password="true" 
-                                            CssClass="text" Width="110" MaxLength="15" TextMode="Password"></asp:TextBox></td>
+                                            CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td align="right"><asp:Label ID="lblIdioma" runat="server" CssClass="label2" Width="80">Idioma:</asp:Label></td>
-                                    <td align="left"><asp:DropDownList ID="cboIdioma" runat="server" CssClass="dropdownlist" Width ="110" AutoPostBack="true" 
+                                    <td align="right"><asp:Label ID="lblIdioma" runat="server" CssClass="label2" >Idioma:</asp:Label></td>
+                                    <td align="left"><asp:DropDownList ID="cboIdioma" runat="server" CssClass="dropdownlist"  AutoPostBack="true" 
                                                         onselectedindexchanged="cboIdioma_SelectedIndexChanged"></asp:DropDownList></td>
                                 </tr>
                                 <tr>
-                                    <td align="right"><img height="20" alt="" src="Captcha.aspx" width="80"></td>
+                                    <td align="right"><img height="20" alt="" src="Captcha.aspx" ></td>
                                     <td align="left"><asp:TextBox ID="txtCaptcha" runat="server" password="true" placeholder="Captcha"
-                                            CssClass="text" Width="110" MaxLength="8"></asp:TextBox></td>
+                                            CssClass="text"  MaxLength="8"></asp:TextBox></td>
                                 </tr>
 
                                 <tr align="center">
@@ -101,20 +73,20 @@
                             <table style="width: 90%">
                                 <tr>
                                     <td style="width: 60%" align="right"><asp:Label ID="lblUsuario2" runat="server" CssClass="label2" Width="130">Usuario:</asp:Label></td>
-                                    <td align="left"><asp:TextBox ID="txtUsuario2" runat="server" Width="110" CssClass="text" MaxLength="8"></asp:TextBox></td>
+                                    <td align="left"><asp:TextBox ID="txtUsuario2" runat="server"  CssClass="text" MaxLength="8"></asp:TextBox></td>
                                 </tr>
                                 <tr>
                                     <td style="width: 60%" align="right"><asp:Label ID="lblPassActual" runat="server" CssClass="label2" Width="130">Contraseña actual:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtPassActual" runat="server" password="true" 
-                                            CssClass="text" Width="110" MaxLength="15" TextMode="Password"></asp:TextBox></td>
+                                            CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>
                                 <tr>
                                     <td style="width: 60%" align="right"><asp:Label ID="lblPassNuevo" runat="server" CssClass="label2" Width="130">Nueva contraseña:</asp:Label></td>
-                                    <td align="left"><asp:TextBox ID="txtNuevoPassword" runat="server" password="true" CssClass="text" Width="110" MaxLength="15" TextMode="Password"></asp:TextBox></td>
+                                    <td align="left"><asp:TextBox ID="txtNuevoPassword" runat="server" password="true" CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>           
                                 <tr>
                                     <td style="width: 60%" align="right"><asp:Label ID="lblConfPass" runat="server" CssClass="label2" Width="130">Confirme contraseña:</asp:Label></td>
-                                    <td align="left"><asp:TextBox ID="txtConfPassword" runat="server" password="true" CssClass="text" Width="110" MaxLength="15" TextMode="Password"></asp:TextBox></td>
+                                    <td align="left"><asp:TextBox ID="txtConfPassword" runat="server" password="true" CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>           
                                 <tr>
                                     <td class="style7" align="center" colspan="2">
@@ -137,15 +109,15 @@
                                 </tr>
                                 <tr>
                                     <td style="width: 50%" align="right"><asp:Label ID="lblProv" runat="server" 
-                                              CssClass="label2" Width="80">Proveedor:</asp:Label></td>
+                                              CssClass="label2" >Proveedor:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtProveedor" runat="server" 
-                                            CssClass="text" Width="110" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                                            CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                                 </tr>
                                 <tr>
                                     <td style="width: 50%" align="right"><asp:Label ID="lblRFC" runat="server" 
-                                              CssClass="label2" Width="80">RFC Prov:</asp:Label></td>
+                                              CssClass="label2" >RFC Prov:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtRFCProv" runat="server" 
-                                            CssClass="text" Width="110" MaxLength="14" onKeyUp="changeToUpperCase(this.id);"></asp:TextBox></td>
+                                            CssClass="text"  MaxLength="14" onKeyUp="changeToUpperCase(this.id);"></asp:TextBox></td>
                                 </tr>
                                 <tr>
                                     <td class="style7" align="center" colspan="2">
