@@ -6,13 +6,13 @@ body {
 
 .header {
 	width: 100%;
-	height: 70px;
+	height: 125px;
 	margin: 0px 0px 0px 0px;
-	background-image: url('../images/background_header.png');
 	position: fixed;
+	/* background-image: url('../images/background_header.png');
 	background-repeat: repeat;
-	background-position: left top;
-	background-color: grey;
+	background-position: left top; */
+	background-color: #022268;
 }
 
 .logoEmp {
@@ -48,8 +48,10 @@ body {
 }
 
 .menu-frame {
-	position:absolute;
-    top: 72px;
+	position:fixed;
+    top: 125px;
+	padding-top: 100px;
+	padding-left: 20px;
 	width:200px;
 	height:100%;
 	background-color: #FDFDFE;
@@ -58,10 +60,8 @@ body {
 }
 
 .menu-back {
-	background-color: #21306F;
+	background-color: #e5e5e5;
 }
-
-
 
 
 .marquee
