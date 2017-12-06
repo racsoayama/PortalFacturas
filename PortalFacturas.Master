@@ -32,9 +32,8 @@
     <form id="form2" runat="server"  enctype="multipart/form-data">
     <asp:ScriptManager ID="ScriptManager1" runat="server" enablepagemethods="true" />
     <div class="header">
-        <div class="logoEmp"><img src="images/logoLands-icono"/> <p> PORTAL <br /> <b>FACTURAS</b></p></div>
+        <div class="logoEmp"><img src="images/logoLands-icono.png"/> <label> PORTAL <br /> <b>FACTURAS</b></label></div>
         <div class="logoPF"><img src="images/LogoPF.png" width="170" height="50" runat="server" id="imgLogo"/></div>
-        <div class="logoSSC"><img src="images/SSC.png" width="48" height="57"/></div>
         <div class="logout"><asp:ImageButton ID="btnSalir" runat="server" 
                             ImageUrl="~/Images/btnSalir.png" CommandName="Salir"  OnClientClick="window.close();" OnClient="btnlogout_Click"/>
                         <input type="submit" id="iframe" class="submit" name="go" value="submit" style="position: absolute; left: -2000px"/>
