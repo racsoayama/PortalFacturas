@@ -45,14 +45,10 @@
 	            <ul id="lista" runat="server">
 	            </ul>
             </div>
-            <div>
-                <br />
-                <br />
-                <font color="#F07D00" face="Helvetica, Arial, sans-serif" size="2">
-                <marquee id="marMensaje" runat="server" direction="up" width="150"  scrolldelay="300"
-                    color="#64350b" >Mensaje</marquee>
-                </font>
-            </div>
+       <div id="marMensaje" class="marquee" runat="server">
+           Mensaje
+       </div>
+                         
        </div> 
         <div id="Div2" class="content-frame">
             <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server" >
