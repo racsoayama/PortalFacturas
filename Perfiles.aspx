@@ -148,7 +148,7 @@
                 <Columns>
                     <asp:BoundField DataField="Id_Perfil" HeaderText="Id"  ShowHeader ="false"/>
                     <asp:BoundField DataField="Nombre" HeaderText="Perfil" >
-                        <ItemStyle Width="200px" />
+                        <ItemStyle  />
                     </asp:BoundField>
                     <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>

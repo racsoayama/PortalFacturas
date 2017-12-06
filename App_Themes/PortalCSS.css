@@ -404,43 +404,39 @@ body {
 
     .mGrid td {
         padding: 2px;
-        height: 60px;
+        height: 40px;
         border: none;
         max-width:200px;
         text-align:center;
     }
 
 .mGrid td input{
-        width: 60px;
+        width: 50px;
        
         
     }
-    .mGrid td input {
-        width: 60px;
-        
-      
-    }
 
 	/* Grid Header */
-.mGrid th {
-    padding: 4px 2px;
-    background: #fff;
-    font-size:18px;
-    border-bottom: solid 1px #e2e2e2;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    color: #797979;
-    min-height: 50px;
-}   
+    .mGrid th {
+        padding: 4px 2px;
+        background: #fff;
+        font-size: 18px;
+        border-bottom: solid 1px #e2e2e2;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        color: #797979;
+        min-height: 50px;
+      
+    }   
 
 	.mGrid .alt {   
 		background-color: #e6e6e6; /* url(grd_alt.png) repeat-x top;  */
 		border: none;
      
 	}
-.tableOpcitions {
-width:10px;
+.tableOptions {
+    width: 10px;
 }
 
 .mGrid .pgr {
