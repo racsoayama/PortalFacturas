@@ -32,7 +32,7 @@
     <form id="form2" runat="server"  enctype="multipart/form-data">
     <asp:ScriptManager ID="ScriptManager1" runat="server" enablepagemethods="true" />
     <div class="header">
-        <div class="logoEmp"><img src="images/Logo_amsa.png" width="65" height="65"/></div>
+        <div class="logoEmp"><img src="images/logoLands-icono"/> <p> PORTAL <br /> <b>FACTURAS</b></p></div>
         <div class="logoPF"><img src="images/LogoPF.png" width="170" height="50" runat="server" id="imgLogo"/></div>
         <div class="logoSSC"><img src="images/SSC.png" width="48" height="57"/></div>
         <div class="logout"><asp:ImageButton ID="btnSalir" runat="server" 
