@@ -385,9 +385,7 @@ table > tr >td {
     text-align: center;
 }
 
-.mGrid td {
-    width: 10px;
-}
+
 
 .mGrid {
     background-color: #fff;
@@ -455,8 +453,10 @@ table > tr >td {
 		.mGrid .pgr a:hover {   
 			color: #339933;   
 			text-decoration: none;   
-		}  
-
+		}
+.mGrid td {
+    width: 10px;
+}
 
 /* -------- */  
 /* Grid     */
