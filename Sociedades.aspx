@@ -9,44 +9,44 @@
       <tr>
         <td valign="top">
             <div id="divDetalle" runat="server" style="display: block">
-                <table frame="border" rules="none" bordercolor="#4c206c" border="3" cellspacing="0">
+                <table frame="border" rules="none" bordercolor="#4c206c" border="1" cellspacing="0" style="border-color: #C0C0C0">
                     <tr>
-                        <td colspan="2"><asp:label ID="lblLeySociedad" runat="server" CssClass="h3">Sociedad</asp:label></td>
+                        <td colspan="2" style="height: 40px"><asp:label ID="lblLeySociedad" runat="server" CssClass="h4">Sociedad</asp:label></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblID" runat="server" CssClass="label" Width="170">Sociedad ID:</asp:Label></td>
-                        <td><asp:TextBox ID="txtID" runat="server" CssClass="text" MaxLength="4" Width="50" onKeyUp="changeToUpperCase(this.id);"></asp:TextBox></td>
+                        <td align="right" style="height: 34px"><asp:Label ID="lblID" runat="server" CssClass="label" Width="170">Sociedad ID:</asp:Label></td>
+                        <td style="height: 34px"><asp:TextBox ID="txtID" runat="server" CssClass="dropdownlist" MaxLength="4" Width="150px" onKeyUp="changeToUpperCase(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblNombre" runat="server" CssClass="label" Width="170">Nombre:</asp:Label></td>
-                        <td><asp:TextBox ID="txtNombre" runat="server" CssClass="text" MaxLength="30" Width="250" ></asp:TextBox></td>
+                        <td align="right" style="height: 35px"><asp:Label ID="lblNombre" runat="server" CssClass="label" Width="170">Nombre:</asp:Label></td>
+                        <td style="height: 35px"><asp:TextBox ID="txtNombre" runat="server" CssClass="dropdownlist" MaxLength="30" Width="151px" Height="16px" ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblRFC" runat="server" class="label" Width="170">RFC:</asp:Label></td>
-                        <td><asp:TextBox ID="txtRFC" runat="server" class="text" Width="110" MaxLength="13" onKeyUp="validateAlpha(this.id);"></asp:TextBox></td>
+                        <td align="right"><asp:Label ID="lblRFC" runat="server" class="label" Width="170">RFC:</asp:Label></td>
+                        <td><asp:TextBox ID="txtRFC" runat="server" class="text" Width="150px" MaxLength="13" onKeyUp="validateAlpha(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblBusinessArea" runat="server" class="label" Width="170">BusinessArea:</asp:Label></td>
-                        <td><asp:TextBox ID="txtBusArea" runat="server" class="text" Width="80" MaxLength="4" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                        <td align="right"><asp:Label ID="lblBusinessArea" runat="server" class="label" Width="170">BusinessArea:</asp:Label></td>
+                        <td><asp:TextBox ID="txtBusArea" runat="server" class="text" Width="150px" MaxLength="4" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblCntrlArea" runat="server" class="label" Width="170">Controlling area:</asp:Label></td>
-                        <td><asp:TextBox ID="txtContArea" runat="server" class="text" Width="50" MaxLength="4" onKeyUp="validateAlpha(this.id);"></asp:TextBox></td>
+                        <td align="right"><asp:Label ID="lblCntrlArea" runat="server" class="label" Width="170">Controlling area:</asp:Label></td>
+                        <td><asp:TextBox ID="txtContArea" runat="server" class="text" Width="150px" MaxLength="4" onKeyUp="validateAlpha(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblGralLeyerAcc" runat="server" class="label" Width="170">General Leyer Account:</asp:Label></td>
-                        <td><asp:TextBox ID="txtGralLeyerAcc" runat="server" class="text" Width="80" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                        <td align="right" style="height: 34px"><asp:Label ID="lblGralLeyerAcc" runat="server" class="label" Width="170">General Leyer Account:</asp:Label></td>
+                        <td style="height: 34px"><asp:TextBox ID="txtGralLeyerAcc" runat="server" class="text" Width="150px" MaxLength="10" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblCostCenter" runat="server" class="label" Width="170">Cost Center:</asp:Label></td>
-                        <td><asp:TextBox ID="txtCostCenter" runat="server" class="text" Width="80" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                        <td align="right"><asp:Label ID="lblCostCenter" runat="server" class="label" Width="170">Cost Center:</asp:Label></td>
+                        <td><asp:TextBox ID="txtCostCenter" runat="server" class="text" Width="150px" MaxLength="10" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblCtaProv" runat="server" CssClass="label" Width="170">Cuenta Proveedor:</asp:Label></td>
-                        <td><asp:TextBox ID="txtCtaProv" runat="server" CssClass="text" MaxLength="10" Width="80" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                        <td align="right"><asp:Label ID="lblCtaProv" runat="server" CssClass="label" Width="170">Cuenta Proveedor:</asp:Label></td>
+                        <td><asp:TextBox ID="txtCtaProv" runat="server" CssClass="dropdownlist" MaxLength="10" Width="150px" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>                    
                     <tr>
-                        <td align="right" colspan="2">
+                        <td align="center" colspan="2">
                             <asp:ImageButton ID="btnGuardar" runat="server" 
                                 ImageUrl="~/Images/btnGuardar.png" CommandName="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 

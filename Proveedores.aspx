@@ -59,49 +59,49 @@
      <tr>
         <td valign="top" colspan="2">
             <div id="divDetalle" runat="server" style="display: block">
-              <table frame="border" rules="none" bordercolor="#4c206c" border="3" cellspacing="0">
+              <table frame="border" rules="none" bordercolor="#4c206c" border="1" cellspacing="0" style="border-color: #C0C0C0">
                <tr>
                  <td>
                  <table>
                     <tr>
-                        <td colspan="2"><asp:label ID="lblLeyProveedor" runat="server" CssClass="h3">Proveedor</asp:label></td>
+                        <td colspan="2" style="height: 40px"><asp:label ID="lblLeyProveedor" runat="server" CssClass="h4">Proveedor</asp:label></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblNumProv" runat="server" CssClass="label" Width="110"># Proveedor:</asp:Label></td>
-                        <td><asp:TextBox ID="txtNumProv" runat="server" CssClass="text" MaxLength="10" 
-                                Width="80px" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                        <td align="right" style="width: 523px"><asp:Label ID="lblNumProv" runat="server" CssClass="label" Width="110"># Proveedor:</asp:Label></td>
+                        <td><asp:TextBox ID="txtNumProv" runat="server" CssClass="dropdownlist" MaxLength="10" 
+                                Width="150px" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblRFC" runat="server" CssClass="label" Width="110">RFC:</asp:Label></td>
-                        <td><asp:TextBox ID="txtRFC" runat="server" CssClass="text" MaxLength="13" 
-                                Width="100px" Height="16px" onKeyUp="validateAlpha(this.id);"></asp:TextBox></td>
+                        <td align="right" style="width: 523px"><asp:Label ID="lblRFC" runat="server" CssClass="label" Width="110">RFC:</asp:Label></td>
+                        <td><asp:TextBox ID="txtRFC" runat="server" CssClass="dropdownlist" MaxLength="13" 
+                                Width="150px" Height="16px" onKeyUp="validateAlpha(this.id);"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblNombre" runat="server" CssClass="label" Width="110">Nombre:</asp:Label></td>
-                        <td><asp:TextBox ID="txtNombre" runat="server" CssClass="text" MaxLength="70" Width="400" ></asp:TextBox></td>
+                        <td align="right" style="width: 523px"><asp:Label ID="lblNombre" runat="server" CssClass="label" Width="110">Nombre:</asp:Label></td>
+                        <td><asp:TextBox ID="txtNombre" runat="server" CssClass="dropdownlist" MaxLength="70" Width="150px" Height="16px" ></asp:TextBox></td>
                     </tr>
 <%--                    <tr>
                         <td><asp:Label ID="lblCuenta" runat="server" CssClass="label" Width="110">Cuenta:</asp:Label></td>
                         <td><asp:TextBox ID="txtCuenta" runat="server" CssClass="text" MaxLength="10" Width="100" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                     </tr>--%>
                     <tr>
-                        <td><asp:Label ID="lblCorreo" runat="server" CssClass="label" Width="110">Correo:</asp:Label></td>
-                        <td><asp:TextBox ID="txtCorreo" runat="server" CssClass="text" MaxLength="40" Width="250"></asp:TextBox></asp:DropDownList></td>
+                        <td align="right" style="width: 523px"><asp:Label ID="lblCorreo" runat="server" CssClass="label" Width="110">Correo:</asp:Label></td>
+                        <td><asp:TextBox ID="txtCorreo" runat="server" CssClass="dropdownlist" MaxLength="40" Width="150px" Height="16px"></asp:TextBox></asp:DropDownList></td>
                     </tr>                    
                     <tr>
-                        <td><asp:Label ID="lblIntermediario" runat="server" CssClass="label" Width="110">Es intermediario?:</asp:Label></td>
-                        <td><asp:RadioButtonList ID="rbtIntermediario" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal">
+                        <td align="right" style="width: 523px; height: 36px"><asp:Label ID="lblIntermediario" runat="server" CssClass="label" Width="134px" style="margin-left: 0px">Es intermediario?:</asp:Label></td>
+                        <td style="height: 36px"><asp:RadioButtonList ID="rbtIntermediario" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None" Height="16px" Width="200px">
                                         </asp:RadioButtonList></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblStatus" runat="server" CssClass="label" Width="110">Status:</asp:Label></td>
-                        <td><asp:DropDownList ID="cboStatus" runat="server" CssClass="dropdownlist" Width ="80"></asp:DropDownList></td>
+                        <td align="right" style="width: 523px; height: 35px"><asp:Label ID="lblStatus" runat="server" CssClass="label" Width="110">Status:</asp:Label></td>
+                        <td style="height: 35px"><asp:DropDownList ID="cboStatus" runat="server" CssClass="dropdownlist" Width ="150px" Height="16px"></asp:DropDownList></td>
                     </tr>
                     <tr>
-                        <td valign="top"><asp:Label ID="lblSociedades" runat="server" CssClass="label" Width="110">Sociedades:</asp:Label></td>
+                        <td valign="top" align="right" style="width: 523px"><asp:Label ID="lblSociedades" runat="server" CssClass="label" Width="110">Sociedades:</asp:Label></td>
                         <td>
                          <asp:CheckBoxList ID="lstSociedades" runat="server" CssClass="checklist" 
-                               Width="300px" RepeatColumns="1">
+                               Width="150px" RepeatColumns="1" BorderStyle="None" Height="113px">
                             <asp:ListItem Text="Soc 1" Value="Soc1"></asp:ListItem>
                             <asp:ListItem Text="Soc 2" Value="Soc2"></asp:ListItem>
                             <asp:ListItem Text="Soc 3" Value="Soc3"></asp:ListItem>
@@ -112,7 +112,7 @@
                     </tr>
                     
                     <tr>
-                        <td align="right" colspan="2">
+                        <td align="center" colspan="2">
                             <asp:ImageButton ID="btnGuardar" runat="server" 
                                 ImageUrl="~/Images/btnGuardar.png" CommandName="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 
