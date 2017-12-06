@@ -399,22 +399,33 @@ table > tr >td {
 }
 
 
-.mGrid td {
-    padding: 2px;
-    height: 50px;
-    border: none;
-}   
+    .mGrid td {
+        padding: 2px;
+        height: 60px;
+        border: none;
+    }
+
+.mGrid td input{
+        width: 60px;
+       
+        
+    }
+    .mGrid td input {
+        width: 60px;
+        
+      
+    }
 
 	/* Grid Header */
 .mGrid th {
     padding: 4px 2px;
     background: #fff;
-    font-size: 14px;
-    border-bottom: solid 1px #b2b2b2;
+    font-size:18px;
+    border-bottom: solid 1px #e2e2e2;
     border-right: none;
     border-left: none;
     border-top: none;
-    color: 656565;
+    color: #797979;
     min-height: 50px;
 }   
 
@@ -423,14 +434,14 @@ table > tr >td {
 		border: none;
      
 	}
+.tableOpcitions {
 
- 
-	  
-	  
-	.mGrid .pgr {
-		background-color: #656565; /* url(grd_pgr.png) repeat-x top;   */
-		text-align: center;
-	}   
+width:10px;
+}
+.mGrid .pgr {
+    background-color: #b2b2b2; /* url(grd_pgr.png) repeat-x top;   */
+    text-align: center;
+}   
   
 		.mGrid .pgr table {   
 			margin: 5px 0;   
@@ -452,9 +463,6 @@ table > tr >td {
 			color: #339933;   
 			text-decoration: none;   
 		}
- td {
-    width:40px;
-}
 
 /* -------- */  
 /* Grid     */
@@ -592,16 +600,13 @@ table > tr >td {
 			color: #339933;   
 			text-decoration: none;   
 		}
-table input:checked, table input:u {
+table input:checked{
     opacity: 0.8;
     height: 20px;
     background-color: #FFF;
     width: 20px;
 }
-table input:checked {
-    height: 20px;
-    width: 20px;
-}
+
     /*	--------------------------------------------------
 	:: Menu 
 	-------------------------------------------------- */

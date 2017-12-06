@@ -157,25 +157,25 @@
                         <asp:BoundField DataField="Status" HeaderText="Status" >
                             <ItemStyle Width="70px" HorizontalAlign="Center"/>
                         </asp:BoundField>
-                        <asp:TemplateField ShowHeader="False">
+                        <asp:TemplateField ShowHeader="False" ItemStyle-CssClass="tableOpcitions" >
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnVerDetalles" runat="server" CausesValidation="false" CommandName="Consultar" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridVerDetalles.png" OnCommand="btnEditar_Command" Text="Detalles"  />
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:TemplateField ShowHeader="False">
+                        <asp:TemplateField ShowHeader="False" ItemStyle-CssClass="tableOpcitions">
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnAgregar" runat="server" CausesValidation="false" CommandName="Agregar" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridNuevo.png" OnCommand="btnNuevo_Command" Text="Nuevo" />
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:TemplateField ShowHeader="False">
+                        <asp:TemplateField ShowHeader="False"  ItemStyle-CssClass="tableOpcitions">
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnEditar" runat="server" CausesValidation="false" CommandName="Editar" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridEditar.png" OnCommand="btnEditar_Command" Text="Editar"/>
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:TemplateField ShowHeader="False">
+                        <asp:TemplateField ShowHeader="False"  ItemStyle-CssClass="tableOpcitions">
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminar_Command" Text="Eliminar" />
