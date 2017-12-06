@@ -23,7 +23,7 @@
     <script type='text/JavaScript' src='scripts\scw.js'></script>
 
 </head>
-<body leftmargin="0" topmargin="0"  >
+<body  >
     <form id="form2" runat="server"  enctype="multipart/form-data">
     <asp:ScriptManager ID="ScriptManager1" runat="server" enablepagemethods="true" />
     <div class="header">
