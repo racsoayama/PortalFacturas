@@ -479,25 +479,22 @@ body {
     /*width: 100%;*/   
     background-color: #fff; 
     margin: 5px 0 10px 0;   
-    font-family: Verdana;
+    font-family: Verdana, Georgia;
     font-size: 10px;
     text-decoration: none;
-    color: #64250b;   
+    color: #656565;   
 }   
 
 	.mGrid2 td {   
 		padding: 2px;   
 		border-bottom: rgba(0, 0, 0, 0.15) 1px solid;
-		border-top: none;
-		border-left: none;
-		border-right: none;
 	}   
 
 	/* Grid Header */  
 	.mGrid2 th {   
-		padding: 4px 2px;   
-		background: #989A63; /* url(grd_head.png) repeat-x top;   */
-		font-size: 10px;
+		padding: 4px 2px; 
+		background: #002068; /* url(grd_head.png) repeat-x top;   */
+		font-size: 12px;
 		border-bottom: rgba(0, 0, 0, 0.15) 1px solid;
 		border-top: none;
 		border-left: none;

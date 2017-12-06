@@ -35,28 +35,28 @@
                                                 <td colspan="2"><asp:label ID="lblLeyArchPDF" runat="server" CssClass="label" Width="330">Seleccione el archivo PDF de la factura a subir:</asp:label></td>
                                             </tr>
                                             <tr>
-                                                <td colspan="2"><INPUT type=file id=File1 name=File1 runat="server" size="50" accept="image/*.pdf" /></td>
+                                                <td colspan="2" style="height: 36px"><INPUT type=file id=File1 name=File1 runat="server" size="50" accept="image/*.pdf" /></td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2"><asp:label ID="lblLayArchXML" runat="server" CssClass="label" Width="330">Seleccione el archivo XML de la factura a subir:</asp:label></td>
                                             </tr>
                                             <tr>
-                                                <td colspan="2"><INPUT type=file id=File2 name=File1 runat="server" size="50" accept="image/*.xml" /></td>
+                                                <td colspan="2" style="height: 36px"><INPUT type=file id=File2 name=File1 runat="server" size="50" accept="image/*.xml" /></td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2"><asp:label ID="lblOtrosArchivos" runat="server" CssClass="h3" Width="330">Otros archivos:</asp:label></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:label ID="lblArchivo1" runat="server" CssClass="label" Width="70">Archivo 1:</asp:label></td>
-                                                <td><INPUT type=file id=File3 name=File3 runat="server" size="37" accept="*.*" /></td>
+                                                <td style="height: 36px"><asp:label ID="lblArchivo1" runat="server" CssClass="label" Width="70">Archivo 1:</asp:label></td>
+                                                <td style="height: 36px"><INPUT type=file id=File3 name=File3 runat="server" size="37" accept="*.*" /></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:label ID="lblArchivo2" runat="server" CssClass="label" Width="70">Archivo 2:</asp:label></td>
-                                                <td><INPUT type=file id=File4 name=File3 runat="server" size="37" accept="*.*" /></td>
+                                                <td style="height: 36px"><asp:label ID="lblArchivo2" runat="server" CssClass="label" Width="70">Archivo 2:</asp:label></td>
+                                                <td style="height: 36px"><INPUT type=file id=File4 name=File3 runat="server" size="37" accept="*.*" /></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:label ID="lblArchivo3" runat="server" CssClass="label" Width="70">Archivo 3:</asp:label></td>
-                                                <td><INPUT type=file id=File5 name=File3 runat="server" size="37" accept="*.*" /></td>
+                                                <td style="height: 36px"><asp:label ID="lblArchivo3" runat="server" CssClass="label" Width="70">Archivo 3:</asp:label></td>
+                                                <td style="height: 36px"><INPUT type=file id=File5 name=File3 runat="server" size="37" accept="*.*" /></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -79,19 +79,19 @@
                                 </tr>
                                 <tr>
                                     <td><asp:label ID="lblUUID" runat="server" CssClass="label" Width="120">Certificado SAT:</asp:label></td>
-                                    <td><asp:textbox ID="txtUUID" runat="server" CssClass="text" Width="250"></asp:TextBox></td>
+                                    <td><asp:textbox ID="txtUUID" runat="server" CssClass="dropdownlist" Width="150px" Height="16px"></asp:TextBox></td>
                                 </tr>
                                 <tr>
                                     <td><asp:label ID="lblNumFactura" runat="server" CssClass="label" Width="120">Factura:</asp:label></td>
-                                    <td><asp:textBox ID="txtFactura" runat="server" CssClass="text" Width="90"></asp:textBox></td>
+                                    <td><asp:textBox ID="txtFactura" runat="server" CssClass="dropdownlist" Width="150px" Height="16px"></asp:textBox></td>
                                 </tr>
                                 <tr>
                                     <td><asp:label ID="lblEmisor" runat="server" CssClass="label" Width="120">Emisor:</asp:label></td>
-                                    <td><asp:textBox ID="txtEmisor" runat="server" CssClass="text" Width="300px"></asp:textBox></td>
+                                    <td><asp:textBox ID="txtEmisor" runat="server" CssClass="dropdownlist" Width="150px" Height="16px"></asp:textBox></td>
                                 </tr>
                                 <tr>
                                     <td><asp:label ID="lblReceptor" runat="server" CssClass="label" Width="120">Receptor:</asp:label></td>
-                                    <td><asp:textBox ID="txtReceptor" runat="server" CssClass="text" Width="300"></asp:textBox></td>
+                                    <td><asp:textBox ID="txtReceptor" runat="server" CssClass="dropdownlist" Width="150px" Height="16px"></asp:textBox></td>
                                 </tr>
                                 <tr>
                                     <td><asp:label ID="lblFecha" runat="server" CssClass="label" Width="120">Fecha:</asp:label></td>
@@ -99,16 +99,16 @@
                                 </tr>
                                 <tr>
                                     <td><asp:label ID="lblImporte" runat="server" CssClass="label" Width="120">Importe:</asp:label></td>
-                                    <td><asp:textBox ID="txtImporte" runat="server" CssClass="text" Width="90px"></asp:textBox></td>
+                                    <td><asp:textBox ID="txtImporte" runat="server" CssClass="dropdownlist" Width="150px" Height="16px"></asp:textBox></td>
                                 </tr>
                                 <tr>
                                     <td><asp:label ID="lblMoneda" runat="server" CssClass="label" Width="120">Moneda:</asp:label></td>
                                     <td><asp:DropDownList ID="cboMoneda" runat="server" 
-                                                        CssClass="dropdownlist" Width ="100px"></asp:DropDownList></td>
+                                                        CssClass="dropdownlist" Width ="150px" Height="16px"></asp:DropDownList></td>
                                 </tr>
                                 <tr>
                                     <td><asp:label ID="lblValidacion" runat="server" CssClass="label" Width="120">Validación:</asp:label></td>
-                                    <td><asp:textbox ID="txtValidacion" runat="server" CssClass="text" Width="300px"></asp:TextBox></td>
+                                    <td><asp:textbox ID="txtValidacion" runat="server" CssClass="dropdownlist" Width="150px" Height="16px"></asp:TextBox></td>
                                 </tr>
                                 <tr>
                                     <td align="right" colspan="2">
