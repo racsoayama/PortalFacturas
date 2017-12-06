@@ -100,7 +100,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCambioPassword;
+        protected global::System.Web.UI.WebControls.Button btnCambioPassword;
         
         /// <summary>
         /// btnAceptar control.
@@ -109,7 +109,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnAceptar;
+        protected global::System.Web.UI.WebControls.Button btnAceptar;
         
         /// <summary>
         /// btnCancelar control.
@@ -118,7 +118,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCancelar;
+        protected global::System.Web.UI.WebControls.Button btnCancelar;
         
         /// <summary>
         /// btnRecuperaCambio control.
@@ -127,7 +127,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnRecuperaCambio;
+        protected global::System.Web.UI.WebControls.Button btnRecuperaCambio;
         
         /// <summary>
         /// btnCrearCta control.
@@ -136,7 +136,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCrearCta;
+        protected global::System.Web.UI.WebControls.Button btnCrearCta;
         
         /// <summary>
         /// btnVerManual control.
@@ -145,7 +145,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnVerManual;
+        protected global::System.Web.UI.WebControls.Button btnVerManual;
         
         /// <summary>
         /// divCambioPasw control.
@@ -235,7 +235,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnAceptarCambio;
+        protected global::System.Web.UI.WebControls.Button btnAceptarCambio;
         
         /// <summary>
         /// btnCancelarCambio control.
@@ -244,7 +244,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCancelarCambio;
+        protected global::System.Web.UI.WebControls.Button btnCancelarCambio;
         
         /// <summary>
         /// divNuevaCta control.
@@ -298,7 +298,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnRegistrar;
+        protected global::System.Web.UI.WebControls.Button btnRegistrar;
         
         /// <summary>
         /// btnCancNuevaCta control.
@@ -307,6 +307,6 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCancNuevaCta;
+        protected global::System.Web.UI.WebControls.Button btnCancNuevaCta;
     }
 }

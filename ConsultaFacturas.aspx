@@ -41,10 +41,10 @@
                         <td><asp:textbox ID="txtFecRegIni" runat="server" CssClass="text" Width="80" MaxLength="10"></asp:TextBox></td>
                         <td><asp:label ID="lblFecRegFin" runat="server" CssClass="label" Width="120">Fecha registro final:</asp:label></td>
                         <td><asp:textbox ID="txtFecRegFin" runat="server" CssClass="text" Width="80" MaxLength="10"></asp:TextBox></td>
-                        <td><asp:ImageButton ID="btnBuscar" runat="server" ImageUrl="~/Images/btnBuscar.png" CommandName="Buscar" 
+                        <td><asp:Button ID="btnBuscar" runat="server" Value="Buscar" 
                              onclick="btnBuscar_Click"/>
                         </td>
-                        <td><asp:ImageButton ID="btnImportar" runat="server" ImageUrl="~/Images/btnImportar.png" CommandName="Importar" 
+                        <td><asp:Button ID="btnImportar" runat="server" Value="Importar" 
                                      onclick="btnImportar_Click"/></td>
                     </tr>
                 </table>
@@ -63,8 +63,8 @@
                     </tr>
                     <tr>
                         <td align="right">
-                            <asp:ImageButton ID="btnAceptarImportar" runat="server"  ImageUrl="~/Images/btnAceptar.png" CommandName="Cancelar" OnClientClick="return validaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
-                            <asp:ImageButton ID="btnCancelarImportar" runat="server"  ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" onclick="btnCancelarImportar_Click"/>
+                            <asp:Button ID="btnAceptarImportar" runat="server"  Value="Cancelar" OnClientClick="return validaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
+                            <asp:Button ID="btnCancelarImportar" runat="server"  Value="Cancelar" onclick="btnCancelarImportar_Click"/>
                         </td>
                     </tr>
                 </table>

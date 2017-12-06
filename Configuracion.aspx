@@ -65,11 +65,11 @@
                 <tr>
                     <td align="right" colspan="2">
                         
-                        <asp:ImageButton ID="btnGuardar" runat="server" 
-                            ImageUrl="~/Images/btnGuardar.png" CommandName="Guardar" 
+                        <asp:Button ID="btnGuardar" runat="server" 
+                            IValue="Guardar" 
                             OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 
-                        <asp:ImageButton ID="btnCancelar" runat="server"  
-                            ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" 
+                        <asp:Button ID="btnCancelar" runat="server"  
+                            Value="Cancelar" 
                             onclick="btnCancelar_Click"/>
                     </td>    
                 </tr>

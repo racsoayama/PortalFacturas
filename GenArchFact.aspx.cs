@@ -43,7 +43,7 @@ namespace PortalFacturas
 
         }
 
-        protected void btnGenerarLog_Click(object sender, ImageClickEventArgs e)
+        protected void btnGenerarLog_Click(object sender, EventArgs e)
         {
             int registros = 0;
             string nomFile = "";
@@ -81,7 +81,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnGenerarFin_Click(object sender, ImageClickEventArgs e)
+        protected void btnGenerarFin_Click(object sender, EventArgs e)
         {
             int registros = 0;
             string nomFile = "";
@@ -119,7 +119,7 @@ namespace PortalFacturas
             }
         }
 
-        //protected void btnCancelar_Click(object sender, ImageClickEventArgs e)
+        //protected void btnCancelar_Click(object sender, EventArgs e)
         //{
         //    Response.Redirect("Principal.aspx");
         //}

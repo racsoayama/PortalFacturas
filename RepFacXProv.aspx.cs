@@ -51,7 +51,7 @@ namespace PortalFacturas
         }
 
 
-        protected void btnGenerar_Click(object sender, ImageClickEventArgs e)
+        protected void btnGenerar_Click(object sender, EventArgs e)
         {
             //string sProveedor = "";
             string sProveedores = "";

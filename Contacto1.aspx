@@ -40,9 +40,9 @@
                         </tr>   
                         <tr>
                             <td colspan="2" align="right">
-                            <asp:ImageButton ID="btnEnviar" runat="server" ImageUrl="~/Images/btnEnviar.png" CommandName="Enviar" 
+                            <asp:Button ID="btnEnviar" runat="server" Value="Enviar" 
                                              OnClientClick="return ValidaDatos();" OnClick ="btnEnviar_Click"/>
-                            <asp:ImageButton ID="btnCancelar" runat="server" ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" 
+                            <asp:Button ID="btnCancelar" runat="server"Value="Cancelar" 
                                              OnClientClick="CloseFormCancel();"/>
 
                             </td>

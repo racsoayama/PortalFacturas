@@ -117,6 +117,7 @@
     <Content Include="RepFacXODC.aspx" />
     <Content Include="RepFacXProv.aspx" />
     <Content Include="RepFacXSociedad.aspx" />
+    <Content Include="Scripts\ChangeButtonLang.js" />
     <Content Include="Scripts\FuncValidaciones.js" />
     <Content Include="Scripts\scw.js" />
     <Content Include="Service References\wsValidaCFDIs\ConsultaCFDIService.disco" />

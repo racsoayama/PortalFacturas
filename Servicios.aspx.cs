@@ -73,7 +73,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnBuscar_Click(object sender, ImageClickEventArgs e)
+        protected void btnBuscar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -97,7 +97,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnMostrarTodos_Click(object sender, ImageClickEventArgs e)
+        protected void btnMostrarTodos_Click(object sender, EventArgs e)
         {
             try
             {
@@ -123,12 +123,12 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnImportar_Click(object sender, EventArgs e)
         {
             divImportar.Visible = true;
         }
 
-        protected void btnAceptarImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarImportar_Click(object sender, EventArgs e)
         {
             int registros = 0;
             string sPathArchivo;
@@ -187,7 +187,7 @@ namespace PortalFacturas
 
         }
 
-        protected void btnCancelarImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarImportar_Click(object sender, EventArgs e)
         {
             divImportar.Visible = false;
         }

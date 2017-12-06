@@ -224,7 +224,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnGuardar_Click(object sender, ImageClickEventArgs e)
+        protected void btnGuardar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -265,7 +265,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnCancelar_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelar_Click(object sender, EventArgs e)
         {
             txtFilRFC.Text = "";
             txtNombre.Text = "";
@@ -277,7 +277,7 @@ namespace PortalFacturas
             divDetalle.Visible = false;
         }
 
-        protected void btnBuscar_Click(object sender, ImageClickEventArgs e)
+        protected void btnBuscar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -295,7 +295,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnMostrarTodos_Click(object sender, ImageClickEventArgs e)
+        protected void btnMostrarTodos_Click(object sender, EventArgs e)
         {
             try
             {
@@ -317,13 +317,13 @@ namespace PortalFacturas
         }
 
 
-        protected void btnImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnImportar_Click(object sender, EventArgs e)
         {
             divDetalle.Visible = false;
             divImportar.Visible = true;
         }
 
-        protected void btnAceptarImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarImportar_Click(object sender, EventArgs e)
         {
             int registros = 0;
             try
@@ -383,7 +383,7 @@ namespace PortalFacturas
 
         }
 
-        protected void btnCancelarImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarImportar_Click(object sender, EventArgs e)
         {
             divImportar.Visible = false;
         }

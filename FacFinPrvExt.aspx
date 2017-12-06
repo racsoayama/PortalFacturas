@@ -57,7 +57,7 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2" align="right">
-                                        <asp:ImageButton ID="btnAceptarImportar" runat="server"  ImageUrl="~/Images/btnAceptar.png" CommandName="Cancelar" OnClientClick="return ValidaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
+                                        <asp:Button ID="btnAceptarImportar" runat="server"  Value="Aceptar" OnClientClick="return ValidaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
                                     </td>
                                 </tr>
                             </table>
@@ -136,7 +136,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td colspan="2" align="right">
-                                                        <asp:ImageButton ID="btnAceptarItem" runat="server"  ImageUrl="~/Images/btnAgregar.png" CommandName="Cancelar" 
+                                                        <asp:Button ID="btnAceptarItem" runat="server"  Value="Aceptar" 
                                                             OnClientClick="return ValidaDatosItem();" onclick="btnAceptarItem_Click"/>&nbsp;
                                                     </td>
                                                 </tr>
@@ -165,8 +165,8 @@
                                                 </asp:BoundField>
                                                 <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                                     <ItemTemplate>
-                                                        <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
-                                                            ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminarItem_Command" Text="Eliminar" />
+                                                        <asp:Button ID="btnEliminar" runat="server" CausesValidation="false" Value="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
+                                                           OnCommand="btnEliminarItem_Command" Text="Eliminar" />
                                                     </ItemTemplate>
                                                 </asp:TemplateField>
                                             </Columns>
@@ -175,10 +175,9 @@
                                 </tr>
                                 <tr>
                                     <td align="right" colspan="2">
-                                        <asp:ImageButton ID="btnAceptarFactura" runat="server"  ImageUrl="~/Images/btnAceptar.png" 
-                                            CommandName="Cancelar" OnClientClick="return ValidaDatosFact();" onclick="btnAceptarAgregar_Click"/>&nbsp;
-                                        <asp:ImageButton ID="btnCancelarAgregar" runat="server"  
-                                            ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" 
+                                        <asp:Button ID="btnAceptarFactura" runat="server"  Value="Aceptar" OnClientClick="return ValidaDatosFact();" onclick="btnAceptarAgregar_Click"/>&nbsp;
+                                        <asp:Button ID="btnCancelarAgregar" runat="server"  
+                                            Value="Cancelar" 
                                             onclick="btnCancelarAgregar_Click"/>
                                     </td>
                                 </tr>
@@ -251,10 +250,10 @@
                     </tr>
                     <tr>
                         <td align="right" colspan="2">
-                            <asp:ImageButton ID="btnAceptar" runat="server" 
-                                ImageUrl="~/Images/btnSubir.png" CommandName="Aceptar" onclick="btnAceptarSubir_Click"/>&nbsp;
-                            <asp:ImageButton ID="btnCancelar" runat="server"  
-                                ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" onclick="btnCancelarSubir_Click" />
+                            <asp:Button ID="btnAceptar" runat="server" 
+                                Value="Subir" onclick="btnAceptarSubir_Click"/>&nbsp;
+                            <asp:Button ID="btnCancelar" runat="server"  
+                                Value="Cancelar" onclick="btnCancelarSubir_Click" />
                         </td>
                     </tr>
                     

@@ -87,7 +87,7 @@ namespace PortalFacturas
         //    }
         //}
 
-        protected void btnBuscar_Click(object sender, ImageClickEventArgs e)
+        protected void btnBuscar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -332,7 +332,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnExportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnExportar_Click(object sender, EventArgs e)
         {
             int ren = 0;
             try

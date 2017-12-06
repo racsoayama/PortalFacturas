@@ -145,7 +145,7 @@ namespace PortalFacturas
         }
 
 
-        protected void btnGuardar_Click(object sender, ImageClickEventArgs e)
+        protected void btnGuardar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -177,7 +177,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnCancelar_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelar_Click(object sender, EventArgs e)
         {
             txtID.Text = "";
             txtMonSAP.Text = "";

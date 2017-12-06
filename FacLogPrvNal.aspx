@@ -71,8 +71,7 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2" align="right">
-                                        <asp:ImageButton ID="btnAceptarImportar" runat="server"  ImageUrl="~/Images/btnAceptar.png" 
-                                            CommandName="Cancelar" OnClientClick="return ValidaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
+                                        <asp:Button ID="btnAceptarImportar" runat="server"  Value="Aceptar" OnClientClick="return ValidaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
                                     </td>
                                 </tr>
                             </table>
@@ -151,10 +150,10 @@
                                 </tr>
                                 <tr>
                                     <td align="right" colspan="2">
-                                        <asp:ImageButton ID="btnAceptarFactura" runat="server" ImageUrl="~/Images/btnAceptar.png" 
-                                            CommandName="Cancelar" OnClientClick="return ValidaMoneda();" onclick="btnAceptarFactura_Click"/>&nbsp;
-                                        <asp:ImageButton ID="btnCancelarAgregar" runat="server"  
-                                            ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" 
+                                        <asp:Button ID="btnAceptarFactura" runat="server" 
+                                            Value="Aceptar" OnClientClick="return ValidaMoneda();" onclick="btnAceptarFactura_Click"/>&nbsp;
+                                        <asp:Button ID="btnCancelarAgregar" runat="server"  
+                                            IValue="Cancelar" 
                                             onclick="btnCancelarAgregar_Click" />
                                     </td>
                                 </tr>
@@ -349,10 +348,8 @@
                     </tr>
                     <tr>
                         <td align="right">
-                            <asp:ImageButton ID="btnAceptarEntregas" runat="server"  ImageUrl="~/Images/btnAceptar.png" 
-                                CommandName="Aceptar" OnClientClick="return ConfirmarNotas();" onclick="btnAceptarEntregas_Click"/>
-                            <asp:ImageButton ID="btnCancelarEntregas" runat="server"  ImageUrl="~/Images/btnCancelar.png" 
-                                CommandName="Aceptar" onclick="btnCancelarEntregas_Click"/>
+                            <asp:Button ID="btnAceptarEntregas" runat="server"  Value="Aceptar"  OnClientClick="return ConfirmarNotas();" onclick="btnAceptarEntregas_Click"/>
+                            <asp:Button ID="btnCancelarEntregas" runat="server" Value="Cancelar" onclick="btnCancelarEntregas_Click"/>
                         </td>
                     </tr>
                 </table>
@@ -407,10 +404,8 @@
                     </tr>
                     <tr>
                         <td align="right" >
-                            <asp:ImageButton ID="btnAceptarServ" runat="server"  ImageUrl="~/Images/btnAceptar.png" 
-                                CommandName="Aceptar" onclick="btnAceptarEntregas_Click"/>
-                            <asp:ImageButton ID="btnCancelar2" runat="server"  ImageUrl="~/Images/btnCancelar.png" 
-                                CommandName="Aceptar" onclick="btnCancelarEntregas_Click"/>
+                            <asp:Button ID="btnAceptarServ" runat="server"  Value="Aceptar" onclick="btnAceptarEntregas_Click"/>
+                            <asp:Button ID="btnCancelar2" runat="server"  Value="Cancelar" onclick="btnCancelarEntregas_Click"/>
                         </td>
                     </tr>
                 </table>
@@ -479,10 +474,10 @@
                     </tr>
                     <tr>
                         <td align="right" colspan="2">
-                            <asp:ImageButton ID="btnAceptar" runat="server" 
-                                ImageUrl="~/Images/btnSubir.png" CommandName="Aceptar" onclick="btnAceptarSubir_Click"/>&nbsp;
-                            <asp:ImageButton ID="btnCancelar" runat="server"  
-                                ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" onclick="btnCancelarSubir_Click" />
+                            <asp:Button ID="btnAceptar" runat="server" 
+                            Value="Aceptar" onclick="btnAceptarSubir_Click"/>&nbsp;
+                            <asp:Button ID="btnCancelar" runat="server"  
+                               Value="Cancelar" onclick="btnCancelarSubir_Click" />
                         </td>
                     </tr>
                     

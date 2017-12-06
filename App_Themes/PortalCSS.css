@@ -70,7 +70,12 @@ body {
 	right: 0;
 }
 #btnSalir {
-    background:none;
+
+    color:#fff;
+    background: rgba(33,48,111,1);
+    width: 120px;
+    height: 40px;
+    border: none;
 }
 
 .menu-frame {

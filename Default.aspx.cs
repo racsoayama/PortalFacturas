@@ -73,24 +73,24 @@ namespace PortalFacturas
         }
 
 
-        protected void LoginButton_Click(object sender, ImageClickEventArgs e)
+        protected void LoginButton_Click(object sender, EventArgs e)
         {
         }
 
-        protected void btnCambioPassword_Click(object sender, ImageClickEventArgs e)
+        protected void btnCambioPassword_Click(object sender, EventArgs e)
         {
         }
 
-        protected void btnAceptarCambio_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarCambio_Click(object sender, EventArgs e)
         {
         }
 
 
-        protected void btnCancelarCambio_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarCambio_Click(object sender, EventArgs e)
         {
         }
 
-        protected void btnRecuperaPassword_Click(object sender, ImageClickEventArgs e)
+        protected void btnRecuperaPassword_Click(object sender, EventArgs e)
         {
         }
 
@@ -100,16 +100,16 @@ namespace PortalFacturas
 
         #region NuevaCuenta
 
-        protected void btnCrearCta_Click(object sender, ImageClickEventArgs e)
+        protected void btnCrearCta_Click(object sender, EventArgs e)
         {
         }
 
-        protected void btnAceptarRegistro_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarRegistro_Click(object sender, EventArgs e)
         {
 
         }
 
-        protected void btnCancelarRegistro_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarRegistro_Click(object sender, EventArgs e)
         {
         }
 
@@ -119,7 +119,7 @@ namespace PortalFacturas
 
         #endregion NuevaCuenta
 
-        protected void btnVerManual_Click(object sender, ImageClickEventArgs e)
+        protected void btnVerManual_Click(object sender, EventArgs e)
         {
         }
 

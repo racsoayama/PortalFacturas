@@ -69,19 +69,19 @@
                                     </tr>
                                     <tr align="center">
                                         <td class="style7" align="center" colspan="2">
-                                            <asp:ImageButton ID="btnCambioPassword" runat="server" ImageUrl="~/Images/btnSeguridad.png"  OnClick="btnCambioPassword_Click" ToolTip="Cambio de password" TabIndex="1"></asp:ImageButton>
-                                            <asp:ImageButton ID="btnAceptar" runat="server" ImageUrl="~/Images/btnAceptar.png" OnClientClick="return ValidaLogin();" OnClick="LoginButton_Click"  TabIndex="2"></asp:ImageButton>
-                                            <asp:ImageButton ID="btnCancelar" runat="server" ImageUrl="~/Images/btnCerrar.png"  OnClientClick="window.close();"  TabIndex="3"></asp:ImageButton>
+                                            <asp:Button ID="btnCambioPassword" runat="server" IValue="Cambio de Password"  OnClick="btnCambioPassword_Click" ToolTip="Cambio de password" TabIndex="1"></asp:Button>
+                                            <asp:Button ID="btnAceptar" runat="server" Value="Aceptar"  OnClientClick="return ValidaLogin();" OnClick="LoginButton_Click"  TabIndex="2"></asp:Button>
+                                            <asp:Button ID="btnCancelar" runat="server" Value="Cancelar"   OnClientClick="window.close();"  TabIndex="3"></asp:Button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <%--<asp:ImageButton ID="btnCambioPassword" runat="server" ImageUrl="~/Images/btnCambiarPassword.png"  OnClick="btnCambioPassword_Click" ToolTip="Cambio de password" TabIndex="1"></asp:ImageButton>--%>
-                                            <asp:ImageButton ID="btnRecuperaCambio" runat="server" ImageUrl="~/Images/btnRecuperarPwd.png"  OnClick="btnRecuperaPassword_Click" TabIndex="1"></asp:ImageButton>
-                                            <asp:ImageButton ID="btnCrearCta" runat="server" 
-                                                ImageUrl="~/Images/btnCrearCuenta.png"  TabIndex="1" onclick="btnCrearCta_Click"></asp:ImageButton>
-                                            <asp:ImageButton ID="btnVerManual" runat="server" 
-                                                ImageUrl="~/Images/btnVerManual.png"  TabIndex="1" onclick="btnVerManual_Click"></asp:ImageButton>
+                                            <asp:Button ID="btnRecuperaCambio" runat="server" Value="Recuperar Contraseña"  OnClick="btnRecuperaPassword_Click" TabIndex="1"></asp:Button>
+                                            <asp:Button ID="btnCrearCta" runat="server" 
+                                                 Value="Crear Cuenta" TabIndex="1" onclick="btnCrearCta_Click"></asp:Button>
+                                            <asp:Button ID="btnVerManual" runat="server" 
+                                                Value="Ver Manual"  TabIndex="1" onclick="btnVerManual_Click"></asp:Button>
                                     </td></tr>
                                 </table>
                             </div>
@@ -110,8 +110,8 @@
                                     </tr>           
                                     <tr>
                                         <td class="style7" align="center" colspan="2">
-                                            <asp:ImageButton ID="btnAceptarCambio" runat="server" ImageUrl="~/Images/btnAceptar.png" OnClientClick="return ValidaCambio();" OnClick="btnAceptarCambio_Click"  TabIndex="2"></asp:ImageButton>
-                                            <asp:ImageButton ID="btnCancelarCambio" runat="server" ImageUrl="~/Images/btnCancelar.png" OnClick="btnCancelarCambio_Click"  TabIndex="3"></asp:ImageButton>
+                                            <asp:Button ID="btnAceptarCambio" runat="server" Value="Aceptar" OnClientClick="return ValidaCambio();" OnClick="btnAceptarCambio_Click"  TabIndex="2"></asp:Button>
+                                            <asp:Button ID="btnCancelarCambio" runat="server" Value="Cancelar" OnClick="btnCancelarCambio_Click"  TabIndex="3"></asp:Button>
                                         </td>
                                     </tr>
                                
@@ -141,8 +141,8 @@
                                     </tr>
                                     <tr>
                                         <td class="style7" align="center" colspan="2">
-                                            <asp:ImageButton ID="btnRegistrar" runat="server" ImageUrl="~/Images/btnAceptar.png" OnClientClick="return ValidaDatosRegistro();" OnClick="btnAceptarRegistro_Click"  TabIndex="2"></asp:ImageButton>
-                                            <asp:ImageButton ID="btnCancNuevaCta" runat="server" ImageUrl="~/Images/btnCancelar.png" OnClick="btnCancelarRegistro_Click"  TabIndex="3"></asp:ImageButton>
+                                            <asp:Button ID="btnRegistrar" runat="server" Value="btnAceptar" OnClientClick="return ValidaDatosRegistro();" OnClick="btnAceptarRegistro_Click"  TabIndex="2"></asp:Button>
+                                            <asp:Button ID="btnCancNuevaCta" runat="server" Value="btnCancelar" OnClick="btnCancelarRegistro_Click"  TabIndex="3"></asp:Button>
                                         </td>
                                     </tr>
                                 </table>

@@ -32,7 +32,7 @@ namespace PortalFacturas
             AgregaScriptCliente();
         }
 
-        protected void btnEnviar_Click(object sender, ImageClickEventArgs e)
+        protected void btnEnviar_Click(object sender, EventArgs e)
         {
             try
             {

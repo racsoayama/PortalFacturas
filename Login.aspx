@@ -4,13 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
+   <script src="Scripts\ChangeButtonLang.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <script type='text/JavaScript' src='scripts\FuncValidaciones.js'></script>
     <link href="App_Themes/LoginCSS.css" type="text/css" rel="stylesheet"/>
     <title>Login</title>
    
 </head>
-<body>
+<body onload=" ChangeButtonLang()">
 <%--<div class="header">
     <div class="logoPF"><img src="images/LogoPF.png" width="170" height="50"/></div>
     <div class="logo"><img src="images/LogoTMM.png" width="102" height="68"/></div>
@@ -51,8 +53,8 @@
 
                                 <tr align="center">
                                     <td class="style7" align="center" colspan="2">
-                                        <asp:ImageButton ID="btnCambioPassword" runat="server" ImageUrl="~/Images/btnSeguridad.png"  OnClick="btnCambioPassword_Click" ToolTip="Cambio de password" TabIndex="1"></asp:ImageButton>
-                                        <asp:ImageButton ID="btnAceptar" runat="server" ImageUrl="~/Images/btnAceptar.png" OnClientClick="return ValidaLogin();" OnClick="LoginButton_Click"  TabIndex="2"></asp:ImageButton>
+                                        <asp:Button ID="btnCambioPassword" runat="server" value="Contraseña" OnClick="btnCambioPassword_Click"  ></asp:Button>
+                                        <asp:Button ID="btnAceptar" runat="server" value="Aceptar" OnClientClick="return ValidaLogin();" OnClick="LoginButton_Click"  ></asp:Button>
                                         <%--<asp:ImageButton ID="btnCancelar" runat="server" ImageUrl="~/Images/btnCerrar.png"  OnClientClick="window.close();"  TabIndex="3"></asp:ImageButton>--%>
                                     </td>
                                 </tr>
@@ -60,9 +62,9 @@
                                     <td colspan="2" align="center">
                                         <%--<asp:ImageButton ID="btnCambioPassword" runat="server" ImageUrl="~/Images/btnCambiarPassword.png"  OnClick="btnCambioPassword_Click" ToolTip="Cambio de password" TabIndex="1"></asp:ImageButton>--%>
                                         &nbsp;
-                                        <asp:ImageButton ID="btnRecuperaCambio" runat="server" ImageUrl="~/Images/btnRecuperarPwd.png"  OnClick="btnRecuperaPassword_Click" TabIndex="1"></asp:ImageButton>
-                                        <asp:ImageButton ID="btnCrearCta" runat="server" 
-                                            ImageUrl="~/Images/btnCrearCuenta.png"  TabIndex="1" onclick="btnCrearCta_Click"></asp:ImageButton>
+                                        <asp:Button ID="btnRecuperaCambio" runat="server" Value="Recuperar Contraseña" OnClick="btnRecuperaPassword_Click" TabIndex="1"></asp:Button>
+                                        <asp:Button ID="btnCrearCta" runat="server" 
+                                            Value="Crear Cuenta"  TabIndex="1" onclick="btnCrearCta_Click"></asp:Button>
                                         <%--<asp:ImageButton ID="btnVerManual" runat="server" 
                                             ImageUrl="~/Images/btnVerManual.png"  TabIndex="1" onclick="btnVerManual_Click"></asp:ImageButton>--%>
                                 </td></tr>

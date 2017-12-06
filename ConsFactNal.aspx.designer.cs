@@ -73,7 +73,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnBuscar;
+        protected global::System.Web.UI.WebControls.Button btnBuscar;
         
         /// <summary>
         /// btnExportar control.
@@ -82,7 +82,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnExportar;
+        protected global::System.Web.UI.WebControls.Button btnExportar;
         
         /// <summary>
         /// tabPedidos control.

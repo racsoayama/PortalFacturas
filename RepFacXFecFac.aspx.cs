@@ -35,7 +35,7 @@ namespace PortalFacturas
         }
 
 
-        protected void btnGenerar_Click(object sender, ImageClickEventArgs e)
+        protected void btnGenerar_Click(object sender, EventArgs e)
         {
             string sProveedor = "";
             try
@@ -111,7 +111,7 @@ namespace PortalFacturas
             lblFecFacFin.Text = oIdioma.Texto("FechaFinal") + ":";
         }
 
-        protected void btnImprimir_Click(object sender, ImageClickEventArgs e)
+        protected void btnImprimir_Click(object sender, EventArgs e)
         {
             //ReportPrintDocument rp = new ReportPrintDocument(ReportViewer1.ServerReport);
             //rp.Print();  

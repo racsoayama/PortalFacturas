@@ -13,7 +13,7 @@
                         <tr>
                             <td><asp:label ID="lblFecha" runat="server" CssClass="label" Width="80">Fecha:</asp:label></td>
                             <td><asp:textBox ID="txtFecha" runat="server" CssClass="text" Width="100" MaxLength="10"></asp:textBox></td>
-                            <td><asp:ImageButton ID="btnBuscar" runat="server" ImageUrl="~/Images/btnBuscar.png" CommandName="Buscar" 
+                            <td><asp:Button ID="btnBuscar" runat="server" Value="Buscar" 
                                  OnClientClick="return ValidaDatos();" onclick="btnBuscar_Click"/></td>
                         </tr>
                     </table>

@@ -2112,6 +2112,9 @@
   <data name="PosEntrega" xml:space="preserve">
     <value>Delivery position</value>
   </data>
+  <data name="Salir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <data name="PosPedido" xml:space="preserve">
     <value>PO position</value>
   </data>

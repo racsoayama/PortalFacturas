@@ -73,7 +73,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnBuscar;
+        protected global::System.Web.UI.WebControls.Button btnBuscar;
         
         /// <summary>
         /// btnMostrarTodos control.
@@ -82,7 +82,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnMostrarTodos;
+        protected global::System.Web.UI.WebControls.Button btnMostrarTodos;
         
         /// <summary>
         /// btnImportar control.
@@ -91,7 +91,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnImportar;
+        protected global::System.Web.UI.WebControls.Button btnImportar;
         
         /// <summary>
         /// divImportar control.
@@ -127,7 +127,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnAceptarImportar;
+        protected global::System.Web.UI.WebControls.Button btnAceptarImportar;
         
         /// <summary>
         /// btnCancelarImportar control.
@@ -136,7 +136,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCancelarImportar;
+        protected global::System.Web.UI.WebControls.Button btnCancelarImportar;
         
         /// <summary>
         /// grdEntregas control.

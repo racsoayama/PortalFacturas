@@ -57,7 +57,7 @@ namespace PortalFacturas
                 MessageBox(sender, e, ((Idioma)Session["oIdioma"]).Texto(ex.Message));
             }
         }
-        protected void btnBuscar_Click(object sender, ImageClickEventArgs e)
+        protected void btnBuscar_Click(object sender, EventArgs e)
         {
             DataSet dsDatos;
             try

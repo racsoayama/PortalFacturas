@@ -57,7 +57,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnBuscar_Click(object sender, ImageClickEventArgs e)
+        protected void btnBuscar_Click(object sender, EventArgs e)
         {
             DataSet dsDatos;
             try

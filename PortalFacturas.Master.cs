@@ -157,7 +157,7 @@ namespace PortalFacturas
             HttpContext.Current.Session.Abandon();
         }
 
-        protected void btnlogout_Click(object sender, ImageClickEventArgs e)
+        protected void btnlogout_Click(object sender, EventArgs e)
         {
             Session.Abandon();
 
@@ -167,7 +167,7 @@ namespace PortalFacturas
 
             Response.Redirect("../Login.aspx");
         }
-        
+
 
     }
 }

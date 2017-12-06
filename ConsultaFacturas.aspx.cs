@@ -110,7 +110,7 @@ namespace PortalFacturas
         }
 
 
-        protected void btnBuscar_Click(object sender, ImageClickEventArgs e)
+        protected void btnBuscar_Click(object sender, EventArgs e)
         {
             string proveedor;
             try
@@ -279,13 +279,13 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnImportar_Click(object sender, EventArgs e)
         {
             //divDetalle.Visible = false;
             divImportar.Visible = true;
         }
 
-        protected void btnAceptarImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarImportar_Click(object sender, EventArgs e)
         {
             int registros = 0;
             try
@@ -337,7 +337,7 @@ namespace PortalFacturas
 
         }
 
-        protected void btnCancelarImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarImportar_Click(object sender, EventArgs e)
         {
             divImportar.Visible = false;
         }

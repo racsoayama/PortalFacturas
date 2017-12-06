@@ -109,7 +109,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnAceptarItem_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarItem_Click(object sender, EventArgs e)
         {
             try
             {
@@ -185,7 +185,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnAceptarImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarImportar_Click(object sender, EventArgs e)
         {
             //string tmp;
             bool existe;
@@ -394,7 +394,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnAceptarAgregar_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarAgregar_Click(object sender, EventArgs e)
         {
             bool existe=false;
             try
@@ -538,7 +538,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnCancelarAgregar_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarAgregar_Click(object sender, EventArgs e)
         {
             divDetalle.Visible = false;
             divVisor.Visible = false;
@@ -557,7 +557,7 @@ namespace PortalFacturas
         }
 
 
-        protected void btnAceptarSubir_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarSubir_Click(object sender, EventArgs e)
         {
             int folio = 0;
             try
@@ -689,7 +689,7 @@ namespace PortalFacturas
         }
 
 
-        protected void btnCancelarSubir_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarSubir_Click(object sender, EventArgs e)
         {
             Response.Redirect("Principal.aspx");
         }

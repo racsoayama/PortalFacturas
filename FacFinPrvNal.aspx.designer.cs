@@ -163,7 +163,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnAceptarImportar;
+        protected global::System.Web.UI.WebControls.Button btnAceptarImportar;
         
         /// <summary>
         /// divDetalle control.
@@ -334,7 +334,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnAgregarFactura;
+        protected global::System.Web.UI.WebControls.Button btnAgregarFactura;
         
         /// <summary>
         /// btnCancelarAgregar control.
@@ -343,7 +343,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCancelarAgregar;
+        protected global::System.Web.UI.WebControls.Button btnCancelarAgregar;
         
         /// <summary>
         /// divVisor control.
@@ -388,7 +388,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnAceptar;
+        protected global::System.Web.UI.WebControls.Button btnAceptar;
         
         /// <summary>
         /// btnCancelar control.
@@ -397,6 +397,6 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCancelar;
+        protected global::System.Web.UI.WebControls.Button btnCancelar;
     }
 }

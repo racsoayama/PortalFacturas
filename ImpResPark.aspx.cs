@@ -37,7 +37,7 @@ namespace PortalFacturas
 
         }
 
-        protected void btnAceptarLog_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarLog_Click(object sender, EventArgs e)
         {
             int registros = 0;
             try
@@ -83,7 +83,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnAceptarFin_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarFin_Click(object sender, EventArgs e)
         {
             int registros = 0;
             try

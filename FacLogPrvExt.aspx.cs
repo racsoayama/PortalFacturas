@@ -135,7 +135,7 @@ namespace PortalFacturas
                 cb.Checked = (DataBinder.Eval(e.Row.DataItem, "seleccionado").ToString() == "1" ? true : false);
             }
         }
-        protected void btnAceptarItem_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarItem_Click(object sender, EventArgs e)
         {
             try
             {
@@ -209,7 +209,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnAceptarImportar_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarImportar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -451,7 +451,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnAceptarFactura_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarFactura_Click(object sender, EventArgs e)
         {
             DataSet dsEntregas;
             DataSet dsCostos;
@@ -753,7 +753,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnCancelarAgregar_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarAgregar_Click(object sender, EventArgs e)
         {
             ValidaVariables();
 
@@ -773,7 +773,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnAceptarEntregas_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarEntregas_Click(object sender, EventArgs e)
         {
             int itemsMat = 0;
             int itemsCtos = 0;
@@ -980,7 +980,7 @@ namespace PortalFacturas
             }
         }
 
-        protected void btnCancelarEntregas_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarEntregas_Click(object sender, EventArgs e)
         {
             oViewer.Visible = true;
             divItemsFac.Visible = false;
@@ -994,7 +994,7 @@ namespace PortalFacturas
             btnAceptarImportar.Visible = false;
         }
 
-        protected void btnAceptarSubir_Click(object sender, ImageClickEventArgs e)
+        protected void btnAceptarSubir_Click(object sender, EventArgs e)
         {
             int folio = 0;
             try
@@ -1136,7 +1136,7 @@ namespace PortalFacturas
         }
 
 
-        protected void btnCancelarSubir_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelarSubir_Click(object sender, EventArgs e)
         {
             Response.Redirect("Principal.aspx");
         }

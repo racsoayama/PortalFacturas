@@ -32,7 +32,7 @@ namespace PortalFacturas
             AgregaScriptCliente();
         }
 
-        protected void btnEnviar_Click(object sender, ImageClickEventArgs e)
+        protected void btnEnviar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -122,7 +122,7 @@ namespace PortalFacturas
         }
 
 
-        protected void btnCancelar_Click(object sender, ImageClickEventArgs e)
+        protected void btnCancelar_Click(object sender, EventArgs e)
         {
             Response.Redirect("Principal.aspx");
         }
