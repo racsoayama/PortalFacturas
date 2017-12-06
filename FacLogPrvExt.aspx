@@ -177,7 +177,7 @@
                                                 <asp:TemplateField ShowHeader="False">
                                                     <ItemTemplate>
                                                         <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
-                                                            ImageUrl="~/Images/btnGridEliminar.jpg" OnCommand="btnEliminarItem_Command" Text="Eliminar" />
+                                                            ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminarItem_Command" Text="Eliminar" />
                                                     </ItemTemplate>
                                                 </asp:TemplateField>
                                             </Columns>
@@ -533,13 +533,13 @@
                                     <asp:TemplateField ShowHeader="False">
                                         <ItemTemplate>
                                             <asp:ImageButton ID="btnAgregar" runat="server" CausesValidation="false" CommandName="Agregar" CommandArgument="<%# Container.DataItemIndex %>" 
-                                                ImageUrl="~/Images/btnGridNuevo.jpg" OnCommand="btnAgregar_Command" Text="Nuevo" />
+                                                ImageUrl="~/Images/btnGridNuevo.png" OnCommand="btnAgregar_Command" Text="Nuevo" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                     <asp:TemplateField ShowHeader="False">
                                         <ItemTemplate>
                                             <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
-                                                ImageUrl="~/Images/btnGridEliminar.jpg" OnCommand="btnEliminar_Command" Text="Eliminar" />
+                                                ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminar_Command" Text="Eliminar" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                     

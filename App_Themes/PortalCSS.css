@@ -186,21 +186,19 @@ body {
 .h2
 {
     FONT-SIZE: 16px;
-    COLOR: #64250b;
+    COLOR: #656565;
     FONT-FAMILY: Verdana, Geneva;
 }
 
-.h3
-{
-    FONT-SIZE: 12px;
-    COLOR:  #64250b;
+.h3 {
+    FONT-SIZE: 14px;
+    COLOR: #656565;
     FONT-FAMILY: Verdana, Geneva;
 }
 
-.h4
-{
+.h4 {
     FONT-SIZE: 16px;
-    COLOR:  #64250b;
+    COLOR: #656565;
     FONT-FAMILY: Verdana, Geneva;
 }
 
@@ -211,7 +209,7 @@ body {
     FONT-FAMILY: Verdana, Geneva;
 }
 
-.dropdownlist, .text, .file input.file {
+.dropdownlist, .text, .file, input.file {
     border: none;
     color: #656565;
     border-bottom: 2px solid #a9a9a9;
@@ -239,12 +237,19 @@ body {
 
 .content-frame {
     padding-left: 250px;
-    padding-top: 130px;
-    text-align:center;
-    width:100%;
+    padding-top: 150px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
 }
+table > tr >td {
+    vertical-align: middle;
+    text-align: center;
+
+}
+
 .content-frame table {
-    width: 100%;
+ 
 }
 
 
@@ -337,51 +342,61 @@ body {
    border-top-color: #e6e6e6;
 }
 
-/* Se obupa */  
+/* Se obupa */
 .filtersTable {
-    background: #f7f7f7;
-    border-radius:5px;
-    -moz-border-radius:20px;
-    -webkit-border-radius:20px;
-    border: 1px solid #1A6E33;
+    background-color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    color: #656565;
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
 }
 
 /* -------- */  
 /* Grid     */
 /* -------- */
-.content-frame  table  {
+.content-frame table {
     width: 95%;
+    text-align: center;
 }
 
+.mGrid td {
+    width: 10px;
+}
 
 .mGrid {
-    width: 90%;
     background-color: #fff;
-  
-    font-size: 13px;
+    width: 100%;
+    font-size: 14px;
     text-decoration: none;
     color: #656565;
-    
-
+    border: none;
     text-align: center;
+    margin-top: 50px;
+}
+#MainPlaceHolder_divFiltros {
+    
+}
+
+.mGrid td {
+    padding: 2px;
+    height: 50px;
+    border: none;
 }   
 
-	.mGrid td {   
-		padding: 2px;   
-		border: none;
-        min-height:50px; 
-        width:auto;
-	}   
-
 	/* Grid Header */
-    .mGrid th {
-        padding: 4px 2px;
-        background: #656565;
-        font-size: 14px;
-        border: none;
-        color: #fff;
-        min-height: 50px;
-    }   
+.mGrid th {
+    padding: 4px 2px;
+    background: #fff;
+    font-size: 14px;
+    border-bottom: solid 1px #b2b2b2;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    color: 656565;
+    min-height: 50px;
+}   
 
 	.mGrid .alt {   
 		background-color: #e6e6e6; /* url(grd_alt.png) repeat-x top;  */
