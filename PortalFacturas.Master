@@ -21,19 +21,14 @@
     <link href="App_Themes/PortalCSS.css" type="text/css" rel="stylesheet"/> 
     <script type='text/JavaScript' src='scripts\FuncValidaciones.js'></script>
     <script type='text/JavaScript' src='scripts\scw.js'></script>
-    <style type="text/css">
-        #marMensaje
-        {
-            height: 197px;
-        }
-    </style>
+
 </head>
 <body leftmargin="0" topmargin="0"  >
     <form id="form2" runat="server"  enctype="multipart/form-data">
     <asp:ScriptManager ID="ScriptManager1" runat="server" enablepagemethods="true" />
     <div class="header">
         <div class="logoEmp"><img src="images/logoLands-icono.png"/> <label> PORTAL <br /> <b>FACTURAS</b></label></div>
-        <div class="logoPF"><img src="images/LogoPF.png" width="170" height="50" runat="server" id="imgLogo"/></div>
+        <div class="logoPF"><img src="images/LogoPF.png" runat="server" id="imgLogo"/></div>
         <div class="logout"><asp:ImageButton ID="btnSalir" runat="server" 
                             ImageUrl="~/Images/btnSalir.png" CommandName="Salir"  OnClientClick="window.close();" OnClient="btnlogout_Click"/>
                         <input type="submit" id="iframe" class="submit" name="go" value="submit" style="position: absolute; left: -2000px"/>
