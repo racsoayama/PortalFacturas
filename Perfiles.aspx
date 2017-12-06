@@ -66,7 +66,7 @@
                                     AutoGenerateColumns="False" HeaderStyle-HorizontalAlign="Center"
                                     OnRowDataBound="grdFunciones_RowDataBound"
                                     onPrerender="grdFunciones_PreRender"
-                                    DataKeyNames="Id_funcion" Width="645px" >
+                                    DataKeyNames="Id_funcion"  >
                                     <Columns>
                                         <asp:BoundField DataField="Modulo" HeaderText="Modulo" >
                                             <ItemStyle Width="150px" />
