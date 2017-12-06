@@ -93,11 +93,14 @@ body {
 
 .marquee
 {
-    font-size:14px;
+    font-size:12px;
     font-style:normal;
     font-family: Verdana, Georgia;
-    color: #64260b;
+    color: #ce7304;
     font-weight:normal;
+	margin-top: 30px;
+	border: 1px solid #e5e5e5;
+
 }
 
 
