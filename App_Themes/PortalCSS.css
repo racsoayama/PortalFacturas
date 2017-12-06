@@ -49,17 +49,10 @@ body {
 	font-family: Verdana, Georgia;
 }
 
-.logoSSC {
-	position:absolute;
-	margin-top:10px;
-	width: 100%;
-	height: 57px;
-    text-align: right;
-}
 
 .logoPF {
 	position:absolute;
-	margin-left:1100px;
+	margin-left:500px;
 	margin-top:10px;
 	width: 170px;
 	height: 50px;
@@ -75,7 +68,6 @@ body {
 	height: 130px;
 	top: 0;
 	right: 0;
-	padding-top: 50px;
 }
 
 .menu-frame {
