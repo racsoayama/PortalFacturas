@@ -38,44 +38,44 @@
         </td>
     </tr>
      <tr>
-        <td valign="top">
+        <td valign="top" style="height: 313px">
             <div id="divDetalle" runat="server" style="display: block">
-                <table frame="border" rules="none" bordercolor=#4c206c border="3" cellspacing="0">
+                <table frame="border" rules="none" bordercolor=#4c206c border="1" cellspacing="0" bgcolor="#FDFDFE" class="style1" style="border-color: #C0C0C0;">
                     <tr>
-                        <td colspan="2"><asp:label ID="lblLeyUsuario" runat="server" CssClass="h3">Usuario</asp:label></td>
+                        <td colspan="2" style="height: 40px"><asp:label ID="lblLeyUsuario" runat="server" CssClass="h4">Usuario</asp:label></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblTipoUsuario" runat="server" CssClass="label" Width="110">Tipo de usuario:</asp:Label></td>
-                        <td><asp:DropDownList ID="cboTipoUsuario" runat="server" CssClass="dropdownlist" 
+                        <td class="style2" style="width: 174px"><asp:Label ID="lblTipoUsuario" runat="server" CssClass="label" Width="114px">Tipo de usuario:</asp:Label></td>
+                        <td style="width: 211px"><asp:DropDownList ID="cboTipoUsuario" runat="server" CssClass="dropdownlist" 
                                 Width ="150" AutoPostBack="true" 
                                 onselectedindexchanged="cboTipoUsuario_SelectedIndexChanged"></asp:DropDownList></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblUsuario" runat="server" CssClass="label" Width="110">Usuario ID:</asp:Label></td>
-                        <td><asp:TextBox ID="txtUsuario" runat="server" CssClass="text" MaxLength="10" Width="80" onKeyUp="changeToUpperCase(this.id);"></asp:TextBox></td>
+                        <td class="style2" style="width: 174px"><asp:Label ID="lblUsuario" runat="server" CssClass="label" Width="115px">Usuario ID:</asp:Label></td>
+                        <td style="width: 211px"><asp:TextBox ID="txtUsuario" runat="server" CssClass="text" MaxLength="10" Width="150px" onKeyUp="changeToUpperCase(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblNombre" runat="server" CssClass="label" Width="110">Nombre:</asp:Label></td>
-                        <td><asp:TextBox ID="txtNombre" runat="server" CssClass="text" MaxLength="50" Width="300" ></asp:TextBox></td>
+                        <td class="style2" style="width: 174px"><asp:Label ID="lblNombre" runat="server" CssClass="label" Width="110">Nombre:</asp:Label></td>
+                        <td style="width: 211px"><asp:TextBox ID="txtNombre" runat="server" CssClass="text" MaxLength="50" Width="150px" Height="16px" ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblProveedor" runat="server" CssClass="label" Width="110">Proveedor:</asp:Label></td>
-                        <td><asp:TextBox ID="txtProveedor" runat="server" CssClass="text" MaxLength="10" Width="100" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                        <td class="style2" style="width: 174px"><asp:Label ID="lblProveedor" runat="server" CssClass="label" Width="110">Proveedor:</asp:Label></td>
+                        <td style="width: 211px"><asp:TextBox ID="txtProveedor" runat="server" CssClass="text" MaxLength="10" Width="150px" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblCorreo" runat="server" CssClass="label" Width="110">Correo:</asp:Label></td>
-                        <td><asp:TextBox ID="txtCorreo" runat="server" CssClass="text" MaxLength="40" Width="300"></asp:TextBox></td>
+                        <td class="style2" style="width: 174px"><asp:Label ID="lblCorreo" runat="server" CssClass="label" Width="110">Correo:</asp:Label></td>
+                        <td style="width: 211px"><asp:TextBox ID="txtCorreo" runat="server" CssClass="text" MaxLength="40" Width="149px" Height="16px"></asp:TextBox></td>
                     </tr>                    
                     <tr>
-                        <td><asp:Label ID="lblPerfil" runat="server" CssClass="label" Width="110">Perfil:</asp:Label></td>
-                        <td><asp:DropDownList ID="cboPerfiles" runat="server" CssClass="dropdownlist" Width ="200"></asp:DropDownList></td>
+                        <td class="style2" style="width: 174px"><asp:Label ID="lblPerfil" runat="server" CssClass="label" Width="110">Perfil:</asp:Label></td>
+                        <td style="width: 211px"><asp:DropDownList ID="cboPerfiles" runat="server" CssClass="dropdownlist" Width ="150px" Height="16px"></asp:DropDownList></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblStatus" runat="server" CssClass="label" Width="110">Estatus:</asp:Label></td>
-                        <td><asp:DropDownList ID="cboStatus" runat="server" CssClass="dropdownlist" Width ="100"></asp:DropDownList></td>
+                        <td class="style2" style="width: 174px"><asp:Label ID="lblStatus" runat="server" CssClass="label" Width="110">Estatus:</asp:Label></td>
+                        <td style="width: 211px"><asp:DropDownList ID="cboStatus" runat="server" CssClass="dropdownlist" Width ="149px" Height="16px"></asp:DropDownList></td>
                     </tr>
                     <tr>
-                        <td align="right" colspan="2">
+                        <td align="center" colspan="2" style="height: 29px">
                             <asp:ImageButton ID="btnGuardar" runat="server" 
                                 ImageUrl="~/Images/btnGuardar.png" CommandName="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 
