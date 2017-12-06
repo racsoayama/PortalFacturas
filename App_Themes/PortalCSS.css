@@ -4,6 +4,7 @@ body {
 		margin: 0px 0px 0px 0px;
 }
 
+
 .header {
 	width: 100%;
 	height: 130px;
@@ -99,10 +100,13 @@ body {
     font-size:12px;
     font-style:normal;
     font-family: Verdana, Georgia;
-    color: #ce7304;
+    color: #e97a02;
     font-weight:normal;
-	margin-top: 30px;
+	margin-top: 40px;
 	border: 1px solid #e5e5e5;
+	padding: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 
 }
 
@@ -243,7 +247,7 @@ body {
 
 .dropdownlist, .text, .file, input.file {
     color: #656565;
-    border-bottom: 2px solid #a9a9a9;
+    border-bottom: 1px solid #a9a9a9;
     display: inline-block;
     outline: none;
     min-width: 225px;
@@ -265,7 +269,7 @@ body {
 .calendar
 {
     BORDER-LEFT-COLOR: #3689a7;
-    BACKGROUND: #663399;
+    BACKGROUND: #339933;
     BORDER-BOTTOM-COLOR: #3689a7;
     BORDER-TOP-COLOR: #3689a7;
     FONT-FAMILY: Verdana, Geneva;

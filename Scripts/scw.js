@@ -570,12 +570,12 @@
                                         'vertical-align:    middle;}'   +
             '/* Blend the colours into your page here...    */'         +
             '/* Calendar background */'                                 +
-            'table.scw                  {background-color:  #fbfaf0;}' +
+            'table.scw                  {background-color:  #FDFDFE;}' +
             '/* Drag Handle */'                                         +
             'td.scwDrag                 {background-color:  #9999CC;'   +
                                         'color:             #CCCCFF;}'  +
             '/* Week number heading */'                                 +
-            'td.scwWeekNumberHead       {color:             #fbfaf0;}' +
+            'td.scwWeekNumberHead       {color:             #FDFDFE;}' +
             '/* Week day headings */'                                   +
             'td.scwWeek                 {color:             #4F2170;}'  +
             '/* Week numbers */'                                        +
