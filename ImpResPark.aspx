@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PortalFacturas.Master" AutoEventWireup="true" CodeBehind="ImpResPark.aspx.cs" Inherits="PortalFacturas.ImpResPark" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainPlaceHolder" runat="server">
         
-    <table>
+    <table style="border-style: 1; border-color: #C0C0C0; background-color: #FDFDFE">
       <tr>
          <td>
              <asp:label ID="lblTitulo" runat="server" CssClass="h2">Importar resultado del parqueo</asp:label>

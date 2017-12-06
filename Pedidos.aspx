@@ -12,13 +12,13 @@
             <table class="filtersTable">
                 <tr>
                     <td><asp:Label ID="lblFilProv" runat="server" CssClass="h3" Width="110">Proveedor:</asp:Label></td>
-                    <td><asp:Label ID="lblFilPedido" runat="server" CssClass="h3" Width="110">Pedido:</asp:Label></td>
+                    <td class="style2" style="width: 172px"><asp:Label ID="lblFilPedido" runat="server" CssClass="h3" Width="110">Pedido:</asp:Label></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td><asp:TextBox ID="txtFilProv" runat="server" CssClass="text" Width="110" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
-                    <td><asp:TextBox ID="txtFilPedido" runat="server" CssClass="text" Width="110" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                    <td class="style2" style="width: 172px"><asp:TextBox ID="txtFilPedido" runat="server" CssClass="dropdownlist" Width="150px" MaxLength="10" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                     <td><asp:ImageButton ID="btnBuscar" runat="server" ImageUrl="~/Images/btnBuscar.png" CommandName="Buscar" 
                          onclick="btnBuscar_Click"/></td>
                     <td><asp:ImageButton ID="btnMostrarTodos" runat="server" ImageUrl="~/Images/btnMostrarTodos.png" CommandName="Mostrar" 

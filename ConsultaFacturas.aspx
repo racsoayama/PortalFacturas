@@ -28,7 +28,7 @@
                         <td><asp:label ID="lblEntrega" runat="server" CssClass="label" Width="120">Entrega:</asp:label></td>
                         <td><asp:textbox ID="txtEntrega" runat="server" CssClass="text" Width="80" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                         <td><asp:label ID="lblFolInicial" runat="server" CssClass="label" Width="130">Folio inicial:</asp:label></td>
-                        <td><asp:textbox ID="txtFolIni" runat="server" CssClass="text" Width="50" MaxLength="8" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                        <td><asp:textbox ID="txtFolIni" runat="server" CssClass="dropdownlist" Width="100px" MaxLength="8" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                         <td><asp:label ID="lblFolFinal" runat="server" CssClass="label" Width="120">Folio final:</asp:label></td>
                         <td><asp:textbox ID="txtFolFin" runat="server" CssClass="text" Width="50" MaxLength="8" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                     </tr>

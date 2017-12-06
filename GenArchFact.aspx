@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PortalFacturas.Master" AutoEventWireup="true" CodeBehind="GenArchFact.aspx.cs" Inherits="PortalFacturas.GenArchFact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainPlaceHolder" runat="server">
-        <table>
+        <table frame="border" style="border-style: solid 1px #c0c0c0; background-color: #FDFDFE;">
       <tr>
          <td>
              <asp:label ID="lblTitulo" runat="server" CssClass="h2">Generar archivos de facturas</asp:label>

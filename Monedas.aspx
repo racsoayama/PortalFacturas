@@ -9,20 +9,20 @@
       <tr>
         <td valign="top">
             <div id="divDetalle" runat="server" style="display: block">
-                <table frame="border" rules="none" bordercolor="#4c206c" border="3" cellspacing="0">
+                <table frame="border" rules="none" bordercolor="#4c206c" border="1" cellspacing="0" style="border-color: #C0C0C0">
                     <tr>
-                        <td colspan="2"><asp:label ID="lblLeyMonedas" runat="server" CssClass="h3">Monedas</asp:label></td>
+                        <td colspan="2" style="height: 39px"><asp:label ID="lblLeyMonedas" runat="server" CssClass="h4">Monedas</asp:label></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblID" runat="server" class="label" Width="100">ID Moneda:</asp:Label></td>
-                        <td><asp:TextBox ID="txtID" runat="server" CssClass="text" MaxLength="20" Width="200" ></asp:TextBox></td>
+                        <td align="right" style="width: 600px; height: 36px"><asp:Label ID="lblID" runat="server" class="label" Width="100">ID Moneda:</asp:Label></td>
+                        <td style="height: 36px"><asp:TextBox ID="txtID" runat="server" CssClass="dropdownlist" MaxLength="20" Width="150px" Height="16px" ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblMonSAP" runat="server" CssClass="label" Width="100">Moneda SAP:</asp:Label></td>
-                        <td><asp:TextBox ID="txtMonSAP" runat="server" CssClass="text" MaxLength="3" Width="40" onKeyUp="changeToUpperCase(this.id);" ></asp:TextBox></td>
+                        <td align="right" style="width: 600px; height: 35px"><asp:Label ID="lblMonSAP" runat="server" CssClass="label" Width="100">Moneda SAP:</asp:Label></td>
+                        <td style="height: 35px"><asp:TextBox ID="txtMonSAP" runat="server" CssClass="dropdownlist" MaxLength="3" Width="150px" onKeyUp="changeToUpperCase(this.id);" Height="16px" ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="right" colspan="2">
+                        <td align="center" colspan="2">
                             <asp:ImageButton ID="btnGuardar" runat="server" 
                                 ImageUrl="~/Images/btnGuardar.png" CommandName="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 
