@@ -46,7 +46,7 @@
 	            </ul>
             </div>
        <div id="marMensaje" class="marquee" runat="server">
-           Mensaje
+           <p>Mensaje</p>
        </div>
                          
        </div> 

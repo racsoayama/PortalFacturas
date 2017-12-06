@@ -207,11 +207,15 @@ body {
     FONT-FAMILY: Verdana, Geneva;
 }
 
-.h2
-{
-    FONT-SIZE: 16px;
+.h2 {
+   margin-top:199px;
+  
+    FONT-SIZE: 30px;
     COLOR: #656565;
-    FONT-FAMILY: Verdana, Geneva;
+    text-align:left;
+   
+
+    
 }
 
 .h3 {
@@ -261,16 +265,12 @@ body {
 
 .content-frame {
     margin-left: 300px;
-    padding-top: 150px;
-    
-    text-align: center;
+    padding-top: 170px;
+    vertical-align:central;
+  
   
 }
-table > tr >td {
-    
-    text-align: center;
 
-}
 
 .content-frame table {
  
@@ -368,11 +368,12 @@ table > tr >td {
 
 /* Se obupa */
 #MainPlaceHolder_divFiltros {
+   margin-top:20px;
     background-color: #fff;
     font-size: 13px;
     text-decoration: none;
-    color: #656565;
-    border: solid 1px;
+    color: #cbcbcb;
+    border: solid 1px #c4c4c4;
     padding: 10px;
     text-align: center;
 }
@@ -382,7 +383,7 @@ table > tr >td {
 /* -------- */
 .content-frame table {
     width: 98%;
-    text-align: center;
+
 }
 
 
@@ -393,9 +394,8 @@ table > tr >td {
     font-size: 14px;
     text-decoration: none;
     color: #656565;
-    border: none;
-    text-align: center;
     margin-top: 50px;
+    border:solid 1px #e6e6e6
 }
 
 
@@ -403,6 +403,8 @@ table > tr >td {
         padding: 2px;
         height: 60px;
         border: none;
+        max-width:200px;
+        text-align:center;
     }
 
 .mGrid td input{
@@ -435,9 +437,9 @@ table > tr >td {
      
 	}
 .tableOpcitions {
-
 width:10px;
 }
+
 .mGrid .pgr {
     background-color: #b2b2b2; /* url(grd_pgr.png) repeat-x top;   */
     text-align: center;

@@ -124,19 +124,19 @@
                         <asp:BoundField DataField="fecha_pago" HeaderText="FechaPago"  DataFormatString="{0:dd/MM/yyyy}">
                             <ItemStyle Width="80px" HorizontalAlign="Center"/>
                         </asp:BoundField>    
-                        <asp:TemplateField ShowHeader="False">
+                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnVerPDF" runat="server" CausesValidation="false" CommandName="VerPDF" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridPDF.png" OnCommand="btnVerPDF_Command" />
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:TemplateField ShowHeader="False">
+                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnVerXML" runat="server" CausesValidation="false" CommandName="VerXML" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridXML.png" OnCommand="btnVerXML_Command" />
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:TemplateField ShowHeader="False">
+                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnDownload" runat="server" CausesValidation="false" CommandName="Download" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridDown.png" OnCommand="btnDownload_Command" />

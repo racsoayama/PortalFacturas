@@ -174,7 +174,7 @@
                                                 <asp:BoundField DataField="importe" HeaderText="Importe">
                                                     <ItemStyle Width="70px" HorizontalAlign="Center"/>
                                                 </asp:BoundField>
-                                                <asp:TemplateField ShowHeader="False">
+                                                <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                                     <ItemTemplate>
                                                         <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
                                                             ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminarItem_Command" Text="Eliminar" />
@@ -294,7 +294,7 @@
                                 AutoGenerateColumns="False" HeaderStyle-HorizontalAlign="Center" DataKeyNames="ejercicio, id_entrega, id_posicion"
                                 OnRowDataBound="grdEntregas_RowDataBound">
                                 <Columns>
-                                    <asp:TemplateField ShowHeader="True"  HeaderText="">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="True"  HeaderText="">
                                         <ItemTemplate>
                                             <asp:CheckBox ID="chkSeleccion" runat="server" Width="30"/>
                                         </ItemTemplate>
@@ -343,7 +343,7 @@
                                 AutoGenerateColumns="False" HeaderStyle-HorizontalAlign="Center" DataKeyNames="ejercicio, id_entrega, id_posicion"
                                 OnRowDataBound="grdCostos_RowDataBound">
                                 <Columns>
-                                    <asp:TemplateField ShowHeader="True"  HeaderText="">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="True"  HeaderText="">
                                         <ItemTemplate>
                                             <asp:CheckBox ID="chkSeleccion" runat="server" Width="30"/>
                                         </ItemTemplate>
@@ -410,7 +410,7 @@
                                 AutoGenerateColumns="False" HeaderStyle-HorizontalAlign="Center" DataKeyNames="ejercicio, id_documento, id_posicion"
                                 OnRowDataBound="grdServicios_RowDataBound">
                                 <Columns>
-                                    <asp:TemplateField ShowHeader="True"  HeaderText="">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="True"  HeaderText="">
                                         <ItemTemplate>
                                             <asp:CheckBox ID="chkSeleccion" runat="server" Width="30"/>
                                         </ItemTemplate>
@@ -450,7 +450,7 @@
                                 AutoGenerateColumns="False" HeaderStyle-HorizontalAlign="Center" DataKeyNames="id_pos_ped, id_documento, ejercicio, id_posicion"
                                 OnRowDataBound="grdServicios_RowDataBound">
                                 <Columns>
-                                    <asp:TemplateField ShowHeader="True"  HeaderText="">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="True"  HeaderText="">
                                         <ItemTemplate>
                                             <asp:CheckBox ID="chkSeleccion" runat="server" Width="30"/>
                                         </ItemTemplate>
@@ -524,19 +524,19 @@
                                     <asp:BoundField DataField="OrdenCompra" HeaderText="Orden">
                                         <ItemStyle Width="100px" HorizontalAlign="Center"/>
                                     </asp:BoundField>
-                                    <asp:TemplateField ShowHeader="False">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                         <ItemTemplate>
                                             <asp:ImageButton ID="btnVerPDF" runat="server" CausesValidation="false" CommandName="VerPDF" CommandArgument="<%# Container.DataItemIndex %>" 
                                                 ImageUrl="~/Images/btnGridPDF.png" OnCommand="btnVerPDF_Command" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                    <asp:TemplateField ShowHeader="False">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                         <ItemTemplate>
                                             <asp:ImageButton ID="btnAgregar" runat="server" CausesValidation="false" CommandName="Agregar" CommandArgument="<%# Container.DataItemIndex %>" 
                                                 ImageUrl="~/Images/btnGridNuevo.png" OnCommand="btnAgregar_Command" Text="Nuevo" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                    <asp:TemplateField ShowHeader="False">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                         <ItemTemplate>
                                             <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
                                                 ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminar_Command" Text="Eliminar" />

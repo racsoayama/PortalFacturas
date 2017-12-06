@@ -74,37 +74,37 @@
                                         <asp:BoundField DataField="Descripcion" HeaderText="Opcion" >
                                             <ItemStyle Width="250px" />
                                         </asp:BoundField>
-                                        <asp:TemplateField ShowHeader="True"  HeaderText="Consulta">
+                                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="True"  HeaderText="Consulta">
                                             <ItemTemplate>
                                                 <asp:CheckBox ID="chkConsulta" runat="server" Checked='<%#Convert.ToBoolean(Eval("consulta")) %>' Width="50"/>
                                             </ItemTemplate>
                                             <ItemStyle Width="50px" HorizontalAlign ="Center" />
                                         </asp:TemplateField>
-                                        <asp:TemplateField ShowHeader="False" HeaderText="Alta">
+                                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False" HeaderText="Alta">
                                             <ItemTemplate>
                                                 <asp:CheckBox ID="chkAlta" runat="server" Checked='<%#Convert.ToBoolean(Eval("alta")) %>' Width="50"/>
                                             </ItemTemplate>
                                             <ItemStyle Width="50px" HorizontalAlign ="Center" />
                                         </asp:TemplateField>
-                                        <asp:TemplateField ShowHeader="False" HeaderText="Baja">
+                                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False" HeaderText="Baja">
                                             <ItemTemplate>
                                                 <asp:CheckBox ID="chkBaja" runat="server" Checked='<%#Convert.ToBoolean(Eval("baja")) %>' Width="50"/>
                                             </ItemTemplate>
                                             <ItemStyle Width="50px" HorizontalAlign ="Center" />
                                         </asp:TemplateField>
-                                        <asp:TemplateField ShowHeader="False"  HeaderText="Editar">
+                                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False"  HeaderText="Editar">
                                             <ItemTemplate>
                                                 <asp:CheckBox ID="chkEdicion" runat="server" Checked='<%#Convert.ToBoolean(Eval("edicion")) %>' Width="50"/>
                                             </ItemTemplate>
                                             <ItemStyle Width="50px" HorizontalAlign ="Center" />
                                         </asp:TemplateField>
-                                        <asp:TemplateField ShowHeader="False"  HeaderText="Importar">
+                                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False"  HeaderText="Importar">
                                             <ItemTemplate>
                                                 <asp:CheckBox ID="chkImportar" runat="server" Checked='<%#Convert.ToBoolean(Eval("importar")) %>' Width="50"/>
                                             </ItemTemplate>
                                             <ItemStyle Width="50px" HorizontalAlign ="Center" />
                                         </asp:TemplateField>
-                                        <asp:TemplateField ShowHeader="False"  HeaderText="Imprimir">
+                                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False"  HeaderText="Imprimir">
                                             <ItemTemplate>
                                                 <asp:CheckBox ID="chkImprimir" runat="server" Checked='<%#Convert.ToBoolean(Eval("imprimir")) %>' Width="50"/>
                                             </ItemTemplate>
@@ -150,25 +150,25 @@
                     <asp:BoundField DataField="Nombre" HeaderText="Perfil" >
                         <ItemStyle Width="200px" />
                     </asp:BoundField>
-                    <asp:TemplateField ShowHeader="False">
+                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnVerDetalles" runat="server" CausesValidation="false" CommandName="Consultar" CommandArgument="<%# Container.DataItemIndex %>" 
                                 ImageUrl="~/Images/btnGridVerDetalles.png" OnCommand="btnVerDetalles_Command" Text="Detalles" />
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField ShowHeader="False">
+                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnAgregar" runat="server" CausesValidation="false" CommandName="Agregar" CommandArgument="<%# Container.DataItemIndex %>" 
                                 ImageUrl="~/Images/btnGridNuevo.png" OnCommand="btnNuevo_Command" Text="Nuevo" />
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField ShowHeader="False">
+                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnEditar" runat="server" CausesValidation="false" CommandName="Editar" CommandArgument="<%# Container.DataItemIndex %>" 
                                 ImageUrl="~/Images/btnGridEditar.png" OnCommand="btnEditar_Command" Text="Editar"/>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField ShowHeader="False">
+                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
                                 ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminaPerfil_Command" Text="Eliminar" />

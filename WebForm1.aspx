@@ -9,7 +9,7 @@
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false">
         <Columns>
             <asp:BoundField DataField="Name" HeaderText="File Name" />
-            <asp:TemplateField ItemStyle-HorizontalAlign="Center">
+            <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ItemStyle-HorizontalAlign="Center">
                 <ItemTemplate>
                     <asp:LinkButton ID="lnkView" runat="server" Text="View" OnClick="View" CommandArgument='<%# Eval("Id") %>'></asp:LinkButton>
                 </ItemTemplate>

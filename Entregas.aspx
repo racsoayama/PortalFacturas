@@ -111,7 +111,7 @@
                             <ItemStyle Width="70px" HorizontalAlign="Right" />
                         </asp:BoundField>
 
-<%--                        <asp:TemplateField ShowHeader="False">
+<%--                        <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnVerDetalles" runat="server" CausesValidation="false" CommandName="Consultar" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridVerDetalles.png" OnCommand="btnEditar_Command" Text="Detalles"  />

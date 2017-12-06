@@ -167,19 +167,19 @@
                                     <asp:BoundField DataField="fecha" HeaderText="Fecha" DataFormatString="{0:dd/MM/yyyy}">
                                         <ItemStyle Width="80px" HorizontalAlign="Center"/>
                                     </asp:BoundField>    
-                                    <asp:TemplateField ShowHeader="False">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                         <ItemTemplate>
                                             <asp:ImageButton ID="btnVerPDF" runat="server" CausesValidation="false" CommandName="VerPDF" CommandArgument="<%# Container.DataItemIndex %>" 
                                                 ImageUrl="~/Images/btnGridPDF.png" OnCommand="btnVerPDF_Command" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                    <asp:TemplateField ShowHeader="False">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                         <ItemTemplate>
                                             <asp:ImageButton ID="btnAgregar" runat="server" CausesValidation="false" CommandName="Agregar" CommandArgument="<%# Container.DataItemIndex %>" 
                                                 ImageUrl="~/Images/btnGridNuevo.png" OnCommand="btnAgregar_Command" Text="Nuevo" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                    <asp:TemplateField ShowHeader="False">
+                                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                         <ItemTemplate>
                                             <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
                                                 ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminar_Command" Text="Eliminar" />

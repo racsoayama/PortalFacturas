@@ -55,13 +55,13 @@
                         <asp:BoundField ItemStyle-Width="50px" DataField="Folio" HeaderText="Folio" />
                         <asp:BoundField ItemStyle-Width="250px" DataField="UUID" HeaderText="UUID" />
                         <asp:BoundField ItemStyle-Width="50px" DataField="importe" HeaderText="Importe" />
-                        <asp:TemplateField ShowHeader="False">
+                        <asp:TemplateField   ItemStyle-CssClass="tableOpcitions"  ShowHeader="False">
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnVerPDF" runat="server" CausesValidation="false" CommandName="VerPDF" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridPDF.png" OnCommand="btnVerPDF_Command" />
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:TemplateField ShowHeader="False">
+                        <asp:TemplateField   ItemStyle-CssClass="tableOpcitions"  ShowHeader="False">
                             <ItemTemplate>
                                 <asp:ImageButton ID="btnVerXML" runat="server" CausesValidation="false" CommandName="VerXML" CommandArgument="<%# Container.DataItemIndex %>" 
                                     ImageUrl="~/Images/btnGridXML.png" OnCommand="btnVerXML_Command" />

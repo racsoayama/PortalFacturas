@@ -109,19 +109,19 @@
                     <asp:BoundField DataField="Status" HeaderText="Estatus"  >
                         <ItemStyle Width="80px" HorizontalAlign="Center"/>
                     </asp:BoundField>
-                    <asp:TemplateField ShowHeader="False">
+                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnAgregar" runat="server" CausesValidation="false" CommandName="Agregar" CommandArgument="<%# Container.DataItemIndex %>" 
                                 ImageUrl="~/Images/btnGridNuevo.png" OnCommand="btnNuevo_Command" Text="Nuevo" />
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField ShowHeader="False">
+                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnEditar" runat="server" CausesValidation="false" CommandName="Editar" CommandArgument="<%# Container.DataItemIndex %>" 
                                 ImageUrl="~/Images/btnGridEditar.png" OnCommand="btnEditar_Command" Text="Editar"/>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField ShowHeader="False">
+                    <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
                                 ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminaUsuario_Command" Text="Eliminar" />

@@ -71,7 +71,7 @@
                     AllowPaging="true" PageSize="25" onpageindexchanging="grdPedidos_PageIndexChanging1"
                     OnRowDataBound="grdPedidos_RowDataBound">
                     <Columns>
-                        <asp:TemplateField>
+                        <asp:TemplateField ItemStyle-CssClass="tableOptions">
                             <ItemTemplate>
                                 <img alt = "" style="cursor: pointer" src="images/plus.png" />
                                 <asp:Panel ID="pnlOrders" runat="server" Style="display: none">
