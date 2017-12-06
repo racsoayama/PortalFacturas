@@ -12,25 +12,25 @@
           <div id="divFiltros" runat="server">
             <table>
                 <tr>
-                    <td><asp:Label ID="lblFilNumero" runat="server" CssClass="h3" Width="90">Usuario ID:</asp:Label></td>
-                    <td><asp:Label ID="lblFilNombre" runat="server" CssClass="h3" Width="150">Nombre:</asp:Label></td>
-                    <td><asp:Label ID="lblFilPerfil" runat="server" CssClass="h3" Width="150">Perfil:</asp:Label></td>
-                    <td><asp:Label ID="lblFilStatus" runat="server" CssClass="h3" Width="100">Estatus:</asp:Label></td>
+                    <td><asp:Label ID="lblFilNumero" runat="server" CssClass="h3" >Usuario ID:</asp:Label></td>
+                    <td><asp:Label ID="lblFilNombre" runat="server" CssClass="h3" >Nombre:</asp:Label></td>
+                    <td><asp:Label ID="lblFilPerfil" runat="server" CssClass="h3" >Perfil:</asp:Label></td>
+                    <td><asp:Label ID="lblFilStatus" runat="server" CssClass="h3" >Estatus:</asp:Label></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td><asp:TextBox ID="txtFilNumero" runat="server" CssClass="text" Width="90" MaxLength="10" onKeyUp="changeToUpperCase(this.id);"></asp:TextBox></td>
-                    <td><asp:TextBox ID="txtFilNombre" runat="server" CssClass="text" Width="150" MaxLength="40"></asp:TextBox></td>
-                    <td><asp:DropDownList ID="cboFilPerfil" runat="server" CssClass="dropdownlist" Width ="150"></asp:DropDownList></td>
-                    <td><asp:DropDownList ID="cboFilStatus" runat="server" CssClass="dropdownlist" Width ="100"></asp:DropDownList></td>
+                    <td><asp:TextBox ID="txtFilNumero" runat="server" CssClass="text"  MaxLength="10" onKeyUp="changeToUpperCase(this.id);"></asp:TextBox></td>
+                    <td><asp:TextBox ID="txtFilNombre" runat="server" CssClass="text"  MaxLength="40"></asp:TextBox></td>
+                    <td><asp:DropDownList ID="cboFilPerfil" runat="server" CssClass="dropdownlist" ></asp:DropDownList></td>
+                    <td><asp:DropDownList ID="cboFilStatus" runat="server" CssClass="dropdownlist" ></asp:DropDownList></td>
                     <td><asp:ImageButton ID="btnBuscar" runat="server" ImageUrl="~/Images/btnBuscar.png" CommandName="Buscar" 
                          onclick="btnBuscar_Click"/></td>
                     <td><asp:ImageButton ID="btnMostrarTodos" runat="server" ImageUrl="~/Images/btnMostrarTodos.png" CommandName="Mostrar" 
                          onclick="btnMostrarTodos_Click"/>
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td valign="bottom">
+                    <td >
                     </td>
                 </tr>
             </table>
@@ -112,19 +112,19 @@
                     <asp:TemplateField ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnAgregar" runat="server" CausesValidation="false" CommandName="Agregar" CommandArgument="<%# Container.DataItemIndex %>" 
-                                ImageUrl="~/Images/btnGridNuevo.jpg" OnCommand="btnNuevo_Command" Text="Nuevo" />
+                                ImageUrl="~/Images/btnGridNuevo.png" OnCommand="btnNuevo_Command" Text="Nuevo" />
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:TemplateField ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnEditar" runat="server" CausesValidation="false" CommandName="Editar" CommandArgument="<%# Container.DataItemIndex %>" 
-                                ImageUrl="~/Images/btnGridEditar.jpg" OnCommand="btnEditar_Command" Text="Editar"/>
+                                ImageUrl="~/Images/btnGridEditar.png" OnCommand="btnEditar_Command" Text="Editar"/>
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:TemplateField ShowHeader="False">
                         <ItemTemplate>
                             <asp:ImageButton ID="btnEliminar" runat="server" CausesValidation="false" CommandName="Eliminar" CommandArgument="<%# Container.DataItemIndex %>" 
-                                ImageUrl="~/Images/btnGridEliminar.jpg" OnCommand="btnEliminaUsuario_Command" Text="Eliminar" />
+                                ImageUrl="~/Images/btnGridEliminar.png" OnCommand="btnEliminaUsuario_Command" Text="Eliminar" />
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>

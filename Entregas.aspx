@@ -26,7 +26,7 @@
                          onclick="btnMostrarTodos_Click"/>
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td valign="bottom">
+                    <td >
                          <asp:ImageButton ID="btnImportar" runat="server" ImageUrl="~/Images/btnImportar.png" CommandName="Importar" 
                                      onclick="btnImportar_Click"/>
                     </td>
