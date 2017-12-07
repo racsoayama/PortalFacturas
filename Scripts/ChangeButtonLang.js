@@ -2,29 +2,32 @@
 function ChangeButtonLang() {
     var ButtonsList = {
         btnSalir: 'Salir',
-        MainPlaceHolder_btnBuscar: 'btnBuscar',
-        MainPlaceHolder_btnMostrarTodos: 'btnMostrarTodos',
-        MainPlaceHolder_btnImportar: 'btnImportar',
-        btnAceptarImportar: 'btnAceptarImportar',
-        btnCancelarImportar: 'btnCancelarImportar',
-        btnCambioPassword: 'btnCambioPassword',
-        btnAceptar: 'btnAceptar',
-        btnRecuperaCambio: 'btnRecuperaCambio',
-        btnCrearCta: 'btnCrearCta',
-        btnVerManual: 'btnVerManual',
-        btnAceptarCambio: 'btnAceptarCambio',
-        btnCancelarCambio: 'btnCancelarCambio',
-        btnRegistrar: 'btnRegistrar',
-        btnCancNuevaCta: 'btnCancNuevaCta',
-        MainPlaceHolder_btnGenear: 'MainPlaceHolder_btnGenear',
-        MainPlaceHolder_btnAceptarImportar: 'MainPlaceHolder_btnAceptarImportar',
-        MainPlaceHolder_btnGenerar: 'MainPlaceHolder_btnGenerar',
-        MainPlaceHolder_ImageButton1: 'MainPlaceHolder_ImageButton1',
-        MainPlaceHolder_btnAceptarLog: 'MainPlaceHolder_btnAceptarLog',
-        MainPlaceHolder_btnAceptarFin:'MainPlaceHolder_btnAceptarFin'
-
+        MainPlaceHolder_btnBuscar: 'Buscar',
+        MainPlaceHolder_btnMostrarTodos: 'Mostrar',
+        MainPlaceHolder_btnImportar: 'Importar',
+        btnAceptarImportar: 'Aceptar',
+        btnCancelarImportar: 'Cancelar',
+        btnCambioPassword: 'Cambiar Password',
+        btnAceptar: 'Aceptar',
+        btnRecuperaCambio: 'Recuperar',
+        btnCrearCta: 'Crear Cuenta',
+        btnVerManual: 'Ver Manual',
+        btnAceptarCambio: 'Aceptar',
+        btnCancelarCambio: 'Cancelar',
+        btnRegistrar: 'Registrar',
+        btnCancNuevaCta: 'Cancelar',
+        MainPlaceHolder_btnGenear: 'Generar',
+        MainPlaceHolder_btnAceptarImportar: 'Aceptar',
+        MainPlaceHolder_btnGenerar: 'Generar',
+        MainPlaceHolder_ImageButton1: 'Generar',
+        MainPlaceHolder_btnAceptarLog: 'Aceptar',
+        MainPlaceHolder_btnAceptarFin: 'Aceptar',
+        MainPlaceHolder_btnGuardar: 'Guardar',
+        MainPlaceHolder_btnCancelar: 'Cancelar'
     };
 
+  
+   
     console.log(ButtonsList.length);
     for (var k in ButtonsList) {
 

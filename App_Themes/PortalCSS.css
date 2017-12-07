@@ -71,14 +71,7 @@ body {
 	top: 0;
 	right: 0;
 }
-#btnSalir {
 
-    color:#fff;
-    background: rgba(33,48,111,1);
-    width: 120px;
-    height: 40px;
-    border: none;
-}
 
 .menu-frame {
 	position: fixed;
@@ -459,26 +452,29 @@ body {
 .mGrid .pgr {
     background-color: #d3d3d3; /* url(grd_pgr.png) repeat-x top;   */
     text-align: center;
-    font-size:18px;
+    font-size:22px;
     color:#333
 
 }   
   
 		.mGrid .pgr table {   
-			margin: 5px 0;   
+			margin: 5px 0; 
+            width:auto;
 		}   
 		  
 		.mGrid .pgr td {   
-			padding: 0 6px;   
+			padding: 0 6px;  
+           
 			
 			/*color: #fff;*/
-			line-height: 10px;
-		}   
-		  
-		.mGrid .pgr a {   
-			color: #666;   
-			text-decoration: none;   
-		}   
+		}
+
+    .mGrid .pgr a {
+        color: #333;
+        text-decoration: none;
+        font-size: 22px;
+        color: #333
+    }   
 		  
 		.mGrid .pgr a:hover {   
 			color: #339933;   
@@ -817,3 +813,102 @@ table input:checked{
 #cssmenu .has-sub:hover:after {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAMAAAA8eE0hAAAAUVBMVEX////d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3e3t729vbx8fHq6urd3d3z8/Pj4+Pv7+/h4eHm5ub09PTn5+f19fXt7e3g4ODi4uLUsVdlAAAAC3RSTlMAM2YekAmlPHuEAwArv7wAAAA/SURBVHheY2Dl5mdigABGKV5BNnYok4dHQpKFGcrkEefj5gAzQUBABM7kFYQyRcX4mUBMkEpOLrA2IWGwfgYAn0UDZszv8IwAAAAASUVORK5CYII=);
 }
+
+
+
+
+
+/*all buttons */
+#btnSalir,
+#MainPlaceHolder_btnBuscar,
+#MainPlaceHolder_btnMostrarTodos,
+#MainPlaceHolder_btnImportar,
+#btnAceptarImportar,
+#btnCancelarImportar,
+#btnCambioPassword,
+#btnAceptar,
+#btnRecuperaCambio,
+#btnCrearCta,
+#btnVerManual,
+#btnAceptarCambio,
+#btnCancelarCambio,
+#btnRegistrar,
+#btnCancNuevaCta,
+#MainPlaceHolder_btnGenear,
+#MainPlaceHolder_btnAceptarImportar,
+#MainPlaceHolder_btnGenerar,
+#MainPlaceHolder_ImageButton1,
+#MainPlaceHolder_btnAceptarLog,
+#MainPlaceHolder_btnAceptarFin,
+#MainPlaceHolder_btnGuardar,
+#MainPlaceHolder_btnCancelar {
+    color: #fff;
+    background: rgba(33,48,111,1);
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+
+    #btnSalir:hover,
+    #MainPlaceHolder_btnBuscar:hover,
+    #MainPlaceHolder_btnMostrarTodos:hover,
+    #MainPlaceHolder_btnImportar:hover,
+    #btnAceptarImportar:hover,
+    #btnCancelarImportar:hover,
+    #btnCambioPassword:hover,
+    #btnAceptar:hover,
+    #btnRecuperaCambio:hover,
+    #btnCrearCta:hover,
+    #btnVerManual:hover,
+    #btnAceptarCambio:hover,
+    #btnCancelarCambio:hover,
+    #btnRegistrar:hover:hover,
+    #btnCancNuevaCta:hover,
+    #MainPlaceHolder_btnGenear:hover,
+    #MainPlaceHolder_btnAceptarImportar:hover,
+    #MainPlaceHolder_btnGenerar:hover,
+    #MainPlaceHolder_ImageButton1:hover,
+    #MainPlaceHolder_btnAceptarLog:hover,
+    #MainPlaceHolder_btnAceptarFin:hover,
+    #MainPlaceHolder_btnGuardar:hover,
+    #MainPlaceHolder_btnCancelar:hover {
+        color: #fff;
+        background: rgb(42, 62, 146);
+      
+    }
+
+
+    #btnSalir:active,
+    #MainPlaceHolder_btnBuscar:active,
+    #MainPlaceHolder_btnMostrarTodos:active,
+    #MainPlaceHolder_btnImportar:active,
+    #btnAceptarImportar:active,
+    #btnCancelarImportar:active,
+    #btnCambioPassword:active,
+    #btnAceptar:active,
+    #btnRecuperaCambio:active,
+    #btnCrearCta:active,
+    #btnVerManual:active,
+    #btnAceptarCambio:active,
+    #btnCancelarCambio:active,
+    #btnRegistrar:active:active,
+    #btnCancNuevaCta:active,
+    #MainPlaceHolder_btnGenear:active,
+    #MainPlaceHolder_btnAceptarImportar:active,
+    #MainPlaceHolder_btnGenerar:active,
+    #MainPlaceHolder_ImageButton1:active,
+    #MainPlaceHolder_btnAceptarLog:active,
+    #MainPlaceHolder_btnAceptarFin:active,
+    #MainPlaceHolder_btnGuardar:active,
+    #MainPlaceHolder_btnCancelar:active {
+        color: #fff;
+        background: #666;
+    }
+
+
+
+
+
