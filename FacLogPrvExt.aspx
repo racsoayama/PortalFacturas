@@ -41,7 +41,7 @@
                                                 <td colspan="2"><asp:label ID="lblLeyArchPDF" runat="server" CssClass="label" Width="330">Seleccione el archivo PDF de la factura a subir:</asp:label></td>
                                             </tr>
                                             <tr>
-                                                <td colspan="2" style="height: 35px"><INPUT type=file id=File1 name=File1 runat="server" size="50" accept="image/*.pdf" /></td>
+                                                <td colspan="2" style="height: 35px"><INPUT type=file id=File1 name=File1 runat="server" size="50" accept="image/*.pdf"  style="width:97%;" /></td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2"><asp:label ID="lblOtrosArchivos" runat="server" CssClass="h3" Width="330">Otros archivos:</asp:label></td>
@@ -62,10 +62,10 @@
                                     </td>
                                 </tr>
                                 <tr>
-<<<<<<< HEAD
+
                                     <td colspan="2" align="right"  style="height: 51px">
                                         <asp:Button ID="btnAceptarImportar" runat="server"  Value="Aceptar" OnClientClick="return ValidaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
->>>>>>> 933dd754cdfd042e800773fb2b4bea1d2ece6e56
+
                                     </td>
                                 </tr>
                             </table>

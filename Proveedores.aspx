@@ -21,14 +21,14 @@
                     <td><asp:TextBox ID="txtFilProv" runat="server" CssClass="text" Width="110" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                     <td><asp:TextBox ID="txtFilRFC" runat="server" CssClass="text" Width="110" MaxLength="14" onKeyUp="changeToUpperCase(this.id);"></asp:TextBox></td>
                     <td><asp:TextBox ID="txtFilNombre" runat="server" CssClass="text" Width="200" MaxLength="40"></asp:TextBox></td>
-                    <td><asp:ImageButton ID="btnBuscar" runat="server" ImageUrl="~/Images/btnBuscar.png" CommandName="Buscar" 
+                    <td><asp:Button ID="btnBuscar" runat="server" Valuee="Buscar" 
                          onclick="btnBuscar_Click"/></td>
-                    <td><asp:ImageButton ID="btnMostrarTodos" runat="server" ImageUrl="~/Images/btnMostrarTodos.png" CommandName="Mostrar" 
+                    <td><asp:Button ID="btnMostrarTodos" runat="server" Value="Mostrar" 
                          onclick="btnMostrarTodos_Click"/>
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                     <td >
-                         <asp:ImageButton ID="btnImportar" runat="server" ImageUrl="~/Images/btnImportar.png" CommandName="Importar" 
+                         <asp:Button ID="btnImportar" runat="server" Value="Importar" 
                                      onclick="btnImportar_Click"/>
                     </td>
                 </tr>
@@ -48,8 +48,8 @@
                     </tr>
                     <tr>
                         <td align="right">
-                            <asp:ImageButton ID="btnAceptarImportar" runat="server"  ImageUrl="~/Images/btnAceptar.png" CommandName="Cancelar" OnClientClick="return validaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
-                            <asp:ImageButton ID="btnCancelarImportar" runat="server"  ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" onclick="btnCancelarImportar_Click"/>
+                            <asp:Button ID="btnAceptarImportar" runat="server"  Value="Aceptar" OnClientClick="return validaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
+                            <asp:Button ID="btnCancelarImportar" runat="server"  Value="Cancelar" onclick="btnCancelarImportar_Click"/>
                         </td>
                     </tr>
                 </table>
@@ -113,11 +113,11 @@
                     
                     <tr>
                         <td align="center" colspan="2">
-                            <asp:ImageButton ID="btnGuardar" runat="server" 
-                                ImageUrl="~/Images/btnGuardar.png" CommandName="Guardar" 
+                            <asp:Button ID="btnGuardar" runat="server" 
+                                Value="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 
-                            <asp:ImageButton ID="btnCancelar" runat="server"  
-                                ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" 
+                            <asp:Button ID="btnCancelar" runat="server"  
+                                Value="Cancelar" 
                                 onclick="btnCancelar_Click"/>
                         </td>    
                     </tr>

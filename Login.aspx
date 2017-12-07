@@ -95,8 +95,8 @@
                                 </tr>           
                                 <tr>
                                     <td class="style7" align="center" colspan="2">
-                                        <asp:ImageButton ID="btnAceptarCambio" runat="server" ImageUrl="~/Images/btnAceptar.png" OnClientClick="return ValidaCambio();" OnClick="btnAceptarCambio_Click"  TabIndex="2"></asp:ImageButton>
-                                        <asp:ImageButton ID="btnCancelarCambio" runat="server" ImageUrl="~/Images/btnCancelar.png" OnClick="btnCancelarCambio_Click"  TabIndex="3"></asp:ImageButton>
+                                        <asp:Button ID="btnAceptarCambio" runat="server" value="Aceptar" OnClientClick="return ValidaCambio();" OnClick="btnAceptarCambio_Click"  TabIndex="2"></asp:Button>
+                                        <asp:Button ID="btnCancelarCambio" runat="server" value="Cancelar" OnClick="btnCancelarCambio_Click"  TabIndex="3"></asp:Button>
                                     </td>
                                 </tr>
                                
@@ -126,8 +126,8 @@
                                 </tr>
                                 <tr>
                                     <td class="style7" align="center" colspan="2">
-                                        <asp:ImageButton ID="btnRegistrar" runat="server" ImageUrl="~/Images/btnAceptar.png" OnClientClick="return ValidaDatosRegistro();" OnClick="btnAceptarRegistro_Click"  TabIndex="2"></asp:ImageButton>
-                                        <asp:ImageButton ID="btnCancNuevaCta" runat="server" ImageUrl="~/Images/btnCancelar.png" OnClick="btnCancelarRegistro_Click"  TabIndex="3"></asp:ImageButton>
+                                        <asp:Button ID="btnRegistrar" runat="server" value="Aceptar" OnClientClick="return ValidaDatosRegistro();" OnClick="btnAceptarRegistro_Click"  TabIndex="2"></asp:Button>
+                                        <asp:Button ID="btnCancNuevaCta" runat="server" value="Cancelar" OnClick="btnCancelarRegistro_Click"  TabIndex="3"></asp:Button>
                                     </td>
                                 </tr>
                             </table>

@@ -22,7 +22,7 @@
                                     ControlToValidate = "DropDownCheckBoxes1" ErrorMessage = "Required" ForeColor = "Red">
                                 </asp:ExtendedRequiredFieldValidator>
                             </td>
-                            <td valign="top"><asp:ImageButton ID="btnGenear" runat="server"  ImageUrl="~/Images/btnVisualizar.png" CommandName="Generar" onclick="btnGenerar_Click"/></td>
+                            <td valign="top"><asp:Button ID="btnGenear" runat="server" Value="Vizualizar" onclick="btnGenerar_Click"/></td>
                         </tr>
                     </table>
                 </div>

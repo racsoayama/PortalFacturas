@@ -21,7 +21,7 @@
                       <td><asp:TextBox ID="txtLogFecIni" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
                       <td><asp:label ID="lblLogFechFin" runat="server" CssClass="h3">al:</asp:label></td>
                       <td><asp:TextBox ID="txtLogFecFin" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
-                      <td><asp:ImageButton ID="btnGenerar" runat="server"  ImageUrl="~/Images/btnGenerar.png" CommandName="Generar" 
+                      <td><asp:Button ID="btnGenerar" runat="server"  Value="Generar" 
                            OnClientClick="return ValidaDatosLog();" onclick="btnGenerarLog_Click"/></td>
                   </tr>
               </table>
@@ -45,7 +45,7 @@
                       <td><asp:label ID="lblFinFechFin" runat="server" CssClass="h3">al:</asp:label></td>
                       <td><asp:TextBox ID="txtFinFecFin" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
                       <td>
-                          <asp:ImageButton ID="ImageButton1" runat="server"  ImageUrl="~/Images/btnGenerar.png" CommandName="Generar" 
+                          <asp:Button ID="ImageButton1" runat="server"  value="Generar" 
                                                             OnClientClick="return ValidaDatosFin();" onclick="btnGenerarFin_Click"/></td>
                   </tr>
                   </table>

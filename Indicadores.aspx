@@ -27,11 +27,11 @@
                     </tr>
                     <tr>
                         <td align="center" colspan="2" style="height: 29px">
-                            <asp:ImageButton ID="btnGuardar" runat="server" 
-                                ImageUrl="~/Images/btnGuardar.png" CommandName="Guardar" 
+                            <asp:Button ID="btnGuardar" runat="server" 
+                                btnGenerar="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 
-                            <asp:ImageButton ID="btnCancelar" runat="server"  
-                                ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" 
+                            <asp:Button ID="btnCancelar" runat="server"  
+                                value="Cancelar" 
                                 onclick="btnCancelar_Click"/>
                         </td>    
                     </tr>

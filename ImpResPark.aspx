@@ -22,7 +22,7 @@
       </tr>
       <tr>
          <td align="right">
-            <asp:ImageButton ID="btnAceptarLog" runat="server"  ImageUrl="~/Images/btnAceptar.png" CommandName="Cancelar" 
+            <asp:Button ID="btnAceptarLog" runat="server"  btnGenerar="Aceptar" 
                 OnClientClick="return ValidaDatosLog();" onclick="btnAceptarLog_Click"/>&nbsp;
          </td>
       </tr>
@@ -41,7 +41,7 @@
       </tr>
       <tr>
          <td align="right">
-            <asp:ImageButton ID="btnAceptarFin" runat="server"  ImageUrl="~/Images/btnAceptar.png" CommandName="Cancelar" 
+            <asp:Button ID="btnAceptarFin" runat="server"  btnGenerar="Cancelar" 
                 OnClientClick="return ValidaDatosFin();" onclick="btnAceptarFin_Click"/>&nbsp;
          </td>
       </tr>

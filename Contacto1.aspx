@@ -42,7 +42,7 @@
                             <td colspan="2" align="right">
                             <asp:Button ID="btnEnviar" runat="server" Value="Enviar" 
                                              OnClientClick="return ValidaDatos();" OnClick ="btnEnviar_Click"/>
-                            <asp:Button ID="btnCancelar" runat="server"Value="Cancelar" 
+                            <asp:Button ID="btnCancelar" runat="server" value="Cancelar" 
                                              OnClientClick="CloseFormCancel();"/>
 
                             </td>

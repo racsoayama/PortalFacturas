@@ -24,9 +24,9 @@
                     <td><asp:TextBox ID="txtFilNombre" runat="server" CssClass="text"  MaxLength="40"></asp:TextBox></td>
                     <td><asp:DropDownList ID="cboFilPerfil" runat="server" CssClass="dropdownlist" ></asp:DropDownList></td>
                     <td><asp:DropDownList ID="cboFilStatus" runat="server" CssClass="dropdownlist" ></asp:DropDownList></td>
-                    <td><asp:ImageButton ID="btnBuscar" runat="server" ImageUrl="~/Images/btnBuscar.png" CommandName="Buscar" 
+                    <td><asp:Button ID="btnBuscar" runat="server" value="Buscar" 
                          onclick="btnBuscar_Click"/></td>
-                    <td><asp:ImageButton ID="btnMostrarTodos" runat="server" ImageUrl="~/Images/btnMostrarTodos.png" CommandName="Mostrar" 
+                    <td><asp:Button ID="btnMostrarTodos" runat="server" value="Mostrar" 
                          onclick="btnMostrarTodos_Click"/>
                     </td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -76,11 +76,11 @@
                     </tr>
                     <tr>
                         <td align="center" colspan="2" style="height: 54px">
-                            <asp:ImageButton ID="btnGuardar" runat="server" 
-                                ImageUrl="~/Images/btnGuardar.png" CommandName="Guardar" 
+                            <asp:Button ID="btnGuardar" runat="server" 
+                               Value="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 
-                            <asp:ImageButton ID="btnCancelar" runat="server"  
-                                ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" 
+                            <asp:Button ID="btnCancelar" runat="server"  
+                                Value="Cancelar" 
                                 onclick="btnCancelar_Click"/>
                         </td>    
                     </tr>

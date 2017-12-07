@@ -16,7 +16,7 @@
                             <td><asp:label ID="lblFolioFinal" runat="server" CssClass="label">Folio final:</asp:label></td>
                             <td><asp:TextBox ID="txtFolFinal" runat="server" CssClass="text" MaxLength="10" 
                                                         Width="60px" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
-                            <td><asp:ImageButton ID="btnGenear" runat="server"  ImageUrl="~/Images/btnVisualizar.png" CommandName="Generar" onclick="btnGenerar_Click"/></td>
+                            <td><asp:Button ID="btnGenear" runat="server"  Value="Visualizar" onclick="btnGenerar_Click"/></td>
                         </tr>
                     </table>
                 </div>

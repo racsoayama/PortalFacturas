@@ -12,7 +12,7 @@
                         <tr>
                             <td><asp:label ID="lblEntrega" runat="server" CssClass="label">Entrega de mercancía:</asp:label></td>
                             <td><asp:TextBox ID="txtEntrega" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
-                            <td><asp:ImageButton ID="btnGenear" runat="server"  ImageUrl="~/Images/btnVisualizar.png" CommandName="Generar" onclick="btnGenerar_Click"/></td>
+                            <td><asp:Button ID="btnGenear" runat="server"  Value="Visualizar" onclick="btnGenerar_Click"/></td>
                         </tr>
                     </table>
                 </div>

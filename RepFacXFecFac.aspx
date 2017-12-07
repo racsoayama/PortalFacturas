@@ -14,7 +14,7 @@
                             <td><asp:TextBox ID="txtFecFacInicial" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
                             <td><asp:label ID="lblFecFacFin" runat="server" CssClass="label">Fecha inicial:</asp:label></td>
                             <td><asp:TextBox ID="txtFecFacFinal" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
-                            <td><asp:ImageButton ID="btnGenear" runat="server"  ImageUrl="~/Images/btnVisualizar.png" CommandName="Generar" onclick="btnGenerar_Click"/></td>
+                            <td><asp:Button ID="btnGenear" runat="server"  Value="Vizualizar" onclick="btnGenerar_Click"/></td>
                         </tr>
                     </table>
                 </div>

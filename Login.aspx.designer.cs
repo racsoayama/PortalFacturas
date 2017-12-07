@@ -226,16 +226,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnAceptarCambio;
-        
-        /// <summary>
-        /// btnCancelarCambio control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCancelarCambio;
+        protected global::System.Web.UI.WebControls.Button btnAceptarCambio;
         
         /// <summary>
         /// divNuevaCta control.
@@ -289,7 +280,7 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnRegistrar;
+        protected global::System.Web.UI.WebControls.Button btnRegistrar;
         
         /// <summary>
         /// btnCancNuevaCta control.
@@ -298,6 +289,6 @@ namespace PortalFacturas {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnCancNuevaCta;
+        protected global::System.Web.UI.WebControls.Button btnCancNuevaCta;
     }
 }

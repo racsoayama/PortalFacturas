@@ -17,7 +17,7 @@
                                     <Style SelectBoxWidth="245" DropDownBoxBoxWidth="210" DropDownBoxBoxHeight="90" />
                                 </asp:DropDownCheckBoxes>
                             </td>
-                            <td valign="top"><asp:ImageButton ID="btnGenear" runat="server"  ImageUrl="~/Images/btnVisualizar.png" CommandName="Generar" onclick="btnGenerar_Click"/></td>
+                            <td valign="top"><asp:Button ID="btnGenear" runat="server" Value="Visualizar" onclick="btnGenerar_Click"/></td>
                         </tr>
                     </table>
                </div>

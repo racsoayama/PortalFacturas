@@ -56,11 +56,11 @@
                                     </td>
                                 </tr>
                                 <tr>
-<<<<<<< HEAD
+
                                     <td colspan="2"  align="right" style="height: 53px">
                                         <asp:Button ID="btnAceptarImportar" runat="server"  Value="Aceptar" OnClientClick="return ValidaNombreArchivo();" onclick="btnAceptarImportar_Click"/>&nbsp;
 
->>>>>>> 933dd754cdfd042e800773fb2b4bea1d2ece6e56
+
                                     </td>
                                 </tr>
                             </table>

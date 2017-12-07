@@ -19,8 +19,8 @@
                     </tr>
                     <tr>
                         <td align="right">
-                            <asp:ImageButton ID="btnAceptar" runat="server"  ImageUrl="~/Images/btnAceptar.png" CommandName="Cancelar" OnClientClick="return validaDirectorio();" onclick="btnAceptar_Click"/>&nbsp;
-                            <asp:ImageButton ID="btnCancelar" runat="server"  ImageUrl="~/Images/btnCancelar.png" CommandName="Cancelar" onclick="btnCancelar_Click"/>
+                            <asp:Button ID="btnAceptar" runat="server"  Value="Aceptar" OnClientClick="return validaDirectorio();" onclick="btnAceptar_Click"/>&nbsp;
+                            <asp:Button ID="btnCancelar" runat="server"  Value="Cancelar" onclick="btnCancelar_Click"/>
                         </td>
                     </tr>
                 </table>

@@ -457,8 +457,11 @@ body {
 }
 
 .mGrid .pgr {
-    background-color: #b2b2b2; /* url(grd_pgr.png) repeat-x top;   */
+    background-color: #d3d3d3; /* url(grd_pgr.png) repeat-x top;   */
     text-align: center;
+    font-size:18px;
+    color:#333
+
 }   
   
 		.mGrid .pgr table {   
