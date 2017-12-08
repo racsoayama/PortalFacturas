@@ -11,6 +11,66 @@
     <link href="App_Themes/LoginCSS.css" type="text/css" rel="stylesheet"/>
     <title>Login</title>
    
+    <style type="text/css">
+        .auto-style1 {
+            color: #656565;
+            vertical-align: bottom;
+            display: inline-block;
+            outline: none;
+            margin-right: 7px;
+            margin-left: 0px;
+        }
+        .auto-style2 {
+            color: #656565;
+            vertical-align: bottom;
+            display: inline-block;
+            outline: none;
+            margin-right: 0px;
+        }
+        .auto-style3 {
+            width: 58%;
+        }
+        .auto-style4 {
+            color: #656565;
+            border-bottom: 1px solid #a9a9a9;
+            display: inline-block;
+            outline: none;
+            width: 90%;
+            min-width: 225px;
+            height: 30px;
+            margin-top: 4px;
+            margin-bottom: 8px;
+            vertical-align: top;
+            background-color: #fff;
+            border-left-style: none;
+            border-left-color: inherit;
+            border-left-width: medium;
+            border-right-style: none;
+            border-right-color: inherit;
+            border-right-width: medium;
+            border-top-style: none;
+            border-top-color: inherit;
+            border-top-width: medium;
+            margin-left: 0px;
+        }
+        .auto-style5 {
+            height: 49px;
+        }
+        .auto-style6 {
+            width: 100%;
+        }
+        .auto-style7 {
+            width: 57%;
+        }
+        .auto-style8 {
+            color: #656565;
+            vertical-align: bottom;
+            display: inline-block;
+            outline: none;
+            margin-right: 7px;
+        }
+    </style>
+   
 </head>
 <body onload=" ChangeButtonLang()">
 <%--<div class="header">
@@ -25,28 +85,28 @@
         <form id="Form2" runat="server" defaultfocus="btnAceptar">
             <table align="center" >
                 <tr><td class="style6" align="center" valign="middle"><br />
-                    <asp:Label ID="lblTitulo" runat="server" CssClass="h2" Width="242px" Height="30px">Bienvenido</asp:Label></td></tr>
+                    <asp:Label ID="lblTitulo" runat="server" CssClass="h2" Width="368px" Height="30px">Bienvenido</asp:Label></td></tr>
                 <tr>
                     <td align ="center" class="style6">
                         <div id="divLogin" runat="server">
                             <table style="width: 90%">
                                <%-- <tr><td class="style9" colspan="2">&nbsp;</td></tr>--%>
                                 <tr>
-                                    <td align="right"><asp:Label ID="lblUsuario" runat="server" CssClass="label2" >Usuario:</asp:Label></td>
+                                    <td align="right" class="auto-style7"><asp:Label ID="lblUsuario" runat="server" CssClass="label2" >Usuario:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtUsuario" runat="server"  CssClass="text" MaxLength="10"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td align="right"><asp:Label ID="lblPassword" runat="server" CssClass="label2" >Contraseña:</asp:Label></td>
+                                    <td align="right" class="auto-style7"><asp:Label ID="lblPassword" runat="server" CssClass="label2" >Contraseña:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtPassword" runat="server" password="true" 
                                             CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td align="right"><asp:Label ID="lblIdioma" runat="server" CssClass="label2" >Idioma:</asp:Label></td>
+                                    <td align="right" class="auto-style7"><asp:Label ID="lblIdioma" runat="server" CssClass="label2" >Idioma:</asp:Label></td>
                                     <td align="left"><asp:DropDownList ID="cboIdioma" runat="server" CssClass="dropdownlist"  AutoPostBack="true" 
                                                         onselectedindexchanged="cboIdioma_SelectedIndexChanged"></asp:DropDownList></td>
                                 </tr>
                                 <tr>
-                                    <td align="right"><img  id="imgcatcha" src="Captcha.aspx" ></td>
+                                    <td align="right" class="auto-style7"><img  id="imgcatcha" src="Captcha.aspx" ></td>
                                     <td align="left"><asp:TextBox ID="txtCaptcha" runat="server" password="true" placeholder="Captcha"
                                             CssClass="text"  MaxLength="8"></asp:TextBox></td>
                                 </tr>
@@ -77,20 +137,20 @@
                         <div id="divCambioPasw" runat="server">
                             <table style="width: 90%">
                                 <tr>
-                                    <td  align="right"><asp:Label ID="lblUsuario2" runat="server" CssClass="label2" >Usuario:</asp:Label></td>
+                                    <td  align="right" class="auto-style3"><asp:Label ID="lblUsuario2" runat="server" CssClass="label2" >Usuario:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtUsuario2" runat="server"  CssClass="text" MaxLength="8"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td  align="right"><asp:Label ID="lblPassActual" runat="server" CssClass="label2" >Contraseña actual:</asp:Label></td>
+                                    <td  align="right" class="auto-style3"><asp:Label ID="lblPassActual" runat="server" CssClass="auto-style2" Width="160px" >Contraseña actual:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtPassActual" runat="server" password="true" 
                                             CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td  align="right"><asp:Label ID="lblPassNuevo" runat="server" CssClass="label2" >Nueva contraseña:</asp:Label></td>
+                                    <td  align="right" class="auto-style3"><asp:Label ID="lblPassNuevo" runat="server" CssClass="auto-style1" Width="162px" >Nueva contraseña:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtNuevoPassword" runat="server" password="true" CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>           
                                 <tr>
-                                    <td  align="right"><asp:Label ID="lblConfPass" runat="server" CssClass="label2" >Confirme contraseña:</asp:Label></td>
+                                    <td  align="right" class="auto-style3"><asp:Label ID="lblConfPass" runat="server" CssClass="auto-style8" Width="173px" >Confirme contraseña:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtConfPassword" runat="server" password="true" CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>           
                                 <tr>
@@ -108,24 +168,24 @@
                 <tr>
                     <td align="center" class="style6">
                         <div id="divNuevaCta" runat="server">
-                            <table style="width: 100%">
+                            <table class="auto-style6">
                                 <tr>
                                     <td align="left" colspan="2" class="style11"></td>
                                 </tr>
                                 <tr>
-                                    <td align="right"><asp:Label ID="lblProv" runat="server" 
+                                    <td align="right" class="auto-style3"><asp:Label ID="lblProv" runat="server" 
                                               CssClass="label2" >Proveedor:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtProveedor" runat="server" 
-                                            CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                                            CssClass="auto-style4"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td align="right"><asp:Label ID="lblRFC" runat="server" 
+                                    <td align="right" class="auto-style3"><asp:Label ID="lblRFC" runat="server" 
                                               CssClass="label2" >RFC Prov:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtRFCProv" runat="server" 
                                             CssClass="text"  MaxLength="14" onKeyUp="changeToUpperCase(this.id);"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td class="style7" align="center" colspan="2">
+                                    <td class="auto-style5" align="center" colspan="2">
                                         <asp:Button ID="btnRegistrar" runat="server" value="Aceptar" OnClientClick="return ValidaDatosRegistro();" OnClick="btnAceptarRegistro_Click"  TabIndex="2"></asp:Button>
                                         <asp:Button ID="btnCancNuevaCta" runat="server" value="Cancelar" OnClick="btnCancelarRegistro_Click"  TabIndex="3"></asp:Button>
                                     </td>

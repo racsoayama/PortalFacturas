@@ -14,12 +14,12 @@ namespace PortalFacturas
         {
             Bitmap objBMP = new System.Drawing.Bitmap(60, 20);
             Graphics objGraphics = System.Drawing.Graphics.FromImage(objBMP);
-            objGraphics.Clear(Color.Green);
+            objGraphics.Clear(Color.Gray);
 
             objGraphics.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
 
             //' Configure font to use for text
-            Font objFont = new Font("Arial", 8, FontStyle.Bold);
+            Font objFont = new Font("Arial", 10, FontStyle.Bold);
             string randomStr = "";
             char[] myIntArray = new char[5];
             int x;
