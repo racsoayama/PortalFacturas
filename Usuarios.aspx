@@ -75,7 +75,7 @@
                         <td style="height: 36px"><asp:DropDownList ID="cboStatus" runat="server" CssClass="dropdownlist" Width ="150px" Height="16px"></asp:DropDownList></td>
                     </tr>
                     <tr>
-                        <td align="center" colspan="2" style="height: 54px">
+                        <td align="right" colspan="2" style="height: 54px">
                             <asp:Button ID="btnGuardar" runat="server" 
                                Value="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 

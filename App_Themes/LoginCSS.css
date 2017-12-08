@@ -95,7 +95,7 @@ td {
     padding: 10px;
 }
 
-#btnAceptar, #btnCambioPassword, #btnAceptarCambio, #btnCancelarCambio{
+#btnAceptar, #btnCambioPassword, #btnAceptarCambio, #btnCancelarCambio, #btnCancNuevaCta, #btnRegistrar{
 	margin-top: 20px;
 	color: #fff;
 	width: 150px;
@@ -109,11 +109,11 @@ td {
 	cursor: pointer;
 }
 
-#btnAceptar, #btnAceptarCambio {
+#btnAceptar, #btnAceptarCambio, #btnRegistrar {
 	background: #339933;
 }
 
-#btnAceptar:hover, #btnAceptarCambio:hover {
+#btnAceptar:hover, #btnAceptarCambio:hover, #btnRegistrar:hover {
 	background: #1d4f1d;
 }
 
@@ -125,11 +125,11 @@ td {
 	background: #021642;
 }
 
-#btnCancelarCambio {
+#btnCancelarCambio, #btnCancNuevaCta {
 	background: rgb(169, 5, 5);
 }
 
-#btnCancelarCambio:hover {
+#btnCancelarCambio:hover, btnCancNuevaCta:hover {
 	background: rgb(108, 5, 5);
 }
 

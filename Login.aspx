@@ -23,65 +23,6 @@
     <link href="App_Themes/LoginCSS.css" type="text/css" rel="stylesheet"/>
     <title>Login</title>
    
-    <style type="text/css">
-        .auto-style1 {
-            color: #656565;
-            vertical-align: bottom;
-            display: inline-block;
-            outline: none;
-            margin-right: 7px;
-            margin-left: 0px;
-        }
-        .auto-style2 {
-            color: #656565;
-            vertical-align: bottom;
-            display: inline-block;
-            outline: none;
-            margin-right: 0px;
-        }
-        .auto-style3 {
-            width: 58%;
-        }
-        .auto-style4 {
-            color: #656565;
-            border-bottom: 1px solid #a9a9a9;
-            display: inline-block;
-            outline: none;
-            width: 90%;
-            min-width: 225px;
-            height: 30px;
-            margin-top: 4px;
-            margin-bottom: 8px;
-            vertical-align: top;
-            background-color: #fff;
-            border-left-style: none;
-            border-left-color: inherit;
-            border-left-width: medium;
-            border-right-style: none;
-            border-right-color: inherit;
-            border-right-width: medium;
-            border-top-style: none;
-            border-top-color: inherit;
-            border-top-width: medium;
-            margin-left: 0px;
-        }
-        .auto-style5 {
-            height: 49px;
-        }
-        .auto-style6 {
-            width: 100%;
-        }
-        .auto-style7 {
-            width: 57%;
-        }
-        .auto-style8 {
-            color: #656565;
-            vertical-align: bottom;
-            display: inline-block;
-            outline: none;
-            margin-right: 7px;
-        }
-    </style>
    
 </head>
 <body onload="CallChangeButtonLang()">

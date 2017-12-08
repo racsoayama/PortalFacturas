@@ -63,7 +63,7 @@
                                         </asp:RadioButtonList></td>
                 </tr>
                 <tr>
-                    <td align="center" colspan="2" style="height: 54px">
+                    <td align="right" colspan="2" style="height: 54px">
                         
                         <asp:Button ID="btnGuardar" runat="server" 
                             IValue="Guardar" 

@@ -26,7 +26,7 @@
                         <td style="height: 36px"><asp:TextBox ID="txtTasa" runat="server" CssClass="dropdownlist" MaxLength="3" Width="150px" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="center" colspan="2" style="height: 29px">
+                        <td align="right" colspan="2" style="height: 29px">
                             <asp:Button ID="btnGuardar" runat="server" 
                                 btnGenerar="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 
