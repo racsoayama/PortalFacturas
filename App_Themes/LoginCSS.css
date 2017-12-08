@@ -69,7 +69,7 @@ td {
 .dropdownlist, .text {
     border: none;
     color: #656565;
-    border-bottom: 2px solid #a9a9a9;
+    border-bottom: 1px solid #a9a9a9;
     display: inline-block;
     outline: none;
     width: 90%;
@@ -82,9 +82,9 @@ td {
 }
 
 #imgcatcha {
-   
     height: 30PX;
     width: 100PX;
+	margin-bottom: 8px;
 }
 
 .logo {
@@ -92,3 +92,44 @@ td {
     text-align: center;
     padding: 10px;
 }
+
+#btnAceptar, #btnCambioPassword {
+	margin-top: 20px;
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	border: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px; /*Safari y Chrome*/
+	-moz-border-radius: 4px; /*Firefox*/
+	-o-border-radius: 4px; /*Opera*/
+	-ms-border-radius: 4px; /*IE 8*/
+	cursor: pointer;
+}
+
+#btnAceptar {
+	background: #339933;
+}
+
+#btnCambioPassword {
+	background: #002068;
+}
+
+#btnRecuperaCambio, #btnCrearCta {
+	margin-top: 10px;
+	color: #002068;
+	background: #fff;
+	width: 150px;
+	height: 20px;
+	border: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px; /*Safari y Chrome*/
+	-moz-border-radius: 4px; /*Firefox*/
+	-o-border-radius: 4px; /*Opera*/
+	-ms-border-radius: 4px; /*IE 8*/
+	cursor: pointer;
+}
+
+
+
+
