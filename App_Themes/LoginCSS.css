@@ -92,3 +92,29 @@ td {
     text-align: center;
     padding: 10px;
 }
+
+#btnAceptar, #btnCambioPassword {
+	margin-top: 20px;
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	border: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px; /*Safari y Chrome*/
+	-moz-border-radius: 4px; /*Firefox*/
+	-o-border-radius: 4px; /*Opera*/
+	-ms-border-radius: 4px; /*IE 8*/
+	cursor: pointer;
+}
+
+#btnAceptar {
+	background: #339933;
+}
+
+#btnCambioPassword {
+	background: #002068;
+}
+
+
+
+

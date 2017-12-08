@@ -817,69 +817,110 @@ table input:checked{
 
 
 
+/*Red buttons */
 
-
-/*all buttons */
 #btnSalir,
-#MainPlaceHolder_btnBuscar,
-#MainPlaceHolder_btnMostrarTodos,
-#MainPlaceHolder_btnImportar,
-#btnAceptarImportar,
 #btnCancelarImportar,
-#btnCambioPassword,
-#btnAceptar,
-#btnRecuperaCambio,
-#btnCrearCta,
-#btnVerManual,
-#btnAceptarCambio,
 #btnCancelarCambio,
-#btnRegistrar,
 #btnCancNuevaCta,
+#MainPlaceHolder_btnCancelar {
+	color: #fff;
+	background: rgb(169, 5, 5);
+	width: 150px;
+	height: 40px;
+	border: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px; /*Safari y Chrome*/
+	-moz-border-radius: 4px; /*Firefox*/
+	-o-border-radius: 4px; /*Opera*/
+	-ms-border-radius: 4px; /*IE 8*/
+	cursor: pointer;
+}
+
+#btnSalir:hover,
+#btnCancelarImportar:hover,
+#btnCancelarCambio:hover,
+#btnCancNuevaCta:hover,
+#MainPlaceHolder_btnCancelar:hover 
+{
+        color: #fff;
+        background: #670101;
+}
+
+/*Green buttoms */
+#btnCrearCta,
+#btnAceptarCambio,
+#btnAceptarImportar,
+#btnRegistrar,
 #MainPlaceHolder_btnGenear,
 #MainPlaceHolder_btnAceptarImportar,
 #MainPlaceHolder_btnGenerar,
-#MainPlaceHolder_ImageButton1,
 #MainPlaceHolder_btnAceptarLog,
 #MainPlaceHolder_btnAceptarFin,
-#MainPlaceHolder_btnGuardar,
-#MainPlaceHolder_btnCancelar {
-    color: #fff;
-    background: rgba(33,48,111,1);
-    width: 150px;
-    height: 40px;
-    border: none;
-    border-radius: 4px;
-    cursor:pointer;
+#MainPlaceHolder_btnGuardar 
+
+{
+	color: #fff;
+	background: #339933;
+	width: 150px;
+	height: 40px;
+	border: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px; /*Safari y Chrome*/
+	-moz-border-radius: 4px; /*Firefox*/
+	-o-border-radius: 4px; /*Opera*/
+	-ms-border-radius: 4px; /*IE 8*/
+	cursor: pointer;
+}
+
+#btnAceptar:hover,
+#btnCrearCta:hover,
+#btnAceptarCambio:hover,
+#btnRegistrar:hover:hover,
+#MainPlaceHolder_btnGenear:hover,
+#MainPlaceHolder_btnGenerar:hover,
+#MainPlaceHolder_btnAceptarLog:hover,
+#MainPlaceHolder_btnAceptarFin:hover,
+#MainPlaceHolder_btnAceptarImportar:hover,
+#MainPlaceHolder_btnGuardar:hover 
+{
+	color: #fff;
+	background: #0a4d0a;
 }
 
 
-    #btnSalir:hover,
-    #MainPlaceHolder_btnBuscar:hover,
-    #MainPlaceHolder_btnMostrarTodos:hover,
-    #MainPlaceHolder_btnImportar:hover,
-    #btnAceptarImportar:hover,
-    #btnCancelarImportar:hover,
-    #btnCambioPassword:hover,
-    #btnAceptar:hover,
-    #btnRecuperaCambio:hover,
-    #btnCrearCta:hover,
-    #btnVerManual:hover,
-    #btnAceptarCambio:hover,
-    #btnCancelarCambio:hover,
-    #btnRegistrar:hover:hover,
-    #btnCancNuevaCta:hover,
-    #MainPlaceHolder_btnGenear:hover,
-    #MainPlaceHolder_btnAceptarImportar:hover,
-    #MainPlaceHolder_btnGenerar:hover,
-    #MainPlaceHolder_ImageButton1:hover,
-    #MainPlaceHolder_btnAceptarLog:hover,
-    #MainPlaceHolder_btnAceptarFin:hover,
-    #MainPlaceHolder_btnGuardar:hover,
-    #MainPlaceHolder_btnCancelar:hover {
-        color: #fff;
-        background: rgb(42, 62, 146);
-      
-    }
+/*all buttoms */
+#MainPlaceHolder_btnBuscar,
+#MainPlaceHolder_btnMostrarTodos,
+#MainPlaceHolder_btnImportar,
+#btnCambioPassword,
+#btnRecuperaCambio,
+#btnVerManual,
+#MainPlaceHolder_ImageButton1
+{
+	color: #fff;
+	background: rgba(33,48,111,1);
+	width: 150px;
+	height: 40px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+
+
+	#MainPlaceHolder_btnBuscar:hover,
+	#MainPlaceHolder_btnMostrarTodos:hover,
+	#MainPlaceHolder_btnImportar:hover,
+	#btnAceptarImportar:hover,
+	#btnRecuperaCambio:hover,
+	#btnCambioPassword:hover,
+	#btnVerManual:hover,
+
+	#MainPlaceHolder_ImageButton1:hover {
+		color: #fff;
+		background: rgb(42, 62, 146);
+	}
 
 
     #btnSalir:active,
