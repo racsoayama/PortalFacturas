@@ -4,6 +4,15 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
 <script src="Scripts\ChangeButtonLang.js"></script>
+   <script>
+
+       function CallChangeButtonLang() {
+           var CurrentCulture = "";
+           CurrentCulture = '<%= this.GetCurrentCulture %>';
+
+            ChangeButtonLang(CurrentCulture.substring(0, 2));
+       }
+    </script>
 <script language="javascript" type="text/javascript">
   //<![CDATA[
   function HandleClose() 
@@ -16,6 +25,7 @@
 </script>
 
 
+
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
     <title>Portal de facturas</title>
@@ -25,7 +35,7 @@
     <script type='text/JavaScript' src='scripts\scw.js'></script>
 
 </head>
-<body onload=" ChangeButtonLang()" >
+<body onload="CallChangeButtonLang()" >
     <form id="form2" runat="server"  enctype="multipart/form-data">
     <asp:ScriptManager ID="ScriptManager1" runat="server" enablepagemethods="true" />
     <div class="header">

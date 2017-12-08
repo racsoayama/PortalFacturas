@@ -168,6 +168,14 @@ namespace PortalFacturas
             Response.Redirect("../Login.aspx");
         }
 
+        public string GetCurrentCulture
+        {
+            get
+            {
+                return System.Threading.Thread.CurrentThread.CurrentCulture.Name.ToString();
+            }
+        }
+
 
     }
 }

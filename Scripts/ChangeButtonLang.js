@@ -1,6 +1,17 @@
-﻿
-function ChangeButtonLang() {
-    var ButtonsList = {
+﻿lang = "";
+function ChangeButtonLang(lang) {
+
+    alert(lang);
+    if (lang=='es') {
+        lang = 0;
+    }
+    else if (lang=='en') {
+        lang = 1;
+    } 
+    else{
+        lang = 0;
+    }
+    var ButtonsListes = {
         btnSalir: 'Salir',
         MainPlaceHolder_btnBuscar: 'Buscar',
         MainPlaceHolder_btnMostrarTodos: 'Mostrar',
@@ -9,7 +20,7 @@ function ChangeButtonLang() {
         btnCancelarImportar: 'Cancelar',
         btnCambioPassword: 'Cambiar Password',
         btnAceptar: 'Aceptar',
-        btnRecuperaCambio: 'Recuperar',
+        btnRecuperaCambio: 'Recuperar Password',
         btnCrearCta: 'Crear Cuenta',
         btnVerManual: 'Ver Manual',
         btnAceptarCambio: 'Aceptar',
@@ -25,19 +36,45 @@ function ChangeButtonLang() {
         MainPlaceHolder_btnGuardar: 'Guardar',
         MainPlaceHolder_btnCancelar: 'Cancelar'
     };
+    var ButtonsListen = {
+        btnSalir: 'Exit',
+        MainPlaceHolder_btnBuscar: 'Search',
+        MainPlaceHolder_btnMostrarTodos: 'Show',
+        MainPlaceHolder_btnImportar: 'Import',
+        btnAceptarImportar: 'Acept',
+        btnCancelarImportar: 'Cancel',
+        btnCambioPassword: 'Change Password',
+        btnAceptar: 'Acept',
+        btnRecuperaCambio: 'Retriver Password',
+        btnCrearCta: 'Create Account',
+        btnVerManual: 'Show Manual',
+        btnAceptarCambio: 'Acept',
+        btnCancelarCambio: 'Cancel',
+        btnRegistrar: 'Register',
+        btnCancNuevaCta: 'Cancel',
+        MainPlaceHolder_btnGenear: 'Generate',
+        MainPlaceHolder_btnAceptarImportar: 'Acept',
+        MainPlaceHolder_btnGenerar: 'Generate',
+        MainPlaceHolder_ImageButton1: 'Generate',
+        MainPlaceHolder_btnAceptarLog: 'Acept',
+        MainPlaceHolder_btnAceptarFin: 'Acept',
+        MainPlaceHolder_btnGuardar: 'Save',
+        MainPlaceHolder_btnCancelar: 'Cancel'
+    };
 
-  
-   
-    console.log(ButtonsList.length);
-    for (var k in ButtonsList) {
+    var ButtonsList = new Array(ButtonsListes, ButtonsListen);
 
-        if (ButtonsList.hasOwnProperty(k)) {
-            var field = document.getElementById(k);
+    console.log(ButtonsList[lang].length);
+    for (var k in ButtonsList[lang]) {
 
-            if (field != null) {
-                field.value = ButtonsList[k];
+        if (ButtonsList[lang].hasOwnProperty(k)) {
+                var field = document.getElementById(k);
+
+                if (field != null) {
+                    field.value = ButtonsList[lang][k];
+                }
+
             }
-          
         }
-    }
+    
 }

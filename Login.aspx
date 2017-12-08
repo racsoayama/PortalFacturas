@@ -6,13 +6,24 @@
 <head>
 
    <script src="Scripts\ChangeButtonLang.js"></script>
+    <script>
+    
+        function CallChangeButtonLang() {
+            var CurrentCulture = "";
+            CurrentCulture = '<%= this.GetCurrentCulture %>';
+
+            ChangeButtonLang(CurrentCulture.substring(0,2));
+}
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <script type='text/JavaScript' src='scripts\FuncValidaciones.js'></script>
     <link href="App_Themes/LoginCSS.css" type="text/css" rel="stylesheet"/>
     <title>Login</title>
    
 </head>
-<body onload=" ChangeButtonLang()">
+<body onload="CallChangeButtonLang()">
+
+
 <%--<div class="header">
     <div class="logoPF"><img src="images/LogoPF.png" width="170" height="50"/></div>
     <div class="logo"><img src="images/LogoTMM.png" width="102" height="68"/></div>
