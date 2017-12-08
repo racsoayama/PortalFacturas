@@ -1,11 +1,10 @@
 ﻿lang = "";
 function ChangeButtonLang(lang) {
 
-    
-    if (lang=='es') {
+    if (lang==='es') {
         lang = 0;
     }
-    else if (lang=='en') {
+    else if (lang==='en') {
         lang = 1;
     } 
     else{
@@ -70,7 +69,7 @@ function ChangeButtonLang(lang) {
         if (ButtonsList[lang].hasOwnProperty(k)) {
                 var field = document.getElementById(k);
 
-                if (field != null) {
+                if (field !== null) {
                     field.value = ButtonsList[lang][k];
                 }
 

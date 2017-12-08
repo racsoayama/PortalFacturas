@@ -10,8 +10,11 @@
     
         function CallChangeButtonLang() {
             var CurrentCulture = "";
-            CurrentCulture = '<%= this.GetCurrentCulture %>';
-
+          
+            CurrentCulture = '<%=this.GetCurrentCulture%>';
+            console.log("lenguaje  culture:" + CurrentCulture);
+         
+            
             ChangeButtonLang(CurrentCulture.substring(0,2));
 }
     </script>

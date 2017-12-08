@@ -10,7 +10,7 @@ body {
 	z-index: 1000;
 	height: 130px;
 	position: fixed;
-	display: inline;
+
 	/* background-image: url('../images/background_header.png');
 	background-repeat: repeat;
 	background-position: left top; 
@@ -284,10 +284,6 @@ body {
   
 }
 
-
-.content-frame table {
- 
-}
 
 
 /*.dropdownlist2

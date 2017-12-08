@@ -626,13 +626,19 @@ namespace PortalFacturas
                 MessageBox(this, null, ex.Message);
             }
         }
+
+
+    
         public string GetCurrentCulture
         {
             get
             {
-                return System.Threading.Thread.CurrentThread.CurrentCulture.Name.ToString();
+                Response.Cookies["lang"].Value = this.cboIdioma.SelectedValue;
+                Response.Cookies["lang"].Expires = DateTime.Now.AddDays(1);
+                return this.cboIdioma.SelectedValue; 
             }
         }
+
 
     }
 }
