@@ -59,7 +59,7 @@ namespace PortalFacturas
 
                     Idioma oIdioma = new Idioma(oUsuario.Idioma);
                     Session["oIdioma"] = oIdioma;
-
+                    
                     EstableceIdioma(oIdioma);
                     this.Form.DefaultButton = this.btnAceptar.UniqueID;
 
@@ -626,7 +626,13 @@ namespace PortalFacturas
                 MessageBox(this, null, ex.Message);
             }
         }
-
+        public string GetCurrentCulture
+        {
+            get
+            {
+                return System.Threading.Thread.CurrentThread.CurrentCulture.Name.ToString();
+            }
+        }
 
     }
 }
