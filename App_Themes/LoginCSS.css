@@ -8,14 +8,16 @@
 }
 
 .log-frame {
-    margin: 0 auto;
-    margin-top: 100px;
-    width: 600px;
-    height: 460px;
-    background-repeat: no-repeat;
-    background: #fff;
-    border: solid #B9B4BC 1px;
-    padding-top: 40px;
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 600px;
+	height: 460px;
+	background: #fff;
+	border: none;
+	padding-top: 40px;
+	-webkit-box-shadow: 4px 5px 25px 0px rgba(194,194,194,1);
+	-moz-box-shadow: 4px 5px 25px 0px rgba(194,194,194,1);
+	box-shadow: 4px 5px 25px 0px rgba(194,194,194,1);
 }
 
 #header {
@@ -88,12 +90,12 @@ td {
 }
 
 .logo {
-    margin: auto;
+    margin-top: 40px;
     text-align: center;
     padding: 10px;
 }
 
-#btnAceptar, #btnCambioPassword {
+#btnAceptar, #btnCambioPassword, #btnAceptarCambio, #btnCancelarCambio{
 	margin-top: 20px;
 	color: #fff;
 	width: 150px;
@@ -107,12 +109,28 @@ td {
 	cursor: pointer;
 }
 
-#btnAceptar {
+#btnAceptar, #btnAceptarCambio {
 	background: #339933;
+}
+
+#btnAceptar:hover, #btnAceptarCambio:hover {
+	background: #1d4f1d;
 }
 
 #btnCambioPassword {
 	background: #002068;
+}
+
+#btnCambioPassword:hover {
+	background: #021642;
+}
+
+#btnCancelarCambio {
+	background: rgb(169, 5, 5);
+}
+
+#btnCancelarCambio:hover {
+	background: rgb(108, 5, 5);
 }
 
 #btnRecuperaCambio, #btnCrearCta {
