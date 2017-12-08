@@ -23,7 +23,7 @@
                         <td><asp:TextBox ID="txtUnidadSAP" runat="server" CssClass="dropdownlist" MaxLength="3" Width="150px" onKeyUp="changeToUpperCase(this.id);" Height="16px" ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="center" colspan="2">
+                        <td align="right" colspan="2" style="height: 46px">
                             <asp:Button ID="btnGuardar" runat="server" 
                               Value="Guardar" 
                                 OnClientClick="return ValidaDatos();"  onclick="btnGuardar_Click" /> 

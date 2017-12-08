@@ -4,7 +4,7 @@
 
     <table>
     <tr>
-        <td>
+        <td style="border-color: 1pz sollid #C0C0C0">
             <asp:label ID="lblTitulo" runat="server" CssClass="h2">Registrar facturas</asp:label>
         </td>
     </tr>
@@ -14,7 +14,7 @@
                 <%--Datos iniciales para cargar la factura--%>
                 <tr>
                     <td>
-                        <div id="divImportar" runat="server">
+                        <div id="divImportar" runat="server" style="border-color: 1px solid #C0C0C0">
                             <table>
                                 <tr>
                                     <td colspan="2"><asp:label ID="lblArchFacturas" runat="server" CssClass="h3">Archivos de la factura:</asp:label></td>
@@ -43,13 +43,13 @@
                                                 <td colspan="2"><asp:label ID="lblLeyArchPDF" runat="server" CssClass="label" Width="330">Seleccione el archivo PDF de la factura a subir:</asp:label></td>
                                             </tr>
                                             <tr>
-                                                <td colspan="2" style="height: 36px"><INPUT type=file id=File1 name=File1 runat="server" size="50" accept="image/*.pdf" /></td>
+                                                <td colspan="2" style="height: 54px" align="center"><INPUT type=file id=File1 name=File1 runat="server" size="50" accept="image/*.pdf" /></td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2"><asp:label ID="lblLayArchXML" runat="server" CssClass="label" Width="330">Seleccione el archivo XML de la factura a subir:</asp:label></td>
                                             </tr>
                                             <tr>
-                                                <td colspan="2" style="height: 36px"><INPUT type=file id=File2 name=File1 runat="server" size="50" accept="image/*.xml" /></td>
+                                                <td colspan="2" style="height: 60px" align="center"><INPUT type=file id=File2 name=File1 runat="server" size="50" accept="image/*.xml" /></td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2"><asp:label ID="lblOtrosArchivos" runat="server" CssClass="h3" Width="330">Otros archivos:</asp:label></td>

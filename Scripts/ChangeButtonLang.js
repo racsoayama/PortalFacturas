@@ -1,7 +1,7 @@
 ﻿lang = "";
 function ChangeButtonLang(lang) {
 
-    alert(lang);
+ 
     if (lang=='es') {
         lang = 0;
     }
