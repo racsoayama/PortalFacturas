@@ -131,7 +131,7 @@
                                     <td align="right" class="auto-style3"><asp:Label ID="lblProv" runat="server" 
                                               CssClass="label2" >Proveedor:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtProveedor" runat="server" 
-                                            CssClass="auto-style4"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                                            CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                                 </tr>
                                 <tr>
                                     <td align="right" class="auto-style3"><asp:Label ID="lblRFC" runat="server" 

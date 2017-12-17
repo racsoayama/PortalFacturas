@@ -89,7 +89,7 @@
                         <td><asp:TextBox ID="txtCorreo" runat="server" CssClass="dropdownlist" MaxLength="40" Width="150px" Height="16px"></asp:TextBox></asp:DropDownList></td>
                     </tr>                    
                     <tr>
-                        <td align="right" style="width: 523px; height: 36px"><asp:Label ID="lblIntermediario" runat="server" CssClass="label" Width="134px" style="margin-left: 0px">Es intermediario?:</asp:Label></td>
+                        <td align="right" style="width: 523px; height: 36px"><asp:Label ID="lblIntermediario" runat="server" CssClass="label" Width="134px" style="margin-left: 0px">¿Es intermediario?:</asp:Label></td>
                         <td style="height: 36px"><asp:RadioButtonList ID="rbtIntermediario" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None" Height="16px" Width="200px">
                                         </asp:RadioButtonList></td>
                     </tr>

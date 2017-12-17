@@ -4,7 +4,7 @@
     <table>
         <tr>
             <td>
-                <asp:label ID="lblTitConsPed" runat="server" CssClass="h2">Consultar status de pedidos</asp:label>
+                <asp:label ID="lblTitConsPed" runat="server" CssClass="h2">Consultar estatus de pedidos</asp:label>
             </td>
         </tr>
         <tr>

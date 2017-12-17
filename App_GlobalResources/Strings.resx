@@ -2398,7 +2398,7 @@
     <value>Por favor corroborar que selecciono la Nota de Entrega correcta.</value>
   </data>
   <data name="ConsStatusPed" xml:space="preserve">
-    <value>Consultar status de pedidos</value>
+    <value>Consultar estatus de pedidos</value>
   </data>
   <data name="DocRefer" xml:space="preserve">
     <value>Documento de referencia</value>
