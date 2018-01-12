@@ -446,6 +446,16 @@ body {
     width: 10px;
 }
 
+.tableOptions input, .botonGrid{
+	background: rgb(42, 62, 146);
+	border: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px; /*Safari y Chrome*/
+	-moz-border-radius: 4px; /*Firefox*/
+	-o-border-radius: 4px; /*Opera*/
+	-ms-border-radius: 4px; /*IE 8*/
+	cursor: pointer;
+}
 .mGrid .pgr {
     background-color: #d3d3d3; /* url(grd_pgr.png) repeat-x top;   */
     text-align: center;
@@ -822,14 +832,14 @@ table input:checked{
 #MainPlaceHolder_btnAceptarImportar,
 #MainPlaceHolder_btnAceptarLog,
 #MainPlaceHolder_btnAceptarFin,
-#MainPlaceHolder_btnGuardar, 
-#btnSalir,  
+#MainPlaceHolder_btnGuardar,
+#btnSalir,
 #btnCancelarImportar,
 #btnCancelarCambio,
 #btnCancNuevaCta,
 #MainPlaceHolder_btnCancelar {
 	color: #fff;
-	background: #756D97;
+	background: rgb(42, 62, 146);
 	width: 150px;
 	height: 40px;
 	border: none;
@@ -841,23 +851,22 @@ table input:checked{
 	cursor: pointer;
 }
 
-#btnAceptar:hover,
-#btnCrearCta:hover,
-#btnAceptarCambio:hover,
-#btnRegistrar:hover,
-#MainPlaceHolder_btnAceptarLog:hover,
-#MainPlaceHolder_btnAceptarFin:hover,
-#MainPlaceHolder_btnAceptarImportar:hover,
-#MainPlaceHolder_btnGuardar:hover, 
-#btnSalir:hover,
-#btnCancelarImportar:hover,
-#btnCancelarCambio:hover,
-#btnCancNuevaCta:hover,
-#MainPlaceHolder_btnCancelar:hover 
-{
-        color: #fff;
-        background: #8273b7;
-}
+	#btnAceptar:hover,
+	#btnCrearCta:hover,
+	#btnAceptarCambio:hover,
+	#btnRegistrar:hover,
+	#MainPlaceHolder_btnAceptarLog:hover,
+	#MainPlaceHolder_btnAceptarFin:hover,
+	#MainPlaceHolder_btnAceptarImportar:hover,
+	#MainPlaceHolder_btnGuardar:hover,
+	#btnSalir:hover,
+	#btnCancelarImportar:hover,
+	#btnCancelarCambio:hover,
+	#btnCancNuevaCta:hover,
+	#MainPlaceHolder_btnCancelar:hover {
+		color: #fff;
+		background: rgba(33,48,111,1);
+	}
 
 #btnAceptarCambio,
 #btnAceptarImportar,
