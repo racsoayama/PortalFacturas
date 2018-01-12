@@ -446,16 +446,7 @@ body {
     width: 10px;
 }
 
-.tableOptions input, .botonGrid{
-	background: rgb(42, 62, 146);
-	border: none;
-	border-radius: 4px;
-	-webkit-border-radius: 4px; /*Safari y Chrome*/
-	-moz-border-radius: 4px; /*Firefox*/
-	-o-border-radius: 4px; /*Opera*/
-	-ms-border-radius: 4px; /*IE 8*/
-	cursor: pointer;
-}
+
 .mGrid .pgr {
     background-color: #d3d3d3; /* url(grd_pgr.png) repeat-x top;   */
     text-align: center;

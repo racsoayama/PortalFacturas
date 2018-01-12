@@ -73,7 +73,7 @@
                     <Columns>
                         <asp:TemplateField ItemStyle-CssClass="tableOptions">
                             <ItemTemplate>
-                                <img alt = "" style="cursor: pointer" class="botonGrid" src="images/plus.png" />
+                                <img alt = "" style="cursor: pointer"  src="images/plus.png" />
                                 <asp:Panel ID="pnlOrders" runat="server" Style="display: none">
                                     <asp:GridView ID="grdDetalle" runat="server" AutoGenerateColumns="false" CssClass = "mGrid2">
                                         <Columns>
