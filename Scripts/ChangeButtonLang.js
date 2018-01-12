@@ -59,7 +59,11 @@ function ChangeButtonLang(lang) {
         MainPlaceHolder_btnAceptarFin: 'Acept',
         MainPlaceHolder_btnGuardar: 'Save',
         MainPlaceHolder_btnCancelar: 'Cancel'
-    };
+	};
+
+	if (lang == 1 && document.getElementById("logoEmp")) {
+		 document.getElementById("logoEmp").innerHTML = ' <label  > INVOICES <br /> <b>PORTAL</b></label>';
+		}
 
     var ButtonsList = new Array(ButtonsListes, ButtonsListen);
 
