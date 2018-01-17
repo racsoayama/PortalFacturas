@@ -90,7 +90,7 @@
                     </tr>                    
                     <tr>
                         <td align="right" ><asp:Label ID="lblIntermediario" runat="server" CssClass="label"  style="margin-left: 0px">¿Es intermediario?:</asp:Label></td>
-                        <td style="height: 36px"><asp:RadioButtonList ID="rbtIntermediario" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None"   >
+                        <td style="height: 36px"><asp:RadioButtonList Width="250px" ID="rbtIntermediario" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None"   >
                                         </asp:RadioButtonList></td>
                     </tr>
                     <tr>
