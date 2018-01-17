@@ -1103,3 +1103,15 @@ table input:checked {
 }
 
 
+#MainPlaceHolder_divDetalle table {
+    table-layout: fixed;
+}
+
+#MainPlaceHolder_divDetalle td {
+    width: 50%;
+}
+
+checklist{
+
+    width:250px;
+}

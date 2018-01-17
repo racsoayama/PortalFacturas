@@ -124,7 +124,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" align="right">
+                    <td colspan="2" align="center">
                         <asp:Button ID="btnGuardar" runat="server" 
                             value="Guardar" 
                             OnClientClick="return ValidaDatos();" onclick="btnGuardar_Click"/>
