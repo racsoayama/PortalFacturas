@@ -11,8 +11,8 @@
                 <div id="divFiltros" runat="server">
                     <table>
                         <tr>
-                            <td><asp:label ID="lblFecha" runat="server" CssClass="label" Width="80">Fecha:</asp:label></td>
-                            <td><asp:textBox ID="txtFecha" runat="server" CssClass="text" Width="100" MaxLength="10"></asp:textBox></td>
+                            <td><asp:label ID="lblFecha" runat="server" CssClass="label" >Fecha:</asp:label></td>
+                            <td><asp:textBox ID="txtFecha" runat="server" CssClass="text"  MaxLength="10"></asp:textBox></td>
                             <td><asp:Button ID="btnBuscar" runat="server"  Value="Buscar" 
                                  OnClientClick="return ValidaDatos();" onclick="btnBuscar_Click"/></td>
                         </tr>
@@ -29,13 +29,13 @@
                     onpageindexchanging="grdBitacora_PageIndexChanging">
                     <Columns>
                         <asp:BoundField DataField="Fecha" HeaderText="Fecha" dataformatstring="{0:dd-MM-yyyy hh:mm}">
-                            <ItemStyle Width="130px" HorizontalAlign="Center" />
+                            <ItemStyle  HorizontalAlign="Center" />
                         </asp:BoundField>
                         <asp:BoundField DataField="id_usuario" HeaderText="Usuario">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>
                         <asp:BoundField DataField="accion" HeaderText="Archivo">
-                            <ItemStyle Width="150px" HorizontalAlign="Left"/>  
+                            <ItemStyle  HorizontalAlign="Left"/>  
                         </asp:BoundField>                            
 
                     </Columns>

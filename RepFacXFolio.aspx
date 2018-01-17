@@ -12,10 +12,10 @@
                         <tr>
                             <td><asp:label ID="lblFolInicial" runat="server" CssClass="label">Folio inicial:</asp:label></td>
                             <td><asp:TextBox ID="txtFolInicial" runat="server" CssClass="text" MaxLength="10" 
-                                                        Width="60px" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                                                         onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                             <td><asp:label ID="lblFolioFinal" runat="server" CssClass="label">Folio final:</asp:label></td>
                             <td><asp:TextBox ID="txtFolFinal" runat="server" CssClass="text" MaxLength="10" 
-                                                        Width="60px" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                                                        onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                             <td><asp:Button ID="btnGenear" runat="server"  Value="Visualizar" onclick="btnGenerar_Click"/></td>
                         </tr>
                     </table>

@@ -14,12 +14,12 @@
                         <td colspan="2" style="height: 39px"><asp:label ID="lblLeyMonedas" runat="server" CssClass="h4">Monedas</asp:label></td>
                     </tr>
                     <tr>
-                        <td align="right" style="width: 600px; height: 36px"><asp:Label ID="lblID" runat="server" class="label" Width="100">ID Moneda:</asp:Label></td>
-                        <td style="height: 36px"><asp:TextBox ID="txtID" runat="server" CssClass="dropdownlist" MaxLength="20" Width="150px" Height="16px" ></asp:TextBox></td>
+                        <td align="right" ><asp:Label ID="lblID" runat="server" class="label" >ID Moneda:</asp:Label></td>
+                        <td style="height: 36px"><asp:TextBox ID="txtID" runat="server" CssClass="dropdownlist" MaxLength="20"   ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="right" style="width: 600px; height: 35px"><asp:Label ID="lblMonSAP" runat="server" CssClass="label" Width="100">Moneda SAP:</asp:Label></td>
-                        <td style="height: 35px"><asp:TextBox ID="txtMonSAP" runat="server" CssClass="dropdownlist" MaxLength="3" Width="150px" onKeyUp="changeToUpperCase(this.id);" Height="16px" ></asp:TextBox></td>
+                        <td align="right" ><asp:Label ID="lblMonSAP" runat="server" CssClass="label" >Moneda SAP:</asp:Label></td>
+                        <td style="height: 35px"><asp:TextBox ID="txtMonSAP" runat="server" CssClass="dropdownlist" MaxLength="3"  onKeyUp="changeToUpperCase(this.id);"   ></asp:TextBox></td>
                     </tr>
                     <tr>
                         <td align="right" colspan="2">
@@ -43,10 +43,10 @@
                 OnRowDataBound="grdMonedas_RowDataBound">
                 <Columns>
                     <asp:BoundField DataField="Id_Moneda" HeaderText="Moneda">
-                        <ItemStyle Width="150px" HorizontalAlign="Left"/>
+                        <ItemStyle  HorizontalAlign="Left"/>
                     </asp:BoundField>    
                     <asp:BoundField DataField="MonedaSAP" HeaderText="MonedaSAP">
-                        <ItemStyle Width="100px" HorizontalAlign="Center"/>
+                        <ItemStyle  HorizontalAlign="Center"/>
                     </asp:BoundField>
                     <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>

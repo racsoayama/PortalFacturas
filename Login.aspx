@@ -40,7 +40,7 @@
         <form id="Form2" runat="server" defaultfocus="btnAceptar">
             <table align="center" >
                 <tr><td class="style6" align="center" valign="middle"><br />
-                    <asp:Label ID="lblTitulo" runat="server" CssClass="h2" Width="368px" Height="30px">Bienvenido</asp:Label></td></tr>
+                    <asp:Label ID="lblTitulo" runat="server" CssClass="h2">Bienvenido</asp:Label></td></tr>
                 <tr>
                     <td align ="center" class="style6">
                         <div id="divLogin" runat="server">
@@ -96,16 +96,16 @@
                                     <td align="left"><asp:TextBox ID="txtUsuario2" runat="server"  CssClass="text" MaxLength="8"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td  align="right" class="auto-style3"><asp:Label ID="lblPassActual" runat="server" CssClass="auto-style2" Width="160px" >Contraseña actual:</asp:Label></td>
+                                    <td  align="right" class="auto-style3"><asp:Label ID="lblPassActual" runat="server" CssClass="auto-style2" >Contraseña actual:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtPassActual" runat="server" password="true" 
                                             CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>
                                 <tr>
-                                    <td  align="right" class="auto-style3"><asp:Label ID="lblPassNuevo" runat="server" CssClass="auto-style1" Width="162px" >Nueva contraseña:</asp:Label></td>
+                                    <td  align="right" class="auto-style3"><asp:Label ID="lblPassNuevo" runat="server" CssClass="auto-style1"  >Nueva contraseña:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtNuevoPassword" runat="server" password="true" CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>           
                                 <tr>
-                                    <td  align="right" class="auto-style3"><asp:Label ID="lblConfPass" runat="server" CssClass="auto-style8" Width="173px" >Confirme contraseña:</asp:Label></td>
+                                    <td  align="right" class="auto-style3"><asp:Label ID="lblConfPass" runat="server" CssClass="auto-style8"  >Confirme contraseña:</asp:Label></td>
                                     <td align="left"><asp:TextBox ID="txtConfPassword" runat="server" password="true" CssClass="text"  MaxLength="15" TextMode="Password"></asp:TextBox></td>
                                 </tr>           
                                 <tr>

@@ -7,7 +7,7 @@
         </td>
     </tr>
     <tr>
-        <td valign="top" style="width:650px;">
+        <td valign="top">
             <table>
                 <tr>
                     <td>
@@ -20,35 +20,35 @@
                                     <td>
                                         <table>
                                             <tr>
-                                                <td><asp:Label ID="lblSociedad" runat="server" CssClass="label" Width="120">Sociedad:</asp:Label></td>
+                                                <td><asp:Label ID="lblSociedad" runat="server" CssClass="label" >Sociedad:</asp:Label></td>
                                                 <td><asp:DropDownList ID="cboSociedades" runat="server" 
-                                                        CssClass="dropdownlist" Width ="200px"></asp:DropDownList></td>
+                                                        CssClass="dropdownlist" ></asp:DropDownList></td>
                                             </tr>
                                         </table>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <table style="height: 188px">
+                                        <table >
                                             <tr>
-                                                <td colspan="2"><asp:label ID="lblLeyArchPDF" runat="server" CssClass="label" Width="330">Seleccione el archivo PDF de la factura a subir:</asp:label></td>
+                                                <td colspan="2"><asp:label ID="lblLeyArchPDF" runat="server" CssClass="label" >Seleccione el archivo PDF de la factura a subir:</asp:label></td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2" style="height: 36px"><INPUT type=file id=File1 name=File1 runat="server" size="50" accept="image/*.pdf" /></td>
                                             </tr>
                                             <tr>
-                                                <td colspan="2"><asp:label ID="lblOtrosArchivos" runat="server" CssClass="h3" Width="330">Otros archivos:</asp:label></td>
+                                                <td colspan="2"><asp:label ID="lblOtrosArchivos" runat="server" CssClass="h3">Otros archivos:</asp:label></td>
                                             </tr>
                                             <tr>
-                                                <td style="height: 36px"><asp:label ID="lblArchivo1" runat="server" CssClass="label" Width="70">Archivo 1:</asp:label></td>
+                                                <td style="height: 36px"><asp:label ID="lblArchivo1" runat="server" CssClass="label" >Archivo 1:</asp:label></td>
                                                 <td style="height: 36px"><INPUT type=file id=File3 name=File3 runat="server" size="37" accept="*.*" /></td>
                                             </tr>
                                             <tr>
-                                                <td style="height: 36px"><asp:label ID="lblArchivo2" runat="server" CssClass="label" Width="70">Archivo 2:</asp:label></td>
+                                                <td style="height: 36px"><asp:label ID="lblArchivo2" runat="server" CssClass="label" >Archivo 2:</asp:label></td>
                                                 <td style="height: 36px"><INPUT type=file id=File4 name=File3 runat="server" size="37" accept="*.*" /></td>
                                             </tr>
                                             <tr>
-                                                <td style="height: 36px"><asp:label ID="lblArchivo3" runat="server" CssClass="label" Width="70">Archivo 3:</asp:label></td>
+                                                <td style="height: 36px"><asp:label ID="lblArchivo3" runat="server" CssClass="label" >Archivo 3:</asp:label></td>
                                                 <td style="height: 36px"><INPUT type=file id=File5 name=File3 runat="server" size="37" accept="*.*" /></td>
                                             </tr>
 
@@ -78,37 +78,37 @@
                                     <td>
                                         <table>
                                             <tr>
-                                                <td><asp:label ID="lblNumFactura" runat="server" CssClass="label" Width="120">Factura:</asp:label></td>
-                                                <td><asp:textBox ID="txtFactura" runat="server" CssClass="dropdownlist" Width="150px" MaxLength="10" onKeyUp="validateAlpha(this.id);" Height="16px"></asp:textBox></td>
+                                                <td><asp:label ID="lblNumFactura" runat="server" CssClass="label">Factura:</asp:label></td>
+                                                <td><asp:textBox ID="txtFactura" runat="server" CssClass="dropdownlist"  MaxLength="10" onKeyUp="validateAlpha(this.id);" ></asp:textBox></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:label ID="lblEmisor" runat="server" CssClass="label" Width="120">Emisor:</asp:label></td>
-                                                <td><asp:textBox ID="txtEmisor" runat="server" CssClass="dropdownlist" Width="150px" MaxLength="13" onKeyUp="validateAlpha(this.id);" Height="16px"></asp:textBox></td>
+                                                <td><asp:label ID="lblEmisor" runat="server" CssClass="label" >Emisor:</asp:label></td>
+                                                <td><asp:textBox ID="txtEmisor" runat="server" CssClass="dropdownlist"  MaxLength="13" onKeyUp="validateAlpha(this.id);" ></asp:textBox></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:label ID="lblReceptor" runat="server" CssClass="label" Width="120">Receptor:</asp:label></td>
-                                                <td><asp:textBox ID="txtReceptor" runat="server" CssClass="dropdownlist" Width="150px" Enabled ="false" Height="16px"></asp:textBox></td>
+                                                <td><asp:label ID="lblReceptor" runat="server" CssClass="label" >Receptor:</asp:label></td>
+                                                <td><asp:textBox ID="txtReceptor" runat="server" CssClass="dropdownlist"  Enabled ="false" ></asp:textBox></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:label ID="lblFecha" runat="server" CssClass="label" Width="120">Fecha:</asp:label></td>
-                                                <td><asp:textBox ID="txtFecha" runat="server" CssClass="dropdownlist" Width="150px" MaxLength="10" Height="16px"></asp:textBox></td>
+                                                <td><asp:label ID="lblFecha" runat="server" CssClass="label" >Fecha:</asp:label></td>
+                                                <td><asp:textBox ID="txtFecha" runat="server" CssClass="dropdownlist"  MaxLength="10" ></asp:textBox></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:label ID="lblMoneda" runat="server" CssClass="label" Width="120">Moneda:</asp:label></td>
+                                                <td><asp:label ID="lblMoneda" runat="server" CssClass="label" >Moneda:</asp:label></td>
                                                 <td><asp:DropDownList ID="cboMoneda" runat="server" 
-                                                                    CssClass="dropdownlist" Width ="150px" Height="16px"></asp:DropDownList></td>
+                                                                    CssClass="dropdownlist"   ></asp:DropDownList></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:Label ID="lblImpSinIva" runat="server" CssClass="label" Width="120">Importe sin iva:</asp:Label></td>
-                                                <td><asp:TextBox ID="txtImpSinIva" runat="server" CssClass="dropdownlist" MaxLength="10" Width="150px" onkeypress="return ValidaDecimales(event, this.id, 2);" onkeyup="sum();" Height="16px" ></asp:TextBox></td>
+                                                <td><asp:Label ID="lblImpSinIva" runat="server" CssClass="label" >Importe sin iva:</asp:Label></td>
+                                                <td><asp:TextBox ID="txtImpSinIva" runat="server" CssClass="dropdownlist" MaxLength="10" onkeypress="return ValidaDecimales(event, this.id, 2);" onkeyup="sum();" ></asp:TextBox></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:Label ID="lblImpuestos" runat="server" CssClass="label" Width="120">Impuestos:</asp:Label></td>
-                                                <td><asp:TextBox ID="txtImpuestos" runat="server" CssClass="dropdownlist" MaxLength="10" Width="150px" onkeypress="return ValidaDecimales(event, this.id, 2);" onkeyup="sum();" Height="16px" ></asp:TextBox></td>
+                                                <td><asp:Label ID="lblImpuestos" runat="server" CssClass="label" >Impuestos:</asp:Label></td>
+                                                <td><asp:TextBox ID="txtImpuestos" runat="server" CssClass="dropdownlist" MaxLength="10"  onkeypress="return ValidaDecimales(event, this.id, 2);" onkeyup="sum();" ></asp:TextBox></td>
                                             </tr>
                                             <tr>
-                                                <td><asp:Label ID="lblTotal" runat="server" CssClass="label" Width="120">Total:</asp:Label></td>
-                                                <td><asp:TextBox ID="txtTotal" runat="server" CssClass="dropdownlist" MaxLength="10" Width="150px" Height="16px" ></asp:TextBox></td>
+                                                <td><asp:Label ID="lblTotal" runat="server" CssClass="label" >Total:</asp:Label></td>
+                                                <td><asp:TextBox ID="txtTotal" runat="server" CssClass="dropdownlist" MaxLength="10"   ></asp:TextBox></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -121,21 +121,21 @@
                                                     <td colspan="2"><asp:label ID="lblDetPos" runat="server" CssClass="h3">Detalle por posición:</asp:label></td>
                                                 </tr>
                                                 <tr>
-                                                    <td><asp:Label ID="lblMaterial" runat="server" CssClass="label" Width="120">Material:</asp:Label></td>
-                                                    <td><asp:TextBox ID="txtMaterial" runat="server" CssClass="dropdownlist" MaxLength="40" Width="150px" Height="16px" ></asp:TextBox></td>
+                                                    <td><asp:Label ID="lblMaterial" runat="server" CssClass="label" >Material:</asp:Label></td>
+                                                    <td><asp:TextBox ID="txtMaterial" runat="server" CssClass="dropdownlist" MaxLength="40"  ></asp:TextBox></td>
                                                 </tr>
                                                 <tr>
-                                                    <td><asp:Label ID="lblCantidad" runat="server" CssClass="label" Width="120">Cantidad:</asp:Label></td>
-                                                    <td><asp:TextBox ID="txtCantidad" runat="server" CssClass="dropdownlist" MaxLength="10" Width="150px" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
+                                                    <td><asp:Label ID="lblCantidad" runat="server" CssClass="label">Cantidad:</asp:Label></td>
+                                                    <td><asp:TextBox ID="txtCantidad" runat="server" CssClass="dropdownlist" MaxLength="10"  onKeyUp="validateNumeros(this.id);"  ></asp:TextBox></td>
                                                 </tr>
                                                 <tr>
-                                                    <td><asp:Label ID="lblUnidad" runat="server" CssClass="label" Width="120">Unidad:</asp:Label></td>
+                                                    <td><asp:Label ID="lblUnidad" runat="server" CssClass="label" >Unidad:</asp:Label></td>
                                                     <td><asp:DropDownList ID="cboUnidad" runat="server" 
-                                                                    CssClass="dropdownlist" Width ="150px" Height="16px"></asp:DropDownList></td>
+                                                                    CssClass="dropdownlist"   ></asp:DropDownList></td>
                                                 </tr>
                                                 <tr>
-                                                    <td><asp:Label ID="lblImporteMat" runat="server" CssClass="label" Width="120">Importe:</asp:Label></td>
-                                                    <td><asp:TextBox ID="txtImporteMat" runat="server" CssClass="dropdownlist" MaxLength="10" Width="150px" onkeypress="return ValidaDecimales(event, this.id, 2);" Height="16px"></asp:TextBox></td>
+                                                    <td><asp:Label ID="lblImporteMat" runat="server" CssClass="label" >Importe:</asp:Label></td>
+                                                    <td><asp:TextBox ID="txtImporteMat" runat="server" CssClass="dropdownlist" MaxLength="10"  onkeypress="return ValidaDecimales(event, this.id, 2);"  ></asp:TextBox></td>
                                                 </tr>
                                                 <tr>
                                                     <td colspan="2" align="right">
@@ -155,16 +155,16 @@
                                            OnRowDataBound ="grdDetalle_RowDataBound">
                                             <Columns>
                                                 <asp:BoundField DataField="descripcion" HeaderText="Descripcion">
-                                                    <ItemStyle Width="250px" HorizontalAlign="Left"/>
+                                                    <ItemStyle  HorizontalAlign="Left"/>
                                                 </asp:BoundField>
                                                 <asp:BoundField DataField="Cantidad" HeaderText="Cantidad">
-                                                    <ItemStyle Width="100px" HorizontalAlign="Center"/>
+                                                    <ItemStyle  HorizontalAlign="Center"/>
                                                 </asp:BoundField>
                                                 <asp:BoundField DataField="Unidad" HeaderText="Unidad">
-                                                    <ItemStyle Width="50px" HorizontalAlign="Center"/>
+                                                    <ItemStyle HorizontalAlign="Center"/>
                                                 </asp:BoundField>
                                                 <asp:BoundField DataField="importe" HeaderText="Importe">
-                                                    <ItemStyle Width="70px" HorizontalAlign="Center"/>
+                                                    <ItemStyle  HorizontalAlign="Center"/>
                                                 </asp:BoundField>
                                                 <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                                     <ItemTemplate>
@@ -190,7 +190,7 @@
                 </tr>
             </table>
         </td>
-        <td valign="top" style="width:650px;">
+        <td valign="top" >
             <div id="divVisor" runat="server">
                 <table>
                     <tr>
@@ -214,19 +214,19 @@
                                 OnRowDataBound="grdFacturas_RowDataBound">
                                 <Columns>
                                     <asp:BoundField DataField="id_sociedad" HeaderText="Sociedad">
-                                        <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                                        <ItemStyle  HorizontalAlign="Center"/>
                                     </asp:BoundField>
                                     <asp:BoundField DataField="folioFact" HeaderText="Factura">
-                                        <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                                        <ItemStyle  HorizontalAlign="Center"/>
                                     </asp:BoundField>
                                     <asp:BoundField DataField="Importe" HeaderText="Importe" DataFormatString="{0:N}">
-                                        <ItemStyle Width="80px" HorizontalAlign="Right"/>
+                                        <ItemStyle  HorizontalAlign="Right"/>
                                     </asp:BoundField>
                                     <asp:BoundField DataField="id_moneda" HeaderText="Moneda" >
-                                        <ItemStyle Width="50px" HorizontalAlign="Center"/>
+                                        <ItemStyle  HorizontalAlign="Center"/>
                                     </asp:BoundField>
                                     <asp:BoundField DataField="fecha" HeaderText="Fecha" DataFormatString="{0:dd/MM/yyyy}">
-                                        <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                                        <ItemStyle  HorizontalAlign="Center"/>
                                     </asp:BoundField>    
                                     <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                                         <ItemTemplate>

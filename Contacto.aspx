@@ -10,16 +10,16 @@
             <td>
                 <table>
                     <tr>
-                        <td><asp:Label ID="lblNombre" runat="server" CssClass="label" Width="100">Nombre:</asp:Label></td>
-                        <td><asp:TextBox ID="txtNombre" runat="server" CssClass="text" MaxLength="45" Width="250"></asp:TextBox></td>
+                        <td><asp:Label ID="lblNombre" runat="server" CssClass="label" >Nombre:</asp:Label></td>
+                        <td><asp:TextBox ID="txtNombre" runat="server" CssClass="text" MaxLength="45" ></asp:TextBox></td>
                     </tr>
                      <tr>
-                        <td><asp:Label ID="lblMail" runat="server" CssClass="label" Width="100">eMail:</asp:Label></td>
-                        <td><asp:TextBox ID="txtMail" runat="server" CssClass="text" MaxLength="45" Width="250"></asp:TextBox></td>
+                        <td><asp:Label ID="lblMail" runat="server" CssClass="label" >eMail:</asp:Label></td>
+                        <td><asp:TextBox ID="txtMail" runat="server" CssClass="text" MaxLength="45" ></asp:TextBox></td>
                     </tr>
                      <tr>
-                        <td valign="top"><asp:Label ID="lblMensaje" runat="server" CssClass="label" Width="100">Mensaje</asp:Label></td>
-                        <td><asp:TextBox ID="txtMensaje" runat="server" CssClass="text" TextMode="MultiLine" Height="126px" Width="344px"
+                        <td valign="top"><asp:Label ID="lblMensaje" runat="server" CssClass="label" >Mensaje</asp:Label></td>
+                        <td><asp:TextBox ID="txtMensaje" runat="server" CssClass="text" TextMode="MultiLine" 
                             onkeyDown="checkTextAreaMaxLength(this,event,'300');"></asp:TextBox>
                             <asp:RegularExpressionValidator runat="server" ID="valMensaje"
                                                 ControlToValidate="txtMensaje"

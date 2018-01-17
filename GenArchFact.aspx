@@ -18,9 +18,9 @@
               <table>
                   <tr>
                       <td><asp:label ID="lblLogFechIni" runat="server" CssClass="h3">Fecha del:</asp:label></td>
-                      <td><asp:TextBox ID="txtLogFecIni" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
+                      <td><asp:TextBox ID="txtLogFecIni" runat="server" CssClass="text" MaxLength="10"  ></asp:TextBox></td>
                       <td><asp:label ID="lblLogFechFin" runat="server" CssClass="h3">al:</asp:label></td>
-                      <td><asp:TextBox ID="txtLogFecFin" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
+                      <td><asp:TextBox ID="txtLogFecFin" runat="server" CssClass="text" MaxLength="10" ></asp:TextBox></td>
                       <td><asp:Button ID="btnGenerar" runat="server"  Value="Generar" 
                            OnClientClick="return ValidaDatosLog();" onclick="btnGenerarLog_Click"/></td>
                   </tr>
@@ -41,9 +41,9 @@
               <table>
                   <tr>
                       <td><asp:label ID="lblFinFechIni" runat="server" CssClass="h3">Fecha del:</asp:label></td>
-                      <td><asp:TextBox ID="txtFinFecIni" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
+                      <td><asp:TextBox ID="txtFinFecIni" runat="server" CssClass="text" MaxLength="10"  ></asp:TextBox></td>
                       <td><asp:label ID="lblFinFechFin" runat="server" CssClass="h3">al:</asp:label></td>
-                      <td><asp:TextBox ID="txtFinFecFin" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
+                      <td><asp:TextBox ID="txtFinFecFin" runat="server" CssClass="text" MaxLength="10"  ></asp:TextBox></td>
                       <td>
                           <asp:Button ID="ImageButton1" runat="server"  value="Generar" 
                                                             OnClientClick="return ValidaDatosFin();" onclick="btnGenerarFin_Click"/></td>

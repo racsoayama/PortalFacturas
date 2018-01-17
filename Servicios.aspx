@@ -11,14 +11,14 @@
           <div id="divFiltros" runat="server">
             <table class="filtersTable">
                 <tr>
-                    <td><asp:Label ID="lblFilProv" runat="server" CssClass="h3" Width="110">Proveedor:</asp:Label></td>
-                    <td><asp:Label ID="lblFilPedido" runat="server" CssClass="h3" Width="110">Pedido:</asp:Label></td>
+                    <td><asp:Label ID="lblFilProv" runat="server" CssClass="h3" >Proveedor:</asp:Label></td>
+                    <td><asp:Label ID="lblFilPedido" runat="server" CssClass="h3" >Pedido:</asp:Label></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td><asp:TextBox ID="txtFilProv" runat="server" CssClass="text" Width="110" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
-                    <td><asp:TextBox ID="txtFilPedido" runat="server" CssClass="text" Width="110" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                    <td><asp:TextBox ID="txtFilProv" runat="server" CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                    <td><asp:TextBox ID="txtFilPedido" runat="server" CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                     <td><asp:Button ID="btnBuscar" runat="server" value="Buscar" 
                          onclick="btnBuscar_Click"/></td>
                     <td><asp:Button ID="btnMostrarTodos" runat="server" value="Mostrar" 
@@ -62,52 +62,52 @@
                     AllowPaging="true" PageSize="35" onpageindexchanging="grdServicios_PageIndexChanging1">
                     <Columns>
                         <asp:BoundField DataField="ejercicio" HeaderText="Ejercicio">
-                            <ItemStyle Width="60px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>                            
                         <asp:BoundField DataField="id_pedido" HeaderText="Pedido">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>                            
                         <asp:BoundField DataField="id_sociedad" HeaderText="Sociedad">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>    
                         <asp:BoundField DataField="id_orgcomp" HeaderText="OrgCompras">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>    
                         <asp:BoundField DataField="id_gpocomp" HeaderText="GpoCompras">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>    
                         <asp:BoundField DataField="id_clasedoc" HeaderText="ClaseDoc">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>    
                         <asp:BoundField DataField="id_proveedor" HeaderText="Proveedor">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>                            
                         <asp:BoundField DataField="Nombre" HeaderText="Nombre">
-                            <ItemStyle Width="150px" />
+                            <ItemStyle  />
                         </asp:BoundField>
                         <asp:BoundField DataField="id_documento" HeaderText="Documento" >
-                            <ItemStyle Width="100px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>
                         <asp:BoundField DataField="id_posicion" HeaderText="Posicion" >
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>
                         <asp:BoundField DataField="material" HeaderText="Material" >
-                            <ItemStyle Width="80px" HorizontalAlign="Left"/>
+                            <ItemStyle  HorizontalAlign="Left"/>
                         </asp:BoundField>
                         <asp:BoundField DataField="descripcion" HeaderText="Descripcion" >
-                            <ItemStyle Width="150px" HorizontalAlign="Left"/>
+                            <ItemStyle  HorizontalAlign="Left"/>
                         </asp:BoundField>
                         <asp:BoundField DataField="ImporteML" HeaderText="ImporteML" >
-                            <ItemStyle Width="80px" HorizontalAlign="Right" />
+                            <ItemStyle HorizontalAlign="Right" />
                         </asp:BoundField>
                         <asp:BoundField DataField="Importe" HeaderText="Importe" >
-                            <ItemStyle Width="80px" HorizontalAlign="Right" />
+                            <ItemStyle  HorizontalAlign="Right" />
                         </asp:BoundField>
                         <asp:BoundField DataField="Moneda" HeaderText="Moneda" >
-                            <ItemStyle Width="80px" HorizontalAlign="Center" />
+                            <ItemStyle  HorizontalAlign="Center" />
                         </asp:BoundField>
                         <asp:BoundField DataField="ref_docto" HeaderText="Referencia" >
-                            <ItemStyle Width="100px" HorizontalAlign="Left"/>
+                            <ItemStyle  HorizontalAlign="Left"/>
                         </asp:BoundField>
                     </Columns>
                 </asp:GridView>

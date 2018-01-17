@@ -11,7 +11,7 @@
                     <table>
                         <tr>
                             <td><asp:label ID="lblOrden" runat="server" CssClass="label">Fecha inicial:</asp:label></td>
-                            <td><asp:TextBox ID="txtOrden" runat="server" CssClass="text" MaxLength="10" Width="80px" ></asp:TextBox></td>
+                            <td><asp:TextBox ID="txtOrden" runat="server" CssClass="text" MaxLength="10"  ></asp:TextBox></td>
                             <td><asp:Button ID="btnGenear" runat="server"  Value="Visualizar" onclick="btnGenerar_Click"/></td>
                         </tr>
                     </table>

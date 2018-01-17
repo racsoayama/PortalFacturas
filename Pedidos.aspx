@@ -11,14 +11,14 @@
           <div id="divFiltros" runat="server">
             <table class="filtersTable">
                 <tr>
-                    <td><asp:Label ID="lblFilProv" runat="server" CssClass="h3" Width="110">Proveedor:</asp:Label></td>
-                    <td class="style2" style="width: 172px"><asp:Label ID="lblFilPedido" runat="server" CssClass="h3" Width="110">Pedido:</asp:Label></td>
+                    <td><asp:Label ID="lblFilProv" runat="server" CssClass="h3" >Proveedor:</asp:Label></td>
+                    <td class="style2" ><asp:Label ID="lblFilPedido" runat="server" CssClass="h3" >Pedido:</asp:Label></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td><asp:TextBox ID="txtFilProv" runat="server" CssClass="text" Width="110" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
-                    <td class="style2" style="width: 172px"><asp:TextBox ID="txtFilPedido" runat="server" CssClass="dropdownlist" Width="150px" MaxLength="10" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
+                    <td><asp:TextBox ID="txtFilProv" runat="server" CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                    <td class="style2" ><asp:TextBox ID="txtFilPedido" runat="server" CssClass="dropdownlist" MaxLength="10" onKeyUp="validateNumeros(this.id);"  ></asp:TextBox></td>
                     <td><asp:Button ID="btnBuscar" runat="server" Value="Buscar" 
                          onclick="btnBuscar_Click"/></td>
                     <td><asp:Button ID="btnMostrarTodos" runat="server" Value="Mostrar" 
@@ -42,13 +42,13 @@
                         <td><asp:label ID="lblLeyArchivo" runat="server" CssClass="h3">Seleccione los archivos con al información a cargar:</asp:label></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblEncabezados" runat="server" CssClass="label" Width="300">Encabezados:</asp:Label></td>
+                        <td><asp:Label ID="lblEncabezados" runat="server" CssClass="label" >Encabezados:</asp:Label></td>
                     </tr>
                     <tr>
                         <td><INPUT type=file id=File1 name=File1 runat="server" size="50"/></td>
                     </tr>
                     <tr>
-                        <td><asp:Label ID="lblDetalles" runat="server" CssClass="label"  Width="300">Detalles:</asp:Label></td>
+                        <td><asp:Label ID="lblDetalles" runat="server" CssClass="label"  >Detalles:</asp:Label></td>
                     </tr>
                     <tr>
                         <td><INPUT type=file id=File2 name=File2 runat="server" size="50"/></td>
@@ -88,31 +88,31 @@
                             </ItemTemplate>
                         </asp:TemplateField>
                         <asp:BoundField DataField="id_pedido" HeaderText="Pedido">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>                            
                         <asp:BoundField DataField="id_sociedad" HeaderText="Sociedad">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>    
                         <asp:BoundField DataField="id_orgcomp" HeaderText="OrgCompras">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>    
                         <asp:BoundField DataField="id_gpocomp" HeaderText="GpoCompras">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>    
                         <asp:BoundField DataField="id_clasedoc" HeaderText="ClaseDoc">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>    
                         <asp:BoundField DataField="id_proveedor" HeaderText="Proveedor">
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>                            
                         <asp:BoundField DataField="Nombre" HeaderText="Nombre">
-                            <ItemStyle Width="250px" />
+                            <ItemStyle  />
                         </asp:BoundField>
                         <asp:BoundField DataField="Fecha_pedido" HeaderText="Fecha" DataFormatString="{0:dd-MM-yyyy}" >
-                            <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>
                         <asp:BoundField DataField="Id_moneda" HeaderText="Moneda" >
-                            <ItemStyle Width="60px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>
                     </Columns>
                 </asp:GridView>

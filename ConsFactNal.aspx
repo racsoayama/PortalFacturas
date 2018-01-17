@@ -12,10 +12,10 @@
                 <div id="divFiltros" runat="server">
                     <table>
                         <tr>
-                            <td><asp:label ID="lblProveedor" runat="server" CssClass="label" Width="80">Proveedor:</asp:label></td>
-                            <td><asp:textbox ID="txtProveedor" runat="server" CssClass="text" Width="80" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
-                            <td><asp:label ID="lblOrden" runat="server" CssClass="label" Width="100">No. Pedido:</asp:label></td>
-                            <td><asp:textbox ID="txtOrden" runat="server" CssClass="text" Width="80" MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                            <td><asp:label ID="lblProveedor" runat="server" CssClass="label" >Proveedor:</asp:label></td>
+                            <td><asp:textbox ID="txtProveedor" runat="server" CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                            <td><asp:label ID="lblOrden" runat="server" CssClass="label" >No. Pedido:</asp:label></td>
+                            <td><asp:textbox ID="txtOrden" runat="server" CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                             <td><asp:Button ID="btnBuscar" runat="server" Value="Buscar" 
                                  onclick="btnBuscar_Click"/></td>
                             <td><asp:Button ID="btnExportar" runat="server" Value="Exportar" 

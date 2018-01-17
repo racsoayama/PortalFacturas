@@ -13,7 +13,7 @@
                     <table>
                         <tr>
                             <td><asp:label ID="lblProveedor" runat="server" CssClass="label">Proveedor:</asp:label></td>
-                            <td><asp:DropDownCheckBoxes ID="DropDownCheckBoxes1" runat="server" Width="230px" UseSelectAllNode = "true">
+                            <td><asp:DropDownCheckBoxes ID="DropDownCheckBoxes1" runat="server"  UseSelectAllNode = "true">
                                     <Style SelectBoxWidth="245" DropDownBoxBoxWidth="210" DropDownBoxBoxHeight="90" />
                                 </asp:DropDownCheckBoxes>
                             </td>

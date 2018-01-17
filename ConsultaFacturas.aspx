@@ -29,7 +29,7 @@
                         <td><asp:label ID="lblEntrega" runat="server" CssClass="label" >Entrega:</asp:label></td>
                         <td><asp:textbox ID="txtEntrega" runat="server" CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                         <td><asp:label ID="lblFolInicial" runat="server" CssClass="label" >Folio inicial:</asp:label></td>
-                        <td><asp:textbox ID="txtFolIni" runat="server" CssClass="dropdownlist"  MaxLength="8" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
+                        <td><asp:textbox ID="txtFolIni" runat="server" CssClass="dropdownlist"  MaxLength="8" onKeyUp="validateNumeros(this.id);"  ></asp:TextBox></td>
                         <td><asp:label ID="lblFolFinal" runat="server" CssClass="label" >Folio final:</asp:label></td>
                         <td><asp:textbox ID="txtFolFin" runat="server" CssClass="text"  MaxLength="8" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
                        
@@ -93,7 +93,7 @@
                             <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>
                         <asp:BoundField DataField="UUID" HeaderText="UUID">
-                            <ItemStyle Width="150px" HorizontalAlign="Center"/>
+                            <ItemStyle  HorizontalAlign="Center"/>
                         </asp:BoundField>
                         <asp:BoundField DataField="folioFact" HeaderText="Factura">
                             <ItemStyle  HorizontalAlign="Center"/>

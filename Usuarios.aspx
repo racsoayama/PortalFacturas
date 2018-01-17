@@ -43,34 +43,34 @@
                         <td colspan="2"><asp:label ID="lblLeyUsuario" runat="server" CssClass="h4">Usuario</asp:label></td>
                     </tr>
                     <tr>
-                        <td align="right"><asp:Label ID="lblTipoUsuario" runat="server" CssClass="label" Width="110">Tipo de usuario:</asp:Label></td>
+                        <td align="right"><asp:Label ID="lblTipoUsuario" runat="server" CssClass="label" >Tipo de usuario:</asp:Label></td>
                         <td><asp:DropDownList ID="cboTipoUsuario" runat="server" CssClass="dropdownlist" 
-                                Width ="150" AutoPostBack="true" 
+                                 AutoPostBack="true" 
                                 onselectedindexchanged="cboTipoUsuario_SelectedIndexChanged"></asp:DropDownList></td>
                     </tr>
                     <tr>
-                        <td align="right"><asp:Label ID="lblUsuario" runat="server" CssClass="label" Width="142px">Usuario ID:</asp:Label></td>
-                        <td><asp:TextBox ID="txtUsuario" runat="server" CssClass="dropdownlist" MaxLength="10" Width="150px" onKeyUp="changeToUpperCase(this.id);" Height="18px"></asp:TextBox></td>
+                        <td align="right"><asp:Label ID="lblUsuario" runat="server" CssClass="label">Usuario ID:</asp:Label></td>
+                        <td><asp:TextBox ID="txtUsuario" runat="server" CssClass="dropdownlist" MaxLength="10"  onKeyUp="changeToUpperCase(this.id);" Height="18px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="right"><asp:Label ID="lblNombre" runat="server" CssClass="label" Width="110">Nombre:</asp:Label></td>
-                        <td><asp:TextBox ID="txtNombre" runat="server" CssClass="dropdownlist" MaxLength="50" Width="150px" Height="18px" ></asp:TextBox></td>
+                        <td align="right"><asp:Label ID="lblNombre" runat="server" CssClass="label" >Nombre:</asp:Label></td>
+                        <td><asp:TextBox ID="txtNombre" runat="server" CssClass="dropdownlist" MaxLength="50"  Height="18px" ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="right"><asp:Label ID="lblProveedor" runat="server" CssClass="label" Width="110">Proveedor:</asp:Label></td>
-                        <td><asp:TextBox ID="txtProveedor" runat="server" CssClass="dropdownlist" MaxLength="10" Width="150px" onKeyUp="validateNumeros(this.id);" Height="18px"></asp:TextBox></td>
+                        <td align="right"><asp:Label ID="lblProveedor" runat="server" CssClass="label" >Proveedor:</asp:Label></td>
+                        <td><asp:TextBox ID="txtProveedor" runat="server" CssClass="dropdownlist" MaxLength="10"  onKeyUp="validateNumeros(this.id);" Height="18px"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="right" style="height: 36px"><asp:Label ID="lblCorreo" runat="server" CssClass="label" Width="110">Correo:</asp:Label></td>
-                        <td style="height: 36px"><asp:TextBox ID="txtCorreo" runat="server" CssClass="dropdownlist" MaxLength="40" Width="150px" Height="16px"></asp:TextBox></td>
+                        <td align="right" style="height: 36px"><asp:Label ID="lblCorreo" runat="server" CssClass="label" >Correo:</asp:Label></td>
+                        <td style="height: 36px"><asp:TextBox ID="txtCorreo" runat="server" CssClass="dropdownlist" MaxLength="40"  ></asp:TextBox></td>
                     </tr>                    
                     <tr>
-                        <td align="right" style="height: 36px"><asp:Label ID="lblPerfil" runat="server" CssClass="label" Width="110">Perfil:</asp:Label></td>
-                        <td style="height: 36px"><asp:DropDownList ID="cboPerfiles" runat="server" CssClass="dropdownlist" Width ="150px" Height="16px"></asp:DropDownList></td>
+                        <td align="right" style="height: 36px"><asp:Label ID="lblPerfil" runat="server" CssClass="label" >Perfil:</asp:Label></td>
+                        <td style="height: 36px"><asp:DropDownList ID="cboPerfiles" runat="server" CssClass="dropdownlist"  ></asp:DropDownList></td>
                     </tr>
                     <tr>
-                        <td align="right" style="height: 36px"><asp:Label ID="lblStatus" runat="server" CssClass="label" Width="110">Estatus:</asp:Label></td>
-                        <td style="height: 36px"><asp:DropDownList ID="cboStatus" runat="server" CssClass="dropdownlist" Width ="150px" Height="16px"></asp:DropDownList></td>
+                        <td align="right" style="height: 36px"><asp:Label ID="lblStatus" runat="server" CssClass="label" >Estatus:</asp:Label></td>
+                        <td style="height: 36px"><asp:DropDownList ID="cboStatus" runat="server" CssClass="dropdownlist"   ></asp:DropDownList></td>
                     </tr>
                     <tr>
                         <td align="right" colspan="2" style="height: 54px">
@@ -96,16 +96,16 @@
                 DataKeyNames="Id_Usuario" >
                 <Columns>
                     <asp:BoundField DataField="Id_usuario" HeaderText="Usuario">
-                        <ItemStyle Width="100px" />
+                        <ItemStyle  />
                     </asp:BoundField>    
                     <asp:BoundField DataField="Nombre" HeaderText="Nombre">
-                        <ItemStyle Width="250px" />
+                        <ItemStyle  />
                     </asp:BoundField>
                     <asp:BoundField DataField="Nombre_Perfil" HeaderText="Perfil" >
-                        <ItemStyle Width="150px" />
+                        <ItemStyle />
                     </asp:BoundField>
                     <asp:BoundField DataField="Status" HeaderText="Estatus"  >
-                        <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                        <ItemStyle  HorizontalAlign="Center"/>
                     </asp:BoundField>
                     <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>

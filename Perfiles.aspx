@@ -53,7 +53,7 @@
                 <tr>
                     <td colspan="2">
                         <asp:Label ID="lblNombre" runat="server" CssClass="label">Nombre:</asp:Label>
-                        <asp:TextBox ID="txtNombre" runat="server" CssClass="text" MaxLength="30" Width="200" onKeyUp="validateChange()"></asp:TextBox>
+                        <asp:TextBox ID="txtNombre" runat="server" CssClass="text" MaxLength="30"  onKeyUp="validateChange()"></asp:TextBox>
                     </td>                
                 </tr>
                 <tr>
@@ -69,46 +69,46 @@
                                     DataKeyNames="Id_funcion"  >
                                     <Columns>
                                         <asp:BoundField DataField="Modulo" HeaderText="Modulo" >
-                                            <ItemStyle Width="150px" />
+                                            <ItemStyle  />
                                         </asp:BoundField>
                                         <asp:BoundField DataField="Descripcion" HeaderText="Opcion" >
-                                            <ItemStyle Width="250px" />
+                                            <ItemStyle  />
                                         </asp:BoundField>
                                         <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="True"  HeaderText="Consulta">
                                             <ItemTemplate>
-                                                <asp:CheckBox ID="chkConsulta" runat="server" Checked='<%#Convert.ToBoolean(Eval("consulta")) %>' Width="50"/>
+                                                <asp:CheckBox ID="chkConsulta" runat="server" Checked='<%#Convert.ToBoolean(Eval("consulta")) %>' />
                                             </ItemTemplate>
-                                            <ItemStyle Width="50px" HorizontalAlign ="Center" />
+                                            <ItemStyle  HorizontalAlign ="Center" />
                                         </asp:TemplateField>
                                         <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False" HeaderText="Alta">
                                             <ItemTemplate>
-                                                <asp:CheckBox ID="chkAlta" runat="server" Checked='<%#Convert.ToBoolean(Eval("alta")) %>' Width="50"/>
+                                                <asp:CheckBox ID="chkAlta" runat="server" Checked='<%#Convert.ToBoolean(Eval("alta")) %>' />
                                             </ItemTemplate>
-                                            <ItemStyle Width="50px" HorizontalAlign ="Center" />
+                                            <ItemStyle  HorizontalAlign ="Center" />
                                         </asp:TemplateField>
                                         <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False" HeaderText="Baja">
                                             <ItemTemplate>
-                                                <asp:CheckBox ID="chkBaja" runat="server" Checked='<%#Convert.ToBoolean(Eval("baja")) %>' Width="50"/>
+                                                <asp:CheckBox ID="chkBaja" runat="server" Checked='<%#Convert.ToBoolean(Eval("baja")) %>'/>
                                             </ItemTemplate>
-                                            <ItemStyle Width="50px" HorizontalAlign ="Center" />
+                                            <ItemStyle  HorizontalAlign ="Center" />
                                         </asp:TemplateField>
                                         <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False"  HeaderText="Editar">
                                             <ItemTemplate>
-                                                <asp:CheckBox ID="chkEdicion" runat="server" Checked='<%#Convert.ToBoolean(Eval("edicion")) %>' Width="50"/>
+                                                <asp:CheckBox ID="chkEdicion" runat="server" Checked='<%#Convert.ToBoolean(Eval("edicion")) %>' />
                                             </ItemTemplate>
-                                            <ItemStyle Width="50px" HorizontalAlign ="Center" />
+                                            <ItemStyle  HorizontalAlign ="Center" />
                                         </asp:TemplateField>
                                         <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False"  HeaderText="Importar">
                                             <ItemTemplate>
-                                                <asp:CheckBox ID="chkImportar" runat="server" Checked='<%#Convert.ToBoolean(Eval("importar")) %>' Width="50"/>
+                                                <asp:CheckBox ID="chkImportar" runat="server" Checked='<%#Convert.ToBoolean(Eval("importar")) %>' />
                                             </ItemTemplate>
-                                            <ItemStyle Width="50px" HorizontalAlign ="Center" />
+                                            <ItemStyle  HorizontalAlign ="Center" />
                                         </asp:TemplateField>
                                         <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False"  HeaderText="Imprimir">
                                             <ItemTemplate>
-                                                <asp:CheckBox ID="chkImprimir" runat="server" Checked='<%#Convert.ToBoolean(Eval("imprimir")) %>' Width="50"/>
+                                                <asp:CheckBox ID="chkImprimir" runat="server" Checked='<%#Convert.ToBoolean(Eval("imprimir")) %>' />
                                             </ItemTemplate>
-                                            <ItemStyle Width="50px" HorizontalAlign ="Center" />
+                                            <ItemStyle  HorizontalAlign ="Center" />
                                         </asp:TemplateField>
                                         
                                     </Columns>
@@ -138,7 +138,7 @@
         </td>
     </tr>
     <tr>
-        <td style="width: 396px" valign="top" align="left" >
+        <td  valign="top" align="left" >
           <div id="divPerfiles" runat="server">
             <asp:GridView ID="grdPerfiles" runat="server" 
                 CssClass="mGrid" AlternatingRowStyle-CssClass="alt" PagerStyle-CssClass="pgr"

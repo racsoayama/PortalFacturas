@@ -15,12 +15,12 @@
                         <td colspan="2" style="height: 40px"><asp:label ID="lblLeyUnidades" runat="server" CssClass="h4">Uniddes</asp:label></td>
                     </tr>
                     <tr>
-                        <td align="right" style="width: 608px"><asp:Label ID="lblID" runat="server" class="label" Width="100">ID Unidad:</asp:Label></td>
-                        <td><asp:TextBox ID="txtID" runat="server" CssClass="dropdownlist" MaxLength="20" Width="150px" Height="16px" ></asp:TextBox></td>
+                        <td align="right"><asp:Label ID="lblID" runat="server" class="label" >ID Unidad:</asp:Label></td>
+                        <td><asp:TextBox ID="txtID" runat="server" CssClass="dropdownlist" MaxLength="20"   ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="right" style="width: 608px"><asp:Label ID="lblUnidadSAP" runat="server" CssClass="label" Width="142px" style="margin-left: 0px">Unidad SAP:</asp:Label></td>
-                        <td><asp:TextBox ID="txtUnidadSAP" runat="server" CssClass="dropdownlist" MaxLength="3" Width="150px" onKeyUp="changeToUpperCase(this.id);" Height="16px" ></asp:TextBox></td>
+                        <td align="right" ><asp:Label ID="lblUnidadSAP" runat="server" CssClass="label"  style="margin-left: 0px">Unidad SAP:</asp:Label></td>
+                        <td><asp:TextBox ID="txtUnidadSAP" runat="server" CssClass="dropdownlist" MaxLength="3"  onKeyUp="changeToUpperCase(this.id);"   ></asp:TextBox></td>
                     </tr>
                     <tr>
                         <td align="right" colspan="2" style="height: 46px">
@@ -45,10 +45,10 @@
                 OnRowDataBound="grdUnidades_RowDataBound">
                 <Columns>
                     <asp:BoundField DataField="Id_unidad" HeaderText="Unidad">
-                        <ItemStyle Width="150px" HorizontalAlign="Left"/>
+                        <ItemStyle  HorizontalAlign="Left"/>
                     </asp:BoundField>    
                     <asp:BoundField DataField="UnidadSAP" HeaderText="UnidadSAP">
-                        <ItemStyle Width="100px" HorizontalAlign="Center"/>
+                        <ItemStyle  HorizontalAlign="Center"/>
                     </asp:BoundField>
                     <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>

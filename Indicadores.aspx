@@ -14,16 +14,16 @@
                         <td colspan="2" style="height: 39px"><asp:label ID="lblLeyIndicador" runat="server" CssClass="h4">Indicador</asp:label></td>
                     </tr>
                     <tr>
-                        <td align="right" style="width: 640px; height: 36px"><asp:Label ID="lblID" runat="server" class="label" Width="150">ID:</asp:Label></td>
-                        <td style="height: 36px"><asp:TextBox ID="txtID" runat="server" CssClass="dropdownlist" MaxLength="2" Width="149px" onKeyUp="validateAlpha(this.id);" Height="16px"></asp:TextBox></td>
+                        <td align="right" ><asp:Label ID="lblID" runat="server" class="label" >ID:</asp:Label></td>
+                        <td style="height: 36px"><asp:TextBox ID="txtID" runat="server" CssClass="dropdownlist" MaxLength="2"  onKeyUp="validateAlpha(this.id);"  ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="right" style="width: 640px; height: 36px"><asp:Label ID="lblNombre" runat="server" CssClass="label" Width="150">Nombre:</asp:Label></td>
-                        <td style="height: 36px"><asp:TextBox ID="txtNombre" runat="server" CssClass="dropdownlist" MaxLength="50" Width="150px" Height="16px" ></asp:TextBox></td>
+                        <td align="right" ><asp:Label ID="lblNombre" runat="server" CssClass="label" >Nombre:</asp:Label></td>
+                        <td style="height: 36px"><asp:TextBox ID="txtNombre" runat="server" CssClass="dropdownlist" MaxLength="50"   ></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td align="right" style="width: 640px; height: 36px"><asp:Label ID="lblTasa" runat="server" CssClass="label" Width="150">Tasa:</asp:Label></td>
-                        <td style="height: 36px"><asp:TextBox ID="txtTasa" runat="server" CssClass="dropdownlist" MaxLength="3" Width="150px" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
+                        <td align="right" ><asp:Label ID="lblTasa" runat="server" CssClass="label" >Tasa:</asp:Label></td>
+                        <td style="height: 36px"><asp:TextBox ID="txtTasa" runat="server" CssClass="dropdownlist" MaxLength="3"  onKeyUp="validateNumeros(this.id);"  ></asp:TextBox></td>
                     </tr>
                     <tr>
                         <td align="right" colspan="2" style="height: 29px">
@@ -48,13 +48,13 @@
                 OnRowDataBound="grdIndicadores_RowDataBound">
                 <Columns>
                     <asp:BoundField DataField="Id_indicador" HeaderText="IndImpuesto">
-                        <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                        <ItemStyle  HorizontalAlign="Center"/>
                     </asp:BoundField>    
                     <asp:BoundField DataField="Nombre" HeaderText="Nombre">
-                        <ItemStyle Width="200px" />
+                        <ItemStyle  />
                     </asp:BoundField>
                     <asp:BoundField DataField="Tasa" HeaderText="TasaImp">
-                        <ItemStyle Width="80px" HorizontalAlign="Center"/>
+                        <ItemStyle  HorizontalAlign="Center"/>
                     </asp:BoundField>
                     <asp:TemplateField   ItemStyle-CssClass="tableOptions"  ShowHeader="False">
                         <ItemTemplate>
