@@ -783,7 +783,7 @@ table input:checked {
 }
 #cssmenu ul,
 #cssmenu li {
-  width: 100%;
+  width: 90%;
   line-height: 1;
   border-top: 0px solid #fff;
   border-bottom: 1px solid #fff; 
@@ -833,14 +833,14 @@ table input:checked {
 #cssmenu ul ul li ul li:hover {
   background: #e0e0e0;
 }
-    #cssmenu .has-sub, #cssmenu .dropdown2 {
-        width: 180px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        padding-left: 20px;
-        position: relative;
-        height: 12px;
-    }
+	#cssmenu .has-sub, #cssmenu .dropdown2 {
+		width: 180px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		padding-left: 20px;
+		position: relative;
+		height: 12px;
+	}
 #cssmenu .has-sub:after,
 #cssmenu .has-sub > ul > .has-sub:hover:after {
   content: '';
@@ -862,6 +862,16 @@ table input:checked {
 #cssmenu .has-sub:hover:after {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAMAAAA8eE0hAAAAUVBMVEX////d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3e3t729vbx8fHq6urd3d3z8/Pj4+Pv7+/h4eHm5ub09PTn5+f19fXt7e3g4ODi4uLUsVdlAAAAC3RSTlMAM2YekAmlPHuEAwArv7wAAAA/SURBVHheY2Dl5mdigABGKV5BNnYok4dHQpKFGcrkEefj5gAzQUBABM7kFYQyRcX4mUBMkEpOLrA2IWGwfgYAn0UDZszv8IwAAAAASUVORK5CYII=);
 }
+
+#MainPlaceHolder_btnGenear,
+#MainPlaceHolder_btnGenerar,
+#MainPlaceHolder_btnBuscar,
+#MainPlaceHolder_btnMostrarTodos,
+#MainPlaceHolder_btnImportar,
+#btnCambioPassword,
+#btnRecuperaCambio,
+#btnVerManual,
+#MainPlaceHolder_btnExportar,
 #MainPlaceHolder_ImageButton1,
 #btnAgregarFactura,
 #btnAceptarItem,
@@ -900,7 +910,17 @@ table input:checked {
     padding-left:30px;
 
 }
-
+#MainPlaceHolder_btnGenear,
+#MainPlaceHolder_btnGenerar,
+#MainPlaceHolder_btnBuscar:hover,
+#MainPlaceHolder_btnMostrarTodos:hover,
+#MainPlaceHolder_btnImportar:hover,
+#btnAceptarImportar:hover,
+#btnRecuperaCambio:hover,
+#btnCambioPassword:hover,
+#btnVerManual:hover,
+#MainPlaceHolder_ImageButton1:hover,
+	#MainPlaceHolder_btnExportar:hover,
 	#MainPlaceHolder_ImageButton1:hover,
 	#btnAgregarFactura:hover,
 	#btnAceptarItem:hover,
@@ -956,6 +976,13 @@ table input:checked {
         margin-top: 30px;
     }
 
+#MainPlaceHolder_btnExportar,
+#MainPlaceHolder_btnExportar:hover{
+	background-image: url(../Images/exportar.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 45px;
+}
 
 #btnAgregarFactura,
 #btnAgregarFactura:hover {
@@ -1021,37 +1048,8 @@ table input:checked {
     }
 
 
-/*all buttoms */
-#MainPlaceHolder_btnGenear,
-#MainPlaceHolder_btnGenerar,
-#MainPlaceHolder_btnBuscar,
-#MainPlaceHolder_btnMostrarTodos,
-#MainPlaceHolder_btnImportar,
-#btnCambioPassword,
-#btnRecuperaCambio,
-#btnVerManual {
-	color: #fff;
-	background: rgba(33,48,111,1);
-	width: 150px;
-	height: 40px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
 
-#MainPlaceHolder_btnGenear,
-#MainPlaceHolder_btnGenerar,
-#MainPlaceHolder_btnBuscar:hover,
-#MainPlaceHolder_btnMostrarTodos:hover,
-#MainPlaceHolder_btnImportar:hover,
-#btnAceptarImportar:hover,
-#btnRecuperaCambio:hover,
-#btnCambioPassword:hover,
-#btnVerManual:hover,
-#MainPlaceHolder_ImageButton1:hover {
-		color: #fff;
-		background: rgb(42, 62, 146);
-	}
+
 
 #MainPlaceHolder_btnMostrarTodos, 
 #MainPlaceHolder_btnMostrarTodos:hover {
@@ -1071,15 +1069,6 @@ table input:checked {
 
 #MainPlaceHolder_btnBuscar, #MainPlaceHolder_btnBuscar:hover {
 	background-image: url(../Images/buscar.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 45px;
-}
-#MainPlaceHolder_ImageButton1,
-#MainPlaceHolder_ImageButton1:hover,
-#MainPlaceHolder_btnGenear,
-#MainPlaceHolder_btnGenerar {
-	background-image: url(../Images/generar.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 45px;

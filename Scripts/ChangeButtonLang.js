@@ -10,7 +10,8 @@ function ChangeButtonLang(lang) {
     else{
         lang = 0;
     }
-    var ButtonsListes = {
+	var ButtonsListes = {
+		MainPlaceHolder_btnExportar: 'Exportar',
         btnSalir: 'Salir',
         MainPlaceHolder_btnBuscar: 'Buscar',
         MainPlaceHolder_btnMostrarTodos: 'Mostrar',
@@ -35,7 +36,8 @@ function ChangeButtonLang(lang) {
         MainPlaceHolder_btnGuardar: 'Guardar',
         MainPlaceHolder_btnCancelar: 'Cancelar'
     };
-    var ButtonsListen = {
+	var ButtonsListen = {
+		MainPlaceHolder_btnExportar: 'Export',
         btnSalir: 'Exit',
         MainPlaceHolder_btnBuscar: 'Search',
         MainPlaceHolder_btnMostrarTodos: 'Show',
