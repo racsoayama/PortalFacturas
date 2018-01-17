@@ -108,11 +108,11 @@ body {
     font-family: Verdana, Georgia;
     color: #e97a02;
     font-weight:normal;
-	margin-top: 40px;
+	margin-top: 10px;
 	border: 1px solid #e5e5e5;
 	padding: 10px;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 
 }
 
@@ -702,7 +702,7 @@ table input:checked {
 #cssmenu span, #cssmenu a {
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 10.5px;
+  font-size: 10px;
   text-decoration: none;
 }
 #cssmenu:after,
@@ -833,10 +833,16 @@ table input:checked {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAMAAAA8eE0hAAAAUVBMVEX////d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3e3t729vbx8fHq6urd3d3z8/Pj4+Pv7+/h4eHm5ub09PTn5+f19fXt7e3g4ODi4uLUsVdlAAAAC3RSTlMAM2YekAmlPHuEAwArv7wAAAA/SURBVHheY2Dl5mdigABGKV5BNnYok4dHQpKFGcrkEefj5gAzQUBABM7kFYQyRcX4mUBMkEpOLrA2IWGwfgYAn0UDZszv8IwAAAAASUVORK5CYII=);
 }
 
-
-
-
-
+#btnAgregarFactura,
+#btnAceptarItem,
+#btnAceptar,
+#btnCancelar,
+#btnCancelarAgregar,
+#btnCancelarEntregas,
+#btnCancelar2,
+#btnAceptarFactura,
+#btnAceptarEntregas,
+#btnAceptarServ,
 #btnCrearCta,
 #btnAceptarCambio,
 #btnAceptarImportar,
@@ -862,7 +868,16 @@ table input:checked {
 	-ms-border-radius: 4px; /*IE 8*/
 	cursor: pointer;
 }
-
+	#btnAgregarFactura:hover,
+	#btnAceptarItem:hover,
+	#btnAceptar:hover,
+	#btnCancelar:hover,
+	#btnCancelarAgregar:hover,
+	#btnCancelarEntregas:hover,
+	#btnCancelar2:hover,
+	#btnAceptarFactura:hover,
+	#btnAceptarEntregas:hover,
+	#btnAceptarServ:hover,
 	#btnAceptar:hover,
 	#btnCrearCta:hover,
 	#btnAceptarCambio:hover,
@@ -880,21 +895,41 @@ table input:checked {
 		background: rgba(33,48,111,1);
 	}
 
-#btnAceptarCambio,
-#btnAceptarImportar,
-#MainPlaceHolder_btnAceptarImportar,
-#MainPlaceHolder_btnAceptarLog,
-#MainPlaceHolder_btnAceptarFin,
-#btnAceptarCambio:hover,
-#btnAceptarImportar:hover,
-#MainPlaceHolder_btnAceptarImportar:hover,
-#MainPlaceHolder_btnAceptarLog:hover,
-#MainPlaceHolder_btnAceptarFin:hover {
-	background-image: url(../Images/aceptar.png);
+	#btnAceptarItem,
+	#btnAceptar,
+	#btnAceptarItem:hover,
+	#btnAceptar:hover,
+	#btnAceptarFactura,
+	#btnAceptarEntregas,
+	#btnAceptarServ,
+	#btnAceptarFactura:hover,
+	#btnAceptarEntregas:hover,
+	#btnAceptarServ:hover,
+	#btnAceptarCambio,
+	#btnAceptarImportar,
+	#MainPlaceHolder_btnAceptarImportar,
+	#MainPlaceHolder_btnAceptarLog,
+	#MainPlaceHolder_btnAceptarFin,
+	#btnAceptarCambio:hover,
+	#btnAceptarImportar:hover,
+	#MainPlaceHolder_btnAceptarImportar:hover,
+	#MainPlaceHolder_btnAceptarLog:hover,
+	#MainPlaceHolder_btnAceptarFin:hover {
+		background-image: url(../Images/aceptar.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 45px;
+	}
+
+
+#btnAgregarFactura,
+#btnAgregarFactura:hover {
+	background-image: url(../Images/agregar.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 45px;
 }
+
 
 #MainPlaceHolder_btnGenear,
 #MainPlaceHolder_btnGenerar,
@@ -906,6 +941,13 @@ table input:checked {
 	background-size: 45px;
 }
 
+#btnAgregarFactura,
+#btnAgregarFactura:hover {
+	background-image: url(../Images/agregar.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 45px;
+}
 
 #MainPlaceHolder_btnGuardar,
 #MainPlaceHolder_btnGuardar:hover {
@@ -923,6 +965,14 @@ table input:checked {
 	background-size: 45px;
 }
 
+#btnCancelar,
+#btnCancelar:hover,
+#btnCancelarAgregar,
+#btnCancelarEntregas,
+#btnCancelar2,
+#btnCancelarAgregar:hover,
+#btnCancelarEntregas:hover,
+#btnCancelar2:hover,
 #btnCancelarImportar,
 #btnCancelarCambio,
 #btnCancNuevaCta,
@@ -956,7 +1006,6 @@ table input:checked {
 	border-radius: 4px;
 	cursor: pointer;
 }
-
 
 #MainPlaceHolder_btnGenear,
 #MainPlaceHolder_btnGenerar,
@@ -993,6 +1042,7 @@ table input:checked {
 	background-position: left;
 	background-size: 45px;
 }
+
 #MainPlaceHolder_btnGenear,
 #MainPlaceHolder_btnGenerar {
 	background-image: url(../Images/generar.png);
