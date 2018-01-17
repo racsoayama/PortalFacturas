@@ -253,3 +253,5 @@ bin/PortalFacturas.dll
 
 bin/PortalFacturas.dll
 bin/PortalFacturas.pdb
+.vs/PortalFacturas/v15/Server/sqlite3/storage.ide
+.vs/PortalFacturas/v15/.suo
