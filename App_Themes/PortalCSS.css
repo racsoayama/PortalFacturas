@@ -3,8 +3,10 @@
 body {
 		margin: 0px 0px 0px 0px;
 }
-
-
+table td{
+    padding:0px;
+    max-width:50%;
+}
 .header {
 	width: 100%;
 	z-index: 1000;
@@ -277,7 +279,8 @@ body {
 	color: #cbcbcb;
 	border: solid 1px #c4c4c4;
 	text-align: center;
-	width: 100%;
+	width: cacl(100%-15px);
+    padding:15px;
 	align-content: center;
 }
 
@@ -318,7 +321,7 @@ body {
 	width:100%;
 	padding: 0px;
 	margin: 0px;
-    margin-top:10px;
+    
 }
 
 /*.dropdownlist2
@@ -334,27 +337,8 @@ body {
     	height: 20px;
 	margin-left: 0px;
 }*/
-.checklist {
-	border: 1px solid #1A6E33;
-	background-position: center;
-	FONT-SIZE: 10px;
-	COLOR: black;
-	BACKGROUND-REPEAT: no-repeat;
-	FONT-FAMILY: Verdana, Geneva;
-	BACKGROUND-COLOR: white;
-	TEXT-DECORATION: none;
-}
-.checkbox
-{
-	border: 0px solid #1A6E33;	
-    background-position: center;
-	FONT-SIZE: 10px;
-	COLOR: black;
-	BACKGROUND-REPEAT: no-repeat;
-	FONT-FAMILY: Verdana, Geneva;
-	BACKGROUND-COLOR: white;
-	TEXT-DECORATION: none;
-}
+
+
 /*.note
 {
     BORDER-RIGHT: none;
@@ -418,13 +402,14 @@ body {
 
 
 .mGrid {
-	background-color: #fff;
-	width: 100%;
-	font-size: 14px;
-	text-decoration: none;
-	color: #656565;
-	margin-top: 10px;
-	border: solid 1px #e6e6e6
+    background-color: #fff;
+    width: 100%;
+    font-size: 14px;
+    text-decoration: none;
+    color: #656565;
+    margin-top: 10px;
+    border: solid 1px #e6e6e6;
+    margin-top:10px;
 }
 
 
@@ -867,6 +852,7 @@ table input:checked {
 	-o-border-radius: 4px; /*Opera*/
 	-ms-border-radius: 4px; /*IE 8*/
 	cursor: pointer;
+    padding-left:30px;
 }
 	#btnAgregarFactura:hover,
 	#btnAceptarItem:hover,
@@ -1076,6 +1062,7 @@ table input:checked {
     #MainPlaceHolder_btnCancelar:active {
         color: #fff;
         background: #666;
+       
     }
 
 .auto-style1 {
@@ -1142,6 +1129,5 @@ table input:checked {
 	outline: none;
 	margin-right: 7px;
 }
-
 
 

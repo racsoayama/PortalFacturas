@@ -96,30 +96,37 @@ td {
 }
 
 #btnAceptar, #btnCambioPassword, #btnAceptarCambio, #btnCancelarCambio, #btnCancNuevaCta, #btnRegistrar, #btnCambioPassword {
-	margin-top: 20px;
-	background: rgb(42, 62, 146);
-	color: #fff;
-	width: 150px;
-	height: 40px;
-	border: none;
-	border-radius: 4px;
-	-webkit-border-radius: 4px; /*Safari y Chrome*/
-	-moz-border-radius: 4px; /*Firefox*/
-	-o-border-radius: 4px; /*Opera*/
-	-ms-border-radius: 4px; /*IE 8*/
-	cursor: pointer;
+    margin-top: 20px;
+    background: rgb(42, 62, 146);
+    color: #fff;
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px; /*Safari y Chrome*/
+    -moz-border-radius: 4px; /*Firefox*/
+    -o-border-radius: 4px; /*Opera*/
+    -ms-border-radius: 4px; /*IE 8*/
+    cursor: pointer;
+    padding-left: 35px;
 }
 #btnAceptar:hover, #btnCambioPassword:hover, #btnAceptarCambio:hover, #btnCancelarCambio:hover, #btnCancNuevaCta:hover, #btnRegistrar:hover, #btnCambioPassword:hover {
         color: #fff;
 		background: rgba(33,48,111,1);
 }
-#btnAceptar,
-#btnAceptar:hover{
-	background-image: url(../Images/aceptarLogin.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 45px;
+#btnCambioPassword, #btnCambioPassword:hover {
+    background-image: url(../Images/LlaveLogin.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 45px;
 }
+    #btnAceptar,
+    #btnAceptar:hover {
+        background-image: url(../Images/aceptar.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 45px;
+    }
 
 
 #btnAceptarCambio, #btnRegistrar,

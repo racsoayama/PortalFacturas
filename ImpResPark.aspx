@@ -21,7 +21,7 @@
          <td><INPUT type=file id=File1 name=File1 runat="server" size="50" class="file"/></td>
       </tr>
       <tr>
-         <td align="right">
+         <td align="left">
             <asp:Button ID="btnAceptarLog" runat="server"  btnGenerar="Aceptar" 
                 OnClientClick="return ValidaDatosLog();" onclick="btnAceptarLog_Click"/>&nbsp;
          </td>
@@ -40,7 +40,7 @@
          <td><INPUT type=file id=File2 name=File2 runat="server" size="50" class="file"/></td>
       </tr>
       <tr>
-         <td align="right">
+        <td align="left">
             <asp:Button ID="btnAceptarFin" runat="server"  btnGenerar="Cancelar" 
                 OnClientClick="return ValidaDatosFin();" onclick="btnAceptarFin_Click"/>&nbsp;
          </td>

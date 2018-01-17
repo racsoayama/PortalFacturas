@@ -101,7 +101,7 @@
                         <td valign="top" align="right" style="width: 523px"><asp:Label ID="lblSociedades" runat="server" CssClass="label" Width="110">Sociedades:</asp:Label></td>
                         <td>
                          <asp:CheckBoxList ID="lstSociedades" runat="server" CssClass="checklist" 
-                               Width="150px" RepeatColumns="1" BorderStyle="None" Height="113px">
+                               Width="150px" RepeatColumns="1" BorderStyle="None" >
                             <asp:ListItem Text="Soc 1" Value="Soc1"></asp:ListItem>
                             <asp:ListItem Text="Soc 2" Value="Soc2"></asp:ListItem>
                             <asp:ListItem Text="Soc 3" Value="Soc3"></asp:ListItem>
