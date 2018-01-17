@@ -53,7 +53,7 @@
                             Width="221px" Height="47px" TextMode="MultiLine"></asp:TextBox></td>
                 </tr>
                 <tr>
-                    <td align="right" style="width: 573px; height: 36px"><asp:Label ID="lblValSAT" runat="server" CssClass="label" Width="300">Validar facturas en el SAT:</asp:Label></td>
+                    <td align="left" style="width: 573px; height: 36px"><asp:Label ID="lblValSAT" runat="server" CssClass="label" Width="300">Validar facturas en el SAT:</asp:Label></td>
                     <td style="height: 36px"><asp:RadioButtonList ID="rbtValidaSAT" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None" Height="16px" Width="200px">
                                         </asp:RadioButtonList></td>
                 </tr>

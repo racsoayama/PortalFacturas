@@ -98,7 +98,7 @@ namespace PortalFacturas
 
             //Agrega la opción del Manual, dependiendo de si es usuario o proveedor
             li2 = new HtmlGenericControl("li");
-            li2.Attributes.Add("class", "dropdown");
+            li2.Attributes.Add("class", "dropdown2");
             lista.Controls.Add(li2);
 
             anchor1 = new HtmlGenericControl("a");
