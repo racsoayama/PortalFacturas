@@ -1,7 +1,8 @@
 ﻿/* Portal styles */
 
 body {
-		margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
 }
 table td{
     padding:0px;
@@ -193,8 +194,8 @@ table td{
 
 
 .label {
+    font-size:12px;
     color: #656565;
-    vertical-align: bottom;
     display: inline-block;
     outline: none;
     margin-right: 7px;
@@ -219,16 +220,14 @@ table td{
     font-weight:normal;
     COLOR: #FFFFFF;
     FONT-FAMILY: Verdana, Geneva;
+ 
 }
 
 .h2 {
-   margin-top:199px;
-  
+    margin-top: 199px;
     FONT-SIZE: 30px;
     COLOR: #656565;
-    text-align:left;
-   
-
+    text-align: left;
     
 }
 
@@ -236,19 +235,22 @@ table td{
     FONT-SIZE: 14px;
     COLOR: #656565;
     FONT-FAMILY: Verdana, Geneva;
+ 
 }
 
 .h4 {
     FONT-SIZE: 16px;
     COLOR: #656565;
     FONT-FAMILY: Verdana, Geneva;
+    align-content:center;
+   
 }
 
-.h5
-{
+.h5 {
     FONT-SIZE: 14px;
     COLOR: #FFFFFF;
     FONT-FAMILY: Verdana, Geneva;
+  
 }
 
 .dropdownlist, .text, .file, input.file, #MainPlaceHolder_DropDownCheckBoxes1_sl, #MainPlaceHolder_DropDownCheckBoxes1_dv, #MainPlaceHolder_cboSociedades_sl {
@@ -410,7 +412,7 @@ table td{
     color: #656565;
     margin-top: 10px;
     border: solid 1px #e6e6e6;
-    margin-top:10px;
+    margin-top:30px;
 }
 
 
@@ -855,6 +857,7 @@ table input:checked {
 	-ms-border-radius: 4px; /*IE 8*/
 	cursor: pointer;
     padding-left:30px;
+
 }
 
 	#MainPlaceHolder_ImageButton1:hover,
@@ -885,31 +888,32 @@ table input:checked {
 		background: rgba(33,48,111,1);
 	}
 
-	#btnAceptarItem,
-	#btnAceptar,
-	#btnAceptarItem:hover,
-	#btnAceptar:hover,
-	#btnAceptarFactura,
-	#btnAceptarEntregas,
-	#btnAceptarServ,
-	#btnAceptarFactura:hover,
-	#btnAceptarEntregas:hover,
-	#btnAceptarServ:hover,
-	#btnAceptarCambio,
-	#btnAceptarImportar,
-	#MainPlaceHolder_btnAceptarImportar,
-	#MainPlaceHolder_btnAceptarLog,
-	#MainPlaceHolder_btnAceptarFin,
-	#btnAceptarCambio:hover,
-	#btnAceptarImportar:hover,
-	#MainPlaceHolder_btnAceptarImportar:hover,
-	#MainPlaceHolder_btnAceptarLog:hover,
-	#MainPlaceHolder_btnAceptarFin:hover {
-		background-image: url(../Images/aceptar.png);
-		background-repeat: no-repeat;
-		background-position: left;
-		background-size: 45px;
-	}
+    #btnAceptarItem,
+    #btnAceptar,
+    #btnAceptarItem:hover,
+    #btnAceptar:hover,
+    #btnAceptarFactura,
+    #btnAceptarEntregas,
+    #btnAceptarServ,
+    #btnAceptarFactura:hover,
+    #btnAceptarEntregas:hover,
+    #btnAceptarServ:hover,
+    #btnAceptarCambio,
+    #btnAceptarImportar,
+    #MainPlaceHolder_btnAceptarImportar,
+    #MainPlaceHolder_btnAceptarLog,
+    #MainPlaceHolder_btnAceptarFin,
+    #btnAceptarCambio:hover,
+    #btnAceptarImportar:hover,
+    #MainPlaceHolder_btnAceptarImportar:hover,
+    #MainPlaceHolder_btnAceptarLog:hover,
+    #MainPlaceHolder_btnAceptarFin:hover {
+        background-image: url(../Images/aceptar.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 45px;
+        margin-top: 30px;
+    }
 
 
 #btnAgregarFactura,
@@ -920,56 +924,60 @@ table input:checked {
 	background-size: 45px;
 }
 
-#MainPlaceHolder_ImageButton1,
-#MainPlaceHolder_ImageButton1:hover,
-#MainPlaceHolder_btnGenear,
-#MainPlaceHolder_btnGenerar,
-#MainPlaceHolder_btnGenear:hover,
-#MainPlaceHolder_btnGenera:hover {
-	background-image: url(../Images/generar.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 45px;
-}
+    #MainPlaceHolder_ImageButton1,
+    #MainPlaceHolder_ImageButton1:hover,
+    #MainPlaceHolder_btnGenear,
+    #MainPlaceHolder_btnGenerar,
+    #MainPlaceHolder_btnGenear:hover,
+    #MainPlaceHolder_btnGenera:hover {
+        background-image: url(../Images/generar.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 45px;
+        margin-top: 30px;
+    }
 
 
-#MainPlaceHolder_btnGuardar,
-#MainPlaceHolder_btnGuardar:hover {
-	background-image: url(../Images/guardar.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 45px;
-}
+    #MainPlaceHolder_btnGuardar,
+    #MainPlaceHolder_btnGuardar:hover {
+        background-image: url(../Images/guardar.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 45px;
+        margin-top: 30px;
+    }
 
-#btnSalir,
-#btnSalir:hover{
-	background-image: url(../Images/salir.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 45px;
-}
+    #btnSalir,
+    #btnSalir:hover {
+        background-image: url(../Images/salir.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 45px;
+       
+    }
 
-#btnCancelar,
-#btnCancelar:hover,
-#btnCancelarAgregar,
-#btnCancelarEntregas,
-#btnCancelar2,
-#btnCancelarAgregar:hover,
-#btnCancelarEntregas:hover,
-#btnCancelar2:hover,
-#btnCancelarImportar,
-#btnCancelarCambio,
-#btnCancNuevaCta,
-#MainPlaceHolder_btnCancelar,
-#btnCancelarImportar:hover,
-#btnCancelarCambio:hover,
-#btnCancNuevaCta:hover,
-#MainPlaceHolder_btnCancelar:hover {
-	background-image: url(../Images/cancelar.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 45px;
-}
+    #btnCancelar,
+    #btnCancelar:hover,
+    #btnCancelarAgregar,
+    #btnCancelarEntregas,
+    #btnCancelar2,
+    #btnCancelarAgregar:hover,
+    #btnCancelarEntregas:hover,
+    #btnCancelar2:hover,
+    #btnCancelarImportar,
+    #btnCancelarCambio,
+    #btnCancNuevaCta,
+    #MainPlaceHolder_btnCancelar,
+    #btnCancelarImportar:hover,
+    #btnCancelarCambio:hover,
+    #btnCancNuevaCta:hover,
+    #MainPlaceHolder_btnCancelar:hover {
+        background-image: url(../Images/cancelar.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 45px;
+        margin-top: 30px;
+    }
 
 
 /*all buttoms */
@@ -1112,9 +1120,9 @@ table input:checked {
     width: 50%;
 }
 
-checklist{
-
-    width:250px;
+checklist {
+    font-size: 12px;
+    width: 250px;
 }
 body {
     font-family: Verdana, Georgia;
