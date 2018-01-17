@@ -29,9 +29,7 @@
                     <td><asp:Button ID="btnMostrarTodos" runat="server" value="Mostrar" 
                          onclick="btnMostrarTodos_Click"/>
                     </td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td >
-                    </td>
+                   
                 </tr>
             </table>
           </div>

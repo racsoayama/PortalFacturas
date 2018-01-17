@@ -83,7 +83,7 @@ body {
 .menu-frame {
 	position: fixed;
 	top: 130px;
-	padding-top: 100px;
+	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
 	width: 200px;
@@ -195,6 +195,9 @@ body {
     display: inline-block;
     outline: none;
     margin-right: 7px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    vertical-align: top;
 }
 
 .label2 {
@@ -246,6 +249,15 @@ body {
 }
 
 .dropdownlist, .text, .file, input.file {
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
     color: #656565;
     border-bottom: 1px solid #a9a9a9;
     display: inline-block;
@@ -254,22 +266,13 @@ body {
     margin-top: 4px;
     margin-bottom: 8px;
     vertical-align: top;
-    background-color: #fff;
-	border-left-style: none;
-	border-left-color: inherit;
-	border-left-width: medium;
-	border-right-style: none;
-	border-right-color: inherit;
-	border-right-width: medium;
-	border-top-style: none;
-	border-top-color: inherit;
-	border-top-width: medium;
 }
+
 
 #MainPlaceHolder_divFiltros {
 	margin-top: 20px;
 	background-color: #fff;
-	font-size: 13px;
+	font-size: 14px;
 	text-decoration: none;
 	color: #cbcbcb;
 	border: solid 1px #c4c4c4;
@@ -279,8 +282,8 @@ body {
 }
 
 	#MainPlaceHolder_divFiltros td {
-		width: 12%;
-		padding: 3px;
+		width: 10%;
+		padding: 2px;
 	}
 
 	#MainPlaceHolder_divFiltros .label {
@@ -305,16 +308,17 @@ body {
 }
 
 .content-frame {
-	margin-left: 260px;
-	padding-top: 170px;
-	margin-right: 260px;
-	width: 98%;
-	align-content: center;
+    margin-right: 20px;
+    margin-left: 240px;
+    padding-top: 170px;
+    width: calc(100%-260px);
+    align-content: center;
 }
 .content-frame table {
-	width: 98%;
+	width:100%;
 	padding: 0px;
 	margin: 0px;
+    margin-top:10px;
 }
 
 /*.dropdownlist2
@@ -776,19 +780,20 @@ table input:checked {
   color: #313131;
   text-transform: uppercase; /* colocar el texto en mayusculas*/ 
 /*line-height: 100%;*/
-  margin: 10%;
+  
 }
-#cssmenu ul ul {
-  width: 200px;
-  border: 0px solid #FDFDFE;
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-}
-#cssmenu ul ul li {
-  background: #FDFDFE;
-  height: 50px;
-}
+    #cssmenu ul ul {
+        width: 200px;
+       
+        border: 0px solid #FDFDFE;
+        -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+        -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    }
+    #cssmenu ul ul li {
+        background: #FDFDFE;
+        padding: 5%;
+    }
 #cssmenu ul ul li:hover {
   background:  #e0e0e0;
 }
@@ -798,10 +803,14 @@ table input:checked {
 #cssmenu ul ul li ul li:hover {
   background: #e0e0e0;
 }
-#cssmenu .has-sub {
-  position: relative;
-  height: 50px;
-}
+    #cssmenu .has-sub, #cssmenu .dropdown2 {
+        width: 185px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        position: relative;
+        height: 15px;
+    }
 #cssmenu .has-sub:after,
 #cssmenu .has-sub > ul > .has-sub:hover:after {
   content: '';

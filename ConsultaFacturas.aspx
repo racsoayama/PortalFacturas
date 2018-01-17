@@ -19,9 +19,10 @@
                         <td><asp:textbox ID="txtNombre" runat="server" CssClass="text"  MaxLength="40"></asp:TextBox></td>
                         <td><asp:label ID="lblFactura" runat="server" CssClass="label" ># Factura:</asp:label></td>
                         <td><asp:textbox ID="txtFactura" runat="server" CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
+                     
                         <td><asp:label ID="lblSociedad" runat="server" CssClass="label" >Sociedad:</asp:label></td>
                         <td><asp:DropDownList ID="cboFilSociedad" runat="server" CssClass="dropdownlist"></asp:DropDownList></td>
-                    </tr>
+                      </tr>
                     <tr>
                         <td><asp:label ID="lblOrden" runat="server" CssClass="label" >#ODC:</asp:label></td>
                         <td><asp:textbox ID="txtOrden" runat="server" CssClass="text"  MaxLength="10" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
@@ -31,22 +32,31 @@
                         <td><asp:textbox ID="txtFolIni" runat="server" CssClass="dropdownlist"  MaxLength="8" onKeyUp="validateNumeros(this.id);" Height="16px"></asp:TextBox></td>
                         <td><asp:label ID="lblFolFinal" runat="server" CssClass="label" >Folio final:</asp:label></td>
                         <td><asp:textbox ID="txtFolFin" runat="server" CssClass="text"  MaxLength="8" onKeyUp="validateNumeros(this.id);"></asp:TextBox></td>
-                    </tr>
-                    <tr>
+                       
                         <td><asp:label ID="lblFecFacIni" runat="server" CssClass="label" >Fecha factura inicial:</asp:label></td>
-                        <td><asp:textbox ID="txtFecFacIni" runat="server" CssClass="text"  MaxLength="10"></asp:TextBox></td>
+                        <td><asp:textbox ID="txtFecFacIni" runat="server" CssClass="text"  MaxLength="10"></asp:TextBox></td>                   
+                       </tr>
+                         <tr>
                         <td><asp:label ID="lblFecFacFin" runat="server" CssClass="label" >Fecha factura final:</asp:label></td>
                         <td><asp:textbox ID="txtFecFacFin" runat="server" CssClass="text"  MaxLength="10"></asp:TextBox></td>
                         <td><asp:label ID="lblFecRegIni" runat="server" CssClass="label" >Fecha registro inicial:</asp:label></td>
                         <td><asp:textbox ID="txtFecRegIni" runat="server" CssClass="text"  MaxLength="10"></asp:TextBox></td>
                         <td><asp:label ID="lblFecRegFin" runat="server" CssClass="label" >Fecha registro final:</asp:label></td>
                         <td><asp:textbox ID="txtFecRegFin" runat="server" CssClass="text"  MaxLength="10"></asp:TextBox></td>
-                        <td><asp:Button ID="btnBuscar" runat="server" Value="Buscar" 
+
+                      
+                         </tr>
+                        <tr>
+                        <td colspan="5" align="right"><asp:Button ID="btnBuscar" runat="server" Value="Buscar" 
                              onclick="btnBuscar_Click"/>
-                        </td>
-                        <td><asp:Button ID="btnImportar" runat="server" Value="Importar" 
+                            </td>
+                                <td colspan="5" align="left">
+                        <asp:Button ID="btnImportar" runat="server" Value="Importar" 
                                      onclick="btnImportar_Click"/></td>
                     </tr>
+                        
+                        
+                    
                 </table>
             </div>
         </td>
