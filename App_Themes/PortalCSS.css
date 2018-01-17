@@ -58,7 +58,7 @@ table td{
 	margin-top: 40px;
 	margin-left: 20px;
 	/*text-align: center;*/
-	font-family: Verdana, Georgia;
+	
 }
 
 
@@ -92,7 +92,7 @@ table td{
 	width: 200px;
 	height: 100%;
 	background-color: #FDFDFE;
-	font-family: Verdana, Georgia;
+	
 	font-size: 12px;
 	-webkit-box-shadow: inset -9px 18px 17px -22px rgba(0,0,0,1);
 	-moz-box-shadow: inset -9px 18px 17px -22px rgba(0,0,0,1);
@@ -108,7 +108,7 @@ table td{
 {
     font-size:12px;
     font-style:normal;
-    font-family: Verdana, Georgia;
+    
     color: #e97a02;
     font-weight:normal;
 	margin-top: 10px;
@@ -373,20 +373,21 @@ table td{
 }
 
 .cellTitulo {
-   font-family: Verdana, Geneva, sans-serif;
-   font-size: 10px;
-   color: #64250b;
-   background-color: rgba(0, 0, 0, 0.15);
-   height: 10px;
-   border: 1px solid Black;
-   border-bottom-color: #1A6E33;
-   border-top-color: #1A6E33;
+    padding: 4px 2px;
+    background: rgba(0,32,104,1);
+    font-size: 14px;
+    height: 35px;
+    border-bottom: solid 1px #e2e2e2;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    color: #e2e2e2;
+    min-height: 30px;
 }
 
 .cellSubtitulo {
-   font-family: Verdana, Geneva, sans-serif;
-   font-size: 10px;
-   color: #64250b;
+   font-family: Verdana, Geneva;
+   font-size: 12px;
    background-color: #e6e6e6;
    height: 10px;
    border: 1px solid Black;
@@ -412,7 +413,7 @@ table td{
     color: #656565;
     margin-top: 10px;
     border: solid 1px #e6e6e6;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 
@@ -420,8 +421,8 @@ table td{
         padding: 2px;
         height: 20px;
         border: none;
-        max-width:200px;
-        text-align:center;
+        max-width: 200px;
+        text-align: center;
     }
 
 .mGrid td input{
@@ -494,7 +495,7 @@ table td{
     /*width: 100%;*/   
     background-color: #fff; 
     margin: 5px 0 10px 0;   
-    font-family: Verdana, Georgia;
+    
     font-size: 10px;
     text-decoration: none;
     color: #656565;   
@@ -559,7 +560,7 @@ table td{
     /*width: 100%;*/
     border:solid 1px #b1b1b1;
     background-color: #fff;
-    font-family: Verdana;
+    
     font-size: 12px;
     text-decoration: none;
     background-color: #fff;
@@ -624,6 +625,56 @@ table input:checked {
 	opacity: 0.8;
 	background-color: #FFF;
 }
+
+
+
+
+
+#MainPlaceHolder_tabPedidos {
+    background-color: #fff;
+    width: 100%;
+    font-size: 12px;
+    text-decoration: none;
+    color: #656565;
+    margin-top: 10px;
+    border: solid 1px #e6e6e6;
+    margin-top: 30px;
+}
+
+
+    #MainPlaceHolder_tabPedidos td {
+        padding: 2px;
+        height: 20px;
+        border: none;
+        max-width: 200px;
+       
+    }
+
+        .mGrid td input {
+            width: 35px;
+        }
+
+    /* Grid Header */
+
+
+    .mGrid .alt {
+        background-color: #e6e6e6; /* url(grd_alt.png) repeat-x top;  */
+        border: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*	--------------------------------------------------
 	:: Menu 
 	-------------------------------------------------- */
@@ -690,7 +741,6 @@ table input:checked {
 }
 #cssmenu span, #cssmenu a {
   display: inline-block;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   text-decoration: none;
 }
