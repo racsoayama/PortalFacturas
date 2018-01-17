@@ -250,7 +250,7 @@ body {
     border-bottom: 1px solid #a9a9a9;
     display: inline-block;
     outline: none;
-    min-width: 225px;
+    width: 225px;
     margin-top: 4px;
     margin-bottom: 8px;
     vertical-align: top;
@@ -266,6 +266,33 @@ body {
 	border-top-width: medium;
 }
 
+#MainPlaceHolder_divFiltros {
+	margin-top: 20px;
+	background-color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+	color: #cbcbcb;
+	border: solid 1px #c4c4c4;
+	text-align: center;
+	width: 100%;
+	align-content: center;
+}
+
+	#MainPlaceHolder_divFiltros td {
+		width: 12%;
+		padding: 3px;
+	}
+
+	#MainPlaceHolder_divFiltros .label {
+		width: 60%;
+		
+	}
+	#MainPlaceHolder_divFiltros .text, #MainPlaceHolder_divFiltros .dropdownlist {
+	width: 100%;
+	}
+
+	
+
 .calendar
 {
     BORDER-LEFT-COLOR: #3689a7;
@@ -278,14 +305,17 @@ body {
 }
 
 .content-frame {
-    margin-left: 300px;
-    padding-top: 170px;
-    vertical-align:central;
-  
-  
+	margin-left: 260px;
+	padding-top: 170px;
+	margin-right: 260px;
+	width: 98%;
+	align-content: center;
 }
-
-
+.content-frame table {
+	width: 98%;
+	padding: 0px;
+	margin: 0px;
+}
 
 /*.dropdownlist2
 {
@@ -300,12 +330,9 @@ body {
     	height: 20px;
 	margin-left: 0px;
 }*/
-
-
-.checklist
-{
-	border: 1px solid  #1A6E33;	
-    background-position: center;
+.checklist {
+	border: 1px solid #1A6E33;
+	background-position: center;
 	FONT-SIZE: 10px;
 	COLOR: black;
 	BACKGROUND-REPEAT: no-repeat;
@@ -377,35 +404,23 @@ body {
 }
 
 /* Se obupa */
-#MainPlaceHolder_divFiltros {
-   margin-top:20px;
-    background-color: #fff;
-    font-size: 13px;
-    text-decoration: none;
-    color: #cbcbcb;
-    border: solid 1px #c4c4c4;
-    padding: 10px;
-    text-align: center;
-}
 
-/* -------- */  
+
+/* -------- */
 /* Grid     */
 /* -------- */
-.content-frame table {
-    width: 98%;
 
-}
 
 
 
 .mGrid {
-    background-color: #fff;
-    width: 100%;
-    font-size: 14px;
-    text-decoration: none;
-    color: #656565;
-    margin-top: 10px;
-    border:solid 1px #e6e6e6
+	background-color: #fff;
+	width: 100%;
+	font-size: 14px;
+	text-decoration: none;
+	color: #656565;
+	margin-top: 10px;
+	border: solid 1px #e6e6e6
 }
 
 
@@ -612,13 +627,10 @@ body {
 			color: #339933;   
 			text-decoration: none;   
 		}
-table input:checked{
-    opacity: 0.8;
-    height: 20px;
-    background-color: #FFF;
-    width: 20px;
+table input:checked {
+	opacity: 0.8;
+	background-color: #FFF;
 }
-
     /*	--------------------------------------------------
 	:: Menu 
 	-------------------------------------------------- */
