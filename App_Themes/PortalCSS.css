@@ -275,7 +275,7 @@ table td{
 #MainPlaceHolder_divFiltros {
 	margin-top: 20px;
 	background-color: #fff;
-	font-size: 14px;
+	font-size: 12px;
 	text-decoration: none;
 	color: #cbcbcb;
 	border: solid 1px #c4c4c4;
@@ -405,7 +405,7 @@ table td{
 .mGrid {
     background-color: #fff;
     width: 100%;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
     color: #656565;
     margin-top: 10px;
@@ -432,7 +432,8 @@ table td{
     .mGrid th {
         padding: 4px 2px;
         background: rgba(0,32,104,1);
-        font-size: 16px;
+        font-size: 12px;
+        height:35px;
         border-bottom: solid 1px #e2e2e2;
         border-right: none;
         border-left: none;
@@ -1114,4 +1115,7 @@ table input:checked {
 checklist{
 
     width:250px;
+}
+body {
+    font-family: Verdana, Georgia;
 }
