@@ -251,24 +251,24 @@ table td{
     FONT-FAMILY: Verdana, Geneva;
 }
 
-.dropdownlist, .text, .file, input.file {
-    border-left-style: none;
-    border-left-color: inherit;
-    border-left-width: medium;
-    border-right-style: none;
-    border-right-color: inherit;
-    border-right-width: medium;
-    border-top-style: none;
-    border-top-color: inherit;
-    border-top-width: medium;
-    color: #656565;
-    border-bottom: 1px solid #a9a9a9;
-    display: inline-block;
-    outline: none;
-    width: 225px;
-    margin-top: 4px;
-    margin-bottom: 8px;
-    vertical-align: top;
+.dropdownlist, .text, .file, input.file, #MainPlaceHolder_DropDownCheckBoxes1_sl, #MainPlaceHolder_DropDownCheckBoxes1_dv, #MainPlaceHolder_cboSociedades_sl {
+	border-left-style: none;
+	border-left-color: inherit;
+	border-left-width: medium;
+	border-right-style: none;
+	border-right-color: inherit;
+	border-right-width: medium;
+	border-top-style: none;
+	border-top-color: inherit;
+	border-top-width: medium;
+	color: #656565;
+	border-bottom: 1px solid #a9a9a9;
+	display: inline-block;
+	outline: none;
+	width: 225px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	vertical-align: top;
 }
 
 
@@ -818,7 +818,7 @@ table input:checked {
 #cssmenu .has-sub:hover:after {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAMAAAA8eE0hAAAAUVBMVEX////d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3e3t729vbx8fHq6urd3d3z8/Pj4+Pv7+/h4eHm5ub09PTn5+f19fXt7e3g4ODi4uLUsVdlAAAAC3RSTlMAM2YekAmlPHuEAwArv7wAAAA/SURBVHheY2Dl5mdigABGKV5BNnYok4dHQpKFGcrkEefj5gAzQUBABM7kFYQyRcX4mUBMkEpOLrA2IWGwfgYAn0UDZszv8IwAAAAASUVORK5CYII=);
 }
-
+#MainPlaceHolder_ImageButton1,
 #btnAgregarFactura,
 #btnAceptarItem,
 #btnAceptar,
@@ -855,6 +855,8 @@ table input:checked {
 	cursor: pointer;
     padding-left:30px;
 }
+
+	#MainPlaceHolder_ImageButton1:hover,
 	#btnAgregarFactura:hover,
 	#btnAceptarItem:hover,
 	#btnAceptar:hover,
@@ -917,7 +919,8 @@ table input:checked {
 	background-size: 45px;
 }
 
-
+#MainPlaceHolder_ImageButton1,
+#MainPlaceHolder_ImageButton1:hover,
 #MainPlaceHolder_btnGenear,
 #MainPlaceHolder_btnGenerar,
 #MainPlaceHolder_btnGenear:hover,
@@ -928,13 +931,6 @@ table input:checked {
 	background-size: 45px;
 }
 
-#btnAgregarFactura,
-#btnAgregarFactura:hover {
-	background-image: url(../Images/agregar.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 45px;
-}
 
 #MainPlaceHolder_btnGuardar,
 #MainPlaceHolder_btnGuardar:hover {
@@ -983,8 +979,7 @@ table input:checked {
 #MainPlaceHolder_btnImportar,
 #btnCambioPassword,
 #btnRecuperaCambio,
-#btnVerManual,
-#MainPlaceHolder_ImageButton1 {
+#btnVerManual {
 	color: #fff;
 	background: rgba(33,48,111,1);
 	width: 150px;
@@ -1008,7 +1003,8 @@ table input:checked {
 		background: rgb(42, 62, 146);
 	}
 
-#MainPlaceHolder_btnMostrarTodos {
+#MainPlaceHolder_btnMostrarTodos, 
+#MainPlaceHolder_btnMostrarTodos:hover {
 	background-image: url(../Images/mostrarTodos.png);
 	background-repeat: no-repeat;
 	background-position: left;
@@ -1016,20 +1012,21 @@ table input:checked {
 }
 
 
-#MainPlaceHolder_btnImportar {
+#MainPlaceHolder_btnImportar, #MainPlaceHolder_btnImportar:hover {
 	background-image: url(../Images/importar.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 45px;
 }
 
-#MainPlaceHolder_btnBuscar {
+#MainPlaceHolder_btnBuscar, #MainPlaceHolder_btnBuscar:hover {
 	background-image: url(../Images/buscar.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 45px;
 }
-
+#MainPlaceHolder_ImageButton1,
+#MainPlaceHolder_ImageButton1:hover,
 #MainPlaceHolder_btnGenear,
 #MainPlaceHolder_btnGenerar {
 	background-image: url(../Images/generar.png);
@@ -1038,33 +1035,7 @@ table input:checked {
 	background-size: 45px;
 }
 
-    #btnSalir:active,
-    #MainPlaceHolder_btnBuscar:active,
-    #MainPlaceHolder_btnMostrarTodos:active,
-    #MainPlaceHolder_btnImportar:active,
-    #btnAceptarImportar:active,
-    #btnCancelarImportar:active,
-    #btnCambioPassword:active,
-    #btnAceptar:active,
-    #btnRecuperaCambio:active,
-    #btnCrearCta:active,
-    #btnVerManual:active,
-    #btnAceptarCambio:active,
-    #btnCancelarCambio:active,
-    #btnRegistrar:active:active,
-    #btnCancNuevaCta:active,
-    #MainPlaceHolder_btnGenear:active,
-    #MainPlaceHolder_btnAceptarImportar:active,
-    #MainPlaceHolder_btnGenerar:active,
-    #MainPlaceHolder_ImageButton1:active,
-    #MainPlaceHolder_btnAceptarLog:active,
-    #MainPlaceHolder_btnAceptarFin:active,
-    #MainPlaceHolder_btnGuardar:active,
-    #MainPlaceHolder_btnCancelar:active {
-        color: #fff;
-        background: #666;
-       
-    }
+
 
 .auto-style1 {
 	color: #656565;
