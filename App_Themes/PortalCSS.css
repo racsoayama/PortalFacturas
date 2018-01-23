@@ -872,6 +872,8 @@ table input:checked {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAMAAAA8eE0hAAAAUVBMVEX////d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3e3t729vbx8fHq6urd3d3z8/Pj4+Pv7+/h4eHm5ub09PTn5+f19fXt7e3g4ODi4uLUsVdlAAAAC3RSTlMAM2YekAmlPHuEAwArv7wAAAA/SURBVHheY2Dl5mdigABGKV5BNnYok4dHQpKFGcrkEefj5gAzQUBABM7kFYQyRcX4mUBMkEpOLrA2IWGwfgYAn0UDZszv8IwAAAAASUVORK5CYII=);
 }
 
+#MainPlaceHolder_btnCancelarAgregar,
+#MainPlaceHolder_btnAceptarFactura,
 #MainPlaceHolder_btnGenear,
 #MainPlaceHolder_btnGenerar,
 #MainPlaceHolder_btnBuscar,
@@ -919,16 +921,18 @@ table input:checked {
     padding-left:30px;
 
 }
-#MainPlaceHolder_btnGenear,
-#MainPlaceHolder_btnGenerar,
-#MainPlaceHolder_btnBuscar:hover,
-#MainPlaceHolder_btnMostrarTodos:hover,
-#MainPlaceHolder_btnImportar:hover,
-#btnAceptarImportar:hover,
-#btnRecuperaCambio:hover,
-#btnCambioPassword:hover,
-#btnVerManual:hover,
-#MainPlaceHolder_ImageButton1:hover,
+	#MainPlaceHolder_btnCancelarAgregar:hover,
+	#MainPlaceHolder_btnAceptarFactura:hover,
+	#MainPlaceHolder_btnGenear,
+	#MainPlaceHolder_btnGenerar,
+	#MainPlaceHolder_btnBuscar:hover,
+	#MainPlaceHolder_btnMostrarTodos:hover,
+	#MainPlaceHolder_btnImportar:hover,
+	#btnAceptarImportar:hover,
+	#btnRecuperaCambio:hover,
+	#btnCambioPassword:hover,
+	#btnVerManual:hover,
+	#MainPlaceHolder_ImageButton1:hover,
 	#MainPlaceHolder_btnExportar:hover,
 	#MainPlaceHolder_ImageButton1:hover,
 	#btnAgregarFactura:hover,
@@ -941,7 +945,16 @@ table input:checked {
 	#btnAceptarFactura:hover,
 	#btnAceptarEntregas:hover,
 	#btnAceptarServ:hover,
-	#btnAceptar:hover,
+	#MainPlaceHolder_btnAceptar:hover, /*Aqui los Botones que se generan automaticamente los ID*/
+	#MainPlaceHolder_btnAceptar:hover,
+	#MainPlaceHolder_btnCancelar:hover,
+	#MainPlaceHolder_btnCancelarAgregar:hover,
+	#MainPlaceHolder_btnCancelarEntregas:hover,
+	#MainPlaceHolder_btnCancelar2:hover,
+	#MainPlaceHolder_btnAceptarFactura:hover,
+	#MainPlaceHolder_btnAceptarEntregas:hover,
+	#MainPlaceHolder_btnAceptarServ:hover,
+	#MainPlaceHolder_btnAceptar:hover, /*Hasta Aqui*/
 	#btnCrearCta:hover,
 	#btnAceptarCambio:hover,
 	#btnRegistrar:hover,
@@ -957,33 +970,44 @@ table input:checked {
 		color: #fff;
 		background: rgba(33,48,111,1);
 	}
-
-    #btnAceptarItem,
-    #btnAceptar,
-    #btnAceptarItem:hover,
-    #btnAceptar:hover,
-    #btnAceptarFactura,
-    #btnAceptarEntregas,
-    #btnAceptarServ,
-    #btnAceptarFactura:hover,
-    #btnAceptarEntregas:hover,
-    #btnAceptarServ:hover,
-    #btnAceptarCambio,
-    #btnAceptarImportar,
-    #MainPlaceHolder_btnAceptarImportar,
-    #MainPlaceHolder_btnAceptarLog,
-    #MainPlaceHolder_btnAceptarFin,
-    #btnAceptarCambio:hover,
-    #btnAceptarImportar:hover,
-    #MainPlaceHolder_btnAceptarImportar:hover,
-    #MainPlaceHolder_btnAceptarLog:hover,
-    #MainPlaceHolder_btnAceptarFin:hover {
-        background-image: url(../Images/aceptar.png);
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: 45px;
-        margin-top: 30px;
-    }
+	#MainPlaceHolder_btnAceptarFactura,
+	#MainPlaceHolder_btnAceptarFactura:hover,
+	#btnAceptarItem,
+	#btnAceptar,
+	#btnAceptarItem:hover,
+	#btnAceptar:hover,
+	#btnAceptarFactura,
+	#btnAceptarEntregas,
+	#btnAceptarServ,
+	#btnAceptarFactura:hover,
+	#btnAceptarEntregas:hover,
+	#btnAceptarServ:hover,
+	#MainPlaceHolder_btnAceptarItem, /* Inicio Botones*/
+	#MainPlaceHolder_btnAceptar,
+	#MainPlaceHolder_btnAceptarItem:hover,
+	#MainPlaceHolder_btnAceptar:hover,
+	#MainPlaceHolder_btnAceptarFactura,
+	#MainPlaceHolder_btnAceptarEntregas,
+	#MainPlaceHolder_btnAceptarServ,
+	#MainPlaceHolder_btnAceptarFactura:hover,
+	#MainPlaceHolder_btnAceptarEntregas:hover,
+	#MainPlaceHolder_btnAceptarServ:hover, /*Fin Botones*/
+	#btnAceptarCambio,
+	#btnAceptarImportar,
+	#MainPlaceHolder_btnAceptarImportar,
+	#MainPlaceHolder_btnAceptarLog,
+	#MainPlaceHolder_btnAceptarFin,
+	#btnAceptarCambio:hover,
+	#btnAceptarImportar:hover,
+	#MainPlaceHolder_btnAceptarImportar:hover,
+	#MainPlaceHolder_btnAceptarLog:hover,
+	#MainPlaceHolder_btnAceptarFin:hover {
+		background-image: url(../Images/aceptar.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 45px;
+		margin-top: 30px;
+	}
 
 #MainPlaceHolder_btnExportar,
 #MainPlaceHolder_btnExportar:hover{
@@ -992,14 +1016,15 @@ table input:checked {
 	background-position: left;
 	background-size: 45px;
 }
-
-#btnAgregarFactura,
-#btnAgregarFactura:hover {
-	background-image: url(../Images/agregar.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 45px;
-}
+	#MainPlaceHolder_btnAgregarFactura,
+	#MainPlaceHolder_btnAgregarFactura:hover,
+	#btnAgregarFactura,
+	#btnAgregarFactura:hover {
+		background-image: url(../Images/agregar.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 45px;
+	}
 
     #MainPlaceHolder_ImageButton1,
     #MainPlaceHolder_ImageButton1:hover,
@@ -1032,29 +1057,38 @@ table input:checked {
         background-size: 45px;
        
     }
-
-    #btnCancelar,
-    #btnCancelar:hover,
-    #btnCancelarAgregar,
-    #btnCancelarEntregas,
-    #btnCancelar2,
-    #btnCancelarAgregar:hover,
-    #btnCancelarEntregas:hover,
-    #btnCancelar2:hover,
-    #btnCancelarImportar,
-    #btnCancelarCambio,
-    #btnCancNuevaCta,
-    #MainPlaceHolder_btnCancelar,
-    #btnCancelarImportar:hover,
-    #btnCancelarCambio:hover,
-    #btnCancNuevaCta:hover,
-    #MainPlaceHolder_btnCancelar:hover {
-        background-image: url(../Images/cancelar.png);
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: 45px;
-        margin-top: 30px;
-    }
+	#MainPlaceHolder_btnCancelarAgregar,
+	#MainPlaceHolder_btnCancelarAgregar:hover,
+	#btnCancelar,
+	#btnCancelar:hover,
+	#btnCancelarAgregar,
+	#btnCancelarEntregas,
+	#btnCancelar2,
+	#btnCancelarAgregar:hover,
+	#btnCancelarEntregas:hover,
+	#btnCancelar2:hover,
+	#MainPlaceHolder_btnCancelar, /* Botones*/
+	#MainPlaceHolder_btnCancelar:hover,
+	#MainPlaceHolder_btnCancelarAgregar,
+	#MainPlaceHolder_btnCancelarEntregas,
+	#MainPlaceHolder_btnCancelar2,
+	#MainPlaceHolder_btnCancelarAgregar:hover,
+	#MainPlaceHolder_btnCancelarEntregas:hover,
+	#MainPlaceHolder_btnCancelar2:hover, /*Botones*/
+	#btnCancelarImportar,
+	#btnCancelarCambio,
+	#btnCancNuevaCta,
+	#MainPlaceHolder_btnCancelar,
+	#btnCancelarImportar:hover,
+	#btnCancelarCambio:hover,
+	#btnCancNuevaCta:hover,
+	#MainPlaceHolder_btnCancelar:hover {
+		background-image: url(../Images/cancelar.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 45px;
+		margin-top: 30px;
+	}
 
 
 

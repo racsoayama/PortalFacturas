@@ -34,7 +34,20 @@ function ChangeButtonLang(lang) {
         MainPlaceHolder_btnAceptarLog: 'Aceptar',
         MainPlaceHolder_btnAceptarFin: 'Aceptar',
         MainPlaceHolder_btnGuardar: 'Guardar',
-        MainPlaceHolder_btnCancelar: 'Cancelar'
+		MainPlaceHolder_btnCancelar: 'Cancelar',
+		MainPlaceHolder_btnCancelarAgregar: 'Cancelar',
+		MainPlaceHolder_btnAceptarFactura: 'Aceptar',
+		MainPlaceHolder_btnAceptarItem: 'Aceptar',
+		MainPlaceHolder_btnAceptar: 'Aceptar',
+		MainPlaceHolder_btnAgregarFactura: 'Agregar',
+		MainPlaceHolder_btnAceptarFactura: 'Aceptar',
+		MainPlaceHolder_btnAceptarEntregas: 'Aceptar',
+		MainPlaceHolder_btnAceptarServ: 'Aceptar',
+		MainPlaceHolder_btnCancelarAgregar: 'Cancelar',
+		MainPlaceHolder_btnCancelarEntregas: 'Cancelar',
+		MainPlaceHolder_btnCancelar2: 'Cancelar'
+
+
     };
 	var ButtonsListen = {
 		MainPlaceHolder_btnExportar: 'Export',
@@ -60,7 +73,19 @@ function ChangeButtonLang(lang) {
         MainPlaceHolder_btnAceptarLog: 'Acept',
         MainPlaceHolder_btnAceptarFin: 'Acept',
         MainPlaceHolder_btnGuardar: 'Save',
-        MainPlaceHolder_btnCancelar: 'Cancel'
+		MainPlaceHolder_btnCancelar: 'Cancel',
+		MainPlaceHolder_btnCancelarAgregar: 'Cancel',
+		MainPlaceHolder_btnAceptarFactura: 'Acept',
+		MainPlaceHolder_btnAceptarFactura: 'Acept',
+		MainPlaceHolder_btnAceptarItem: 'Acept',
+		MainPlaceHolder_btnAceptar: 'Acept',
+		MainPlaceHolder_btnAgregarFactura: 'Add',
+		MainPlaceHolder_btnAceptarFactura: 'Acept',
+		MainPlaceHolder_btnAceptarEntregas: 'Acept',
+		MainPlaceHolder_btnAceptarServ: 'Acept',
+		MainPlaceHolder_btnCancelarAgregar: 'Cancel',
+		MainPlaceHolder_btnCancelarEntregas: 'Cancel',
+		MainPlaceHolder_btnCancelar2: 'Cancel'
 	};
 
 	if (lang == 1 && document.getElementById("logoEmp")) {
