@@ -432,18 +432,17 @@ table td{
     }
 
 	/* Grid Header */
-    .mGrid th {
+    .mGrid th, .mGridMerge th {
         padding: 4px 2px;
         background: rgba(0,32,104,1);
         font-size: 12px;
-        height:35px;
+        height: 35px;
         border-bottom: solid 1px #e2e2e2;
         border-right: none;
         border-left: none;
         border-top: none;
         color: #e2e2e2;
         min-height: 30px;
-      
     }   
 
 	.mGrid .alt {   
@@ -578,15 +577,7 @@ table td{
         height: 30px;
     }   
 
-	/* Grid Header */
-    .mGridMerge th {
-        padding: 4px 2px;
-        background: #fff;
-        font-size: 14px;
-        border: solid 1px #b1b1b1;
-        color: #656565;
-        min-height: 50px;
-    }   
+	   
 
 	.mGridMerge .alt {   
 		background-color: #64260b; /* url(grd_alt.png) repeat-x top;  */

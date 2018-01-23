@@ -26,12 +26,12 @@
                 </tr>
                 <tr>
                     <td align="right"><asp:Label ID="lblPDFObligatorio" runat="server" CssClass="label" >PDF obligarorio:</asp:Label></td>
-                    <td align="left"><asp:RadioButtonList ID="rbtPDFObligatorio" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None"  >
+                    <td align="left"><asp:RadioButtonList Width="250px" ID="rbtPDFObligatorio" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None"  >
                                         </asp:RadioButtonList></td>
                 </tr>
                 <tr>
                     <td align="right"><asp:Label ID="lblGuardArchBD" runat="server" CssClass="label" >¿Guardar los archivos en la base de datos?:</asp:Label></td>
-                    <td align="left"><asp:RadioButtonList ID="rbtGuardarArch" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None"  >
+                    <td align="left"><asp:RadioButtonList Width="250px" ID="rbtGuardarArch" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None"  >
                                         </asp:RadioButtonList></td>
                 </tr>
                 <tr>
@@ -54,12 +54,12 @@
                 </tr>
                 <tr>
                     <td align="right"><asp:Label ID="lblValSAT" runat="server" CssClass="label" >Validar facturas en el SAT:</asp:Label></td>
-                    <td align="left"><asp:RadioButtonList ID="rbtValidaSAT" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None" >
+                    <td align="left"><asp:RadioButtonList Width="250px" ID="rbtValidaSAT" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None" >
                                         </asp:RadioButtonList></td>
                 </tr>
                 <tr>
                     <td align="right"><asp:Label ID="lblConex" runat="server" CssClass="label" >Conexión con ERP:</asp:Label></td>
-                    <td align="left"><asp:RadioButtonList ID="rbtConexERP" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None" >
+                    <td align="left"><asp:RadioButtonList Width="250px"  ID="rbtConexERP" runat="server" CssClass="checklist" RepeatColumns="2" RepeatDirection="Horizontal" BorderStyle="None" >
                                         </asp:RadioButtonList></td>
                 </tr>
                 <tr>
