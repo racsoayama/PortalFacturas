@@ -114,11 +114,11 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td colspan="2">
+                                    <td>
                                         <div id="divItem">
                                             <table>
                                                 <tr>
-                                                    <td colspan="2"><asp:label ID="lblDetPos" runat="server" CssClass="h3">Detalle por posición:</asp:label></td>
+                                                    <td><asp:label ID="lblDetPos" runat="server" CssClass="h3">Detalle por posición:</asp:label></td>
                                                 </tr>
                                                 <tr>
                                                     <td><asp:Label ID="lblMaterial" runat="server" CssClass="label" >Material:</asp:Label></td>
